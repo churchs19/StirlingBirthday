@@ -1,0 +1,182 @@
+﻿using System;
+using System.Net;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Ink;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
+using System.Windows.Media.Imaging;
+using System.IO.IsolatedStorage;
+using Microsoft.Phone.Shell;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using Shane.Church.Utility;
+using NLog;
+
+namespace Shane.Church.StirlingBirthday.ViewModels
+{
+	public class BirthdayTile
+	{
+		public static string Path = "/Shared/ShellContent/BirthdayFront.png";
+		public static string BackPath = "/Shared/ShellContent/BirthdayBack.png";
+		public static string ScheduledTaskName = "StirlingBirthdayUpdater";
+		private static Logger _logger = LogManager.GetCurrentClassLogger();
+
+		public BirthdayTile()
+		{
+
+		}
+
+		public delegate void UpdateTileComplete(object sender, EventArgs e);
+		public event UpdateTileComplete UpdateTileCompleted;
+
+		public void UpdateTile(IEnumerable<ContactViewModel> model, bool useContactUri = false)
+		{
+			var bti = EventAsync.FromEvent<EventArgs>(this, "BuildTileImageCompleted");
+			var bbti = EventAsync.FromEvent<EventArgs>(this, "BuildBackTileImageCompleted");
+			var utd = EventAsync.FromEvent<EventArgs>(this, "UpdateTileDataCompleted");
+			bti.ContinueWith(frontTile =>
+			{
+				bbti.ContinueWith(backTile =>
+				{
+					utd.ContinueWith(updateTile =>
+					{
+						if (UpdateTileCompleted != null)
+						{
+							UpdateTileCompleted(this, new EventArgs());
+						}
+					});
+					this.UpdateTileData();
+				});
+				this.BuildBackTileImage(model);
+			});
+			this.BuildTileImage(model.FirstOrDefault(), useContactUri);
+		}
+
+		public delegate void BuildTileImageComplete(object sender, EventArgs e);
+		public event BuildTileImageComplete BuildTileImageCompleted; 
+
+		private void BuildTileImage(ContactViewModel model, bool useUri = false)
+		{
+
+
+		}
+
+		public delegate void BuildBackTileImageComplete(object sender, EventArgs e);
+		public event BuildBackTileImageComplete BuildBackTileImageCompleted; 
+
+		private void BuildBackTileImage(IEnumerable<ContactViewModel> model)
+		{
+			Deployment.Current.Dispatcher.BeginInvoke(() =>
+			{
+				try
+				{
+					WriteableBitmap wbm = new WriteableBitmap(173, 173);
+
+					for (int i = 0; i < model.Count() && i < 3; i++)
+					{
+						TextBlock tbName = new TextBlock();
+						tbName.Text = model.ElementAt(i).DisplayName;
+						tbName.FontSize = 20;
+						tbName.FontFamily = (FontFamily)Application.Current.Resources["PhoneFontFamilySemiBold"];
+						tbName.HorizontalAlignment = HorizontalAlignment.Left;
+						tbName.Foreground = new SolidColorBrush(Colors.White);
+						tbName.Width = 173;
+						tbName.Padding = new Thickness(5, 4, 5, 4);
+						wbm.Render(tbName, new TranslateTransform()
+						{
+							Y = (28 * i) + (16 * i)
+						});
+						wbm.Invalidate();
+						TextBlock tbDate = new TextBlock();
+						tbDate.Text = model.ElementAt(i).StartTileDateText;
+						tbDate.FontSize = 16;
+						tbDate.FontFamily = (FontFamily)Application.Current.Resources["PhoneFontFamilyNormal"];
+						tbDate.Padding = new Thickness(5, 0, 5, 0);
+						tbDate.Foreground = new SolidColorBrush(Colors.White);
+						tbDate.HorizontalAlignment = HorizontalAlignment.Right;
+						tbDate.Width = 173;
+						wbm.Render(tbDate, new TranslateTransform()
+						{
+							Y = (28 * (i + 1)) + (16 * i)
+						});
+						wbm.Invalidate();
+					}
+
+					CompensateForRender(wbm.Pixels);
+
+					Imaging.SaveImage(wbm, BirthdayTile.BackPath);
+
+					if (BuildBackTileImageCompleted != null)
+					{
+						BuildBackTileImageCompleted(this, new EventArgs());
+					}
+				}
+				catch (Exception ex)
+				{
+					_logger.ErrorException("Build Back Tile Image", ex);
+					throw ex;
+				}
+			});
+		}
+
+		public delegate void UpdateTileDataComplete(object sender, EventArgs e);
+		public event UpdateTileDataComplete UpdateTileDataCompleted; 
+
+		private void UpdateTileData()
+		{
+			Deployment.Current.Dispatcher.BeginInvoke(() =>
+			{
+				ShellTile mainTile = ShellTile.ActiveTiles.First();
+
+				if (mainTile != null)
+				{
+					StandardTileData data = new StandardTileData()
+					{
+						BackgroundImage = new Uri("isostore:" + BirthdayTile.Path, UriKind.Absolute),
+						Title = "Stirling Birthday",
+						Count = 0,
+						BackTitle = "Stirling Birthday",
+						BackBackgroundImage = new Uri("isostore:" + BirthdayTile.BackPath, UriKind.Absolute)
+					};
+					mainTile.Update(data);
+				}
+
+				if (UpdateTileCompleted != null)
+				{
+					UpdateTileCompleted(this, new EventArgs());
+				}
+			});
+		}
+
+		private void CompensateForRender(int[] bitmapPixels)
+		{
+			if (bitmapPixels.Length == 0) return;
+
+			for (int i = 0; i < bitmapPixels.Length; i++)
+			{
+				uint pixel = unchecked((uint)bitmapPixels[i]);
+
+				double a = (pixel >> 24) & 255;
+				if ((a == 255) || (a == 0)) continue;
+
+				double r = (pixel >> 16) & 255;
+				double g = (pixel >> 8) & 255;
+				double b = (pixel) & 255;
+
+				double factor = 255 / a;
+				uint newR = (uint)Math.Round(r * factor);
+				uint newG = (uint)Math.Round(g * factor);
+				uint newB = (uint)Math.Round(b * factor);
+
+				// compose
+				bitmapPixels[i] = unchecked((int)((pixel & 0xFF000000) | (newR << 16) | (newG << 8) | newB));
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.StirlingBirthday", "Shane.Church.StirlingBirthday\Shane.Church.StirlingBirthday.csproj", "{ED24EF58-1F45-4B94-BEFE-19334613BE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.StirlingBirthday.TaskAgent", "Shane.Church.StirlingBirthday.TaskAgent\Shane.Church.StirlingBirthday.TaskAgent.csproj", "{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.StirlingBirthday.ViewModels", "Shane.Church.StirlingBirthday.ViewModels\Shane.Church.StirlingBirthday.ViewModels.csproj", "{A37F899E-31D6-4C7A-AE62-52033E3C5865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.Utility", "Shane.Church.Utility\Shane.Church.Utility.csproj", "{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.StirlingBirthday.Controls", "Shane.Church.StirlingBirthday.Controls\Shane.Church.StirlingBirthday.Controls.csproj", "{E0FC5959-7809-4C28-A8DF-67B18F767674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Original", "Original", "{562AFB02-AA51-4C05-9294-27B280A0B78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.StirlingBirthday.WP", "Shane.Church.StirlingBirthday.WP\Shane.Church.StirlingBirthday.WP.csproj", "{BE639CC8-5386-4BE5-B191-C4FFABA5C288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telerik", "Telerik", "{A9599758-C669-4CF6-9617-4077E3BFD955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Agent|Any CPU = Debug Agent|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug Agent|Any CPU.ActiveCfg = Debug Agent|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug Agent|Any CPU.Build.0 = Debug Agent|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug Agent|Any CPU.Deploy.0 = Debug Agent|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Debug Agent|Any CPU.ActiveCfg = Debug Agent|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Debug Agent|Any CPU.Build.0 = Debug Agent|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Debug Agent|Any CPU.ActiveCfg = Debug Agent|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Debug Agent|Any CPU.Build.0 = Debug Agent|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Debug Agent|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Debug Agent|Any CPU.Build.0 = Debug|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Debug Agent|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Debug Agent|Any CPU.Build.0 = Debug|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FC5959-7809-4C28-A8DF-67B18F767674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug Agent|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug Agent|Any CPU.Build.0 = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug Agent|Any CPU.Deploy.0 = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1A646C4-A17B-465F-A5AB-62A69D6A7C55} = {562AFB02-AA51-4C05-9294-27B280A0B78B}
+		{A37F899E-31D6-4C7A-AE62-52033E3C5865} = {562AFB02-AA51-4C05-9294-27B280A0B78B}
+		{CB05818D-F4B6-4D51-A332-3DE6983EE8BB} = {562AFB02-AA51-4C05-9294-27B280A0B78B}
+		{E0FC5959-7809-4C28-A8DF-67B18F767674} = {562AFB02-AA51-4C05-9294-27B280A0B78B}
+		{ED24EF58-1F45-4B94-BEFE-19334613BE5C} = {562AFB02-AA51-4C05-9294-27B280A0B78B}
+		{BE639CC8-5386-4BE5-B191-C4FFABA5C288} = {A9599758-C669-4CF6-9617-4077E3BFD955}
+	EndGlobalSection
+EndGlobal
