@@ -13,7 +13,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Shane.Church.StirlingBirthday.ViewModels;
 using Microsoft.Phone.Tasks;
-using Coding4Fun.Phone.Controls;
+using Coding4Fun.Toolkit.Controls;
 using Shane.Church.StirlingBirthday.Controls;
 
 namespace Shane.Church.StirlingBirthday
@@ -93,7 +93,7 @@ namespace Shane.Church.StirlingBirthday
 					call.Show();
 				}
 			}
-			catch {	}
+			catch { }
 		}
 
 		private void Email_Click(object sender, RoutedEventArgs e)

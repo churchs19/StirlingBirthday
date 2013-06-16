@@ -141,11 +141,6 @@
 		<controls:Pivot Title="STIRLING BIRTHDAY">
 			<controls:PivotItem Header="upcoming">
 				<Grid>
-					<!--<toolkit:LongListSelector Name="longListUpcoming" ItemsSource="{Binding Upcoming}">
-						<toolkit:LongListSelector.ItemTemplate>
-
-						</toolkit:LongListSelector.ItemTemplate>
-					</toolkit:LongListSelector>-->
 					<TextBlock Text="No Upcoming Birthdays" Visibility="{Binding NoUpcomingVisibility}" FontSize="{StaticResource PhoneFontSizeLarge}"></TextBlock>
 					<ListBox Name="listBoxUpcoming" 
 							 ItemsSource="{Binding Upcoming}"
@@ -178,7 +173,6 @@
 				</Grid>
 			</controls:PivotItem>
 		</controls:Pivot>
-		<my:MemoryCounter HorizontalAlignment="Left" Name="memoryCounter1" VerticalAlignment="Top" />
 	</Grid>
 
     <phone:PhoneApplicationPage.ApplicationBar>

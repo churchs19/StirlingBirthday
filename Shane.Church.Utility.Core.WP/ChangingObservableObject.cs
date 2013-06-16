@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Shane.Church.WhatIEat.Core.WP
+namespace Shane.Church.Utility.Core.WP
 {
 	public abstract class ChangingObservableObject : ObservableObject, INotifyPropertyChanging
 	{

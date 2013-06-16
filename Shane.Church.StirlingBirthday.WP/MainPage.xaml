@@ -4,48 +4,227 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+	xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+	xmlns:helpers="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
+	Background="{StaticResource PhoneBackgroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
 
+	<phone:PhoneApplicationPage.Resources>
+		<helpers:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter"/>
+		<DataTemplate x:Key="birthdayItemTemplate">
+			<StackPanel Orientation="Horizontal"
+						Margin="0,0,0,2"
+						Background="{StaticResource PhoneBackgroundBrush}">
+				<telerikPrimitives:RadContextMenu.ContextMenu>
+					<telerikPrimitives:RadContextMenu OpenGesture="Tap">
+						<telerikPrimitives:RadContextMenuItem Name="menuItemText" 
+															  Content="{Binding LocalizedResources.SendSMSMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding SendSMSCommand}"
+															  Visibility="{Binding HasMobilePhone, Converter={StaticResource BoolToVisibilityConverter}}"/>
+						<telerikPrimitives:RadContextMenuItem Name="menuItemMobile"
+															  Content="{Binding LocalizedResources.CallMobileMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding CallMobileCommand}"
+															  Visibility="{Binding HasMobilePhone, Converter={StaticResource BoolToVisibilityConverter}}"/>
+						<telerikPrimitives:RadContextMenuItem Name="menuItemHome"
+															  Content="{Binding LocalizedResources.CallHomeMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding CallHomeCommand}"
+															  Visibility="{Binding HasHomePhone, Converter={StaticResource BoolToVisibilityConverter}}"/>
+						<telerikPrimitives:RadContextMenuItem Name="menuItemWork"
+															  Content="{Binding LocalizedResources.CallWorkMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding CallWorkCommand}"
+															  Visibility="{Binding HasWorkPhone, Converter={StaticResource BoolToVisibilityConverter}}"/>
+						<telerikPrimitives:RadContextMenuItem Name="menuItemEmail"
+															  Content="{Binding LocalizedResources.SendEmailMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding SendEmailCommand}"
+															  Visibility="{Binding HasEmail, Converter={StaticResource BoolToVisibilityConverter}}"/>
+					</telerikPrimitives:RadContextMenu>
+				</telerikPrimitives:RadContextMenu.ContextMenu>
+				<Grid Width="450">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="auto"/>
+						<RowDefinition Height="auto"/>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="auto"/>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="auto"/>
+					</Grid.ColumnDefinitions>
+					<StackPanel Background="{StaticResource PhoneSemitransparentBrush}"
+								Grid.Row="0"
+								Grid.Column="0"
+								Grid.RowSpan="2"
+								Margin="5 5">
+						<Image Name="imagePicture"
+							Source="{Binding Picture, Converter={StaticResource ByteToImageSourceValueConverter}}"
+							Width="90"
+							Height="90"/>
+					</StackPanel>
+					<TextBlock Name="textBlockName"
+						Text="{Binding DisplayName}"
+						Grid.Row="0"
+						Grid.Column="1"
+						TextAlignment="Left"
+						Padding="5,1,5,1"
+						VerticalAlignment="Bottom"
+						TextWrapping="Wrap" 
+						Foreground="{StaticResource PhoneForegroundBrush}"
+						FontSize="{StaticResource PhoneFontSizeLarge}" />
+					<TextBlock Name="textBlockYears"
+   						Text="{Binding AgeText}"
+						Grid.Row="1"
+						Grid.Column="1"
+						TextAlignment="Center"
+						Padding="5,1,5,1"
+						Foreground="{Binding PhoneForegroundBrush}"
+						VerticalAlignment="Center" />
+					<StackPanel Grid.Row="0"
+						Grid.Column="2"
+						Grid.RowSpan="2"
+						VerticalAlignment="Center"
+						Width="90"
+						Height="90"
+						Margin="0,0,5,0"
+						HorizontalAlignment="Center" 
+						Background="{StaticResource PhoneAccentBrush}">
+						<TextBlock Name="textBlockMonth" 
+							Text="{Binding MonthText}"
+							HorizontalAlignment="Center" 
+							VerticalAlignment="Bottom"
+							Margin="0,0,0,0"
+							Padding="0,3,0,0"
+							FontSize="{StaticResource PhoneFontSizeSmall}" 
+							Foreground="{StaticResource PhoneForegroundBrush}" 
+							FontWeight="Bold" />
+						<TextBlock Name="textBlockDay" 
+							Text="{Binding DayText}"
+							HorizontalAlignment="Center" 
+							VerticalAlignment="Top"
+							Margin="0,-5,0,0"
+							Padding="0"
+							FontWeight="Bold"
+							Foreground="{StaticResource PhoneForegroundBrush}" 
+							FontSize="{StaticResource PhoneFontSizeLarge}" />
+						<TextBlock Name="textBlockYear" 
+							Text="{Binding YearText}"
+							HorizontalAlignment="Center" 
+							VerticalAlignment="Top"
+							Margin="0,-3,0,0"
+							Padding="0"
+							FontSize="{StaticResource PhoneFontSizeSmall}"
+							Foreground="{StaticResource PhoneSubtleBrush}"
+							FontWeight="Bold" />
+					</StackPanel>
+				</Grid>
+			</StackPanel>
+		</DataTemplate>
+		<DataTemplate x:Key="groupHeaderTemplate">
+			<Border Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,6">
+				<TextBlock Text="{Binding}" FontSize="{StaticResource PhoneFontSizeLarge}" Foreground="{StaticResource PhoneForegroundBrush}"/>
+			</Border>
+		</DataTemplate>
+		<DataTemplate x:Key="groupItemTemplate" >
+			<Border Background="{StaticResource PhoneAccentBrush}" Width="99" Height="99" Margin="6">
+				<TextBlock Text="{Binding ShortName}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource PhoneForegroundBrush}" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+			</Border>
+		</DataTemplate>
+	</phone:PhoneApplicationPage.Resources>
+
 	<!--LayoutRoot is the root grid where all page content is placed-->
 	<Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<ListBox Margin="14,0,-12,0" FontSize="{StaticResource PhoneFontSizeExtraLarge}" FontFamily="{StaticResource PhoneFontFamilySemiLight}">
-				<ListBoxItem Content="About" Tap="GoToAbout"/>
-			</ListBox>
-		</Grid>
+		<controls:Pivot Title="{Binding LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
+						Background="{StaticResource PhoneBackgroundBrush}"
+						Margin="0 0 0 15">
+			<controls:PivotItem Header="{Binding LocalizedResources.UpcomingPivotHeader, Source={StaticResource LocalizedStrings}}">
+				<Grid>
+					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxUpcoming" 
+														   AsyncBalanceMode="FillViewportFirst" 
+														   IsAsyncBalanceEnabled="True" 
+														   DataVirtualizationMode="OnDemandAutomatic" 
+														   ItemTemplate="{StaticResource birthdayItemTemplate}" 
+														   DataRequested="ListBoxUpcoming_DataRequested" 
+														   CacheMode="BitmapCache">
+						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
+							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
+								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+								<TextBlock Text="{Binding LocalizedResources.UpcomingEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+							</StackPanel>
+						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
+						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
+					</telerikPrimitives:RadDataBoundListBox>
+				</Grid>
+			</controls:PivotItem>
+			<controls:PivotItem Header="{Binding LocalizedResources.AllPivotHeader, Source={StaticResource LocalizedStrings}}">
+				<Grid>
+					<telerikData:RadJumpList x:Name="JumpListAll"
+											 DataVirtualizationMode="OnDemandAutomatic" 
+											 GroupCheckMode="None" 
+											 IsAsyncBalanceEnabled="True" 
+											 IsStickyHeaderEnabled="True"
+											 StickyHeaderTemplate="{StaticResource groupHeaderTemplate}"
+											 GroupHeaderTemplate="{StaticResource groupHeaderTemplate}"
+											 GroupPickerItemTemplate="{StaticResource groupItemTemplate}"
+											 ItemTemplate="{StaticResource birthdayItemTemplate}"
+											 DataRequested="JumpListAll_DataRequested"
+											 GroupPickerItemTap="JumpListAll_GroupPickerItemTap"
+											 CacheMode="BitmapCache">
+						<telerikData:RadJumpList.EmptyContent>
+							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
+								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+								<TextBlock Text="{Binding LocalizedResources.AllEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+							</StackPanel>
+						</telerikData:RadJumpList.EmptyContent>
+						<telerikData:RadJumpList.GroupPickerItemsPanel>
+							<ItemsPanelTemplate>
+								<telerikPrimitives:RadWrapPanel/>
+							</ItemsPanelTemplate>
+						</telerikData:RadJumpList.GroupPickerItemsPanel>
+						<telerikData:RadJumpList.VirtualizationStrategyDefinition>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+						</telerikData:RadJumpList.VirtualizationStrategyDefinition>
+					</telerikData:RadJumpList>
+				</Grid>
+			</controls:PivotItem>
+			<controls:PivotItem Header="{Binding LocalizedResources.PastPivotHeader, Source={StaticResource LocalizedStrings}}">
+				<Grid>
+					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxPast" 
+														   AsyncBalanceMode="FillViewportFirst" 
+														   IsAsyncBalanceEnabled="True" 
+														   DataVirtualizationMode="OnDemandAutomatic" 
+														   ItemTemplate="{StaticResource birthdayItemTemplate}" 
+														   DataRequested="ListBoxPast_DataRequested" 
+														   CacheMode="BitmapCache">
+						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
+							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
+								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+								<TextBlock Text="{Binding LocalizedResources.PastEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+							</StackPanel>
+						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
+						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
+					</telerikPrimitives:RadDataBoundListBox>
+				</Grid>
+			</controls:PivotItem>
+		</controls:Pivot>
 
 	</Grid>
-
-	<!--Sample code showing usage of ApplicationBar-->
-	<phone:PhoneApplicationPage.ApplicationBar>
-		<shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-			<shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
-			<shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
-			<shell:ApplicationBar.MenuItems>
-				<shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-				<shell:ApplicationBarMenuItem Text="MenuItem 2"/>
-			</shell:ApplicationBar.MenuItems>
-		</shell:ApplicationBar>
-	</phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>
 
