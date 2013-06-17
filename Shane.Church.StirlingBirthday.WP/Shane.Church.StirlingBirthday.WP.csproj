@@ -131,6 +131,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Fonts\LiveSymbol.ttf" />
@@ -155,6 +158,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\CompanyLogo.png" />
+    <Content Include="Images\Pin.png" />
+    <Content Include="Images\Rating.png" />
     <Content Include="Images\Settings.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -176,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ThemeResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:MarkupCompilePass1</Generator>
@@ -189,6 +198,10 @@
     <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core\Shane.Church.StirlingBirthday.Core.csproj">
       <Project>{5793142F-B384-4BF0-8E43-DB3A3428F1A9}</Project>
       <Name>Shane.Church.StirlingBirthday.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shane.Church.StirlingBirthday.WP.Agent\Shane.Church.StirlingBirthday.WP.Agent.csproj">
+      <Project>{9BA38E99-0133-44D7-B45A-C84BBDDA2F57}</Project>
+      <Name>Shane.Church.StirlingBirthday.WP.Agent</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shane.Church.Utility.Core.WP\Shane.Church.Utility.Core.WP.csproj">
       <Project>{75A3873F-015F-4784-B6A6-8A4484FBE48D}</Project>

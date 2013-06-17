@@ -159,6 +159,16 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 			}
 		}
 
+		private ICommand _pinCommand;
+		public ICommand PinCommand
+		{
+			get { return _pinCommand; }
+			set
+			{
+				Set(() => PinCommand, ref _pinCommand, value);
+			}
+		}
+
 		public void LoadNextUpcomingContacts(int count = 10)
 		{
 			var upcoming = _allBirthdays.Where(it => it.DaysUntil <= 30).OrderBy(it => it.DaysUntil).ThenBy(it => it.Age).Skip(_upcomingContacts.Count).Take(count);

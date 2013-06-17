@@ -18,6 +18,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			AboutCommand = new RelayCommand(About);
 			SettingsCommand = new RelayCommand(Settings);
 			RateCommand = new RateThisAppCommand();
+			PinCommand = new RelayCommand(PinToStart);
 		}
 
 		public void About()
@@ -27,7 +28,12 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 
 		public void Settings()
 		{
-			_navigation.NavigateTo(new Uri("/DateEdit.xaml", UriKind.Relative));
+			_navigation.NavigateTo(new Uri("/Settings.xaml", UriKind.Relative));
+		}
+
+		public void PinToStart()
+		{
+
 		}
 	}
 }

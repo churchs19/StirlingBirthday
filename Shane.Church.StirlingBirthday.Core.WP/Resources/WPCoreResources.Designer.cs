@@ -61,6 +61,33 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This task updates the Stirling Birthday live tile with upcoming birthday information..
+        /// </summary>
+        public static string AgentDescription {
+            get {
+                return ResourceManager.GetString("AgentDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background agents for this application have been disabled by the user..
+        /// </summary>
+        public static string AgentsDisabledByUserError {
+            get {
+                return ResourceManager.GetString("AgentsDisabledByUserError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This device does not support background agents, so this feature will be disabled..
+        /// </summary>
+        public static string AgentsNotSupportedError {
+            get {
+                return ResourceManager.GetString("AgentsNotSupportedError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Happy Birthday! I hope you have a great day!.
         /// </summary>
         public static string EmailBodyText {
@@ -84,6 +111,15 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Resources {
         public static string TechnicalSupportEmailSubject {
             get {
                 return ResourceManager.GetString("TechnicalSupportEmailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent..
+        /// </summary>
+        public static string TooManyAgentsError {
+            get {
+                return ResourceManager.GetString("TooManyAgentsError", resourceCulture);
             }
         }
         

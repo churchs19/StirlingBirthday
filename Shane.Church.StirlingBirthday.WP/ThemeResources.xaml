@@ -16,10 +16,25 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:System="clr-namespace:System;assembly=mscorlib">
 
-  <!-- Common colors -->
+	<!-- App Colors -->
+	<Color x:Key="AppColor1">#FF0460D9</Color>
+	<Color x:Key="AppColor2">#FF0597F2</Color>
+	<Color x:Key="AppColor3">#FF84D904</Color>
+	<Color x:Key="AppColor4">#FFF2CD13</Color>
+	<Color x:Key="AppColor5">#FFBF1E0F</Color>
+	<Color x:Key="AppColorWhite">#FFFFFFFF</Color>
+
+	<SolidColorBrush x:Key="AppColor1Brush" Color="{StaticResource AppColor1}"/>
+	<SolidColorBrush x:Key="AppColor2Brush" Color="{StaticResource AppColor2}"/>
+	<SolidColorBrush x:Key="AppColor3Brush" Color="{StaticResource AppColor3}"/>
+	<SolidColorBrush x:Key="AppColor4Brush" Color="{StaticResource AppColor4}"/>
+	<SolidColorBrush x:Key="AppColor5Brush" Color="{StaticResource AppColor5}"/>
+	<SolidColorBrush x:Key="AppColorWhiteBrush" Color="{StaticResource AppColorWhite}"/>
+
+	<!-- Common colors -->
 
 <!-- 100 percent White -->
-	<Color x:Key="PhoneForegroundColor">#FF84D904</Color>
+	<Color x:Key="PhoneForegroundColor">#FF0460D9</Color>
 
 <!-- 100 percent Black -->
 <Color x:Key="PhoneBackgroundColor">#FFFFFFFF</Color>
@@ -44,13 +59,13 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 <Color x:Key="PhoneTextBoxColor">#BFFFFFFF</Color>
 
 <!-- 100 percent Black -->
-	<Color x:Key="PhoneTextBoxForegroundColor">#FF84D904</Color>
+	<Color x:Key="PhoneTextBoxForegroundColor">#FF0460D9</Color>
 
 <!-- 100 percent White -->
 <Color x:Key="PhoneTextBoxEditBackgroundColor">#FFFFFFFF</Color>
 
 <!-- 100 percent White -->
-	<Color x:Key="PhoneTextBoxEditBorderColor">#FFF2CD13</Color>
+	<Color x:Key="PhoneTextBoxEditBorderColor">#FF84D904</Color>
 
 <!-- 47 percent percent Black -->
 <Color x:Key="PhoneTextBoxReadOnlyColor">#77000000</Color>
@@ -71,7 +86,7 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 <Color x:Key="PhoneRadioCheckBoxDisabledColor">#66000000</Color>
 
 <!-- 100 percent Black -->
-	<Color x:Key="PhoneRadioCheckBoxCheckColor">#FF84D904</Color>
+	<Color x:Key="PhoneRadioCheckBoxCheckColor">#FF0460D9</Color>
 
 <!-- 40 percent Black -->
 <Color x:Key="PhoneRadioCheckBoxCheckDisabledColor">#66000000</Color>
@@ -80,17 +95,17 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 <Color x:Key="PhoneRadioCheckBoxPressedColor">#FFFFFFFF</Color>
 
 <!-- 100 percent White -->
-	<Color x:Key="PhoneRadioCheckBoxPressedBorderColor">#FFF2CD13</Color>
+	<Color x:Key="PhoneRadioCheckBoxPressedBorderColor">#FF84D904</Color>
 
 
 
 <!-- Special colors -->
 
 <!-- 66 percent transparent -->
-<Color x:Key="PhoneSemitransparentColor">#AA000000</Color>
+<Color x:Key="PhoneSemitransparentColor">#33000000</Color>
 
 <!-- System chrome color -->
-<Color x:Key="PhoneChromeColor">#FF1F1F1F</Color>
+<Color x:Key="PhoneChromeColor">#FFFFFFFF</Color>
 
 
 

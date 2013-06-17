@@ -83,6 +83,9 @@ namespace Shane.Church.StirlingBirthday.WP
 			KernelService.Kernel.Bind<IBirthdaySource>().To<PhoneBirthdaySource>().InSingletonScope();
 			KernelService.Kernel.Bind<MainViewModel>().To<PhoneMainViewModel>().InSingletonScope();
 			KernelService.Kernel.Bind<ContactViewModel>().To<PhoneContactViewModel>();
+			KernelService.Kernel.Bind<AboutViewModel>().To<PhoneAboutViewModel>();
+			KernelService.Kernel.Bind<SettingsViewModel>().ToSelf();
+			KernelService.Kernel.Bind<IAgentManagementService>().To<PhoneAgentManagementService>().InSingletonScope();
 
 			// Show graphics profiling information while debugging.
 			if (System.Diagnostics.Debugger.IsAttached)

@@ -45,7 +45,9 @@
     <Compile Include="Data\BirthdayContact.cs" />
     <Compile Include="Data\IBirthdaySource.cs" />
     <Compile Include="Data\MonthGroup.cs" />
+    <Compile Include="Exceptions\AgentManagementException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IAgentManagementService.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\ISettingsService.cs" />
     <Compile Include="Services\IWebNavigationService.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="ViewModels\BirthdayTileFrontViewModel.cs" />
     <Compile Include="ViewModels\ContactViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SettingsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Threading.Tasks">

@@ -117,11 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>rate this app</value>
+  </data>
   <data name="AllEmptyText" xml:space="preserve">
     <value>There are no birthdays found in your contacts.</value>
   </data>
   <data name="AllPivotHeader" xml:space="preserve">
     <value>all</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2013</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>a simple app to remind you of your friends' birthdays with a beautiful live tile</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
     <value>STIRLING BIRTHDAY</value>
@@ -144,6 +156,12 @@
   <data name="PastPivotHeader" xml:space="preserve">
     <value>past</value>
   </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>pin</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>rate me</value>
+  </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
@@ -155,6 +173,12 @@
   </data>
   <data name="SendSMSMenuText" xml:space="preserve">
     <value>Send SMS</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>technical support/feedback email</value>
   </data>
   <data name="UpcomingEmptyText" xml:space="preserve">
     <value>No friends have a birthday in the next month.</value>

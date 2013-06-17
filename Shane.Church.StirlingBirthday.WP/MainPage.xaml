@@ -15,14 +15,13 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
 	Background="{StaticResource PhoneBackgroundBrush}"
-    SupportedOrientations="Portrait"  Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    SupportedOrientations="Portrait"  Orientation="Portrait">
 
 	<phone:PhoneApplicationPage.Resources>
 		<helpers:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter"/>
 		<DataTemplate x:Key="birthdayItemTemplate">
 			<StackPanel Orientation="Horizontal"
-						Margin="0,0,0,2"
+						Margin="0 0 0 0"
 						Background="{StaticResource PhoneBackgroundBrush}">
 				<telerikPrimitives:RadContextMenu.ContextMenu>
 					<telerikPrimitives:RadContextMenu OpenGesture="Tap">
@@ -73,7 +72,7 @@
 						Grid.Row="0"
 						Grid.Column="1"
 						TextAlignment="Left"
-						Padding="5,1,5,1"
+						Padding="5 1 5 1"
 						VerticalAlignment="Bottom"
 						TextWrapping="Wrap" 
 						Foreground="{StaticResource PhoneForegroundBrush}"
@@ -82,42 +81,42 @@
    						Text="{Binding AgeText}"
 						Grid.Row="1"
 						Grid.Column="1"
-						TextAlignment="Center"
-						Padding="5,1,5,1"
-						Foreground="{Binding PhoneForegroundBrush}"
-						VerticalAlignment="Center" />
+						TextAlignment="Left"
+						Padding="5 1 5 1"
+						Foreground="{StaticResource AppColor5Brush}"
+						VerticalAlignment="Top" />
 					<StackPanel Grid.Row="0"
 						Grid.Column="2"
 						Grid.RowSpan="2"
 						VerticalAlignment="Center"
 						Width="90"
 						Height="90"
-						Margin="0,0,5,0"
+						Margin="0 0 5 0"
 						HorizontalAlignment="Center" 
 						Background="{StaticResource PhoneAccentBrush}">
 						<TextBlock Name="textBlockMonth" 
 							Text="{Binding MonthText}"
 							HorizontalAlignment="Center" 
 							VerticalAlignment="Bottom"
-							Margin="0,0,0,0"
-							Padding="0,3,0,0"
+							Margin="0 0 0 0"
+							Padding="0 3 0 0"
 							FontSize="{StaticResource PhoneFontSizeSmall}" 
-							Foreground="{StaticResource PhoneForegroundBrush}" 
+							Foreground="{StaticResource AppColor4Brush}" 
 							FontWeight="Bold" />
 						<TextBlock Name="textBlockDay" 
 							Text="{Binding DayText}"
 							HorizontalAlignment="Center" 
 							VerticalAlignment="Top"
-							Margin="0,-5,0,0"
+							Margin="0 -5 0 0"
 							Padding="0"
 							FontWeight="Bold"
-							Foreground="{StaticResource PhoneForegroundBrush}" 
+							Foreground="{StaticResource AppColor4Brush}" 
 							FontSize="{StaticResource PhoneFontSizeLarge}" />
 						<TextBlock Name="textBlockYear" 
 							Text="{Binding YearText}"
 							HorizontalAlignment="Center" 
 							VerticalAlignment="Top"
-							Margin="0,-3,0,0"
+							Margin="0 -3 0 0"
 							Padding="0"
 							FontSize="{StaticResource PhoneFontSizeSmall}"
 							Foreground="{StaticResource PhoneSubtleBrush}"
@@ -127,22 +126,33 @@
 			</StackPanel>
 		</DataTemplate>
 		<DataTemplate x:Key="groupHeaderTemplate">
-			<Border Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,6">
-				<TextBlock Text="{Binding}" FontSize="{StaticResource PhoneFontSizeLarge}" Foreground="{StaticResource PhoneForegroundBrush}"/>
-			</Border>
+			<Grid Background="{StaticResource AppColor4Brush}" Margin="0 0 0 6">
+				<TextBlock Text="{Binding}" 
+						   FontSize="{StaticResource PhoneFontSizeLarge}" 
+						   Foreground="{StaticResource AppColor2Brush}"
+						   Padding="10 0 10 5"
+						   TextAlignment="Left"
+						   VerticalAlignment="Center"/>
+			</Grid>
 		</DataTemplate>
 		<DataTemplate x:Key="groupItemTemplate" >
-			<Border Background="{StaticResource PhoneAccentBrush}" Width="99" Height="99" Margin="6">
-				<TextBlock Text="{Binding ShortName}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource PhoneForegroundBrush}" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+			<Border Background="{StaticResource AppColor2Brush}" Width="104" Height="104" Margin="8">
+				<TextBlock Text="{Binding ShortName}" FontSize="{StaticResource PhoneFontSizeExtraLarge}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource AppColor4Brush}" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
 			</Border>
+		</DataTemplate>
+		<DataTemplate x:Key="PivotTitleTemplate">
+			<Grid>
+				<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding BindsDirectlyToSource=True}" VerticalAlignment="Top" Foreground="{StaticResource AppColor3Brush}">
+				</TextBlock>
+			</Grid>
 		</DataTemplate>
 	</phone:PhoneApplicationPage.Resources>
 
 	<!--LayoutRoot is the root grid where all page content is placed-->
-	<Grid x:Name="LayoutRoot" Background="Transparent">
+	<Grid x:Name="LayoutRoot" Background="{StaticResource PhoneBackgroundBrush}">
 		<controls:Pivot Title="{Binding LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
 						Background="{StaticResource PhoneBackgroundBrush}"
-						Margin="0 0 0 15">
+						Margin="0 0 0 10" TitleTemplate="{StaticResource PivotTitleTemplate}">
 			<controls:PivotItem Header="{Binding LocalizedResources.UpcomingPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
 					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxUpcoming" 
@@ -155,9 +165,11 @@
 						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource AppColor5Brush}">
+								</TextBlock>
 								<TextBlock Text="{Binding LocalizedResources.UpcomingEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource AppColor5Brush}">
+								</TextBlock>
 							</StackPanel>
 						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
 						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
@@ -183,9 +195,9 @@
 						<telerikData:RadJumpList.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource AppColor5Brush}"/>
 								<TextBlock Text="{Binding LocalizedResources.AllEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource AppColor5Brush}"/>
 							</StackPanel>
 						</telerikData:RadJumpList.EmptyContent>
 						<telerikData:RadJumpList.GroupPickerItemsPanel>
@@ -211,9 +223,9 @@
 						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource AppColor5Brush}"/>
 								<TextBlock Text="{Binding LocalizedResources.PastEmptyText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
-										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+										   TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource AppColor5Brush}"/>
 							</StackPanel>
 						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
 						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>

@@ -61,6 +61,24 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to about.
+        /// </summary>
+        public static string AboutLabel {
+            get {
+                return ResourceManager.GetString("AboutLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rate this app.
+        /// </summary>
+        public static string AboutReviewLabel {
+            get {
+                return ResourceManager.GetString("AboutReviewLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There are no birthdays found in your contacts..
         /// </summary>
         public static string AllEmptyText {
@@ -75,6 +93,24 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         public static string AllPivotHeader {
             get {
                 return ResourceManager.GetString("AllPivotHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright © Shane Church 2013.
+        /// </summary>
+        public static string AppCopyright {
+            get {
+                return ResourceManager.GetString("AppCopyright", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to a simple app to remind you of your friends&apos; birthdays with a beautiful live tile.
+        /// </summary>
+        public static string AppDescription {
+            get {
+                return ResourceManager.GetString("AppDescription", resourceCulture);
             }
         }
         
@@ -142,6 +178,24 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to pin.
+        /// </summary>
+        public static string PinLabel {
+            get {
+                return ResourceManager.GetString("PinLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rate me.
+        /// </summary>
+        public static string RateLabel {
+            get {
+                return ResourceManager.GetString("RateLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -174,6 +228,24 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         public static string SendSMSMenuText {
             get {
                 return ResourceManager.GetString("SendSMSMenuText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to settings.
+        /// </summary>
+        public static string SettingsLabel {
+            get {
+                return ResourceManager.GetString("SettingsLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to technical support/feedback email.
+        /// </summary>
+        public static string TechnicalSupportEmailLabel {
+            get {
+                return ResourceManager.GetString("TechnicalSupportEmailLabel", resourceCulture);
             }
         }
         
