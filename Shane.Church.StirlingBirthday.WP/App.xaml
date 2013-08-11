@@ -4,7 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
 	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-	xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core">
+	xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    xmlns:wpcore="clr-namespace:Shane.Church.StirlingBirthday.Core.WP.Converters;assembly=Shane.Church.StirlingBirthday.Core.WP">
 
 	<!--Application Resources-->
     <Application.Resources>
@@ -15,6 +16,7 @@
 					<local:LocalizedStrings xmlns:local="clr-namespace:Shane.Church.StirlingBirthday.WP" x:Key="LocalizedStrings" />
 					<localConverters:BitmapImageConverter xmlns:localConverters="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters" x:Key="BitmapImage" />
 					<telerik:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+                    <wpcore:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter"/>
 				</ResourceDictionary>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>

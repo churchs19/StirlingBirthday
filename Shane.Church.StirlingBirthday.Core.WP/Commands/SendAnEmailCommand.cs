@@ -12,21 +12,23 @@ using Microsoft.Phone.Tasks;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Commands
 {
-	public class SendAnEmailCommand : ICommand
-	{
-		public bool CanExecute(object parameter)
-		{
-			return true;
-		}
+    public class SendAnEmailCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
 
-		public event EventHandler CanExecuteChanged;
+#pragma warning disable 0067
+        public event EventHandler CanExecuteChanged;
+#pragma warning restore 0067
 
-		public void Execute(object parameter)
-		{
-			EmailComposeTask emailTask = new EmailComposeTask();
-			emailTask.To = "shane@s-church.net";
-			emailTask.Subject = emailTask.Subject = Resources.WPCoreResources.TechnicalSupportEmailSubject;
-			emailTask.Show();
-		}
-	}
+        public void Execute(object parameter)
+        {
+            EmailComposeTask emailTask = new EmailComposeTask();
+            emailTask.To = "shane@s-church.net";
+            emailTask.Subject = emailTask.Subject = Resources.WPCoreResources.TechnicalSupportEmailSubject;
+            emailTask.Show();
+        }
+    }
 }

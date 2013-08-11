@@ -126,6 +126,9 @@
   <data name="AgentsNotSupportedError" xml:space="preserve">
     <value>This device does not support background agents, so this feature will be disabled.</value>
   </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Stirling Birthday</value>
+  </data>
   <data name="EmailBodyText" xml:space="preserve">
     <value>Happy Birthday! I hope you have a great day!</value>
   </data>

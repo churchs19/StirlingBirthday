@@ -19,9 +19,11 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Commands
 			return true;
 		}
 
+#pragma warning disable 0067
 		public event EventHandler CanExecuteChanged;
+#pragma warning restore 0067
 
-		public void Execute(object parameter)
+        public void Execute(object parameter)
 		{
 			MarketplaceReviewTask reviewTask = new MarketplaceReviewTask();
 			reviewTask.Show();

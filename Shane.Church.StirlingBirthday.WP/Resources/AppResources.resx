@@ -150,6 +150,9 @@
   <data name="EmptyLeadText" xml:space="preserve">
     <value>How sad!</value>
   </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>loading...</value>
+  </data>
   <data name="PastEmptyText" xml:space="preserve">
     <value>No friends had a birthday in the past month.</value>
   </data>

@@ -9,7 +9,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
 	xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
-	xmlns:helpers="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters"
 	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -18,7 +17,6 @@
     SupportedOrientations="Portrait"  Orientation="Portrait">
 
 	<phone:PhoneApplicationPage.Resources>
-		<helpers:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter"/>
 		<DataTemplate x:Key="birthdayItemTemplate">
 			<StackPanel Orientation="Horizontal"
 						Margin="0 0 0 0"
@@ -152,7 +150,7 @@
 	<Grid x:Name="LayoutRoot" Background="{StaticResource PhoneBackgroundBrush}">
 		<controls:Pivot Title="{Binding LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
 						Background="{StaticResource PhoneBackgroundBrush}"
-						Margin="0 0 0 10" TitleTemplate="{StaticResource PivotTitleTemplate}">
+						Margin="0 0 0 30" TitleTemplate="{StaticResource PivotTitleTemplate}">
 			<controls:PivotItem Header="{Binding LocalizedResources.UpcomingPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
 					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxUpcoming" 
@@ -162,7 +160,7 @@
 														   ItemTemplate="{StaticResource birthdayItemTemplate}" 
 														   DataRequested="ListBoxUpcoming_DataRequested" 
 														   CacheMode="BitmapCache">
-						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
+                        <telerikPrimitives:RadDataBoundListBox.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
 										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource AppColor5Brush}">
@@ -176,7 +174,14 @@
 							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
 						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
 					</telerikPrimitives:RadDataBoundListBox>
-				</Grid>
+                    <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorUpcoming"
+			                Foreground="{StaticResource AppColor1Brush}"
+			                Content="{Binding LocalizedResources.LoadingLabel, Source={StaticResource LocalizedStrings}}"
+                            IsRunning="True"
+			                Background="{StaticResource AppOverlayColorBrush}" 
+                            AnimationStyle="AnimationStyle2" 
+                            BorderThickness="0,0,0,160"/>
+                </Grid>
 			</controls:PivotItem>
 			<controls:PivotItem Header="{Binding LocalizedResources.AllPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
@@ -192,7 +197,7 @@
 											 DataRequested="JumpListAll_DataRequested"
 											 GroupPickerItemTap="JumpListAll_GroupPickerItemTap"
 											 CacheMode="BitmapCache">
-						<telerikData:RadJumpList.EmptyContent>
+                        <telerikData:RadJumpList.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
 										   TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource AppColor5Brush}"/>
@@ -209,7 +214,14 @@
 							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
 						</telerikData:RadJumpList.VirtualizationStrategyDefinition>
 					</telerikData:RadJumpList>
-				</Grid>
+                    <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorAll"
+			                Foreground="{StaticResource AppColor1Brush}"
+			                Content="{Binding LocalizedResources.LoadingLabel, Source={StaticResource LocalizedStrings}}"
+                            IsRunning="True"
+			                Background="{StaticResource AppOverlayColorBrush}" 
+                            AnimationStyle="AnimationStyle2" 
+                            BorderThickness="0,0,0,160"/>
+                </Grid>
 			</controls:PivotItem>
 			<controls:PivotItem Header="{Binding LocalizedResources.PastPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
@@ -232,11 +244,17 @@
 							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
 						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
 					</telerikPrimitives:RadDataBoundListBox>
-				</Grid>
+                    <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorPast"
+			                Foreground="{StaticResource AppColor1Brush}"
+			                Content="{Binding LocalizedResources.LoadingLabel, Source={StaticResource LocalizedStrings}}"
+                            IsRunning="True"
+			                Background="{StaticResource AppOverlayColorBrush}" 
+                            AnimationStyle="AnimationStyle2" 
+                            BorderThickness="0,0,0,160"/>
+                </Grid>
 			</controls:PivotItem>
 		</controls:Pivot>
-
-	</Grid>
+    </Grid>
 
 </phone:PhoneApplicationPage>
 
