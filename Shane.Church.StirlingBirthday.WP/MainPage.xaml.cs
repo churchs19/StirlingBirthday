@@ -1,24 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-using Microsoft.Phone.Controls;
-using Ninject;
-using Shane.Church.StirlingBirthday.Core.ViewModels;
-using Shane.Church.StirlingBirthday.Core.Services;
-using System.Threading.Tasks;
-using Telerik.Windows.Data;
-using Shane.Church.StirlingBirthday.Core.Data;
+﻿using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Ninject;
+using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Core.Services;
+using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.WP.Resources;
-using Telerik.Windows.Controls;
+using System;
+using System.Linq;
+using System.Windows;
+using System.Windows.Media;
+using Telerik.Windows.Data;
 
 namespace Shane.Church.StirlingBirthday.WP
 {
@@ -110,7 +101,9 @@ namespace Shane.Church.StirlingBirthday.WP
             JumpListAll.ItemsSource = _model.AllContacts;
             base.OnNavigatedTo(e);
 
-            bool tileUpdated = await KernelService.Kernel.Get<ITileUpdateService>().UpdateTile();
+            var tileService = KernelService.Kernel.Get<ITileUpdateService>();
+            await tileService.SaveUpcomingImages();
+            await tileService.UpdateTile();
         }
 
         private void ListBoxUpcoming_DataRequested(object sender, EventArgs e)

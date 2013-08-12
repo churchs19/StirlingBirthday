@@ -18,7 +18,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 			_birthdayContacts = new List<BirthdayContact>();
 		}
 
-		public Task<IQueryable<BirthdayContact>> GetAllEntriesAsync(bool forceRefresh = false)
+		public Task<IQueryable<BirthdayContact>> GetAllEntriesAsync(bool forceRefresh = false, bool loadPicture = true)
 		{
 			TaskCompletionSource<IQueryable<BirthdayContact>> tcs = new TaskCompletionSource<IQueryable<BirthdayContact>>();
 			if (_birthdayContacts.Count == 0 || forceRefresh)
@@ -34,7 +34,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 						List<BirthdayContact> results = new List<BirthdayContact>();
 						foreach (Contact c in items)
 						{
-							results.Add(await c.GetBirthdayContact());
+							results.Add(await c.GetBirthdayContact(loadPicture));
 						}
 						tcs.TrySetResult(results.AsQueryable());
 					}
@@ -50,9 +50,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 			}
 		}
 
-		public async Task<IQueryable<BirthdayContact>> GetFilteredEntriesAsync(Expression<Func<BirthdayContact, bool>> filter, bool forceRefresh = false)
+		public async Task<IQueryable<BirthdayContact>> GetFilteredEntriesAsync(Expression<Func<BirthdayContact, bool>> filter, bool forceRefresh = false, bool loadPicture = true)
 		{
-			var entries = await GetAllEntriesAsync(forceRefresh);
+			var entries = await GetAllEntriesAsync(forceRefresh, loadPicture);
 			var compiledFilter = filter.Compile();
 			return entries.Where(it => compiledFilter(it));
 		}

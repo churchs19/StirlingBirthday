@@ -10,6 +10,7 @@ using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
 using System;
 using System.Threading;
 using System.Globalization;
+using System.Diagnostics;
 
 namespace Shane.Church.StirlingBirthday.WP.Agent
 {
@@ -68,10 +69,25 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
         /// </remarks>
         protected override async void OnInvoke(ScheduledTask task)
         {
-            //TODO: Add code to perform your task in background
-            var service = KernelService.Kernel.Get<ITileUpdateService>();
+#if DEBUG
+            AgentExitReason reason = task.LastExitReason;
+            Debug.WriteLine("Agent Last Exited for Reason: " + reason.ToString());
+            var settings = KernelService.Kernel.Get<ISettingsService>();
+            settings.SaveSetting<AgentExitReason>(reason, "AgentLastExitReason");
+            DebugUtility.DebugStartStopwatch();
+            DebugUtility.DebugOutputMemoryUsage("Scheduled Task Initial Memory Snapshot");
+#endif
 
-            var success = await service.UpdateTile();
+            var service = KernelService.Kernel.Get<ITileUpdateService>();
+#if DEBUG
+            DebugUtility.DebugOutputMemoryUsage("Scheduled Task - Post Service Injection");
+#endif
+            await service.UpdateTile();
+
+#if DEBUG
+            DebugUtility.DebugOutputElapsedTime("Scheduled Task Final Time Snapshot:");
+            DebugUtility.DebugOutputMemoryUsage("Scheduled Task Final Memory Snapshot");
+#endif
 
             NotifyComplete();
         }

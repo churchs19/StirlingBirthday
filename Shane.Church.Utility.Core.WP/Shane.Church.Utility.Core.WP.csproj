@@ -43,6 +43,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Threading.Tasks">
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\sl4-windowsphone71\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
@@ -66,13 +67,15 @@
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Net" />
     <Reference Include="mscorlib.extensions" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangingObservableObject.cs" />
+    <Compile Include="Imaging.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Toolstack\ToolStackCRCLib.cs" />
+    <Compile Include="Toolstack\ToolStackPNGWriterLib.cs" />
+    <Compile Include="Toolstack\ToolStackPNGWriterWBext.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shane.Church.Utility.Core\Shane.Church.Utility.Core.csproj">

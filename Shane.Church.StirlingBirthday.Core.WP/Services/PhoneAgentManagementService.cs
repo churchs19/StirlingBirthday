@@ -1,5 +1,6 @@
 ﻿using Microsoft.Phone.Info;
 using Microsoft.Phone.Scheduler;
+using Ninject;
 using Shane.Church.StirlingBirthday.Core.Exceptions;
 using Shane.Church.StirlingBirthday.Core.Services;
 using System;
@@ -28,6 +29,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
             if (periodicTask != null)
             {
                 AgentExitReason reason = periodicTask.LastExitReason;
+                ISettingsService settings = KernelService.Kernel.Get<ISettingsService>();
+                settings.SaveSetting<AgentExitReason>(reason, "AgentLastExitReason");
                 //				_logger.Debug("Agent Last Exited for Reason: " + reason.ToString());
                 RemoveAgent();
             }
@@ -45,7 +48,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                 ScheduledActionService.Add(periodicTask);
                 // If debugging is enabled, use LaunchForTest to launch the agent in one minute.
 #if(DEBUG_AGENT)
-                ScheduledActionService.LaunchForTest(_taskName, TimeSpan.FromSeconds(15));
+                ScheduledActionService.LaunchForTest(_taskName, TimeSpan.FromSeconds(60));
 #endif
             }
             catch (InvalidOperationException exception)

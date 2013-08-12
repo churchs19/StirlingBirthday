@@ -7,6 +7,10 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.Windows.Media.Imaging;
+using Shane.Church.Utility.Core.WP;
+using System.Windows.Media;
+using System.Threading.Tasks;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Controls
 {
@@ -16,5 +20,17 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Controls
         {
             InitializeComponent();
         }
+
+        public async Task ToTile(string Path)
+        {
+            // Need to call these, otherwise the contents aren't rendered correctly.
+            this.Measure(new Size(336, 336));
+            this.Arrange(new Rect(0, 0, 336, 336));
+
+            WriteableBitmap bitmap = new WriteableBitmap(this, new TranslateTransform());
+
+            await Imaging.SaveImageAsync(bitmap, Path, Imaging.ImageType.Png);
+        }
+
     }
 }

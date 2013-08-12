@@ -55,17 +55,28 @@
 						<ColumnDefinition Width="*"/>
 						<ColumnDefinition Width="auto"/>
 					</Grid.ColumnDefinitions>
-					<StackPanel Background="{StaticResource PhoneSemitransparentBrush}"
-								Grid.Row="0"
-								Grid.Column="0"
-								Grid.RowSpan="2"
-								Margin="5 5">
-						<Image Name="imagePicture"
-							Source="{Binding Picture, Converter={StaticResource ByteToImageSourceValueConverter}}"
-							Width="90"
-							Height="90"/>
-					</StackPanel>
-					<TextBlock Name="textBlockName"
+                    <StackPanel Grid.Row="0"
+							    Grid.Column="0"
+							    Grid.RowSpan="2"
+							    Margin="5 5">
+					    <Canvas Width="90"
+                                Height="90">
+                            <Rectangle Canvas.Top="0"
+                                       Canvas.Left="0"
+                                       Canvas.ZIndex="0"
+                                       Height="90"
+                                       Width="90"
+                                       Fill="{StaticResource PhoneSemitransparentBrush}"/>
+                            <Image Name="imagePicture"
+                                   Canvas.Left="0"
+                                   Canvas.Top="0"
+                                   Canvas.ZIndex="5"
+							       Source="{Binding Picture, Converter={StaticResource ByteToImageSourceValueConverter}}"
+							       Width="90"
+							       Height="90"/>
+                        </Canvas>
+                    </StackPanel>
+                    <TextBlock Name="textBlockName"
 						Text="{Binding DisplayName}"
 						Grid.Row="0"
 						Grid.Column="1"
