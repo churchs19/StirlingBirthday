@@ -1,12 +1,6 @@
-﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Input;
-using System.ComponentModel;
-using GalaSoft.MvvmLight;
-using System.Linq;
+﻿using GalaSoft.MvvmLight;
 using Shane.Church.StirlingBirthday.Core.Data;
-using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
@@ -32,7 +26,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _name1;
+        private string _name1 = "";
         public string Name1
         {
             get { return _name1; }
@@ -42,7 +36,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _name2;
+        private string _name2 = "";
         public string Name2
         {
             get { return _name2; }
@@ -52,7 +46,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _name3;
+        private string _name3 = "";
         public string Name3
         {
             get { return _name3; }
@@ -62,7 +56,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _date1;
+        private string _date1 = "";
         public string Date1
         {
             get { return _date1; }
@@ -72,7 +66,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _date2;
+        private string _date2 = "";
         public string Date2
         {
             get { return _date2; }
@@ -82,7 +76,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _date3;
+        private string _date3 = "";
         public string Date3
         {
             get { return _date3; }

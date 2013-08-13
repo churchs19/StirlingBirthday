@@ -9,8 +9,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 {
     public class PhoneBirthdayTileFrontViewModel : BirthdayTileFrontViewModel
     {
-        public PhoneBirthdayTileFrontViewModel(BirthdayContact contact)
-            : base(contact)
+        public PhoneBirthdayTileFrontViewModel(BirthdayContact contact, byte[] picture)
+            : base(contact, picture)
         {
 
         }

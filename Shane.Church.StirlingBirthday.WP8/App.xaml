@@ -11,7 +11,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/ThemeResources.xaml"/>
+                <ResourceDictionary Source="ThemeResources.xaml"/>
                 <ResourceDictionary>
                     <local:LocalizedStrings xmlns:local="clr-namespace:Shane.Church.StirlingBirthday.WP" x:Key="LocalizedStrings" />
                     <localConverters:BitmapImageConverter xmlns:localConverters="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters" x:Key="BitmapImage" />

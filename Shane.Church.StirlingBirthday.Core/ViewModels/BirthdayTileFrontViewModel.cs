@@ -1,32 +1,25 @@
 ﻿using GalaSoft.MvvmLight;
-using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
-using Shane.Church.StirlingBirthday.Core.Services;
-using System;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
     public class BirthdayTileFrontViewModel : ObservableObject
     {
-        public BirthdayTileFrontViewModel(BirthdayContact contact)
+        public BirthdayTileFrontViewModel(BirthdayContact contact, byte[] picture)
         {
             if (contact != null)
             {
-                if (contact.Picture != null)
-                {
-                    ContactImage = new byte[contact.Picture.Length];
-                    contact.Picture.CopyTo(ContactImage, 0);
-                }
                 Name = contact.DisplayName;
                 Birthdate = contact.Date.ToString("M");
                 Age = contact.Age;
             }
+            if (picture != null)
+            {
+                ContactImage = picture;
+            }
         }
 
-        private string _name;
+        private string _name = "";
         public string Name
         {
             get { return _name; }
@@ -36,7 +29,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private string _birthdate;
+        private string _birthdate = "";
         public string Birthdate
         {
             get { return _birthdate; }
@@ -46,7 +39,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
-        private int _age;
+        private int _age = 0;
         public int Age
         {
             get { return _age; }

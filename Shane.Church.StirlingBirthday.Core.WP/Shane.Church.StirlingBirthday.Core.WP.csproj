@@ -113,6 +113,7 @@
     </Compile>
     <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
     <Compile Include="Converters\ByteToImageSourceValueConverter.cs" />
+    <Compile Include="Converters\DisplayNamePictureConverter.cs" />
     <Compile Include="Data\ContactExtensions.cs" />
     <Compile Include="Data\PhoneBirthdaySource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

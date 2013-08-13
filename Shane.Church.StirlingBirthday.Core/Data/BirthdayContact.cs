@@ -11,7 +11,6 @@ namespace Shane.Church.StirlingBirthday.Core.Data
 		public string LastName { get; set; }
 		public string DisplayName { get; set; }
 		public DateTime Date { get; set; }
-		public byte[] Picture { get; set; }
 		public string HomePhone { get; set; }
 		public string MobilePhone { get; set; }
 		public string WorkPhone { get; set; }

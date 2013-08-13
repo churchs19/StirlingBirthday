@@ -21,7 +21,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
             try
             {
                 var source = KernelService.Kernel.Get<IBirthdaySource>();
-                var contacts = await source.GetAllEntriesAsync(loadPicture: false);
+                var contacts = await source.GetAllEntriesAsync();
                 var tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3);
                 var isoStoreUri = "isostore:/shared/shellcontent/{0}.{1}.png";
                 var displayName = tileContacts.First().DisplayName;
@@ -34,8 +34,10 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                     MediumTileBackUserControl medBackTile = new MediumTileBackUserControl() { DataContext = backTileModel };
 
                     ShellTile mainTile = ShellTile.ActiveTiles.First();
+#if !WP8
                     if (LiveTileHelper.AreNewTilesSupported)
                     {
+#endif
                         WideTileBackUserControl wideBackTile = new WideTileBackUserControl();
                         wideBackTile.DataContext = backTileModel;
                         RadFlipTileData tileData = new RadFlipTileData()
@@ -49,6 +51,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                             WideBackVisualElement = wideBackTile
                         };
                         LiveTileHelper.UpdateTile(mainTile, tileData);
+#if !WP8
                     }
                     else
                     {
@@ -61,6 +64,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                         };
                         LiveTileHelper.UpdateTile(mainTile, tileData);
                     }
+#endif
                 });
             }
             catch (Exception ex)
@@ -72,7 +76,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
         public async Task SaveUpcomingImages()
         {
             var source = KernelService.Kernel.Get<IBirthdaySource>();
-            var contacts = await source.GetFilteredEntriesAsync(c => c.DaysUntil <= 31);
+            var contacts = await source.GetFilteredEntriesAsync(c => c.DaysUntil <= 31, false);
             var isostorePath = "/shared/shellcontent/{0}.{1}.png";
 
             try
@@ -80,8 +84,10 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                 List<string> filenames = new List<string>();
                 foreach (var c in contacts)
                 {
+                    var picture = await source.GetContactPicture(c.DisplayName);
                     Ninject.Parameters.ConstructorArgument arg = new Ninject.Parameters.ConstructorArgument("contact", c);
-                    BirthdayTileFrontViewModel model = KernelService.Kernel.Get<BirthdayTileFrontViewModel>(arg);
+                    Ninject.Parameters.ConstructorArgument picArg = new Ninject.Parameters.ConstructorArgument("picture", picture);
+                    BirthdayTileFrontViewModel model = KernelService.Kernel.Get<BirthdayTileFrontViewModel>(arg, picArg);
                     SmallTileUserControl smallTile = new SmallTileUserControl() { DataContext = model };
                     MediumTileUserControl mediumTile = new MediumTileUserControl() { DataContext = model };
                     WideTileUserControl wideTile = new WideTileUserControl() { DataContext = model };
@@ -104,7 +110,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
             }
             catch (Exception)
             {
-                
+
             }
         }
 

@@ -1,15 +1,19 @@
 ﻿using GalaSoft.MvvmLight;
+using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
 	public abstract class ContactViewModel : ObservableObject
 	{
+        private BirthdayContact _contact;
 		public ContactViewModel()
 		{
 
@@ -17,15 +21,11 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 
 		public ContactViewModel(BirthdayContact contact)
 		{
+            _contact = contact;
 			FirstName = contact.FirstName;
 			LastName = contact.LastName;
 			DisplayName = contact.DisplayName;
 			Date = contact.Date;
-			if (contact.Picture != null)
-			{
-				Picture = new byte[contact.Picture.Length];
-				contact.Picture.CopyTo(Picture, 0);
-			}
 			HomePhone = contact.HomePhone;
 			MobilePhone = contact.MobilePhone;
 			WorkPhone = contact.WorkPhone;
@@ -69,15 +69,6 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 			set
 			{
 				Set(() => Date, ref _date, value);
-			}
-		}
-		private byte[] _picture;
-		public byte[] Picture
-		{
-			get { return _picture; }
-			set
-			{
-				Set(() => Picture, ref _picture, value);
 			}
 		}
 		private string _homePhone;

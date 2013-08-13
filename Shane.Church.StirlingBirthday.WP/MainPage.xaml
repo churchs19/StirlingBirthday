@@ -9,6 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
 	xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    xmlns:wpCore="clr-namespace:Shane.Church.StirlingBirthday.Core.WP.Converters;assembly=Shane.Church.StirlingBirthday.Core.WP"
 	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -17,6 +18,7 @@
     SupportedOrientations="Portrait"  Orientation="Portrait">
 
 	<phone:PhoneApplicationPage.Resources>
+        <wpCore:DisplayNamePictureConverter x:Key="displayNameConverter"/>
 		<DataTemplate x:Key="birthdayItemTemplate">
 			<StackPanel Orientation="Horizontal"
 						Margin="0 0 0 0"
@@ -71,7 +73,7 @@
                                    Canvas.Left="0"
                                    Canvas.Top="0"
                                    Canvas.ZIndex="5"
-							       Source="{Binding Picture, Converter={StaticResource ByteToImageSourceValueConverter}}"
+							       Source="{Binding DisplayName, Converter={StaticResource displayNameConverter}}"
 							       Width="90"
 							       Height="90"/>
                         </Canvas>
