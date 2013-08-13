@@ -208,7 +208,9 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
         public void LoadNextContacts(int count = 10)
         {
             IsLoading = true;
-            var all = _allBirthdays.OrderBy(it => it.DaysUntil).ThenBy(it => it.Age).Skip(_allContacts.Count).Take(count);
+            var currentMonth = DateTime.Today.Month;
+            var currentDay = DateTime.Today.Day;
+            var all = _allBirthdays.OrderBy(it => it.Date.Month == currentMonth ? (it.Date.Day < currentDay ? it.DaysUntil - 365 : it.DaysUntil) : it.DaysUntil).ThenBy(it => it.Age).Skip(_allContacts.Count).Take(count);
             foreach (var u in all)
             {
                 ConstructorArgument arg = new ConstructorArgument("contact", u);

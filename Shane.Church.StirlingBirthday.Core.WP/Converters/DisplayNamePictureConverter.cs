@@ -4,6 +4,7 @@ using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.Utility.Core.WP;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
 
@@ -16,7 +17,11 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Converters
             try
             {
                 var source = KernelService.Kernel.Get<IBirthdaySource>();
-                var picture = AsyncHelpers.RunSync<byte[]>(() => source.GetContactPicture(value.ToString()));
+                var pictureTask = source.GetContactPicture(value.ToString());
+                if(!pictureTask.IsCompleted)
+                    pictureTask.RunSynchronously();
+
+                var picture = pictureTask.Result;
                 if (picture != null)
                 {
                     MemoryStream s = new MemoryStream(picture, true);
@@ -27,7 +32,10 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Converters
                     return imgSource;
                 }
             }
-            catch { }
+            catch (Exception ex)
+            {
+                var msg = ex.Message;
+            }
             return new BitmapImage();
         }
 

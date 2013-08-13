@@ -127,7 +127,7 @@ namespace Shane.Church.StirlingBirthday.WP
         private void JumpListAll_DataRequested(object sender, EventArgs e)
         {
             BusyIndicatorAll.IsRunning = true;
-            _model.LoadNextContacts();
+            _model.LoadNextContacts(30);
             if (_model.TotalCount == _model.AllContacts.Count)
                 JumpListAll.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.None;
             BusyIndicatorAll.IsRunning = false;

@@ -167,12 +167,11 @@
 			<controls:PivotItem Header="{Binding LocalizedResources.UpcomingPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
 					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxUpcoming" 
-														   AsyncBalanceMode="FillViewportFirst" 
+														   AsyncBalanceMode="Standard" 
 														   IsAsyncBalanceEnabled="True" 
 														   DataVirtualizationMode="OnDemandAutomatic" 
 														   ItemTemplate="{StaticResource birthdayItemTemplate}" 
-														   DataRequested="ListBoxUpcoming_DataRequested" 
-														   CacheMode="BitmapCache">
+														   DataRequested="ListBoxUpcoming_DataRequested">
                         <telerikPrimitives:RadDataBoundListBox.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
@@ -184,7 +183,7 @@
 							</StackPanel>
 						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
 						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsDown"/>
 						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
 					</telerikPrimitives:RadDataBoundListBox>
                     <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorUpcoming"
@@ -208,8 +207,7 @@
 											 GroupPickerItemTemplate="{StaticResource groupItemTemplate}"
 											 ItemTemplate="{StaticResource birthdayItemTemplate}"
 											 DataRequested="JumpListAll_DataRequested"
-											 GroupPickerItemTap="JumpListAll_GroupPickerItemTap"
-											 CacheMode="BitmapCache">
+											 GroupPickerItemTap="JumpListAll_GroupPickerItemTap">
                         <telerikData:RadJumpList.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
@@ -224,7 +222,7 @@
 							</ItemsPanelTemplate>
 						</telerikData:RadJumpList.GroupPickerItemsPanel>
 						<telerikData:RadJumpList.VirtualizationStrategyDefinition>
-							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsDown"/>
 						</telerikData:RadJumpList.VirtualizationStrategyDefinition>
 					</telerikData:RadJumpList>
                     <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorAll"
@@ -239,12 +237,11 @@
 			<controls:PivotItem Header="{Binding LocalizedResources.PastPivotHeader, Source={StaticResource LocalizedStrings}}">
 				<Grid>
 					<telerikPrimitives:RadDataBoundListBox x:Name="ListBoxPast" 
-														   AsyncBalanceMode="FillViewportFirst" 
+														   AsyncBalanceMode="Standard" 
 														   IsAsyncBalanceEnabled="True" 
 														   DataVirtualizationMode="OnDemandAutomatic" 
 														   ItemTemplate="{StaticResource birthdayItemTemplate}" 
-														   DataRequested="ListBoxPast_DataRequested" 
-														   CacheMode="BitmapCache">
+														   DataRequested="ListBoxPast_DataRequested">
 						<telerikPrimitives:RadDataBoundListBox.EmptyContent>
 							<StackPanel VerticalAlignment="Center" Margin="0 0 0 100">
 								<TextBlock Text="{Binding LocalizedResources.EmptyLeadText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" FlowDirection="{Binding LocalizedResources.ResourceFlowDirection, Mode=OneWay, Source={StaticResource LocalizedStrings}}"
@@ -254,7 +251,7 @@
 							</StackPanel>
 						</telerikPrimitives:RadDataBoundListBox.EmptyContent>
 						<telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsUp"/>
+							<telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical" ReorderMode="MoveItemsDown"/>
 						</telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
 					</telerikPrimitives:RadDataBoundListBox>
                     <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicatorPast"
