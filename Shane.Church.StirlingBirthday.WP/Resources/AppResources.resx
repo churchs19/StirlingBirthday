@@ -120,6 +120,9 @@
   <data name="AboutLabel" xml:space="preserve">
     <value>about</value>
   </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>other apps by Shane Church</value>
+  </data>
   <data name="AboutReviewLabel" xml:space="preserve">
     <value>rate this app</value>
   </data>

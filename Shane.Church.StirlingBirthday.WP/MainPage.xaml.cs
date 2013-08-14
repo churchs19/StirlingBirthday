@@ -23,6 +23,9 @@ namespace Shane.Church.StirlingBirthday.WP
             InitializeComponent();
 
             InitializeApplicationBar();
+
+            InitializeAdControl();
+
             //Shows the trial reminder message, according to the settings of the TrialReminder.
             //(App.Current as App).trialReminder.Notify();
 
@@ -38,11 +41,41 @@ namespace Shane.Church.StirlingBirthday.WP
             JumpListAll.GroupPickerItemsSource = _model.MonthNames;
         }
 
+        #region Ad Control
+        private void InitializeAdControl()
+        {
+            if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
+            {
+                AdControl.ApplicationId = "test_client";
+                AdControl.AdUnitId = "Image480_80";
+            }
+            else
+            {
+                AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
+                AdControl.AdUnitId = "131382";
+            }
+#if PERSONAL
+			AdControl.IsEnabled = false;
+			AdControl.Height = 0;
+#endif
+        }
+
+        private void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
+        {
+            AdControl.Height = 0;
+        }
+
+        private void AdControl_AdRefreshed(object sender, EventArgs e)
+        {
+            AdControl.Height = 80;
+        }
+        #endregion
+
         private void InitializeApplicationBar()
         {
             ApplicationBar = new ApplicationBar();
             ApplicationBar.Mode = ApplicationBarMode.Minimized;
-            ApplicationBar.Opacity = 0.7;
+            ApplicationBar.Opacity = 1.0;
             ApplicationBar.BackgroundColor = (Color)Application.Current.Resources["AppColor1"];
             ApplicationBar.ForegroundColor = (Color)Application.Current.Resources["AppColorWhite"];
 
@@ -56,11 +89,6 @@ namespace Shane.Church.StirlingBirthday.WP
             appBarButtonAbout.Click += appBarAbout_Click;
             ApplicationBar.Buttons.Add(appBarButtonAbout);
 
-            ApplicationBarIconButton appBarButtonSettings = new ApplicationBarIconButton(new Uri("/Images/Settings.png", UriKind.Relative));
-            appBarButtonSettings.Text = AppResources.SettingsLabel;
-            appBarButtonSettings.Click += appBarButtonSettings_Click;
-            ApplicationBar.Buttons.Add(appBarButtonSettings);
-
             ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Images/Pin.png", UriKind.Relative));
             appBarButtonPin.Text = AppResources.PinLabel;
             appBarButtonPin.Click += appBarButtonPin_Click;
@@ -70,12 +98,6 @@ namespace Shane.Church.StirlingBirthday.WP
         {
             if (_model.PinCommand.CanExecute(null))
                 _model.PinCommand.Execute(null);
-        }
-
-        private void appBarButtonSettings_Click(object sender, EventArgs e)
-        {
-            if (_model.SettingsCommand.CanExecute(null))
-                _model.SettingsCommand.Execute(null);
         }
 
         private void appBarAbout_Click(object sender, EventArgs e)

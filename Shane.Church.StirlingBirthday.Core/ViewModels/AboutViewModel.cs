@@ -3,55 +3,58 @@ using GalaSoft.MvvmLight.Command;
 using Ninject;
 using Shane.Church.StirlingBirthday.Core.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Input;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
-	public abstract class AboutViewModel : ObservableObject
-	{
-		public ICommand RateThisAppCommand
-		{
-			get;
-			protected set;
-		}
+    public abstract class AboutViewModel : ObservableObject
+    {
+        public ICommand RateThisAppCommand
+        {
+            get;
+            protected set;
+        }
 
-		public ICommand SendAnEmailCommand
-		{
-			get;
-			protected set;
-		}
+        public ICommand OtherAppsCommand
+        {
+            get;
+            protected set;
+        }
 
-		public ICommand GoToSChurchNetCommand
-		{
-			get;
-			protected set;
-		}
+        public ICommand SendAnEmailCommand
+        {
+            get;
+            protected set;
+        }
 
-		public AboutViewModel()
-		{
-			GoToSChurchNetCommand = new RelayCommand(NavigateToWebsite);
+        public ICommand GoToSChurchNetCommand
+        {
+            get;
+            protected set;
+        }
 
-			Initialize();
-		}
+        public AboutViewModel()
+        {
+            GoToSChurchNetCommand = new RelayCommand(NavigateToWebsite);
 
-		private string _version;
-		public string Version
-		{
-			get { return "Version " + _version; }
-			set
-			{
-				Set(() => Version, ref _version, value);
-			}
-		}
+            Initialize();
+        }
 
-		public abstract void Initialize();
+        private string _version;
+        public string Version
+        {
+            get { return "Version " + _version; }
+            set
+            {
+                Set(() => Version, ref _version, value);
+            }
+        }
 
-		public void NavigateToWebsite()
-		{
-			KernelService.Kernel.Get<IWebNavigationService>().NavigateTo(new Uri("http://www.s-church.net"));
-		}
-	}
+        public abstract void Initialize();
+
+        public void NavigateToWebsite()
+        {
+            KernelService.Kernel.Get<IWebNavigationService>().NavigateTo(new Uri("http://www.s-church.net"));
+        }
+    }
 }

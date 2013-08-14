@@ -6,6 +6,10 @@
     <Capabilities>
       <Capability Name="ID_CAP_CONTACTS" />
       <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
     </Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="MainPage.xaml" ActivationPolicy="Resume" />

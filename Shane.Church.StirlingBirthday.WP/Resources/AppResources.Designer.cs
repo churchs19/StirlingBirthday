@@ -70,6 +70,15 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to other apps by Shane Church.
+        /// </summary>
+        public static string AboutOtherAppsLabel {
+            get {
+                return ResourceManager.GetString("AboutOtherAppsLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to rate this app.
         /// </summary>
         public static string AboutReviewLabel {

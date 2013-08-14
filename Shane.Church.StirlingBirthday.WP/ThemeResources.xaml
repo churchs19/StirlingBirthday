@@ -57,7 +57,7 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 	<Color x:Key="PhoneTextCaretColor">#FF0460D9</Color>
 
 <!-- 75 percent White -->
-<Color x:Key="PhoneTextBoxColor">#BFFFFFFF</Color>
+    <Color x:Key="PhoneTextBoxColor">#66F2CD13</Color>
 
 <!-- 100 percent Black -->
 	<Color x:Key="PhoneTextBoxForegroundColor">#FF0460D9</Color>
@@ -66,13 +66,13 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 <Color x:Key="PhoneTextBoxEditBackgroundColor">#FFFFFFFF</Color>
 
 <!-- 100 percent White -->
-	<Color x:Key="PhoneTextBoxEditBorderColor">#FF84D904</Color>
+    <Color x:Key="PhoneTextBoxEditBorderColor">#FF0460D9</Color>
 
 <!-- 47 percent percent Black -->
 <Color x:Key="PhoneTextBoxReadOnlyColor">#77000000</Color>
 
 <!-- 60 percent White -->
-<Color x:Key="PhoneSubtleColor">#99FFFFFF</Color>
+    <Color x:Key="PhoneSubtleColor">#99F2CD13</Color>
 
 <!-- 100 percent White -->
 	<Color x:Key="PhoneTextBoxSelectionForegroundColor">#FFFFFFFF</Color>
@@ -81,7 +81,7 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 <!-- RadioButton and CheckBox colors -->
 
 <!-- 75 percent White -->
-<Color x:Key="PhoneRadioCheckBoxColor">#BFFFFFFF</Color>
+    <Color x:Key="PhoneRadioCheckBoxColor">#6684D904</Color>
 
 <!-- 40 percent White -->
 <Color x:Key="PhoneRadioCheckBoxDisabledColor">#66000000</Color>
@@ -90,13 +90,13 @@ THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 	<Color x:Key="PhoneRadioCheckBoxCheckColor">#FF0460D9</Color>
 
 <!-- 40 percent Black -->
-<Color x:Key="PhoneRadioCheckBoxCheckDisabledColor">#66000000</Color>
+    <Color x:Key="PhoneRadioCheckBoxCheckDisabledColor">#660460D9</Color>
 
 <!-- 100 percent White -->
-<Color x:Key="PhoneRadioCheckBoxPressedColor">#FFFFFFFF</Color>
+    <Color x:Key="PhoneRadioCheckBoxPressedColor">#FF84D904</Color>
 
 <!-- 100 percent White -->
-	<Color x:Key="PhoneRadioCheckBoxPressedBorderColor">#FF84D904</Color>
+	<Color x:Key="PhoneRadioCheckBoxPressedBorderColor">#FF0460D9</Color>
 
 
 
