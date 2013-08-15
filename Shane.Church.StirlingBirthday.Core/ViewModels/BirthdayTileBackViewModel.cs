@@ -12,17 +12,17 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             if (count > 0)
             {
                 Name1 = contacts.ElementAt(0).DisplayName;
-                Date1 = contacts.ElementAt(0).Date.ToString("M");
+                Date1 = contacts.ElementAt(0).DaysUntil == 0 ? Resources.CoreResources.TodayText : contacts.ElementAt(0).Date.ToString("M");
             }
             if (count > 1)
             {
                 Name2 = contacts.ElementAt(1).DisplayName;
-                Date2 = contacts.ElementAt(1).Date.ToString("M");
+                Date2 = contacts.ElementAt(1).DaysUntil == 0 ? Resources.CoreResources.TodayText : contacts.ElementAt(1).Date.ToString("M");
             }
             if (count > 2)
             {
                 Name3 = contacts.ElementAt(2).DisplayName;
-                Date3 = contacts.ElementAt(2).Date.ToString("M");
+                Date3 = contacts.ElementAt(2).DaysUntil == 0 ? Resources.CoreResources.TodayText : contacts.ElementAt(2).Date.ToString("M");
             }
         }
 

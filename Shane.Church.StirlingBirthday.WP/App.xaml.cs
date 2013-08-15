@@ -80,7 +80,6 @@ namespace Shane.Church.StirlingBirthday.WP
             KernelService.Kernel.Bind<SettingsViewModel>().ToSelf();
             KernelService.Kernel.Bind<IAgentManagementService>().To<PhoneAgentManagementService>().InSingletonScope();
             KernelService.Kernel.Bind<ITileUpdateService>().To<PhoneTileUpdateService>().InSingletonScope();
-            KernelService.Kernel.Bind<BirthdayTileFrontViewModel>().To<PhoneBirthdayTileFrontViewModel>();
 
             // Show graphics profiling information while debugging.
             if (System.Diagnostics.Debugger.IsAttached)

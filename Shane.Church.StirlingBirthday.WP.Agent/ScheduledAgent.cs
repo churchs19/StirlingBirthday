@@ -1,16 +1,13 @@
-﻿using System.Windows;
-using Microsoft.Phone.Scheduler;
+﻿using Microsoft.Phone.Scheduler;
 using Ninject;
-using Shane.Church.StirlingBirthday.Core.Services;
-using Shane.Church.StirlingBirthday.Core.WP.Services;
-using Shane.Church.StirlingBirthday.Core.WP.Data;
 using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
+using Shane.Church.StirlingBirthday.Core.WP.Data;
+using Shane.Church.StirlingBirthday.Core.WP.Services;
 using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
-using System;
-using System.Threading;
-using System.Globalization;
 using System.Diagnostics;
+using System.Windows;
 
 namespace Shane.Church.StirlingBirthday.WP.Agent
 {
@@ -38,7 +35,6 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
                 KernelService.Kernel.Bind<SettingsViewModel>().ToSelf();
                 KernelService.Kernel.Bind<IAgentManagementService>().To<PhoneAgentManagementService>().InSingletonScope();
                 KernelService.Kernel.Bind<ITileUpdateService>().To<PhoneTileUpdateService>().InSingletonScope();
-                KernelService.Kernel.Bind<BirthdayTileFrontViewModel>().To<PhoneBirthdayTileFrontViewModel>();
 
                 // Subscribe to the managed exception handler
                 Deployment.Current.Dispatcher.BeginInvoke(delegate

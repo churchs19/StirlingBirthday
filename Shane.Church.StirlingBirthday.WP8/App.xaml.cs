@@ -1,32 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Microsoft.Phone.Controls;
+﻿using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Telerik.Windows.Controls;
-using System.Windows.Markup;
-using System.Diagnostics;
-using System.Threading;
-using System.Globalization;
-using Shane.Church.StirlingBirthday.WP.Resources;
-using Shane.Church.StirlingBirthday.Core.Services;
 using Ninject;
-using Shane.Church.StirlingBirthday.Core.WP.Services;
-using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.Core.Data;
-using Shane.Church.StirlingBirthday.Core.WP.Data;
-using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
-using System.Collections;
 using Shane.Church.StirlingBirthday.Core.Exceptions;
+using Shane.Church.StirlingBirthday.Core.Services;
+using Shane.Church.StirlingBirthday.Core.ViewModels;
+using Shane.Church.StirlingBirthday.Core.WP.Data;
+using Shane.Church.StirlingBirthday.Core.WP.Services;
+using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
+using Shane.Church.StirlingBirthday.WP.Resources;
+using System;
+using System.Collections;
+using System.Diagnostics;
+using System.Globalization;
+using System.Threading;
+using System.Windows;
+using System.Windows.Markup;
+using System.Windows.Media;
+using System.Windows.Navigation;
+using Telerik.Windows.Controls;
 
 namespace Shane.Church.StirlingBirthday.WP
 {
@@ -88,7 +80,6 @@ namespace Shane.Church.StirlingBirthday.WP
             KernelService.Kernel.Bind<SettingsViewModel>().ToSelf();
             KernelService.Kernel.Bind<IAgentManagementService>().To<PhoneAgentManagementService>().InSingletonScope();
             KernelService.Kernel.Bind<ITileUpdateService>().To<PhoneTileUpdateService>().InSingletonScope();
-            KernelService.Kernel.Bind<BirthdayTileFrontViewModel>().To<PhoneBirthdayTileFrontViewModel>();
 
             // Show graphics profiling information while debugging.
             if (System.Diagnostics.Debugger.IsAttached)

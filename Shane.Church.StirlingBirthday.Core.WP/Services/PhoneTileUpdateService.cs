@@ -25,6 +25,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                 var tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3);
                 var isoStoreUri = "isostore:/shared/shellcontent/{0}.{1}.png";
                 var displayName = tileContacts.First().DisplayName;
+                var todayCount = contacts.Where(it => it.DaysUntil == 0).Count();
 
                 await Deployment.Current.Dispatcher.InvokeAsync(() =>
                 {
@@ -43,6 +44,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                         RadFlipTileData tileData = new RadFlipTileData()
                         {
                             Title = Resources.WPCoreResources.AppTitle,
+                            Count = todayCount,
                             BackTitle = Resources.WPCoreResources.AppTitle,
                             BackgroundImage = new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute),
                             BackVisualElement = medBackTile,
@@ -58,6 +60,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                         RadExtendedTileData tileData = new RadExtendedTileData()
                         {
                             Title = Resources.WPCoreResources.AppTitle,
+                            Count = todayCount,
                             BackTitle = Resources.WPCoreResources.AppTitle,
                             BackgroundImage = new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute),
                             BackVisualElement = medBackTile

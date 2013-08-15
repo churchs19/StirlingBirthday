@@ -115,6 +115,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Commands\OtherAppsCommand.cs">
+      <Link>Commands\OtherAppsCommand.cs</Link>
+    </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Commands\RateThisAppCommand.cs">
       <Link>Commands\RateThisAppCommand.cs</Link>
     </Compile>
@@ -182,9 +185,6 @@
     </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\ViewModels\PhoneAboutViewModel.cs">
       <Link>ViewModels\PhoneAboutViewModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\ViewModels\PhoneBirthdayTileFrontViewModel.cs">
-      <Link>ViewModels\PhoneBirthdayTileFrontViewModel.cs</Link>
     </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\ViewModels\PhoneContactViewModel.cs">
       <Link>ViewModels\PhoneContactViewModel.cs</Link>

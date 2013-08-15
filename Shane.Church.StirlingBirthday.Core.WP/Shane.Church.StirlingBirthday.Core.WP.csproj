@@ -129,7 +129,6 @@
     <Compile Include="Services\PhoneTileUpdateService.cs" />
     <Compile Include="Services\PhoneWebNavigationService.cs" />
     <Compile Include="ViewModels\PhoneAboutViewModel.cs" />
-    <Compile Include="ViewModels\PhoneBirthdayTileFrontViewModel.cs" />
     <Compile Include="ViewModels\PhoneContactViewModel.cs" />
     <Compile Include="ViewModels\PhoneMainViewModel.cs" />
   </ItemGroup>
