@@ -68,6 +68,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
                         LiveTileHelper.UpdateTile(mainTile, tileData);
                     }
 #endif
+#if DEBUG
+                    DebugUtility.SaveDiagnosticMessage("Completed tile update");
+#endif
                 });
             }
             catch (Exception ex)

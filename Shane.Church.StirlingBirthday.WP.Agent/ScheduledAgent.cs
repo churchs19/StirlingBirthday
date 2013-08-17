@@ -3,6 +3,7 @@ using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
+using Shane.Church.StirlingBirthday.Core.WP;
 using Shane.Church.StirlingBirthday.Core.WP.Data;
 using Shane.Church.StirlingBirthday.Core.WP.Services;
 using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
@@ -47,6 +48,7 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
         /// Code to execute on Unhandled Exceptions
         private void ScheduledAgent_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
+            DebugUtility.SaveDiagnosticException(e.ExceptionObject);
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger
@@ -63,10 +65,14 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
         /// <remarks>
         /// This method is called when a periodic or resource intensive task is invoked
         /// </remarks>
-        protected override async void OnInvoke(ScheduledTask task)
+        protected override void OnInvoke(ScheduledTask task)
         {
 #if DEBUG
             AgentExitReason reason = task.LastExitReason;
+            if (reason != AgentExitReason.Completed && reason != AgentExitReason.None)
+            {
+                DebugUtility.SaveDiagnostics(new Diagnostics() { DeviceUniqueId = DebugUtility.GetDeviceUniqueID(), AgentExitReason = reason.ToString() });
+            }
             Debug.WriteLine("Agent Last Exited for Reason: " + reason.ToString());
             var settings = KernelService.Kernel.Get<ISettingsService>();
             settings.SaveSetting<AgentExitReason>(reason, "AgentLastExitReason");
@@ -78,11 +84,16 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
 #if DEBUG
             DebugUtility.DebugOutputMemoryUsage("Scheduled Task - Post Service Injection");
 #endif
-            await service.UpdateTile();
+
+            service.UpdateTile().Wait();
 
 #if DEBUG
             DebugUtility.DebugOutputElapsedTime("Scheduled Task Final Time Snapshot:");
             DebugUtility.DebugOutputMemoryUsage("Scheduled Task Final Memory Snapshot");
+#endif
+
+#if(DEBUG_AGENT)
+            ScheduledActionService.LaunchForTest("StirlingBirthdayTileUpdateTask", TimeSpan.FromSeconds(60));
 #endif
 
             NotifyComplete();

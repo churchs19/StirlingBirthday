@@ -93,7 +93,6 @@
     <Reference Include="Telerik.Windows.BackgroundAgentTools, Version=2013.2.718.2040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DebugUtility.cs" />
     <Compile Include="ScheduledAgent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
