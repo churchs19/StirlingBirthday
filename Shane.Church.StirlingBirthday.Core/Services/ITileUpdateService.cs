@@ -8,7 +8,7 @@ namespace Shane.Church.StirlingBirthday.Core.Services
 {
     public interface ITileUpdateService
     {
-        Task UpdateTile();
+        Task UpdateTile(Action callback = null);
         Task SaveUpcomingImages();
     }
 }

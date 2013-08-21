@@ -70,7 +70,6 @@
     <Reference Include="mscorlib.extensions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncBridge.cs" />
     <Compile Include="ChangingObservableObject.cs" />
     <Compile Include="DebugUtility.cs" />
     <Compile Include="Imaging.cs" />

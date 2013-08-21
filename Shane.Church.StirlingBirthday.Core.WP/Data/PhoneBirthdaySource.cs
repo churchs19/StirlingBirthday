@@ -10,6 +10,16 @@ using System.Threading.Tasks;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Data
 {
+	public class GetEntriesCompletedEventArgs : EventArgs
+	{
+		   public GetEntriesCompletedEventArgs() : base()
+		   {
+		   
+		   }
+
+		public IQueryable<BirthdayContact> Contacts{get;set;}
+	}
+
     public class PhoneBirthdaySource : IBirthdaySource
     {
         private List<Contact> _contacts;
@@ -51,6 +61,50 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
                 return tcs.Task;
             }
         }
+
+		public delegate void GetEntriesComplete(object sender, GetEntriesCompletedEventArgs args);
+		public event GetEntriesComplete GetEntriesCompleted;
+
+		private Contacts _phoneContacts;
+
+		public void BeginGetAllEntries(bool forceRefresh = false)
+		{
+			if (_contacts.Count == 0 || forceRefresh)
+			{
+				if (_phoneContacts == null)
+				{
+					_phoneContacts = new Contacts();
+					_phoneContacts.SearchCompleted += _phoneContacts_SearchCompleted;
+				}
+				_phoneContacts.SearchAsync(String.Empty, FilterKind.None, "Load Contacts");
+			}
+			else
+			{
+				if (GetEntriesCompleted != null)
+				{
+					GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = GetBirthdayContacts().AsQueryable() });
+				}
+			}
+		}
+
+		void _phoneContacts_SearchCompleted(object sender, ContactsSearchEventArgs e)
+		{
+			try
+			{
+				var items = (from r in e.Results
+							 where r.Birthdays.Any()
+							 select r);
+				_contacts.AddRange(items);
+				if (GetEntriesCompleted != null)
+				{
+					GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = GetBirthdayContacts().AsQueryable() });
+				}
+			}
+			catch (InvalidOperationException iex)
+			{
+				throw iex;
+			}			
+		}
 
         private IEnumerable<BirthdayContact> GetBirthdayContacts()
         {
