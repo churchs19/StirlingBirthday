@@ -21,7 +21,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Controls
             InitializeComponent();
         }
 
-        public async Task ToTile(string Path)
+        public async Task ToTileAsync(string Path)
         {
             // Need to call these, otherwise the contents aren't rendered correctly.
             this.Measure(new Size(159, 159));

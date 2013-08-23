@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <AppExtra xmlns="" AppPlatformVersion="8.0">
-    <Extra Name="Tiles" />
-  </AppExtra>
   <App xmlns="" ProductID="{45cb384e-6fb8-4639-a9eb-affba7a9488b}" Title="Stirling Birthday" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Shane Church" Description="Birthday reminders on your phone with a live tile showing upcoming birthdays" Publisher="Shane Church" BitsPerPixel="32">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>

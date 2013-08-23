@@ -7,7 +7,6 @@ using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.Core.WP.Controls;
-using Shane.Church.StirlingBirthday.Core.WP.Resources;
 using System;
 using System.Collections.Generic;
 using System.IO.IsolatedStorage;
@@ -35,7 +34,15 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 #endif
 				var contacts = await source.GetAllEntriesAsync();
 
-				UpdateTileSynchronous(contacts, callback);
+				var tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3).ToList();
+				var count = 0;
+				contacts = null;
+				source = null;
+				System.GC.Collect();
+				System.GC.WaitForPendingFinalizers();
+				System.GC.Collect();
+
+				UpdateTileSynchronous(tileContacts, count, callback);
 			}
 			catch (Exception ex)
 			{
@@ -43,63 +50,73 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 			}
 		}
 
-		public void UpdateTileSynchronous(IQueryable<BirthdayContact> contacts, Action callback = null)
+		public void UpdateTileSynchronous(List<BirthdayContact> tileContacts, int count = 0, Action callback = null)
 		{
-			var tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3);
+#if DEBUG
+			DebugUtility.DebugOutputMemoryUsage("Beginning UpdateTileSynchronous");
+#endif
 			var displayName = tileContacts.First().DisplayName;
-			var todayCount = contacts.Where(it => it.DaysUntil == 0).Count();
+#if DEBUG
+			DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Loaded Data");
+#endif
 
 			Deployment.Current.Dispatcher.BeginInvoke(() =>
 			{
-
 				BirthdayTileBackViewModel backTileModel = new BirthdayTileBackViewModel(tileContacts);
 
 				MediumTileBackUserControl medBackTile = new MediumTileBackUserControl() { DataContext = backTileModel };
 
+#if DEBUG
+				DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Medium Tile Control Created");
+#endif
+
 				ShellTile mainTile = ShellTile.ActiveTiles.First();
 				using (IsolatedStorageFile appStorage = IsolatedStorageFile.GetUserStoreForApplication())
 				{
-#if !WP8
-					if (LiveTileHelper.AreNewTilesSupported)
+#if WP8
+					WideTileBackUserControl wideBackTile = new WideTileBackUserControl() { DataContext = backTileModel };
+					RadFlipTileData tileData = new RadFlipTileData()
 					{
-#endif
-						WideTileBackUserControl wideBackTile = new WideTileBackUserControl();
-						wideBackTile.DataContext = backTileModel;
-						RadFlipTileData tileData = new RadFlipTileData()
-						{
-							Title = WPCoreResources.AppTitle,
-							Count = todayCount,
-							BackTitle = WPCoreResources.AppTitle,
-							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
-													new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
-													new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
-							BackVisualElement = medBackTile,
-							SmallBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "s")) ?
-													new Uri(string.Format(isoStoreUri, displayName, "s"), UriKind.RelativeOrAbsolute) :
-													new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
-							WideBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "w")) ?
-													new Uri(string.Format(isoStoreUri, displayName, "w"), UriKind.RelativeOrAbsolute) :
-													new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
-							WideBackVisualElement = wideBackTile
-						};
-						LiveTileHelper.UpdateTile(mainTile, tileData);
-#if !WP8
-					}
-					else
-					{
-						RadExtendedTileData tileData = new RadExtendedTileData()
-						{
-							Title = Resources.WPCoreResources.AppTitle,
-							Count = todayCount,
-							BackTitle = Resources.WPCoreResources.AppTitle,
-							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
+						Title = Resources.WPCoreResources.AppTitle,
+						BackTitle = Resources.WPCoreResources.AppTitle,
+						BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
 												new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
-												new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute),
-							BackVisualElement = medBackTile
-						};
+												new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
+						BackVisualElement = medBackTile,
+						SmallBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "s")) ?
+												new Uri(string.Format(isoStoreUri, displayName, "s"), UriKind.RelativeOrAbsolute) :
+												new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
+						WideBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "w")) ?
+												new Uri(string.Format(isoStoreUri, displayName, "w"), UriKind.RelativeOrAbsolute) :
+												new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
+						WideBackVisualElement = wideBackTile
+					};
+#if DEBUG
+					DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - RadFlipTileData created");
+#endif
+#else
+					RadExtendedTileData tileData = new RadExtendedTileData()
+					{
+						Title = Resources.WPCoreResources.AppTitle,
+						BackTitle = Resources.WPCoreResources.AppTitle,
+						BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
+											new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
+											new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute),
+						BackVisualElement = medBackTile
+					};
+#if DEBUG
+					DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - RadExtendedTileData created");
+#endif
+#endif
+					try
+					{
 						LiveTileHelper.UpdateTile(mainTile, tileData);
 					}
-#endif
+					catch (Exception ex)
+					{
+						DebugUtility.SaveDiagnosticException(ex);
+						throw ex;
+					}
 				}
 #if DEBUG
 				DebugUtility.SaveDiagnosticMessage("Completed tile update");
@@ -116,7 +133,6 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 				var source = new Shane.Church.StirlingBirthday.Core.WP.Data.PhoneBirthdaySource();
 #endif
 			var contacts = await source.GetFilteredEntriesAsync(c => c.DaysUntil <= DaysToBuild, false);
-			var isostorePath = "/shared/shellcontent/{0}.{1}.png";
 
 			try
 			{
@@ -133,20 +149,25 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 #endif
 					SmallTileUserControl smallTile = new SmallTileUserControl() { DataContext = model };
 					MediumTileUserControl mediumTile = new MediumTileUserControl() { DataContext = model };
+#if WP8
 					WideTileUserControl wideTile = new WideTileUserControl() { DataContext = model };
+#endif
 
-					var smallPath = string.Format(isostorePath, model.Name, "s");
+					var smallPath = string.Format(isoStorePath, model.Name, "s");
 					filenames.Add(smallPath);
-					var mediumPath = string.Format(isostorePath, model.Name, "m");
+					var mediumPath = string.Format(isoStorePath, model.Name, "m");
 					filenames.Add(mediumPath);
-					var widePath = string.Format(isostorePath, model.Name, "w");
+#if WP8
+					var widePath = string.Format(isoStorePath, model.Name, "w");
 					filenames.Add(widePath);
-
+#endif
 					await Deployment.Current.Dispatcher.InvokeAsync(async () =>
 					{
-						await smallTile.ToTile(smallPath);
-						await mediumTile.ToTile(mediumPath);
-						await wideTile.ToTile(widePath);
+						await smallTile.ToTileAsync(smallPath);
+						await mediumTile.ToTileAsync(mediumPath);
+#if WP8
+						await wideTile.ToTileAsync(widePath);
+#endif
 					});
 				}
 

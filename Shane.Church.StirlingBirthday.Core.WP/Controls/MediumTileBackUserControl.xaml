@@ -5,7 +5,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
-    d:DesignHeight="173" d:DesignWidth="173">
+    d:DesignHeight="336" d:DesignWidth="336">
 
     <UserControl.Foreground>
         <SolidColorBrush Color="#FFFFFFFF"/>
@@ -18,14 +18,14 @@
             <GradientStop Color="#FF0460D9" Offset="0.407"/>
         </LinearGradientBrush>
     </UserControl.Resources>
-    
-    <Canvas x:Name="LayoutRoot" Height="173" Width="173">
-        <Rectangle Canvas.Top="0" Canvas.Left="0" Canvas.ZIndex="-10" Width="173" Height="173" Fill="{StaticResource IconGradientBrush}"/>
-        <TextBlock Canvas.Left="9" Canvas.Top="9" Text="{Binding Name1}" FontSize="18" FontWeight="Bold" Width="155" Height="25"></TextBlock>
-        <TextBlock Canvas.Left="15" Canvas.Top="34" Text="{Binding Date1}" FontSize="14" Width="145" Height="19"></TextBlock>
-        <TextBlock Canvas.Left="9" Canvas.Top="53" Text="{Binding Name2}" FontSize="18" FontWeight="Bold" Width="155" Height="25"></TextBlock>
-        <TextBlock Canvas.Left="15" Canvas.Top="78" Text="{Binding Date2}" FontSize="14" Width="145" Height="19"></TextBlock>
-        <TextBlock Canvas.Left="9" Canvas.Top="97" Text="{Binding Name3}" FontSize="18" FontWeight="Bold" Width="155" Height="25"></TextBlock>
-        <TextBlock Canvas.Left="15" Canvas.Top="123" Text="{Binding Date3}" FontSize="14" Width="145" Height="19"></TextBlock>
+
+    <Canvas x:Name="LayoutRoot" Height="336" Width="336" CacheMode="BitmapCache">
+        <Rectangle Canvas.Top="0" Canvas.Left="0" Canvas.ZIndex="-10" Width="336" Height="336" Fill="{StaticResource IconGradientBrush}"/>
+        <TextBlock Canvas.Left="19" Canvas.Top="19" Text="{Binding Name1}" FontSize="{StaticResource PhoneFontSizeMediumLarge}" FontWeight="Bold" Width="298" Height="34"></TextBlock>
+        <TextBlock Canvas.Left="29" Canvas.Top="53" Text="{Binding Date1}" FontSize="{StaticResource PhoneFontSizeSmall}" Width="288" Height="28"></TextBlock>
+        <TextBlock Canvas.Left="19" Canvas.Top="96" Text="{Binding Name2}" FontSize="{StaticResource PhoneFontSizeMediumLarge}" FontWeight="Bold" Width="298" Height="34"></TextBlock>
+        <TextBlock Canvas.Left="29" Canvas.Top="130" Text="{Binding Date2}" FontSize="{StaticResource PhoneFontSizeSmall}" Width="288" Height="28"></TextBlock>
+        <TextBlock Canvas.Left="19" Canvas.Top="173" Text="{Binding Name3}" FontSize="{StaticResource PhoneFontSizeMediumLarge}" FontWeight="Bold" Width="298" Height="34"></TextBlock>
+        <TextBlock Canvas.Left="29" Canvas.Top="207" Text="{Binding Date3}" FontSize="{StaticResource PhoneFontSizeSmall}" Width="288" Height="28"></TextBlock>
     </Canvas>
 </UserControl>

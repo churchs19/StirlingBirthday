@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿using Shane.Church.Utility.Core.WP;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Navigation;
-using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Controls
 {
-    public partial class WideTileBackUserControl : UserControl
-    {
-        public WideTileBackUserControl()
-        {
-            InitializeComponent();
-        }
-    }
+	public partial class WideTileBackUserControl : UserControl
+	{
+		public WideTileBackUserControl()
+		{
+			InitializeComponent();
+		}
+	}
 }

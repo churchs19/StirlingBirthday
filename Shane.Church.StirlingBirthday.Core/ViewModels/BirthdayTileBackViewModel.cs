@@ -2,12 +2,13 @@
 using Shane.Church.StirlingBirthday.Core.Data;
 using System.Linq;
 using Shane.Church.StirlingBirthday.Core.Resources;
+using System.Collections.Generic;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
 	public class BirthdayTileBackViewModel : ObservableObject
 	{
-		public BirthdayTileBackViewModel(IQueryable<BirthdayContact> contacts)
+		public BirthdayTileBackViewModel(List<BirthdayContact> contacts)
 		{
 			var count = contacts.Count();
 			if (count > 0)
