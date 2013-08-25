@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>เกิดขึ้น</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ไม่</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>ฉันชอบที่จะ ได้ยินจากคุณ ! ถ้าคุณชอบ app ที่ กรุณา ให้คะแนนความนิยม ในตลาดและแบ่งปัน ความคิดเห็นของคุณ</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>ไม่แสดง คำเตือน นี้ อีกครั้ง</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>อัตรา app ที่</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>การพิจารณาคดี ของโปรแกรมนี้ได้หมดอายุแล้ว คุณต้องการที่จะ ซื้อ ใบสมัครตอนนี้ หากคุณเลือกที่ ใช่ - คุณจะ ถูกนำไปยัง ตลาด</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>ไม่แสดง คำเตือน นี้ อีกครั้ง</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>ทดลองใช้ หมดอายุ</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>ไม่แสดง คำเตือน นี้ อีกครั้ง</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>คำเตือน การพิจารณาคดี</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>คุณได้ {0} วัน ( s) ซ้าย</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>คุณมี {0} เวลา ( s) ซ้าย</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>โปรแกรมพบปัญหา ฉันขอโทษ สำหรับ ความไม่สะดวก. \ n \ nI จะขอบคุณ ความช่วยเหลือ ของคุณ โดยการส่ง รายงานข้อผิดพลาด ที่เตรียมไว้ นี้จะ ช่วยให้มีการ แก้ไขปัญหาได้เร็วขึ้น</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>ข้อผิดพลาดโปรแกรม</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>คุณกำลังใช้รุ่นทดลองใช้ โฆษณาสนับสนุน ของโปรแกรมนี้ คุณต้องการที่จะ ซื้อ ใบสมัครตอนนี้เพื่อ ลบโฆษณา? หากคุณเลือกที่ ใช่ - คุณจะ ถูกนำไปยัง ตลาด</value>
+  </data>
 </root>

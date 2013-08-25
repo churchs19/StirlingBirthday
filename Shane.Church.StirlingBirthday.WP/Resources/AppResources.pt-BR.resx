@@ -142,7 +142,7 @@
     <value>ANIVERSÁRIO DE STIRLING</value>
   </data>
   <data name="CallHomeMenuText" xml:space="preserve">
-    <value>Call Home</value>
+    <value>chamar de lar</value>
   </data>
   <data name="CallMobileMenuText" xml:space="preserve">
     <value>Chamada móvel</value>
@@ -191,5 +191,56 @@
   </data>
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>próximos</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>cancelar</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>não</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>sim</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Eu adoraria ouvir de você! Se você gosta do app , por favor classifique -o no mercado e partilhar o seu feedback.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar esta lembrança novamente</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Classifique o aplicativo</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>O julgamento do presente pedido expirou. Você quer comprar o aplicativo agora? Se você escolher Sim - você será redirecionado para o mercado.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar esta lembrança novamente</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>avaliação expirada</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar esta lembrança novamente</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>lembrete julgamento</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Você tem {0} dia (s) à esquerda.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Você tem {0} hora (s) à esquerda.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>O aplicativo encontrou um problema. Peço desculpa pelo inconveniente. \ N \ nEu gostaria de receber sua ajuda , enviando o relatório de erro preparada. Isso vai ajudar a resolver o problema mais rápido.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Erro de aplicativo</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Você está usando a versão desta aplicação julgamento ad- suportado. Você quer comprar o aplicativo agora para retirar os anúncios? Se você escolher Sim - você será redirecionado para o mercado.</value>
   </data>
 </root>

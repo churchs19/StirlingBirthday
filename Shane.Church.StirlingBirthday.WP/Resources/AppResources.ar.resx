@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>المقبلة</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>حسنا</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>أنا أحب أن نسمع منك ! إذا كنت ترغب في التطبيق ، يرجى صنفه على السوق وتبادل ملاحظاتك .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>لا تظهر هذا التذكير مرة أخرى</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>معدل التطبيق</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>انتهت محاكمة من هذا التطبيق . هل تريد شراء التطبيق الآن ؟ إذا اخترت نعم - سيتم إعادة توجيهك إلى السوق .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>لا تظهر هذا التذكير مرة أخرى</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>انتهى محاكمة</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>لا تظهر هذا التذكير مرة أخرى</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>تذكير محاكمة</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>لقد {0 } اليوم ( ق) غادر .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>لقد {0 } الوقت ( ق) غادر .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>التطبيق واجه مشكلة . أنا آسف للإزعاج . \ N \ NI لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ المعدة. وهذا سوف يساعد على حل المشكلة بشكل أسرع.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>خطأ في التطبيق</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>كنت تستخدم النسخة التجريبية الإعلانية التي تدعمها من هذا التطبيق . هل تريد شراء التطبيق الآن لإزالة الإعلانات ؟ إذا اخترت نعم - سيتم إعادة توجيهك إلى السوق .</value>
+  </data>
 </root>

@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>propers</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>cancel · lar</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>bo</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>si</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>M'encantaria saber de vostè ! Si t'agrada l'aplicació, si us plau , taxa que en el mercat i compartir els seus comentaris .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>No tornar a mostrar aquest record de nou</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Canvi de l'aplicació</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>El judici d'aquesta aplicació ha expirat . Vols comprar l'aplicació ara ? Si escolliu Sí - li redirigeix ​​al mercat .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>No tornar a mostrar aquest record de nou</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Prova caducada</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>No tornar a mostrar aquest record de nou</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Recordatori Trial</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Tens { 0 } dia ( s) a l'esquerra.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Tens { 0 } hora ( s) a l'esquerra.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>L'aplicació ha detectat un problema . Ho sento per les molèsties . \ N \ nI agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada . Això l'ajudarà a resoldre el problema més ràpid .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>error de l'aplicació</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Està utilitzant la versió de prova amb publicitat d'aquesta aplicació . Vols comprar l'aplicació ara per eliminar els anuncis ? Si escolliu Sí - li redirigeix ​​al mercat .</value>
+  </data>
 </root>

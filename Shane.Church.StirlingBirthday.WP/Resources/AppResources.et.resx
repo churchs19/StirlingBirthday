@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>tulemas</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>tühistama</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>korras</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>jah</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Oleks tore kuulda ! Kui teile meeldibapp, palun määra see turul ja jagada oma tagasiside .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ära näita see meeldetuletus taas</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Hindaapp</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Kohtuprotsess see taotlus on aegunud. Kas soovite ostarakendus nüüd ? Kui valite Jah - te suunatakse turul.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ära näita see meeldetuletus taas</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial Aegunud</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ära näita see meeldetuletus taas</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Meeldetuletus</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Sul on {0} päeva (d) lahkunud .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Sul on {0} (s ) lahkus .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Taotlus on tekkinud probleem . Ma vabandan ebameeldivuste pärast . \ N \ nolen sooviks teie abi , saates ettevalmistatud veateate . See aitab koos probleemi lahendada kiiremini .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Te kasutatereklaami-toetatud prooviversiooni seda taotlust. Kas soovite ostarakendus nüüd eemaldada reklaame? Kui valite Jah - te suunatakse turul.</value>
+  </data>
 </root>

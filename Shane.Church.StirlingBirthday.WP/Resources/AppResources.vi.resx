@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>sắp tới</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>hủy bỏ</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Tôi rất thích nghe từ bạn! Nếu bạn thích các ứng dụng , xin vui lòng đánh giá nó trên thị trường và chia sẻ thông tin phản hồi của bạn .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Không hiển thị nhắc nhở này một lần nữa</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Tỷ lệ các ứng dụng</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Các thử nghiệm của ứng dụng này đã hết hạn. Bạn có muốn mua các ứng dụng bây giờ? Nếu bạn chọn Yes - bạn sẽ được chuyển hướng đến thị trường.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Không hiển thị nhắc nhở này một lần nữa</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>thử nghiệm hết hạn</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Không hiển thị nhắc nhở này một lần nữa</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Thử nghiệm Reminder</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Bạn có {0} ngày (s) trái .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Bạn có {0} thời gian (s) trái .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Ứng dụng này đã gặp phải một vấn đề . Tôi xin lỗi vì sự bất tiện này . \ N \ ni sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo cáo lỗi chuẩn bị . Điều này sẽ giúp giải quyết vấn đề nhanh hơn.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Lỗi ứng dụng</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Bạn đang sử dụng phiên bản thử nghiệm hỗ trợ quảng cáo của ứng dụng này. Bạn có muốn mua các ứng dụng ngay bây giờ để loại bỏ các quảng cáo? Nếu bạn chọn Yes - bạn sẽ được chuyển hướng đến thị trường.</value>
+  </data>
 </root>

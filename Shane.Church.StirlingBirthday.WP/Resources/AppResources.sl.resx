@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>prihajajoči</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>preklic</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Jaz bi rad slišal od tebe ! Če želite aplikacijo , vas prosimo, da obrestno mero na trgu in delite svoje mnenje .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ne kaži opomnik</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Stopnjaapp</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Sojenje te prijave je potekel. Ali želite kupiti uporabo zdaj ? Če izberete Da - boste preusmerjeni na trgu.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ne kaži opomnik</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial potekel</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ne kaži opomnik</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Opomnik</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Ste { 0} dan ( s) zapustil .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Ste { 0} čas ( s) zapustil .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Vloga je naletel na težavo . Žal mi je za neprijetnosti . \ N \ NI hvaležni za vašo pomoč s pošiljanjem pripravljeno poročilo o napaki . To bo pomagalo pri reševanju problematike hitreje.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Napaka Application</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Uporabljate poskusno različico oglas podprt te vloge . Ali želite kupiti uporabo zdaj odstraniti oglase? Če izberete Da - boste preusmerjeni na trgu.</value>
+  </data>
 </root>

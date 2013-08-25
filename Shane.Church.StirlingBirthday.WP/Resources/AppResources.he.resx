@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>הקרובה</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>אני אשמח לשמוע ממך ! אם אתה אוהב את האפליקציה , אנא דרג אתבשוק ולשתף את המשוב שלך.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>אל תציג את זה שוב תזכורת</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>שיעורהיישום</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>משפטו של יישום זה פג תוקפיו . האם ברצונך לרכוש את היישום עכשיו? אם תבחר כן - אתה יהיה מנותב לשוק.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>אל תציג את זה שוב תזכורת</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>משפט פג תוקף</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>אל תציג את זה שוב תזכורת</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>תזכורת משפט</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>יש לך {0 } יום (ים ) עזב.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>יש לך {0 } זמן (ים ) עזב.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>היישום נתקל בבעיה . אני מצטער על אי הנוחות. \ N \ nI הייתי מעריך את עזרתך על ידי שליחתדוח השגיאה המוכנה. זה יעזור לו בפתרון הבעיה מהר יותר.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>שגיאת יישום</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>אתה משתמש בגרסת ניסיון מודעה נתמכת של יישום זה. האם ברצונך לרכוש את היישום עכשיו כדי להסיר את המודעות ? אם תבחר כן - אתה יהיה מנותב לשוק.</value>
+  </data>
 </root>

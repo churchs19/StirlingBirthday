@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>kommende</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>avbryte</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Jeg vil gjerne høre fra deg ! Hvis du liker app, kan du vurdere den på markedet og dele dine tilbakemeldinger .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke vis denne påminnelsen igjen</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Ranger app</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Rettssaken mot dette programmet er utløpt . Ønsker du å kjøpe programmet nå ? Hvis du velger Ja - du vil bli omdirigert til markedet.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke vis denne påminnelsen igjen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>trial utløpt</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke vis denne påminnelsen igjen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>trial Påminnelse</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Du har { 0 } dag ( er) igjen .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Du har { 0 } tid ( er) igjen .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Søknaden har oppstått et problem . Jeg beklager det inntrufne. \ N \ nI setter pris på din hjelp ved å sende forberedt feilrapport. Dette vil hjelpe til med å løse problemet raskere.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Du bruker ad-støttet prøveversjon av dette programmet. Ønsker du å kjøpe programmet nå å fjerne annonsene ? Hvis du velger Ja - du vil bli omdirigert til markedet.</value>
+  </data>
 </root>

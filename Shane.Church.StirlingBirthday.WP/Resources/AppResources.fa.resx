@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>آینده</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>لغو کردن</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>خوب</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>هیچ</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>من خیلی دوست دارم از شما بشنوم ! اگر دوست دارید برنامه ، لطفا نرخ آن را در بازار و انتقادات و پیشنهادات خود را به اشتراک بگذارید .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>آیا این یادآوری دوباره نشان داده نشود</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>نرخ نرم افزار</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>محاکمه این نرم افزار به پایان رسیده است . آیا شما می خواهید برای خرید نرم افزار در حال حاضر ؟ اگر شما انتخاب می کنید بله - شما ارسال خواهد شد به بازار هدایت می شوید.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>آیا این یادآوری دوباره نشان داده نشود</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>امتحان به پایان رسیده</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>آیا این یادآوری دوباره نشان داده نشود</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>یادآوری دادگاه</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>شما {0} روز (s) چپ .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>شما {0} زمان (s) چپ .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>نرم افزار با مشکل مواجه کرده است. من متاسفم برای ناراحتی . \ n \ n در NI کمک های خود را با ارسال گزارش خطا آماده قدردانی میکنیم. این کار را با حل و فصل مشکل سریع تر کمک خواهد کرد .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>خطا در برنامه</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>شما با استفاده از این نسخه از محاکمه آگهی پشتیبانی از این نرم افزار است . آیا شما می خواهید برای خرید نرم افزار در حال حاضر به حذف تبلیغات ؟ اگر شما انتخاب می کنید بله - شما ارسال خواهد شد به بازار هدایت می شوید.</value>
+  </data>
 </root>

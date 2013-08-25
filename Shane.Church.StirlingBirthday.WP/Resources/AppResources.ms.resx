@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>akan datang</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>membatalkan</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Saya suka untuk mendengar daripada anda! Jika anda ingin aplikasi, sila kadar ia di pasaran dan berkongsi maklum balas anda.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Jangan tunjukkan peringatan ini lagi</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Kadar aplikasi</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Perbicaraan permohonan ini telah tamat. Adakah anda ingin membeli permohonan ini? Jika anda memilih Ya - anda akan dibawa ke pasaran.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Jangan tunjukkan peringatan ini lagi</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>percubaan tamat</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Jangan tunjukkan peringatan ini lagi</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Peringatan percubaan</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Anda telah {0} day (s) kiri.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Anda telah {0} masa ( s) kiri.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Permohonan itu telah mengalami masalah. Saya minta maaf atas sebarang kesulitan. \ N \ ni akan menghargai bantuan anda dengan menghantar laporan ralat disediakan. Ini akan membantu menyelesaikan masalah dengan lebih cepat.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Ralat permohonan</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Anda menggunakan versi percubaan disokong iklan permohonan ini. Adakah anda ingin membeli permohonan sekarang untuk membuang iklan? Jika anda memilih Ya - anda akan dibawa ke pasaran.</value>
+  </data>
 </root>

@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>tuleva</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>peruuttaa</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>kunnossa</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>kyllä</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Haluaisin kuulla sinusta ! Jos pidätapp , ota korko senmarkkinoilla ja jakaa palautetta .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutuksen uudelleen</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Arvosteleapp</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Oikeudenkäynti tämän hakemuksen on päättynyt . Haluatko ostaasovelluksen nyt ? Jos valitset Kyllä - sinut ohjataan markkinapaikan .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutuksen uudelleen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial vanhentunut</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutuksen uudelleen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Muistutus</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Olet { 0 } päivä ( t) jäljellä .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Olet { 0 } kertaa ( t) jäljellä .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Hakemus on havainnut virheen . Olen pahoillanihaittaa . \ N \ ni olisin kiitollinen avusta lähettämällävalmis virheraportin . Tämä auttaa ratkaisemaanongelman nopeammin .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Käytätmainoksilla tuettu kokeiluversio tämän hakemuksen . Haluatko ostaasovelluksen nyt poistaamainoksia? Jos valitset Kyllä - sinut ohjataan markkinapaikan .</value>
+  </data>
 </root>

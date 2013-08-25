@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>今後</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>私はあなたから話を聞くのが大好きだ！あなたはアプリのような場合、市場で評価してくださいとあなたのフィードバックを共有しています。</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このアラームを再び表示しない</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>レートアプリ</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>このアプリケーションの試用期限が切れました。あなたは今、アプリケーションを購入したいですか？ [はい]を選択した場合 - あなたは市場にリダイレクトされます。</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このアラームを再び表示しない</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>トライアル期限切れ</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このアラームを再び表示しない</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>試用リマインダー</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>あなたは、 {0 }日（s）は残っている。</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>あなたは、 {0 }時間（s ）が残っている。</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>アプリケーションでは、問題が発生した。私は不便のために申し訳ございません\ n \ NIは、準備エラーレポートを送信することでご協力をお願い申し上げます。これは、迅速な問題の解決に役立ちます。</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>アプリケーションエラー</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>あなたはこのアプリケーションの広告でサポートされている体験版を使用しています。あなたは、広告を削除するには、これで、アプリケーションを購入したいですか？ [はい]を選択した場合 - あなたは市場にリダイレクトされます。</value>
+  </data>
 </root>

@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>आगामी</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>मैं तुम से सुनने के लिए प्यार होता! आप बॉक्स की तरह है, तो बाजार में यह दर कृपया और आपकी प्रतिक्रिया का हिस्सा है.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>इस अनुस्मारक फिर से दिखाने के लिए नहीं</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>दर अनुप्रयोग</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>इस आवेदन के परीक्षण समाप्त हो गया है . आप अब आवेदन की खरीद करना चाहते हैं? यदि आप हाँ चुनते हैं - अगर आप बाजार के लिए पुनः निर्देशित किया जाएगा .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>इस अनुस्मारक फिर से दिखाने के लिए नहीं</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>परीक्षण की समय सीमा समाप्त</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>इस अनुस्मारक फिर से दिखाने के लिए नहीं</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>ट्रायल अनुस्मारक</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>आप { 0} दिन (ओं) को छोड़ दिया है .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>आप { 0} समय (ओं) को छोड़ दिया है .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>आवेदन एक समस्या का सामना किया है . मैं असुविधा के लिए खेद है. \ N \ NI तैयार त्रुटि रिपोर्ट भेजने के द्वारा आपकी सहायता की सराहना करते हैं. इस तेजी से समस्या को हल करने में मदद करेगा.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>अनुप्रयोग त्रुटि</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>आप इस आवेदन के विज्ञापन समर्थित परीक्षण संस्करण का उपयोग कर रहे हैं . आप विज्ञापनों को हटाने के लिए अब आवेदन की खरीद करना चाहते हैं? यदि आप हाँ चुनते हैं - अगर आप बाजार के लिए पुनः निर्देशित किया जाएगा .</value>
+  </data>
 </root>

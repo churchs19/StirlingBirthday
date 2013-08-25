@@ -192,4 +192,52 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>майбутні</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>відмінити</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>добре</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>немає</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Я хотів би почути від вас! Якщо вам подобається додаток , будь ласка , оцініть його на ринку і поділитися своїми враженнями.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Більше не показувати це знову нагадування</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Оцініть додаток</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Судовий розгляд цього додатка закінчився. Хочете придбати додаток зараз? Якщо ви виберете Так - ви будете перенаправлені на ринок.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Більше не показувати це знову нагадування</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Судова закрив його вчасно</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Більше не показувати це знову нагадування</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Судова нагадування</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Ви { 0} день (ів ) залишилося.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Ви { 0} раз (а) залишилося.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Додаток виявлена ​​помилка. Я прошу вибачення за заподіяні незручності. \ N \ NI б вдячні вашої допомоги , відправивши підготовлене повідомити про помилку . Це допоможе з вирішенням проблеми швидше.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Помилка програми</value>
+  </data>
 </root>

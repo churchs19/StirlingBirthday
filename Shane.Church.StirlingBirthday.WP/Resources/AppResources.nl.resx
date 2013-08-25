@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>Aankomende</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>goed</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>geen</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Ik zou graag van u horen ! Als je van de app , dan kunt u beoordelen het op de markt en deel uw feedback .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Niet deze herinnering meer tonen</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Beoordeel de app</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>De proef van deze applicatie is verstreken . Wil je de applicatie nu kopen? Als u Ja kiest - u wordt doorgestuurd naar de markt .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Niet deze herinnering meer tonen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial Verlopen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Niet deze herinnering meer tonen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Herinnering</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Je hebt { 0 } dag (en ) verlaten .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Je hebt { 0 } keer (s) links .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>De applicatie is een fout opgetreden . Het spijt me voor het ongemak . \ N \ nIk zou uw hulp op prijs stellen door het sturen van de voorbereide foutmelding. Dit zal helpen bij het ​​oplossen van het probleem sneller .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>U gebruikt de advertentie-ondersteunde proefversie van deze applicatie . Wil je de applicatie nu te kopen om de advertenties te verwijderen ? Als u Ja kiest - u wordt doorgestuurd naar de markt .</value>
+  </data>
 </root>

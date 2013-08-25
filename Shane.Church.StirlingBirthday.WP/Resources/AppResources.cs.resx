@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>nadcházející</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>zrušit</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ano</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Rád bych od vás slyšet ! Pokud se vám líbí app, prosím , míru, na trhu a sdílet svůj názor.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nezobrazovat toto upozornění znovu</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Hodnotitaplikace</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Soud této žádosti již vypršela. Chcete koupit aplikaci nyní ? Pokud zvolíte Ano - budete přesměrováni na trh.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nezobrazovat toto upozornění znovu</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial vypršela</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nezobrazovat toto upozornění znovu</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Reminder</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Jste {0} day (s ) odešla .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Jste {0} doba (s) odešla .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Aplikace došlo k problému . Omlouvám se za způsobené nepříjemnosti . \ N \ nI bych ocenil vaši pomoc zasláním připravený chybové hlášení. To vám pomůže s řešením problému rychleji.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Chyba aplikace</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Používáte ad- podporovanou zkušební verzi této aplikace. Chcete koupit aplikaci nyní k odstranění reklamy? Pokud zvolíte Ano - budete přesměrováni na trh.</value>
+  </data>
 </root>

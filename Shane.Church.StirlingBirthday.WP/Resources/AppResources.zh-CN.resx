@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>即将举行</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>我很想听到您的声音！如果你喜欢的应用程序，请率，在市场上，并分享您的反馈意见。</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>不要显示此再次提醒</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>率的应用程序</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>此应用程序的审判已过期。你现在要购买的应用程序？如果你选择“是” - 你会被重定向到市场上。</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>不要显示此再次提醒</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>试用过期</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>不要显示此再次提醒</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>试用提醒</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>您已经{0}天离开。</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>您已经{0}时间（s）离开。</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>应用程序遇到一个问题。我很抱歉给您带来不便。\n\nI会感谢您的帮助，通过发送错误报告准备。这将有助于更快地解决问题。</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>应用程序错误</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>您正在使用试用版本的应用程序的广告支持。你想购买的应用程序，现在删除的广告吗？如果你选择“是” - 你会被重定向到市场上。</value>
+  </data>
 </root>

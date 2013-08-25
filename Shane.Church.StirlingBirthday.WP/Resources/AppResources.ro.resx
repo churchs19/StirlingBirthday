@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>viitoare</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>anula</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>bine</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Mi-ar plăcea să aud de la tine ! Dacă vă place App , vă rugăm să -l rata pe piață și împărtăși feedback-ul dumneavoastră .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nu arată acest lucru din nou memento</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Rata aplicația</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Procesul de această cerere a expirat . Vrei să cumpere aplicația acum ? Dacă alegeți Da - veți fi redirecționat către piață .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nu arată acest lucru din nou memento</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial expirat</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nu arată acest lucru din nou memento</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Trial Reminder</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Ai { 0 } zi ( e ) a plecat .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Ai { 0 } timp ( e ) a plecat .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Cererea a întâmpinat o problemă . Îmi pare rău pentru neplăcerile create \ n \ nin -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Acest lucru va ajuta la rezolvarea problemei mai repede .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Eroare de aplicație</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Sunteți folosind versiunea de încercare ad -a sprijinit de această aplicație . Vrei să cumpere aplicația acum pentru a elimina anunțurile ? Dacă alegeți Da - veți fi redirecționat către piață .</value>
+  </data>
 </root>

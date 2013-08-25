@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>επερχόμενη</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>ακύρωση</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>εντάξει</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>όχι</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ναί</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Θα ήθελα πολύ να ακούσω από εσάς ! Αν σας αρέσει το app , παρακαλώ ποσοστό αυτό για την αγορά και να μοιραστείτε τα σχόλιά σας .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά υπενθύμιση</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Βαθμολογήστε το app</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Η δίκη αυτής της εφαρμογής έχει λήξει . Θέλετε να αγοράσετε την εφαρμογή τώρα ; Εάν επιλέξετε Ναι - θα μεταφερθείτε στην αγορά .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά υπενθύμιση</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>δοκιμαστική περίοδος έληξε</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά υπενθύμιση</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>υπενθύμιση Trial</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Έχετε { 0 } ημέρα ( s) αριστερά .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Έχετε { 0 } χρόνος (s) αριστερά .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Η εφαρμογή αντιμετώπισε πρόβλημα . Λυπάμαι για την ταλαιπωρία . \ N \ nI θα εκτιμούσα τη βοήθειά σας με την αποστολή του προετοιμασμένη έκθεση σφάλματος . Αυτό θα βοηθήσει στην επίλυση του προβλήματος γρηγορότερα .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Σφάλμα εφαρμογής</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Εσείς χρησιμοποιείτε το ad- υποστηρίζεται δοκιμαστική έκδοση της παρούσας αίτησης . Θέλετε να αγοράσετε την εφαρμογή τώρα να αφαιρέσετε τις διαφημίσεις ; Εάν επιλέξετε Ναι - θα μεταφερθείτε στην αγορά .</value>
+  </data>
 </root>

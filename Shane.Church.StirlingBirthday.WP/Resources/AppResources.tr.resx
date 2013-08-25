@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>yaklaşan</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>iptal</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>tamam</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>yok</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>evet</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Ben sizden duymak isteriz! Eğer uygulama gibi,pazarda oranı bu lütfen görüşlerinizi paylaşın.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Bu hatırlatma daha gösterme</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Oranıuygulaması</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Bu uygulamanın deneme süresi doldu . Şimdi uygulama satın almak istiyor musunuz ? Evet'i seçerseniz - Eğer pazar yönlendirileceksiniz .</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Bu hatırlatma daha gösterme</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>deneme süresi doldu</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Bu hatırlatma daha gösterme</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>deneme Hatırlatma</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Sen { 0 } gün ( ler) yapmamışlar .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Sen { 0 } zaman ( lar) yapmamışlar .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Uygulama bir sorunla karşılaştı . Ben rahatsızlıktan dolayı özür dilerim . \ N \ nl hazırlanan hata raporu göndererek yardım seviniriz . Bu daha hızlısorunu çözme ile yardımcı olacaktır .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>uygulama Hatası</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Bu uygulamanın reklam destekli deneme sürümünü kullanıyorsanız . Eğerreklamları kaldırmak için şimdi uygulama satın almak istiyor musunuz ? Evet'i seçerseniz - Eğer pazar yönlendirileceksiniz .</value>
+  </data>
 </root>

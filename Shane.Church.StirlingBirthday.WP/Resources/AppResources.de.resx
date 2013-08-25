@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>Bevorstehende</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>stornieren</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>keine</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Ich würde gerne von Ihnen hören! Wenn Sie die App gefällt , bewerten Sie auf dem Marktplatz und teilen Sie Ihr Feedback.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nicht mehr anzeigen diese Erinnerung wieder</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Bewerten App</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Der Versuch dieser Anwendung ist abgelaufen. Möchten Sie die Anwendung jetzt kaufen? Wenn Sie Ja wählen - Sie werden auf den Markt umgeleitet werden.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nicht mehr anzeigen diese Erinnerung wieder</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Testversion abgelaufen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nicht mehr anzeigen diese Erinnerung wieder</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Testversion Erinnerung</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Sie haben {0} Tag ( s) nach links .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Sie haben {0} Zeit (en) verlassen .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Die Anwendung hat ein Problem festgestellt . Es tut mir leid für die Unannehmlichkeiten. \ N \ nI würde Ihre Unterstützung , indem Sie die vorbereitete Fehlerbericht zu schätzen wissen. Dies wird mit der Lösung des Problems schneller zu helfen.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Sie sind mit dem Anzeige-gestützte Testversion dieser Anwendung. Möchten Sie die Anwendung jetzt zu kaufen, um die Anzeigen zu entfernen ? Wenn Sie Ja wählen - Sie werden auf den Markt umgeleitet werden.</value>
+  </data>
 </root>

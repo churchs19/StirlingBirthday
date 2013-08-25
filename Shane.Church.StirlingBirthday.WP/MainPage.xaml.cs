@@ -26,11 +26,13 @@ namespace Shane.Church.StirlingBirthday.WP
 
 			InitializeAdControl();
 
+#if !PERSONAL
 			//Shows the trial reminder message, according to the settings of the TrialReminder.
-			//(App.Current as App).trialReminder.Notify();
+			(App.Current as App).trialReminder.Notify();
 
 			//Shows the rate reminder message, according to the settings of the RateReminder.
 			(App.Current as App).rateReminder.Notify();
+#endif
 
 			_model = KernelService.Kernel.Get<MainViewModel>();
 
@@ -44,19 +46,27 @@ namespace Shane.Church.StirlingBirthday.WP
 		#region Ad Control
 		private void InitializeAdControl()
 		{
-			if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
+#if !PERSONAL
+			if ((App.Current as App).trialReminder.IsTrialMode())
 			{
-				AdControl.ApplicationId = "test_client";
-				AdControl.AdUnitId = "Image480_80";
+				if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
+				{
+					AdControl.ApplicationId = "test_client";
+					AdControl.AdUnitId = "Image480_80";
+				}
+				else
+				{
+					AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
+					AdControl.AdUnitId = "131382";
+				}
 			}
 			else
 			{
-				AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
-				AdControl.AdUnitId = "131382";
+#endif
+				AdControl.IsEnabled = false;
+				AdControl.Height = 0;
+#if !PERSONAL
 			}
-#if PERSONAL
-			AdControl.IsEnabled = false;
-			AdControl.Height = 0;
 #endif
 		}
 
@@ -100,6 +110,13 @@ namespace Shane.Church.StirlingBirthday.WP
 				KernelService.Kernel.Get<IAgentManagementService>().StartAgent(true);
 			};
 			ApplicationBar.MenuItems.Add(appBarMenuItemLaunchAgent);
+
+			ApplicationBarMenuItem appBarMenuItemUnhandledException = new ApplicationBarMenuItem("Unhandled Exception");
+			appBarMenuItemUnhandledException.Click += (s, e) =>
+				{
+					throw new Exception("Testing diagnostics");
+				};
+			ApplicationBar.MenuItems.Add(appBarMenuItemUnhandledException);
 #endif
 		}
 

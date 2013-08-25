@@ -192,4 +192,55 @@
   <data name="UpcomingPivotHeader" xml:space="preserve">
     <value>Nadchodzące</value>
   </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>anulować</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>dobrze</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>tak</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Bardzo chciałbym usłyszeć od ciebie ! Jeśli podoba Ci się aplikacji, proszę oceń go na rynku i dzielić swoją opinię .</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nie pokazuj tego ponownie przypomnienia</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Oceńapp</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Trial tej aplikacji wygasła . Czy chcesz zakupić aplikację teraz? Jeśli wybierzesz Tak - zostaniesz przekierowany na rynek.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nie pokazuj tego ponownie przypomnienia</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Trial Wygasła</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nie pokazuj tego ponownie przypomnienia</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Przypomnienie Trial</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Masz { 0} dni ( y) w lewo .</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Masz { 0} raz (y ) w lewo .</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Aplikacja napotkał problem . Przepraszam za utrudnienia . \ N \ nI będzie wdzięczna za pomoc , wysyłając przygotowanego raportu o błędzie . To pomoże w rozwiązaniu problemu szybciej.</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Błąd aplikacji</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Używasz reklam wersji testowej tej aplikacji . Czy chcesz zakupić aplikację teraz usunąć reklamy? Jeśli wybierzesz Tak - zostaniesz przekierowany na rynek.</value>
+  </data>
 </root>
