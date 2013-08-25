@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AgentDescription" xml:space="preserve">
-    <value>This task updates the Stirling Birthday live tile with upcoming birthday information.</value>
+    <value>این کار به روز رسانی کاشی استرلینگ تولد زنده با تولد آینده اطلاعات.</value>
   </data>
   <data name="AgentsDisabledByUserError" xml:space="preserve">
-    <value>Background agents for this application have been disabled by the user.</value>
+    <value>سابقه نمایندگی برای این برنامه کاربردی توسط کاربر غيرفعال شده اند.</value>
   </data>
   <data name="AgentsNotSupportedError" xml:space="preserve">
-    <value>This device does not support background agents, so this feature will be disabled.</value>
+    <value>بنابراین این ویژگی غیرفعال خواهد شد این دستگاه عوامل زمینه پشتیبانی نمی کند.</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
-    <value>Stirling Birthday</value>
+    <value>تولد استرلینگ</value>
   </data>
   <data name="EmailBodyText" xml:space="preserve">
-    <value>Happy Birthday! I hope you have a great day!</value>
+    <value>تولدت مبارک! من امیدوارم که شما یک روز بزرگ!</value>
   </data>
   <data name="HappyBirthdayText" xml:space="preserve">
-    <value>Happy Birthday!</value>
+    <value>تولدت مبارک!</value>
   </data>
   <data name="TechnicalSupportEmailSubject" xml:space="preserve">
-    <value>Stirling Birthday Feedback</value>
+    <value>استرلینگ تولد بازخورد</value>
   </data>
   <data name="TooManyAgentsError" xml:space="preserve">
-    <value>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</value>
+    <value>بیش از حد بسیاری از عوامل زمينه فعال شده اند. لطفا برو به تنظیمات برنامه برای غیرفعال کردن عوامل دیگر قبل از فعال سازی عامل تولد استرلینگ.</value>
   </data>
   <data name="YearsPlural" xml:space="preserve">
-    <value>{0} years</value>
+    <value>سال {0}</value>
   </data>
   <data name="YearsSingular" xml:space="preserve">
-    <value>{0} year</value>
+    <value>سال {0}</value>
   </data>
 </root>

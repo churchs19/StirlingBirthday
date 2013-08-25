@@ -41,11 +41,18 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
                 {
                     try
                     {
-                        var items = (from r in e.Results
-                                     where r.Birthdays.Any()
-                                     select r);
-                        _contacts.AddRange(items);
-                        tcs.TrySetResult(GetBirthdayContacts().AsQueryable());
+						if (e.Results.Any())
+						{
+							var items = (from r in e.Results
+										 where r.Birthdays.Any()
+										 select r);
+							_contacts.AddRange(items);
+							tcs.TrySetResult(GetBirthdayContacts().AsQueryable());
+						}
+						else
+						{
+							tcs.TrySetResult(new List<BirthdayContact>().AsQueryable());
+						}
                     }
                     catch (InvalidOperationException iex)
                     {
@@ -91,18 +98,30 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 		{
 			try
 			{
-				var items = (from r in e.Results
-							 where r.Birthdays.Any()
-							 select r);
-				_contacts.AddRange(items);
-				if (GetEntriesCompleted != null)
+				if (e.Results.Any())
 				{
-					GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = GetBirthdayContacts().AsQueryable() });
+					var items = (from r in e.Results
+								 where r.Birthdays.Any()
+								 select r);
+					_contacts.AddRange(items);
+					if (GetEntriesCompleted != null)
+					{
+						GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = GetBirthdayContacts().AsQueryable() });
+					}
+				}
+				else
+				{
+					if (GetEntriesCompleted != null)
+						GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = new List<BirthdayContact>().AsQueryable() });
 				}
 			}
 			catch (InvalidOperationException iex)
 			{
-				throw iex;
+#if DEBUG
+				DebugUtility.SaveDiagnosticException(iex);
+#endif
+				if (GetEntriesCompleted != null)
+					GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = new List<BirthdayContact>().AsQueryable() });
 			}			
 		}
 

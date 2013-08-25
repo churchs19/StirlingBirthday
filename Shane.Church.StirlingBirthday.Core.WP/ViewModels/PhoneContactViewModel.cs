@@ -36,7 +36,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			get
 			{
-				return (Math.Abs(Age) == 1) ? String.Format(Resources.WPCoreResources.YearsSingular, Age) : String.Format(Resources.WPCoreResources.YearsPlural, Age);
+				return (Math.Abs(Age) == 1) ? String.Format(Properties.Resources.YearsSingular, Age) : String.Format(Properties.Resources.YearsPlural, Age);
 			}
 		}
 
@@ -61,7 +61,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			SmsComposeTask text = new SmsComposeTask();
 			text.To = MobilePhone;
-			text.Body = Resources.WPCoreResources.HappyBirthdayText;
+			text.Body = Properties.Resources.HappyBirthdayText;
 			text.Show();
 		}
 
@@ -77,8 +77,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			EmailComposeTask email = new EmailComposeTask();
 			email.To = Email;
-			email.Subject = Resources.WPCoreResources.HappyBirthdayText;
-			email.Body = Resources.WPCoreResources.EmailBodyText;
+			email.Subject = Properties.Resources.HappyBirthdayText;
+			email.Body = Properties.Resources.EmailBodyText;
 			email.Show();
 		}
 	}

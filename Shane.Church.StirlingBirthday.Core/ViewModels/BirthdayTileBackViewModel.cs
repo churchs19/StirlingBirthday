@@ -1,8 +1,8 @@
 ﻿using GalaSoft.MvvmLight;
 using Shane.Church.StirlingBirthday.Core.Data;
 using System.Linq;
-using Shane.Church.StirlingBirthday.Core.Resources;
 using System.Collections.Generic;
+using Shane.Church.StirlingBirthday.Core.Properties;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
@@ -14,17 +14,17 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 			if (count > 0)
 			{
 				Name1 = contacts.ElementAt(0).DisplayName;
-				Date1 = contacts.ElementAt(0).DaysUntil == 0 ? CoreResources.TodayText : contacts.ElementAt(0).Date.ToString("M");
+				Date1 = contacts.ElementAt(0).DaysUntil == 0 ? Resources.TodayText : contacts.ElementAt(0).Date.ToString("M");
 			}
 			if (count > 1)
 			{
 				Name2 = contacts.ElementAt(1).DisplayName;
-				Date2 = contacts.ElementAt(1).DaysUntil == 0 ? CoreResources.TodayText : contacts.ElementAt(1).Date.ToString("M");
+				Date2 = contacts.ElementAt(1).DaysUntil == 0 ? Resources.TodayText : contacts.ElementAt(1).Date.ToString("M");
 			}
 			if (count > 2)
 			{
 				Name3 = contacts.ElementAt(2).DisplayName;
-				Date3 = contacts.ElementAt(2).DaysUntil == 0 ? CoreResources.TodayText : contacts.ElementAt(2).Date.ToString("M");
+				Date3 = contacts.ElementAt(2).DaysUntil == 0 ? Resources.TodayText : contacts.ElementAt(2).Date.ToString("M");
 			}
 		}
 

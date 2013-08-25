@@ -55,7 +55,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
         {
             get
             {
-                return Math.Abs(Age) == 1 ? string.Format(Resources.CoreResources.SingularAgeText, Age) : string.Format(Resources.CoreResources.PluralAgeText, Age);
+                return Math.Abs(Age) == 1 ? string.Format(Properties.Resources.SingularAgeText, Age) : string.Format(Properties.Resources.PluralAgeText, Age);
             }
         }
 

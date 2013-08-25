@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Shane.Church.StirlingBirthday.Core.WP.Controls.MediumTileBackUserControlWP7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    d:DesignHeight="173" d:DesignWidth="173">
+
+    <UserControl.Foreground>
+        <SolidColorBrush Color="#FFFFFFFF"/>
+    </UserControl.Foreground>
+
+    <UserControl.Resources>
+        <LinearGradientBrush x:Key="IconGradientBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF0348A2" Offset="0"/>
+            <GradientStop Color="#FF0597F2" Offset="1"/>
+            <GradientStop Color="#FF0460D9" Offset="0.407"/>
+        </LinearGradientBrush>
+    </UserControl.Resources>
+
+    <Canvas x:Name="LayoutRoot" Height="173" Width="173" CacheMode="BitmapCache">
+        <Rectangle Canvas.Top="0" Canvas.Left="0" Canvas.ZIndex="-10" Width="173" Height="173" Fill="{StaticResource IconGradientBrush}"/>
+        <TextBlock Canvas.Left="9" Canvas.Top="9" Text="{Binding Name1}" FontWeight="Bold" Width="153" Height="18" FontSize="13"/>
+        <TextBlock Canvas.Left="14" Canvas.Top="27" Text="{Binding Date1}" Width="148" Height="14" FontSize="9.61"/>
+        <TextBlock Canvas.Left="9" Canvas.Top="49" Text="{Binding Name2}" FontWeight="Bold" Width="153" Height="18" FontSize="13"/>
+        <TextBlock Canvas.Left="14" Canvas.Top="67" Text="{Binding Date2}" Width="148" Height="14" FontSize="9.61"/>
+        <TextBlock Canvas.Left="9" Canvas.Top="89" Text="{Binding Name3}" FontWeight="Bold" Width="153" Height="18" FontSize="13"/>
+        <TextBlock Canvas.Left="14" Canvas.Top="107" Text="{Binding Date3}" Width="148" Height="14" FontSize="9.61"></TextBlock>
+    </Canvas>
+</UserControl>

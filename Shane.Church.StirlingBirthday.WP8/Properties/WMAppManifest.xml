@@ -15,7 +15,7 @@
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="MainPage.xaml" ActivationPolicy="Resume" />
       <ExtendedTask Name="BackgroundTask">
-        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="Shane.Church.StirlingBirthday.WP.Agent" Source="Shane.Church.StirlingBirthday.WP.Agent" Type="Shane.Church.StirlingBirthday.WP.Agent.ScheduledAgent" />
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="Shane.Church.StirlingBirthday.WP8.Agent" Source="Shane.Church.StirlingBirthday.WP8.Agent" Type="Shane.Church.StirlingBirthday.WP.Agent.ScheduledAgent" />
       </ExtendedTask>
     </Tasks>
     <Tokens>

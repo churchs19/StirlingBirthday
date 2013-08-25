@@ -2,7 +2,7 @@
 using Microsoft.Phone.Scheduler;
 using Shane.Church.StirlingBirthday.Core.Exceptions;
 using Shane.Church.StirlingBirthday.Core.Services;
-using Shane.Church.StirlingBirthday.Core.WP.Resources;
+using Shane.Church.StirlingBirthday.Core.WP.Properties;
 using System;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Services
@@ -37,7 +37,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 
 			// The description is required for periodic agents. This is the string that the user
 			// will see in the background services Settings page on the device.
-			periodicTask.Description = WPCoreResources.AgentDescription;
+			periodicTask.Description = Resources.AgentDescription;
 			periodicTask.ExpirationTime = DateTime.Now.AddDays(14);
 
 			// Place the call to Add in a try block in case the user has disabled agents.
@@ -57,17 +57,17 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 			{
 				if (exception.Message.Contains("BNS Error: The action is disabled"))
 				{
-					throw new AgentManagementException(WPCoreResources.AgentsDisabledByUserError);
+					throw new AgentManagementException(Resources.AgentsDisabledByUserError);
 				}
 				if (exception.Message.Contains("BNS Error: The maximum number of ScheduledActions of this type have already been added."))
 				{
 					if (!AreAgentsSupported)
 					{
-						throw new AgentManagementException(WPCoreResources.AgentsNotSupportedError);
+						throw new AgentManagementException(Resources.AgentsNotSupportedError);
 					}
 					else
 					{
-						throw new AgentManagementException(WPCoreResources.TooManyAgentsError);
+						throw new AgentManagementException(Resources.TooManyAgentsError);
 					}
 				}
 			}

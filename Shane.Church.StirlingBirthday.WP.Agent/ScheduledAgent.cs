@@ -1,7 +1,9 @@
 ﻿using Microsoft.Phone.Scheduler;
+using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.WP;
 using Shane.Church.StirlingBirthday.Core.WP.Data;
 using Shane.Church.StirlingBirthday.Core.WP.Services;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows;
@@ -85,8 +87,11 @@ namespace Shane.Church.StirlingBirthday.WP.Agent
 			System.GC.Collect();
 			service = new PhoneTileUpdateService();
 
-			var tileContacts = args.Contacts.OrderBy(it => it.DaysUntil).Take(3).ToList();
-			var count = args.Contacts.Where(it => it.DaysUntil == 0).Count();
+			var tileContacts = new List<BirthdayContact>();
+			if(args.Contacts.Any())
+				tileContacts = args.Contacts.OrderBy(it => it.DaysUntil).Take(3).ToList();
+			//var count = args.Contacts.Where(it => it.DaysUntil == 0).Count();
+			var count = 0;
 
 			args.Contacts = null;
 			System.GC.Collect();

@@ -34,7 +34,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 #endif
 				var contacts = await source.GetAllEntriesAsync();
 
-				var tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3).ToList();
+				var tileContacts = new List<BirthdayContact>();
+				if (contacts.Any())
+					tileContacts = contacts.OrderBy(it => it.DaysUntil).Take(3).ToList();
 				var count = 0;
 				contacts = null;
 				source = null;
@@ -55,16 +57,14 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 #if DEBUG
 			DebugUtility.DebugOutputMemoryUsage("Beginning UpdateTileSynchronous");
 #endif
-			var displayName = tileContacts.First().DisplayName;
+			var displayName = "";
 #if DEBUG
 			DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Loaded Data");
 #endif
 
 			Deployment.Current.Dispatcher.BeginInvoke(() =>
 			{
-				BirthdayTileBackViewModel backTileModel = new BirthdayTileBackViewModel(tileContacts);
 
-				MediumTileBackUserControl medBackTile = new MediumTileBackUserControl() { DataContext = backTileModel };
 
 #if DEBUG
 				DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Medium Tile Control Created");
@@ -74,36 +74,69 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 				using (IsolatedStorageFile appStorage = IsolatedStorageFile.GetUserStoreForApplication())
 				{
 #if WP8
-					WideTileBackUserControl wideBackTile = new WideTileBackUserControl() { DataContext = backTileModel };
-					RadFlipTileData tileData = new RadFlipTileData()
+					RadFlipTileData tileData = null;
+					if (tileContacts.Count > 0)
 					{
-						Title = Resources.WPCoreResources.AppTitle,
-						BackTitle = Resources.WPCoreResources.AppTitle,
-						BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
-												new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
-												new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
-						BackVisualElement = medBackTile,
-						SmallBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "s")) ?
-												new Uri(string.Format(isoStoreUri, displayName, "s"), UriKind.RelativeOrAbsolute) :
-												new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
-						WideBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "w")) ?
-												new Uri(string.Format(isoStoreUri, displayName, "w"), UriKind.RelativeOrAbsolute) :
-												new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
-						WideBackVisualElement = wideBackTile
-					};
+						displayName = tileContacts.First().DisplayName;
+						BirthdayTileBackViewModel backTileModel = new BirthdayTileBackViewModel(tileContacts);
+						MediumTileBackUserControl medBackTile = new MediumTileBackUserControl() { DataContext = backTileModel };
+						WideTileBackUserControl wideBackTile = new WideTileBackUserControl() { DataContext = backTileModel };
+						tileData = new RadFlipTileData()
+						{
+							Title = Properties.Resources.AppTitle,
+							BackTitle = Properties.Resources.AppTitle,
+							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
+													new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
+													new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
+							BackVisualElement = medBackTile,
+							SmallBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "s")) ?
+													new Uri(string.Format(isoStoreUri, displayName, "s"), UriKind.RelativeOrAbsolute) :
+													new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
+							WideBackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "w")) ?
+													new Uri(string.Format(isoStoreUri, displayName, "w"), UriKind.RelativeOrAbsolute) :
+													new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
+							WideBackVisualElement = wideBackTile
+						};
+					}
+					else
+					{
+						tileData = new RadFlipTileData()
+						{
+							Title = Properties.Resources.AppTitle,
+							BackgroundImage = new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
+							SmallBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
+							WideBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
+						};
+					}
 #if DEBUG
 					DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - RadFlipTileData created");
 #endif
 #else
-					RadExtendedTileData tileData = new RadExtendedTileData()
+					RadExtendedTileData tileData = null;
+					if (tileContacts.Count > 0)
 					{
-						Title = Resources.WPCoreResources.AppTitle,
-						BackTitle = Resources.WPCoreResources.AppTitle,
-						BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
-											new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
-											new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute),
-						BackVisualElement = medBackTile
-					};
+						displayName = tileContacts.First().DisplayName;
+						BirthdayTileBackViewModel backTileModel = new BirthdayTileBackViewModel(tileContacts);
+						MediumTileBackUserControlWP7 medBackTile = new MediumTileBackUserControlWP7() { DataContext = backTileModel };
+						tileData = new RadExtendedTileData()
+						{
+							Title = Properties.Resources.AppTitle,
+							BackTitle = Properties.Resources.AppTitle,
+							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
+												new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
+												new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute),
+							BackVisualElement = medBackTile
+						};
+					}
+					else
+					{
+						tileData = new RadExtendedTileData()
+						{
+							Title = Properties.Resources.AppTitle,
+							BackgroundImage = new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute)
+						};
+
+					}
 #if DEBUG
 					DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - RadExtendedTileData created");
 #endif

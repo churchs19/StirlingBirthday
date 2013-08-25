@@ -223,7 +223,7 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to en.
+        ///   Looks up a localized string similar to en-US.
         /// </summary>
         public static string ResourceLanguage {
             get {
