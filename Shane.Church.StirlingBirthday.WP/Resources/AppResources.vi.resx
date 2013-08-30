@@ -235,7 +235,9 @@
     <value>Bạn có {0} thời gian (s) trái .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Ứng dụng này đã gặp phải một vấn đề . Tôi xin lỗi vì sự bất tiện này . \ N \ ni sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo cáo lỗi chuẩn bị . Điều này sẽ giúp giải quyết vấn đề nhanh hơn.</value>
+    <value>Ứng dụng này đã gặp phải một vấn đề . Tôi xin lỗi vì sự bất tiện này . 
+
+i sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo cáo lỗi chuẩn bị . Điều này sẽ giúp giải quyết vấn đề nhanh hơn.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Lỗi ứng dụng</value>

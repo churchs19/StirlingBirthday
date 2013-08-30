@@ -235,7 +235,9 @@
     <value>Du har {0} tid (s ) tilbage .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Ansøgningen er stødt på et problem. Jeg beklager ulejligheden . \ N \ nI ville sætte pris på din hjælp ved at sende den forberedte fejlrapport. Dette vil hjælpe med at løse problemet hurtigere .</value>
+    <value>Ansøgningen er stødt på et problem. Jeg beklager ulejligheden . 
+
+I ville sætte pris på din hjælp ved at sende den forberedte fejlrapport. Dette vil hjælpe med at løse problemet hurtigere .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

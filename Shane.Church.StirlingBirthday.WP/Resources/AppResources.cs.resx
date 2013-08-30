@@ -235,7 +235,9 @@
     <value>Jste {0} doba (s) odešla .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Aplikace došlo k problému . Omlouvám se za způsobené nepříjemnosti . \ N \ nI bych ocenil vaši pomoc zasláním připravený chybové hlášení. To vám pomůže s řešením problému rychleji.</value>
+    <value>Aplikace došlo k problému . Omlouvám se za způsobené nepříjemnosti . 
+
+I bych ocenil vaši pomoc zasláním připravený chybové hlášení. To vám pomůže s řešením problému rychleji.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Chyba aplikace</value>

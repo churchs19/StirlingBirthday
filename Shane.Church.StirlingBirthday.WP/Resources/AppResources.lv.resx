@@ -235,7 +235,9 @@
     <value>Jums ir { 0 } laiks ( s ) pa kreisi .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Pieteikums ir radusies problēma . Es atvainojos par sagādātajām neērtībām \ n . \ Ni būtu pateicīgi par jūsu palīdzību, nosūtot sagatavoto kļūdas ziņojumu . Tas palīdzēs ar atrisināt problēmu ātrāk .</value>
+    <value>Pieteikums ir radusies problēma . Es atvainojos par sagādātajām neērtībām.
+
+I būtu pateicīgi par jūsu palīdzību, nosūtot sagatavoto kļūdas ziņojumu . Tas palīdzēs ar atrisināt problēmu ātrāk .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

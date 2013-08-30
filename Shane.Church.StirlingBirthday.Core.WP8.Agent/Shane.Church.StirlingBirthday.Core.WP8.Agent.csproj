@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27A860E4-C046-45D8-989B-80389CE9730E}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shane.Church.StirlingBirthday.Core.WP</RootNamespace>
+    <AssemblyName>Shane.Church.StirlingBirthday.Core.WP8.Agent</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+	  <SupportedCultures>ar%3bbg%3bca%3bzh-CN%3bzh-TW%3bcs%3bda%3bnl%3ben-GB%3ben-US%3bet%3bfi%3bfr%3bde%3bel%3bhe%3bhi%3bhu%3bid%3bit%3bja%3bko%3blv%3blt%3bms%3bno%3bfa%3bpl%3bpt%3bpt-BR%3bpt-PT%3bro%3bru%3bsk%3bsl%3bes%3bes-MX%3bes-ES%3bsv%3bth%3btr%3buk%3bvi</SupportedCultures>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8;AGENT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;WP8;AGENT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Agent|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Agent\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8;AGENT;DEBUG_AGENT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Agent|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug Agent\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Agent|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug Agent\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Trial|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Trial\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8;AGENT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Trial|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug Trial\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Trial|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug Trial\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release Personal|AnyCPU'">
+    <OutputPath>bin\Release Personal\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;;WP8;AGENT</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release Personal|x86'">
+    <OutputPath>bin\x86\Release Personal\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release Personal|ARM'">
+    <OutputPath>bin\ARM\Release Personal\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileBackUserControl.xaml.cs">
+      <Link>Controls\MediumTileBackUserControl.xaml.cs</Link>
+      <DependentUpon>MediumTileBackUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileBackUserControlWP7.xaml.cs">
+      <Link>Controls\MediumTileBackUserControlWP7.xaml.cs</Link>
+      <DependentUpon>MediumTileBackUserControlWP7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileUserControl.xaml.cs">
+      <Link>Controls\MediumTileUserControl.xaml.cs</Link>
+      <DependentUpon>MediumTileUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\SmallTileUserControl.xaml.cs">
+      <Link>Controls\SmallTileUserControl.xaml.cs</Link>
+      <DependentUpon>SmallTileUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\WideTileBackUserControl.xaml.cs">
+      <Link>Controls\WideTileBackUserControl.xaml.cs</Link>
+      <DependentUpon>WideTileBackUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\WideTileUserControl.xaml.cs">
+      <Link>Controls\WideTileUserControl.xaml.cs</Link>
+      <DependentUpon>WideTileUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Converters\BooleanToVisibilityConverter.cs">
+      <Link>Converters\BooleanToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Converters\ByteToImageSourceValueConverter.cs">
+      <Link>Converters\ByteToImageSourceValueConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Converters\DisplayNamePictureConverter.cs">
+      <Link>Converters\DisplayNamePictureConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Data\ContactExtensions.cs">
+      <Link>Data\ContactExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Data\PhoneBirthdaySource.cs">
+      <Link>Data\PhoneBirthdaySource.cs</Link>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.Designer.cs">
+      <Link>Properties\Resources.Designer.cs</Link>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Services\PhoneTileUpdateService.cs">
+      <Link>Services\PhoneTileUpdateService.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Phone">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.BackgroundAgentTools, Version=2013.2.718.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core\Shane.Church.StirlingBirthday.Core.csproj">
+      <Project>{5793142F-B384-4BF0-8E43-DB3A3428F1A9}</Project>
+      <Name>Shane.Church.StirlingBirthday.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shane.Church.Utility.Core.WP\Shane.Church.Utility.Core.WP.csproj">
+      <Project>{75A3873F-015F-4784-B6A6-8A4484FBE48D}</Project>
+      <Name>Shane.Church.Utility.Core.WP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shane.Church.Utility.Core\Shane.Church.Utility.Core.csproj">
+      <Project>{A28A5353-AFBB-4F9E-A1AA-1C9B49523028}</Project>
+      <Name>Shane.Church.Utility.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileBackUserControl.xaml">
+      <Link>Controls\MediumTileBackUserControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileBackUserControlWP7.xaml">
+      <Link>Controls\MediumTileBackUserControlWP7.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\MediumTileUserControl.xaml">
+      <Link>Controls\MediumTileUserControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\SmallTileUserControl.xaml">
+      <Link>Controls\SmallTileUserControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\WideTileBackUserControl.xaml">
+      <Link>Controls\WideTileBackUserControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Controls\WideTileUserControl.xaml">
+      <Link>Controls\WideTileUserControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ar.resx">
+      <Link>Properties\Resources.ar.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.bg.resx">
+      <Link>Properties\Resources.bg.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ca.resx">
+      <Link>Properties\Resources.ca.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.cs.resx">
+      <Link>Properties\Resources.cs.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.da.resx">
+      <Link>Properties\Resources.da.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.de.resx">
+      <Link>Properties\Resources.de.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.el.resx">
+      <Link>Properties\Resources.el.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.en-GB.resx">
+      <Link>Properties\Resources.en-GB.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.en-US.resx">
+      <Link>Properties\Resources.en-US.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.es-ES.resx">
+      <Link>Properties\Resources.es-ES.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.es-MX.resx">
+      <Link>Properties\Resources.es-MX.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.es.resx">
+      <Link>Properties\Resources.es.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.et.resx">
+      <Link>Properties\Resources.et.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.fa.resx">
+      <Link>Properties\Resources.fa.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.fi.resx">
+      <Link>Properties\Resources.fi.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.fr.resx">
+      <Link>Properties\Resources.fr.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.he.resx">
+      <Link>Properties\Resources.he.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.hi.resx">
+      <Link>Properties\Resources.hi.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.hu.resx">
+      <Link>Properties\Resources.hu.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.id.resx">
+      <Link>Properties\Resources.id.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.it.resx">
+      <Link>Properties\Resources.it.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ja.resx">
+      <Link>Properties\Resources.ja.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ko.resx">
+      <Link>Properties\Resources.ko.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.lt.resx">
+      <Link>Properties\Resources.lt.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.lv.resx">
+      <Link>Properties\Resources.lv.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ms.resx">
+      <Link>Properties\Resources.ms.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.nl.resx">
+      <Link>Properties\Resources.nl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.no.resx">
+      <Link>Properties\Resources.no.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.pl.resx">
+      <Link>Properties\Resources.pl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.pt-BR.resx">
+      <Link>Properties\Resources.pt-BR.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.pt-PT.resx">
+      <Link>Properties\Resources.pt-PT.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.pt.resx">
+      <Link>Properties\Resources.pt.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.resx">
+      <Link>Properties\Resources.resx</Link>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ro.resx">
+      <Link>Properties\Resources.ro.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.ru.resx">
+      <Link>Properties\Resources.ru.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.sk.resx">
+      <Link>Properties\Resources.sk.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.sl.resx">
+      <Link>Properties\Resources.sl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.sv.resx">
+      <Link>Properties\Resources.sv.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.th.resx">
+      <Link>Properties\Resources.th.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.tr.resx">
+      <Link>Properties\Resources.tr.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.uk.resx">
+      <Link>Properties\Resources.uk.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.vi.resx">
+      <Link>Properties\Resources.vi.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.zh-CN.resx">
+      <Link>Properties\Resources.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.zh-TW.resx">
+      <Link>Properties\Resources.zh-TW.resx</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <ProjectExtensions />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+Stirling Birthday displays your friends' upcoming birthdays on a beautiful live tile!
+
+Features:
+* Full support for all Windows Phone 8 tile sizes
+* Call, Text, or Email birthday greetings from the app
+* Quickly see all birthdays upcoming in the next month, birthdays from the previous month, and all birthdays for all of your contacts.
+* Fully localized into 38 languages
+
+Birthday
+
+Reminder
+
+Friends
+
+Contact
+
+Live Tile

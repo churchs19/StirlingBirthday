@@ -235,7 +235,9 @@
     <value>Tienes { 0 } hora ( s ) a la izquierda.</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>La aplicación ha detectado un problema . Lo siento por las molestias. \ N \ nI agradecería su ayuda mediante el envío del informe de errores preparada. Esto le ayudará a resolver el problema más rápido.</value>
+    <value>La aplicación ha detectado un problema . Lo siento por las molestias. 
+
+Yo agradecería su ayuda mediante el envío del informe de errores preparada. Esto le ayudará a resolver el problema más rápido.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Error de la aplicación</value>

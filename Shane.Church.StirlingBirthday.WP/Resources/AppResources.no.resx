@@ -235,7 +235,9 @@
     <value>Du har { 0 } tid ( er) igjen .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Søknaden har oppstått et problem . Jeg beklager det inntrufne. \ N \ nI setter pris på din hjelp ved å sende forberedt feilrapport. Dette vil hjelpe til med å løse problemet raskere.</value>
+    <value>Søknaden har oppstått et problem . Jeg beklager det inntrufne.
+
+I setter pris på din hjelp ved å sende forberedt feilrapport. Dette vil hjelpe til med å løse problemet raskere.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

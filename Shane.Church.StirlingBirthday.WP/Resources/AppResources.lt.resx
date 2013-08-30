@@ -235,7 +235,9 @@
     <value>Jūs { 0} laikas ( s), paliktas .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Taikymas susidūrė su problema . Aš atsiprašau už nepatogumus. \ N \ ni dėkingi už tavo pagalbą siunčiant paruoštą pranešimą apie klaidą . Tai padės su šią problemą išspręsti greičiau.</value>
+    <value>Taikymas susidūrė su problema . Aš atsiprašau už nepatogumus.
+
+i dėkingi už tavo pagalbą siunčiant paruoštą pranešimą apie klaidą . Tai padės su šią problemą išspręsti greičiau.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Programos klaida</value>

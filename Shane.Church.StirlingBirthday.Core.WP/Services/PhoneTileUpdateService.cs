@@ -172,7 +172,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 				List<string> filenames = new List<string>();
 				foreach (var c in contacts)
 				{
-					var picture = await source.GetContactPicture(c.DisplayName);
+					var picture = await source.GetContactPictureAsync(c.DisplayName);
 #if !AGENT
 					Ninject.Parameters.ConstructorArgument arg = new Ninject.Parameters.ConstructorArgument("contact", c);
 					Ninject.Parameters.ConstructorArgument picArg = new Ninject.Parameters.ConstructorArgument("picture", picture);

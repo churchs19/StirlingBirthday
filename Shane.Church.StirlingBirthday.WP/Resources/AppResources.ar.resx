@@ -235,7 +235,9 @@
     <value>لقد {0 } الوقت ( ق) غادر .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>التطبيق واجه مشكلة . أنا آسف للإزعاج . \ N \ NI لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ المعدة. وهذا سوف يساعد على حل المشكلة بشكل أسرع.</value>
+    <value>التطبيق واجه مشكلة . أنا آسف للإزعاج . 
+
+I لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ المعدة. وهذا سوف يساعد على حل المشكلة بشكل أسرع.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>خطأ في التطبيق</value>

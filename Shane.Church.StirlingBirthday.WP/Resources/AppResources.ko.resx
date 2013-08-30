@@ -235,7 +235,9 @@
     <value>당신은 {0} 시간 (들)은 남아 있다.</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>응용 프로그램 에 문제가 발생했습니다. 내가불편을 끼쳐 드려 죄송합니다. \ n \ NI에서 준비된 오류 보고서를 전송하여 지원을 부탁드립니다. 이 빠른문제 해결 에 도움이 될 것입니다.</value>
+    <value>응용 프로그램 에 문제가 발생했습니다. 내가불편을 끼쳐 드려 죄송합니다.
+
+I에서 준비된 오류 보고서를 전송하여 지원을 부탁드립니다. 이 빠른문제 해결 에 도움이 될 것입니다.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>응용 프로그램 오류</value>

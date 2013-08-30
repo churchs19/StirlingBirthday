@@ -235,7 +235,9 @@
     <value>Ai { 0 } timp ( e ) a plecat .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Cererea a întâmpinat o problemă . Îmi pare rău pentru neplăcerile create \ n \ nin -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Acest lucru va ajuta la rezolvarea problemei mai repede .</value>
+    <value>Cererea a întâmpinat o problemă . Îmi pare rău pentru neplăcerile create 
+
+in -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Acest lucru va ajuta la rezolvarea problemei mai repede .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Eroare de aplicație</value>

@@ -235,7 +235,9 @@
     <value>Sen { 0 } zaman ( lar) yapmamışlar .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Uygulama bir sorunla karşılaştı . Ben rahatsızlıktan dolayı özür dilerim . \ N \ nl hazırlanan hata raporu göndererek yardım seviniriz . Bu daha hızlısorunu çözme ile yardımcı olacaktır .</value>
+    <value>Uygulama bir sorunla karşılaştı . Ben rahatsızlıktan dolayı özür dilerim . 
+
+l hazırlanan hata raporu göndererek yardım seviniriz . Bu daha hızlısorunu çözme ile yardımcı olacaktır .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>uygulama Hatası</value>

@@ -235,7 +235,9 @@
     <value>Sie haben {0} Zeit (en) verlassen .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Die Anwendung hat ein Problem festgestellt . Es tut mir leid für die Unannehmlichkeiten. \ N \ nI würde Ihre Unterstützung , indem Sie die vorbereitete Fehlerbericht zu schätzen wissen. Dies wird mit der Lösung des Problems schneller zu helfen.</value>
+    <value>Die Anwendung hat ein Problem festgestellt . Es tut mir leid für die Unannehmlichkeiten. 
+
+I würde Ihre Unterstützung , indem Sie die vorbereitete Fehlerbericht zu schätzen wissen. Dies wird mit der Lösung des Problems schneller zu helfen.</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

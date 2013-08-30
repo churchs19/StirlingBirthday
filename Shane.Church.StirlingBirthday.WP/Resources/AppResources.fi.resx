@@ -235,7 +235,9 @@
     <value>Olet { 0 } kertaa ( t) jäljellä .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>Hakemus on havainnut virheen . Olen pahoillanihaittaa . \ N \ ni olisin kiitollinen avusta lähettämällävalmis virheraportin . Tämä auttaa ratkaisemaanongelman nopeammin .</value>
+    <value>Hakemus on havainnut virheen . Olen pahoillanihaittaa . 
+
+i olisin kiitollinen avusta lähettämällävalmis virheraportin . Tämä auttaa ratkaisemaanongelman nopeammin .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

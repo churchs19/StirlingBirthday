@@ -235,7 +235,9 @@
     <value>あなたは、 {0 }時間（s ）が残っている。</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>アプリケーションでは、問題が発生した。私は不便のために申し訳ございません\ n \ NIは、準備エラーレポートを送信することでご協力をお願い申し上げます。これは、迅速な問題の解決に役立ちます。</value>
+    <value>アプリケーションでは、問題が発生した。私は不便のために申し訳ございません
+
+Iは、準備エラーレポートを送信することでご協力をお願い申し上げます。これは、迅速な問題の解決に役立ちます。</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>アプリケーションエラー</value>

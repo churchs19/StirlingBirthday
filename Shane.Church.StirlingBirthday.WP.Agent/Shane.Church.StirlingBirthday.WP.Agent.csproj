@@ -111,9 +111,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core.WP\Shane.Church.StirlingBirthday.Core.WP.csproj">
-      <Project>{21A5E8F6-1B5D-46B3-AB28-0CA30B3AFED5}</Project>
-      <Name>Shane.Church.StirlingBirthday.Core.WP</Name>
+    <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core.WP.Agent\Shane.Church.StirlingBirthday.Core.WP.Agent.csproj">
+      <Project>{0E98793E-3875-427A-9026-40D83358AB54}</Project>
+      <Name>Shane.Church.StirlingBirthday.Core.WP.Agent</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core\Shane.Church.StirlingBirthday.Core.csproj">
       <Project>{5793142F-B384-4BF0-8E43-DB3A3428F1A9}</Project>

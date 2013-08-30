@@ -46,21 +46,18 @@ namespace Shane.Church.StirlingBirthday.WP
 		#region Ad Control
 		private void InitializeAdControl()
 		{
-#if !PERSONAL
-			if ((App.Current as App).trialReminder.IsTrialMode())
+			if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
 			{
-				if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
-				{
-					AdControl.ApplicationId = "test_client";
-					AdControl.AdUnitId = "Image480_80";
-				}
-				else
-				{
-					AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
-					AdControl.AdUnitId = "131382";
-				}
+				AdControl.ApplicationId = "test_client";
+				AdControl.AdUnitId = "Image480_80";
 			}
 			else
+			{
+				AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
+				AdControl.AdUnitId = "131382";
+			}
+#if !PERSONAL
+			if (!(App.Current as App).trialReminder.IsTrialMode())
 			{
 #endif
 				AdControl.IsEnabled = false;

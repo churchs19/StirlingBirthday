@@ -235,7 +235,9 @@
     <value>Je hebt { 0 } keer (s) links .</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>De applicatie is een fout opgetreden . Het spijt me voor het ongemak . \ N \ nIk zou uw hulp op prijs stellen door het sturen van de voorbereide foutmelding. Dit zal helpen bij het ​​oplossen van het probleem sneller .</value>
+    <value>De applicatie is een fout opgetreden . Het spijt me voor het ongemak .
+
+Ik zou uw hulp op prijs stellen door het sturen van de voorbereide foutmelding. Dit zal helpen bij het ​​oplossen van het probleem sneller .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>

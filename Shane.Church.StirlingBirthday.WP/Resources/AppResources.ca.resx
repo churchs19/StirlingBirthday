@@ -235,7 +235,9 @@
     <value>Tens { 0 } hora ( s) a l'esquerra.</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>L'aplicació ha detectat un problema . Ho sento per les molèsties . \ N \ nI agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada . Això l'ajudarà a resoldre el problema més ràpid .</value>
+    <value>L'aplicació ha detectat un problema . Ho sento per les molèsties . 
+
+I agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada . Això l'ajudarà a resoldre el problema més ràpid .</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>error de l'aplicació</value>

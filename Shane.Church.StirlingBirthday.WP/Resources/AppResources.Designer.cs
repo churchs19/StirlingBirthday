@@ -214,7 +214,9 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The application has encountered a problem. I am sorry for the inconvenience.\n\nI would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster..
+        ///   Looks up a localized string similar to The application has encountered a problem. I am sorry for the inconvenience.
+        ///
+        ///I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster..
         /// </summary>
         public static string Diagnostics_MessageBox_Content {
             get {
