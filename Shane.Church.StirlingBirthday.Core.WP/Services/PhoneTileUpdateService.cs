@@ -1,8 +1,4 @@
 ﻿using Microsoft.Phone.Shell;
-#if AGENT
-#else
-using Ninject;
-#endif
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
@@ -27,11 +23,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 		{
 			try
 			{
-#if !AGENT
-				var source = KernelService.Kernel.Get<IBirthdaySource>();
-#else
 				var source = new Shane.Church.StirlingBirthday.Core.WP.Data.PhoneBirthdaySource();
-#endif
 				var contacts = await source.GetAllEntriesAsync();
 
 				var tileContacts = new List<BirthdayContact>();
@@ -69,7 +61,6 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 #if DEBUG
 				DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Medium Tile Control Created");
 #endif
-
 				ShellTile mainTile = ShellTile.ActiveTiles.First();
 				using (IsolatedStorageFile appStorage = IsolatedStorageFile.GetUserStoreForApplication())
 				{
@@ -160,11 +151,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 
 		public async Task SaveUpcomingImages()
 		{
-#if !AGENT
-			var source = KernelService.Kernel.Get<IBirthdaySource>();
-#else
-				var source = new Shane.Church.StirlingBirthday.Core.WP.Data.PhoneBirthdaySource();
-#endif
+			var source = new Shane.Church.StirlingBirthday.Core.WP.Data.PhoneBirthdaySource();
 			var contacts = await source.GetFilteredEntriesAsync(c => c.DaysUntil <= DaysToBuild, false);
 
 			try
@@ -173,32 +160,26 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 				foreach (var c in contacts)
 				{
 					var picture = await source.GetContactPictureAsync(c.DisplayName);
-#if !AGENT
-					Ninject.Parameters.ConstructorArgument arg = new Ninject.Parameters.ConstructorArgument("contact", c);
-					Ninject.Parameters.ConstructorArgument picArg = new Ninject.Parameters.ConstructorArgument("picture", picture);
-					BirthdayTileFrontViewModel model = KernelService.Kernel.Get<BirthdayTileFrontViewModel>(arg, picArg);
-#else
-					BirthdayTileFrontViewModel model = new BirthdayTileFrontViewModel(c, picture);					
-#endif
-					SmallTileUserControl smallTile = new SmallTileUserControl() { DataContext = model };
+					BirthdayTileFrontViewModel model = new BirthdayTileFrontViewModel(c, picture);
 					MediumTileUserControl mediumTile = new MediumTileUserControl() { DataContext = model };
 #if WP8
+					SmallTileUserControl smallTile = new SmallTileUserControl() { DataContext = model };
 					WideTileUserControl wideTile = new WideTileUserControl() { DataContext = model };
 #endif
 
-					var smallPath = string.Format(isoStorePath, model.Name, "s");
-					filenames.Add(smallPath);
 					var mediumPath = string.Format(isoStorePath, model.Name, "m");
 					filenames.Add(mediumPath);
 #if WP8
+					var smallPath = string.Format(isoStorePath, model.Name, "s");
+					filenames.Add(smallPath);
 					var widePath = string.Format(isoStorePath, model.Name, "w");
 					filenames.Add(widePath);
 #endif
 					await Deployment.Current.Dispatcher.InvokeAsync(async () =>
 					{
-						await smallTile.ToTileAsync(smallPath);
 						await mediumTile.ToTileAsync(mediumPath);
 #if WP8
+						await smallTile.ToTileAsync(smallPath);
 						await wideTile.ToTileAsync(widePath);
 #endif
 					});
@@ -229,14 +210,6 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 					}
 				}
 				catch { }
-				//try
-				//{
-				//    foreach (string fileName in store.GetFileNames("*.tmp"))
-				//    {
-				//        store.DeleteFile(fileName);
-				//    }
-				//}
-				//catch { }
 			}
 		}
 

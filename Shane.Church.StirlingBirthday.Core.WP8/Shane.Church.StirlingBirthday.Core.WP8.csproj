@@ -224,9 +224,6 @@
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Data\PhoneBirthdaySource.cs">
       <Link>Data\PhoneBirthdaySource.cs</Link>
     </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Properties\Resources.Designer.cs">
       <Link>Properties\Resources.Designer.cs</Link>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -257,6 +254,7 @@
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\ViewModels\PhoneMainViewModel.cs">
       <Link>ViewModels\PhoneMainViewModel.cs</Link>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="..\Shane.Church.StirlingBirthday.Core.WP\Controls\MediumTileBackUserControl.xaml">

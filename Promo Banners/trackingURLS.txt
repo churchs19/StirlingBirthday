@@ -1,0 +1,22 @@
+Link targets with SiteCatalyst tags
+
+300x75	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+300x50	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+216x54	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+216x36	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+168x42	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+168x28	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+120x20	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+120x30	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+728x90	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+468x60	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+300x250	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+234x60	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+160x600	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+120x600	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+320x53	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+300x250	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+300x50	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+216x36	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+168x28	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
+120x20	http://www.windowsphone.com/en-us/store/app/stirling-birthday/b3f595ea-10ba-4b1c-8833-3b299078010d
