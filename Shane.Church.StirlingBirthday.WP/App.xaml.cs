@@ -112,6 +112,12 @@ namespace Shane.Church.StirlingBirthday.WP
 
 			//Creates an instance of the RadTrialApplicationReminder component.
 			trialReminder = new RadTrialApplicationReminder();
+			trialReminder.TrialReminderMessageBoxInfo.Title = AppResources.AppTrialReminder_MessageBox_Title;
+			trialReminder.TrialReminderMessageBoxInfo.Content = AppResources.AppTrialReminder_MessageBox_Content;
+			trialReminder.TrialReminderMessageBoxInfo.SkipFurtherRemindersMessage = AppResources.AppTrialReminder_MessageBox_SkipFurtherRemindersMessage;
+			trialReminder.TrialExpiredMessageBoxInfo.Title = AppResources.AppTrialEnd_MessageBox_Title;
+			trialReminder.TrialExpiredMessageBoxInfo.Content = AppResources.AppTrialEnd_MessageBox_Content;
+			trialReminder.TrialExpiredMessageBoxInfo.SkipFurtherRemindersMessage = AppResources.AppTrialEnd_MessageBox_SkipFurtherRemindersMessage;
 
 			//Sets the length of the trial period.
 			trialReminder.AllowedTrialPeriod = TimeSpan.MaxValue;
@@ -129,9 +135,11 @@ namespace Shane.Church.StirlingBirthday.WP
 
 			trialReminder.AllowUsersToSkipFurtherReminders = true;
 
-
 			//Creates a new instance of the RadRateApplicationReminder component.
 			rateReminder = new RadRateApplicationReminder();
+			rateReminder.MessageBoxInfo.Title = AppResources.RateReminder_MessageBox_Title;
+			rateReminder.MessageBoxInfo.Content = AppResources.RateReminder_MessageBox_Content;
+			rateReminder.MessageBoxInfo.SkipFurtherRemindersMessage = AppResources.RateReminder_MessageBox_SkipFurtherRemindersMessage;
 
 			//Sets how often the rate reminder is displayed.
 			rateReminder.RecurrencePerUsageCount = 1;

@@ -1,4 +1,5 @@
-﻿using Microsoft.Phone.Controls;
+﻿using Inneractive.Nokia.Ad;
+using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
@@ -46,35 +47,45 @@ namespace Shane.Church.StirlingBirthday.WP
 		#region Ad Control
 		private void InitializeAdControl()
 		{
-			if (Microsoft.Devices.Environment.DeviceType == Microsoft.Devices.DeviceType.Emulator)
+			//<ad:InneractiveAd xmlns:ad="clr-namespace:Inneractive.Nokia.Ad;assembly=Inneractive.Ad"
+			//		  AppID="ShaneChurch_StirlingBirthday_WP"
+			//		  AdType="IaAdType_Banner"
+			//		  ReloadTime="30"
+			//		  Keywords="friends,social,birthday,reminder,call,text,email"
+			//		  OptionalAdHeight="80"
+			//		  OptionalAdWidth="480"
+			//		  AdAlignment="BOTTOM_CENTER"
+			//		  Name="AdControl" />
+
+#if !PERSONAL
+			if ((App.Current as App).trialReminder.IsTrialMode())
 			{
-				AdControl.ApplicationId = "test_client";
-				AdControl.AdUnitId = "Image480_80";
+				AdControl.AdReceived += new InneractiveAd.IaAdReceived(AdControl_AdReceived);
+				AdControl.AdFailed += new InneractiveAd.IaAdFailed(AdControl_AdFailed);
+				AdControl.DefaultAdReceived += new InneractiveAd.IaDefaultAdReceived(AdControl_DefaultAdReceived);
 			}
 			else
 			{
-				AdControl.ApplicationId = "d00ff0b8-4d8b-467d-ac0c-88f2535a94ff";
-				AdControl.AdUnitId = "131382";
+				AdControl = null;
 			}
-#if !PERSONAL
-			if (!(App.Current as App).trialReminder.IsTrialMode())
-			{
-#endif
-				AdControl.IsEnabled = false;
-				AdControl.Height = 0;
-#if !PERSONAL
-			}
+#else
+			AdControl = null;
 #endif
 		}
 
-		private void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
+		void AdControl_DefaultAdReceived(object sender)
 		{
-			AdControl.Height = 0;
+			AdControl.Visibility = System.Windows.Visibility.Visible;
 		}
 
-		private void AdControl_AdRefreshed(object sender, EventArgs e)
+		private void AdControl_AdReceived(object sender)
 		{
-			AdControl.Height = 80;
+			AdControl.Visibility = System.Windows.Visibility.Visible;
+		}
+
+		private void AdControl_AdFailed(object sender)
+		{
+			AdControl.Visibility = System.Windows.Visibility.Collapsed;
 		}
 		#endregion
 
