@@ -1,12 +1,8 @@
-﻿using GalaSoft.MvvmLight;
-using GalaSoft.MvvmLight.Command;
+﻿using GalaSoft.MvvmLight.Command;
 using Microsoft.Phone.Tasks;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 {
@@ -48,6 +44,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = HomePhone;
 			call.DisplayName = DisplayName;
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Call_Home");
+#endif
 			call.Show();
 		}
 
@@ -56,6 +55,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = MobilePhone;
 			call.DisplayName = DisplayName;
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Call_Mobile");
+#endif
 			call.Show();
 		}
 
@@ -64,6 +66,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			SmsComposeTask text = new SmsComposeTask();
 			text.To = MobilePhone;
 			text.Body = Properties.Resources.HappyBirthdayText;
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Send_SMS");
+#endif
 			text.Show();
 		}
 
@@ -72,6 +77,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = WorkPhone;
 			call.DisplayName = DisplayName;
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Call_Work");
+#endif
 			call.Show();
 		}
 
@@ -81,6 +89,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			email.To = Email;
 			email.Subject = Properties.Resources.HappyBirthdayText;
 			email.Body = Properties.Resources.EmailBodyText;
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Send_Email");
+#endif
 			email.Show();
 		}
 
@@ -88,6 +99,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			ShareStatusTask shareStatusTask = new ShareStatusTask();
 			shareStatusTask.Status = String.Format(Properties.Resources.HappyBirthdayShare, this.DisplayName, this.FirstName);
+#if WP8
+			FlurryWP8SDK.Api.LogEvent("Status_Share");
+#endif
 			shareStatusTask.Show();
 		}
 	}

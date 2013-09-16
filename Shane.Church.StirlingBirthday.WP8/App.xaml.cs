@@ -259,7 +259,7 @@ namespace Shane.Church.StirlingBirthday.WP
 		{
 			//Before using any of the ApplicationBuildingBlocks, this class should be initialized with the version of the application.
 			ApplicationUsageHelper.Init("1.0");
-
+			FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
 		}
 
 		// Code to execute when the application is activated (brought to foreground)
@@ -271,7 +271,7 @@ namespace Shane.Church.StirlingBirthday.WP
 				//This will ensure that the ApplicationUsageHelper is initialized again if the application has been in Tombstoned state.
 				ApplicationUsageHelper.OnApplicationActivated();
 			}
-
+			FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
 		}
 
 		// Code to execute when the application is deactivated (sent to background)
