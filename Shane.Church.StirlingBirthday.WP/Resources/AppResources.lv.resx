@@ -245,4 +245,7 @@ I būtu pateicīgi par jūsu palīdzību, nosūtot sagatavoto kļūdas ziņojumu
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Jūs izmantojat ad atbalstīto izmēģinājuma versiju par šo pieteikumu . Vai jūs vēlaties iegādāties pieteikumu tagad, lai novērstu reklāmu ? Ja izvēlaties Jā - jums tiks novirzīts , lai tirgū .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>daļa</value>
+  </data>
 </root>

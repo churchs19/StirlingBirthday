@@ -245,4 +245,7 @@ I vennénk segítséget küldött az elkészített hibajelentés . Ez segít a p
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Ön a hirdetés-támogatott próbaverzióját ezt az alkalmazást. Szeretnéd , hogy megvásárolja az alkalmazás már , hogy távolítsa el a hirdetéseket? Ha úgy dönt, igen - átirányítja a piacon.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>részvény</value>
+  </data>
 </root>

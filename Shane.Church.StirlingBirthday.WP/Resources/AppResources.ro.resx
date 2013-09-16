@@ -245,4 +245,7 @@ in -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Ac
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Sunteți folosind versiunea de încercare ad -a sprijinit de această aplicație . Vrei să cumpere aplicația acum pentru a elimina anunțurile ? Dacă alegeți Da - veți fi redirecționat către piață .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>acțiune</value>
+  </data>
 </root>

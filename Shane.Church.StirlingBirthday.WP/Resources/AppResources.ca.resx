@@ -245,4 +245,7 @@ I agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Està utilitzant la versió de prova amb publicitat d'aquesta aplicació . Vols comprar l'aplicació ara per eliminar els anuncis ? Si escolliu Sí - li redirigeix ​​al mercat .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Participació</value>
+  </data>
 </root>

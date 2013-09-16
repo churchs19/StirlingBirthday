@@ -245,4 +245,7 @@ I akan menghargai bantuan Anda dengan mengirimkan laporan kesalahan disiapkan . 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Anda menggunakan versi trial iklan-didukung aplikasi ini . Apakah Anda ingin membeli aplikasi sekarang untuk menghapus iklan ? Jika Anda memilih Ya - Anda akan diarahkan ke pasar .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>saham</value>
+  </data>
 </root>

@@ -245,4 +245,7 @@ I setter pris på din hjelp ved å sende forberedt feilrapport. Dette vil hjelpe
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Du bruker ad-støttet prøveversjon av dette programmet. Ønsker du å kjøpe programmet nå å fjerne annonsene ? Hvis du velger Ja - du vil bli omdirigert til markedet.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Del</value>
+  </data>
 </root>

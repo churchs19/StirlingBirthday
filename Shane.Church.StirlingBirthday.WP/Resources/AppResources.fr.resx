@@ -245,4 +245,7 @@ I apprécierait votre aide en envoyant le rapport d'erreur préparé. Cela aider
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Vous utilisez la version d'essai financé par la publicité de cette application. Voulez-vous acheter l'application maintenant pour supprimer les publicités ? Si vous choisissez Oui - vous serez redirigé sur le marché.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Partager</value>
+  </data>
 </root>

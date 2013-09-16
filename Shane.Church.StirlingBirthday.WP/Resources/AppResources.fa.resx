@@ -245,4 +245,7 @@
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>شما با استفاده از این نسخه از محاکمه آگهی پشتیبانی از این نرم افزار است . آیا شما می خواهید برای خرید نرم افزار در حال حاضر به حذف تبلیغات ؟ اگر شما انتخاب می کنید بله - شما ارسال خواهد شد به بازار هدایت می شوید.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>سهم</value>
+  </data>
 </root>

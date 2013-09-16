@@ -245,4 +245,7 @@ I agradecería su ayuda mediante el envío del informe de errores preparada. Est
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Está utilizando la versión de prueba con publicidad de esta aplicación. ¿Quieres comprar la aplicación ahora para eliminar los anuncios? Si elige Sí - le redirige al mercado.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>participación</value>
+  </data>
 </root>

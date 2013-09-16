@@ -245,4 +245,7 @@ Eu gostaria de receber sua ajuda , enviando o relatório de erro preparada. Isso
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Você está usando a versão desta aplicação julgamento ad- suportado. Você quer comprar o aplicativo agora para retirar os anúncios? Se você escolher Sim - você será redirecionado para o mercado.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>ação</value>
+  </data>
 </root>

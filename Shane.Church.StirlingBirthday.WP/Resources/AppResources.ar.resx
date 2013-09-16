@@ -245,4 +245,7 @@ I لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>كنت تستخدم النسخة التجريبية الإعلانية التي تدعمها من هذا التطبيق . هل تريد شراء التطبيق الآن لإزالة الإعلانات ؟ إذا اخترت نعم - سيتم إعادة توجيهك إلى السوق .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>حصة</value>
+  </data>
 </root>

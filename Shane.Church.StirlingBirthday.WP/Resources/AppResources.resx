@@ -245,4 +245,7 @@ I would appreciate your assistance by sending the prepared error report. This wi
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
     <value>Application Error</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Share</value>
+  </data>
 </root>

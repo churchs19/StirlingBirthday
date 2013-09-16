@@ -147,4 +147,7 @@
   <data name="YearsSingular" xml:space="preserve">
     <value>{0} metų</value>
   </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Šiandien yra {0} " gimtadienis ! Su gimtadieniu {1} !</value>
+  </data>
 </root>

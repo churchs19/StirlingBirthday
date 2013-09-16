@@ -147,4 +147,7 @@
   <data name="YearsSingular" xml:space="preserve">
     <value>{0} 年</value>
   </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>今天是{0}的生日！祝你生日快乐{1} ！</value>
+  </data>
 </root>

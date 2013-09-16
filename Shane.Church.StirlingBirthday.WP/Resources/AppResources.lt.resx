@@ -245,4 +245,7 @@ i dėkingi už tavo pagalbą siunčiant paruoštą pranešimą apie klaidą . Ta
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Jūs naudojate skelbimą remiamos bandomąją versiją šią programą . Norite įsigyti programą dabar pašalinti skelbimus? Jei pasirinksite Taip - jūs būsite nukreipti į rinką.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>dalis</value>
+  </data>
 </root>

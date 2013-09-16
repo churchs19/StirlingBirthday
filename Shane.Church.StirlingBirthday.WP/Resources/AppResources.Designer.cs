@@ -396,6 +396,15 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Share.
+        /// </summary>
+        public static string ShareMenuText {
+            get {
+                return ResourceManager.GetString("ShareMenuText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to technical support/feedback email.
         /// </summary>
         public static string TechnicalSupportEmailLabel {

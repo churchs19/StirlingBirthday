@@ -147,4 +147,7 @@
   <data name="YearsSingular" xml:space="preserve">
     <value>{0} година</value>
   </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Днес е {0} " и рожден ден ! Честит рожден ден на {1} !</value>
+  </data>
 </root>

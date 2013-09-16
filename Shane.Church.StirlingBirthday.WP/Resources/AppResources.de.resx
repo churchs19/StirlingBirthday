@@ -245,4 +245,7 @@ I würde Ihre Unterstützung , indem Sie die vorbereitete Fehlerbericht zu schä
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Sie sind mit dem Anzeige-gestützte Testversion dieser Anwendung. Möchten Sie die Anwendung jetzt zu kaufen, um die Anzeigen zu entfernen ? Wenn Sie Ja wählen - Sie werden auf den Markt umgeleitet werden.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
 </root>

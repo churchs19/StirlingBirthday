@@ -20,6 +20,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			CallWorkCommand = new RelayCommand(CallWork);
 			SendSMSCommand = new RelayCommand(SendSMS);
 			SendEmailCommand = new RelayCommand(SendEmail);
+			ShareCommand = new RelayCommand(Share);
 		}
 
 		public PhoneContactViewModel(BirthdayContact contact)
@@ -30,6 +31,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			CallWorkCommand = new RelayCommand(CallWork);
 			SendSMSCommand = new RelayCommand(SendSMS);
 			SendEmailCommand = new RelayCommand(SendEmail);
+			ShareCommand = new RelayCommand(Share);
 		}
 
 		public override string AgeText
@@ -80,6 +82,13 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			email.Subject = Properties.Resources.HappyBirthdayText;
 			email.Body = Properties.Resources.EmailBodyText;
 			email.Show();
+		}
+
+		public void Share()
+		{
+			ShareStatusTask shareStatusTask = new ShareStatusTask();
+			shareStatusTask.Status = String.Format(Properties.Resources.HappyBirthdayShare, this.DisplayName, this.FirstName);
+			shareStatusTask.Show();
 		}
 	}
 }

@@ -245,4 +245,7 @@ I hvaležni za vašo pomoč s pošiljanjem pripravljeno poročilo o napaki . To 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Uporabljate poskusno različico oglas podprt te vloge . Ali želite kupiti uporabo zdaj odstraniti oglase? Če izberete Da - boste preusmerjeni na trgu.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>delež</value>
+  </data>
 </root>

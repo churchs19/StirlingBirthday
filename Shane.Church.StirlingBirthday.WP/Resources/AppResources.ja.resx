@@ -245,4 +245,7 @@ Iは、準備エラーレポートを送信することでご協力をお願い�
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>あなたはこのアプリケーションの広告でサポートされている体験版を使用しています。あなたは、広告を削除するには、これで、アプリケーションを購入したいですか？ [はい]を選択した場合 - あなたは市場にリダイレクトされます。</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>シェア</value>
+  </data>
 </root>

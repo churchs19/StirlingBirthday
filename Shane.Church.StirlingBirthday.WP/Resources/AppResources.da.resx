@@ -245,4 +245,7 @@ I ville sætte pris på din hjælp ved at sende den forberedte fejlrapport. Dett
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Du bruger annonce-understøttet prøveversion af denne ansøgning. Ønsker du at købe programmet nu at fjerne annoncer? Hvis du vælger Ja - du vil blive omdirigeret til markedspladsen.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Del</value>
+  </data>
 </root>

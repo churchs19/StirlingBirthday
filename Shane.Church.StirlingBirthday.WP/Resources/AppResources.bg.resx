@@ -245,4 +245,7 @@ I ще оценявам вашата помощ чрез изпращане на
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Използвате поддържан от реклами пробна версия на това приложение . Искате ли да закупите прилагането сега, за да премахнете реклами? Ако изберете Да - ще бъдете пренасочени към пазара.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>дял</value>
+  </data>
 </root>

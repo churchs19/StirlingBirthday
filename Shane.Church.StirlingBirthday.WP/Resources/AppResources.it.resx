@@ -245,4 +245,7 @@ I apprezzerebbe il vostro aiuto con l'invio del rapporto di errore preparato. Qu
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Si sta utilizzando la versione di prova ad-supported di questa applicazione. Vuoi acquistare l'applicazione ora per rimuovere gli annunci ? Se si sceglie Sì - si verrà reindirizzati al mercato.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Condividi</value>
+  </data>
 </root>

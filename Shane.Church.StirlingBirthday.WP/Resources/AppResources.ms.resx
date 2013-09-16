@@ -245,4 +245,7 @@ I akan menghargai bantuan anda dengan menghantar laporan ralat disediakan. Ini a
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Anda menggunakan versi percubaan disokong iklan permohonan ini. Adakah anda ingin membeli permohonan sekarang untuk membuang iklan? Jika anda memilih Ya - anda akan dibawa ke pasaran.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Kongsi</value>
+  </data>
 </root>

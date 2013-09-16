@@ -245,4 +245,7 @@ Ik zou uw hulp op prijs stellen door het sturen van de voorbereide foutmelding. 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>U gebruikt de advertentie-ondersteunde proefversie van deze applicatie . Wil je de applicatie nu te kopen om de advertenties te verwijderen ? Als u Ja kiest - u wordt doorgestuurd naar de markt .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>aandeel</value>
+  </data>
 </root>

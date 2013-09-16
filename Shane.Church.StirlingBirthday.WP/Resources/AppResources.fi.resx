@@ -245,4 +245,7 @@ i olisin kiitollinen avusta lähettämällävalmis virheraportin . Tämä auttaa
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Käytätmainoksilla tuettu kokeiluversio tämän hakemuksen . Haluatko ostaasovelluksen nyt poistaamainoksia? Jos valitset Kyllä - sinut ohjataan markkinapaikan .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>osuus</value>
+  </data>
 </root>

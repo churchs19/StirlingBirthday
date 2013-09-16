@@ -245,4 +245,7 @@ I skulle uppskatta din hjälp genom att skicka förberedda felrapport . Detta ko
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Du använder ad - stödda testversion av denna ansökan . Vill du köpa programmet nu att ta bort annonserna ? Om du väljer Ja - kommer du att omdirigeras till marknadsplatsen .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Dela</value>
+  </data>
 </root>

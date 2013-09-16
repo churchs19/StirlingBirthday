@@ -46,7 +46,10 @@
 															  Content="{Binding LocalizedResources.SendEmailMenuText, Source={StaticResource LocalizedStrings}}"
 															  Command="{Binding SendEmailCommand}"
 															  Visibility="{Binding HasEmail, Converter={StaticResource BoolToVisibilityConverter}}"/>
-					</telerikPrimitives:RadContextMenu>
+                        <telerikPrimitives:RadContextMenuItem Name="menuItemShare"
+															  Content="{Binding LocalizedResources.ShareMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding ShareCommand}" />
+                    </telerikPrimitives:RadContextMenu>
 				</telerikPrimitives:RadContextMenu.ContextMenu>
 				<Grid Width="450">
 					<Grid.RowDefinitions>
@@ -163,6 +166,9 @@
 															  Content="{Binding LocalizedResources.SendEmailMenuText, Source={StaticResource LocalizedStrings}}"
 															  Command="{Binding SendEmailCommand}"
 															  Visibility="{Binding HasEmail, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                        <telerikPrimitives:RadContextMenuItem Name="menuItemShare"
+															  Content="{Binding LocalizedResources.ShareMenuText, Source={StaticResource LocalizedStrings}}"
+															  Command="{Binding ShareCommand}" />
                     </telerikPrimitives:RadContextMenu>
                 </telerikPrimitives:RadContextMenu.ContextMenu>
                 <Grid Width="450" Background="{StaticResource PhoneAccentBrush}">
@@ -391,7 +397,7 @@
 		</controls:Pivot>
 
         <StackPanel Grid.Row="1" MaxHeight="80" x:Name="AdPanel">
-            <StackPanel Grid.Row="1">
+            <StackPanel>
                 <ad:InneractiveAd xmlns:ad="clr-namespace:Inneractive.Nokia.Ad;assembly=Inneractive.Ad"
                                   AppID="ShaneChurch_StirlingBirthday_WP"
                                   AdType="IaAdType_Banner"

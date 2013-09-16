@@ -245,4 +245,7 @@ olen sooviks teie abi , saates ettevalmistatud veateate . See aitab koos problee
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Te kasutatereklaami-toetatud prooviversiooni seda taotlust. Kas soovite ostarakendus nüüd eemaldada reklaame? Kui valite Jah - te suunatakse turul.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>osa</value>
+  </data>
 </root>

@@ -106,6 +106,15 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Today is {0}&apos;s birthday! Happy Birthday {1}!.
+        /// </summary>
+        public static string HappyBirthdayShare {
+            get {
+                return ResourceManager.GetString("HappyBirthdayShare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Happy Birthday!.
         /// </summary>
         public static string HappyBirthdayText {

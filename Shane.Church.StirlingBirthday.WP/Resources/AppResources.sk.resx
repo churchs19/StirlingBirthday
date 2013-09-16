@@ -245,4 +245,7 @@ I by som ocenil vašu pomoc zaslaním pripravený chybové hlásenie . To vám p
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Používate ad - podporovanú skúšobnú verziu tejto aplikácie . Chcete kúpiť aplikáciu teraz k odstráneniu reklamy ? Ak zvolíte Áno - budete presmerovaný na trh .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>podiel</value>
+  </data>
 </root>

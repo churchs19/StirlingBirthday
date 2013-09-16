@@ -245,4 +245,7 @@ l hazırlanan hata raporu göndererek yardım seviniriz . Bu daha hızlısorunu 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Bu uygulamanın reklam destekli deneme sürümünü kullanıyorsanız . Eğerreklamları kaldırmak için şimdi uygulama satın almak istiyor musunuz ? Evet'i seçerseniz - Eğer pazar yönlendirileceksiniz .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>pay</value>
+  </data>
 </root>

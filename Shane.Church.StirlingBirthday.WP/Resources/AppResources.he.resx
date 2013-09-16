@@ -245,4 +245,7 @@ I הייתי מעריך את עזרתך על ידי שליחתדוח השגיא�
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>אתה משתמש בגרסת ניסיון מודעה נתמכת של יישום זה. האם ברצונך לרכוש את היישום עכשיו כדי להסיר את המודעות ? אם תבחר כן - אתה יהיה מנותב לשוק.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>מניה</value>
+  </data>
 </root>

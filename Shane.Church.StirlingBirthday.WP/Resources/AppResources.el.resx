@@ -245,4 +245,7 @@ I θα εκτιμούσα τη βοήθειά σας με την αποστολ�
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Εσείς χρησιμοποιείτε το ad- υποστηρίζεται δοκιμαστική έκδοση της παρούσας αίτησης . Θέλετε να αγοράσετε την εφαρμογή τώρα να αφαιρέσετε τις διαφημίσεις ; Εάν επιλέξετε Ναι - θα μεταφερθείτε στην αγορά .</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>μετοχή</value>
+  </data>
 </root>

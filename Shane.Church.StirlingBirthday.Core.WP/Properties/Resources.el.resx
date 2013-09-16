@@ -147,4 +147,7 @@
   <data name="YearsSingular" xml:space="preserve">
     <value>έτος {0}</value>
   </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Σήμερα είναι {0} ' s birthday! Χρόνια πολλά {1} !</value>
+  </data>
 </root>

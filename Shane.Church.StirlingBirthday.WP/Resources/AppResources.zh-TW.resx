@@ -163,7 +163,7 @@
     <value>過去</value>
   </data>
   <data name="PinLabel" xml:space="preserve">
-    <value>pin</value>
+    <value>针</value>
   </data>
   <data name="RateLabel" xml:space="preserve">
     <value>率我</value>
@@ -244,5 +244,8 @@ I会感谢您的帮助，通过发送错误报告准备。这将有助于更快�
   </data>
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>您正在使用试用版本的应用程序的广告支持。你想购买的应用程序，现在删除的广告吗？如果你选择“是” - 你会被重定向到市场上。</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>共享</value>
   </data>
 </root>

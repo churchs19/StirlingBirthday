@@ -245,4 +245,7 @@ i sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo cáo 
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
     <value>Bạn đang sử dụng phiên bản thử nghiệm hỗ trợ quảng cáo của ứng dụng này. Bạn có muốn mua các ứng dụng ngay bây giờ để loại bỏ các quảng cáo? Nếu bạn chọn Yes - bạn sẽ được chuyển hướng đến thị trường.</value>
   </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>chia</value>
+  </data>
 </root>

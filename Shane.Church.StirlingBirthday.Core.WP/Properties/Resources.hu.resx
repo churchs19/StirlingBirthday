@@ -147,4 +147,7 @@
   <data name="YearsSingular" xml:space="preserve">
     <value>a(z) {0} év</value>
   </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Ma {0} születésnapja ! Boldog születésnapot {1} !</value>
+  </data>
 </root>

@@ -239,5 +239,15 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 				Set(() => SendEmailCommand, ref _sendEmailCommand, value);
 			}
 		}
+
+		private ICommand _shareCommand;
+		public ICommand ShareCommand
+		{
+			get { return _shareCommand;}
+			set
+			{
+				Set(() => ShareCommand, ref _shareCommand, value);
+			}
+		}
 	}
 }
