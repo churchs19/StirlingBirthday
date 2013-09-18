@@ -47,16 +47,6 @@ namespace Shane.Church.StirlingBirthday.WP
 		#region Ad Control
 		private void InitializeAdControl()
 		{
-			//<ad:InneractiveAd xmlns:ad="clr-namespace:Inneractive.Nokia.Ad;assembly=Inneractive.Ad"
-			//		  AppID="ShaneChurch_StirlingBirthday_WP"
-			//		  AdType="IaAdType_Banner"
-			//		  ReloadTime="30"
-			//		  Keywords="friends,social,birthday,reminder,call,text,email"
-			//		  OptionalAdHeight="80"
-			//		  OptionalAdWidth="480"
-			//		  AdAlignment="BOTTOM_CENTER"
-			//		  Name="AdControl" />
-
 #if !PERSONAL
 			if ((App.Current as App).trialReminder.IsTrialMode())
 			{
@@ -66,9 +56,11 @@ namespace Shane.Church.StirlingBirthday.WP
 			}
 			else
 			{
+				AdPanel.Children.Remove(AdControl);
 				AdControl = null;
 			}
 #else
+			AdPanel.Children.Remove(AdControl);
 			AdControl = null;
 #endif
 		}

@@ -257,7 +257,7 @@ namespace Shane.Church.StirlingBirthday.WP
 		{
 			//Before using any of the ApplicationBuildingBlocks, this class should be initialized with the version of the application.
 			ApplicationUsageHelper.Init("1.0");
-
+			FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
 		}
 
 		// Code to execute when the application is activated (brought to foreground)
@@ -269,7 +269,7 @@ namespace Shane.Church.StirlingBirthday.WP
 				//This will ensure that the ApplicationUsageHelper is initialized again if the application has been in Tombstoned state.
 				ApplicationUsageHelper.OnApplicationActivated();
 			}
-
+			FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
 		}
 
 		// Code to execute when the application is deactivated (sent to background)
@@ -277,12 +277,14 @@ namespace Shane.Church.StirlingBirthday.WP
 		private void Application_Deactivated(object sender, DeactivatedEventArgs e)
 		{
 			// Ensure that required application state is persisted here.
+			FlurryWP8SDK.Api.EndSession();
 		}
 
 		// Code to execute when the application is closing (eg, user hit Back)
 		// This code will not execute when the application is deactivated
 		private void Application_Closing(object sender, ClosingEventArgs e)
 		{
+			FlurryWP8SDK.Api.EndSession();
 		}
 
 		// Code to execute if a navigation fails

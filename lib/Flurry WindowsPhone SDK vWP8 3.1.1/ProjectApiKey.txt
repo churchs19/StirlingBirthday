@@ -1,8 +1,0 @@
-Project: What I Eat
-API Key: 2V3YW9WWTG2D35WQJGY3
-
-Project: Stirling Birthday
-API Key: 93H3RHMX3CW4N7XXDVFZ
-
-Project: Stirling Money
-API Key: 49DWJ6DW72JTS59H4548
