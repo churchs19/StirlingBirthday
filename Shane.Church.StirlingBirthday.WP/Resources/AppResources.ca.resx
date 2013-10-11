@@ -248,4 +248,16 @@ I agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada
   <data name="ShareMenuText" xml:space="preserve">
     <value>Participació</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>si</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Actualització disponible !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Una actualització està disponible ! Voleu instal · lar l'actualització ara ?</value>
+  </data>
 </root>

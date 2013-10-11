@@ -106,6 +106,10 @@ namespace Shane.Church.StirlingBirthday.WP
 
 			//Defines the default email where the diagnostics info will be send.
 			diagnostics.EmailTo = "shane@s-church.net";
+			diagnostics.MessageBoxInfo.Title = AppResources.Diagnostics_MessageBox_Title;
+			diagnostics.MessageBoxInfo.Content = AppResources.Diagnostics_MessageBox_Content;
+			diagnostics.IncludeScreenshot = true;
+			diagnostics.ExceptionOccurred += diagnostics_ExceptionOccurred;
 
 			//Initializes this instance.
 			diagnostics.Init();
@@ -146,6 +150,20 @@ namespace Shane.Church.StirlingBirthday.WP
 			rateReminder.AllowUsersToSkipFurtherReminders = true;
 
 			InitializeBackgroundAgent();
+		}
+
+		void diagnostics_ExceptionOccurred(object sender, ExceptionOccurredEventArgs e)
+		{
+			if (e.Exception.StackTrace.Contains("Inneractive.Ad"))
+			{
+				e.Cancel = true;
+				e.Handled = true;
+			}
+			if (e.Exception.Message.Equals("User has not granted the application consent to access data in Windows Live."))
+			{
+				e.Cancel = true;
+				e.Handled = true;
+			}
 		}
 
 		// Initialize the app's font and flow direction as defined in its localized resource strings. 
@@ -305,6 +323,8 @@ namespace Shane.Church.StirlingBirthday.WP
 				// An unhandled exception has occurred; break into the debugger
 				System.Diagnostics.Debugger.Break();
 			}
+			if (e.ExceptionObject.StackTrace.Contains("Inneractive.Ad")) e.Handled = true;
+			if (e.ExceptionObject.Message.Equals("User has not granted the application consent to access data in Windows Live.")) e.Handled = true;
 		}
 
 		#region Phone application initialization

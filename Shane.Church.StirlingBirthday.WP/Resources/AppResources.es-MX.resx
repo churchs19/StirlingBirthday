@@ -248,4 +248,16 @@ Yo agradecería su ayuda mediante el envío del informe de errores preparada. Es
   <data name="ShareMenuText" xml:space="preserve">
     <value>participación</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>sí</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Actualización disponible !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Una actualización está disponible ! ¿Desea instalar la actualización ahora?</value>
+  </data>
 </root>

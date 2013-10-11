@@ -248,4 +248,16 @@ i dėkingi už tavo pagalbą siunčiant paruoštą pranešimą apie klaidą . Ta
   <data name="ShareMenuText" xml:space="preserve">
     <value>dalis</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>taip</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Atnaujinkite prieinamas!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Atnaujinimas yra prieinamas! Ar norite įdiegti naujinimą dabar ?</value>
+  </data>
 </root>

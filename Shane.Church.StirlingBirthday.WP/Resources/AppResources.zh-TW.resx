@@ -248,4 +248,16 @@ I会感谢您的帮助，通过发送错误报告准备。这将有助于更快�
   <data name="ShareMenuText" xml:space="preserve">
     <value>共享</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>升级可用！</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>有可用的升级！你想现在安装升级？</value>
+  </data>
 </root>

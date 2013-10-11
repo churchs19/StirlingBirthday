@@ -248,4 +248,16 @@ I ще оценявам вашата помощ чрез изпращане на
   <data name="ShareMenuText" xml:space="preserve">
     <value>дял</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Ъпгрейд на разположение!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Надстройка е в наличност! Искате ли да инсталирате актуализацията сега?</value>
+  </data>
 </root>

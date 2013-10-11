@@ -248,4 +248,16 @@ I akan menghargai bantuan Anda dengan mengirimkan laporan kesalahan disiapkan . 
   <data name="ShareMenuText" xml:space="preserve">
     <value>saham</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Tersedia meng-upgrade !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Upgrade tersedia ! Apakah Anda ingin menginstal upgrade sekarang?</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I would appreciate your assistance by sending the prepared error report. This wi
   <data name="ShareMenuText" xml:space="preserve">
     <value>Share</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade Available!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>An upgrade is available! Do you want to install the upgrade now?</value>
+  </data>
 </root>

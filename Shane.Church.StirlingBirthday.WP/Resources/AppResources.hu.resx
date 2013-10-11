@@ -248,4 +248,16 @@ I vennénk segítséget küldött az elkészített hibajelentés . Ez segít a p
   <data name="ShareMenuText" xml:space="preserve">
     <value>részvény</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>igen</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nincs</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Frissítés elérhető!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Frissítés elérhető ! Szeretnéd , hogy telepítse a frissítést most?</value>
+  </data>
 </root>

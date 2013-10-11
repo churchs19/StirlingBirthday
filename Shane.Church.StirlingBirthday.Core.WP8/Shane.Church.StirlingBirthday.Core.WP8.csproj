@@ -245,6 +245,9 @@
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Services\PhoneWebNavigationService.cs">
       <Link>Services\PhoneWebNavigationService.cs</Link>
     </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\Utility\SafeBehavior.cs">
+      <Link>Utility\SafeBehavior.cs</Link>
+    </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP\ViewModels\PhoneAboutViewModel.cs">
       <Link>ViewModels\PhoneAboutViewModel.cs</Link>
     </Compile>
@@ -325,6 +328,7 @@
     <Reference Include="Ninject.WP">
       <HintPath>..\packages\Portable.Ninject.3.0.6\lib\sl4-wp71\Ninject.WP.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=3.9.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Telerik.Windows.BackgroundAgentTools, Version=2013.2.718.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>

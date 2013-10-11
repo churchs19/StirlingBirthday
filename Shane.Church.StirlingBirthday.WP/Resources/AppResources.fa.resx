@@ -248,4 +248,16 @@
   <data name="ShareMenuText" xml:space="preserve">
     <value>سهم</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>هیچ</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>به روز رسانی می کند!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>ارتقاء در دسترس است ! آیا شما می خواهید برای نصببه روز رسانی در حال حاضر ؟</value>
+  </data>
 </root>

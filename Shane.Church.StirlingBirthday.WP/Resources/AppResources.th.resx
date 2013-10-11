@@ -248,4 +248,16 @@ I จะขอบคุณ ความช่วยเหลือ ของค�
   <data name="ShareMenuText" xml:space="preserve">
     <value>หุ้น</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ไม่</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>อัพเกรด ว่าง!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>อัพเกรดเป็น ใช้ได้! คุณต้องการที่จะ ติดตั้ง อัพเกรดตอนนี้</value>
+  </data>
 </root>

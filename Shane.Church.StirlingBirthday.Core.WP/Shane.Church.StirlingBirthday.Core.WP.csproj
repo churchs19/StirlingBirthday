@@ -112,6 +112,7 @@
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Net" />
     <Reference Include="mscorlib.extensions" />
@@ -155,6 +156,7 @@
     <Compile Include="Services\PhoneSettingsService.cs" />
     <Compile Include="Services\PhoneTileUpdateService.cs" />
     <Compile Include="Services\PhoneWebNavigationService.cs" />
+    <Compile Include="Utility\SafeBehavior.cs" />
     <Compile Include="ViewModels\PhoneAboutViewModel.cs" />
     <Compile Include="ViewModels\PhoneContactViewModel.cs" />
     <Compile Include="ViewModels\PhoneMainViewModel.cs" />

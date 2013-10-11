@@ -248,4 +248,16 @@ I б вдячні вашої допомоги , відправивши підг�
   <data name="ShareMenuText" xml:space="preserve">
     <value>частка</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>немає</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Оновлення доступні!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Оновлення доступно! Ви хочете , щоб встановити оновлення зараз?</value>
+  </data>
 </root>

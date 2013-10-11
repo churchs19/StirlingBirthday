@@ -248,4 +248,16 @@ I hvaležni za vašo pomoč s pošiljanjem pripravljeno poročilo o napaki . To 
   <data name="ShareMenuText" xml:space="preserve">
     <value>delež</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Nadgradite na voljo !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Nadgradnja je na voljo! Ali želite namestiti nadgradnjo zdaj ?</value>
+  </data>
 </root>

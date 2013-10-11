@@ -193,6 +193,9 @@
     <Compile Include="..\Shane.Church.StirlingBirthday.WP\Helpers\BirthdayItemTemplateSelector.cs">
       <Link>Helpers\BirthdayItemTemplateSelector.cs</Link>
     </Compile>
+    <Compile Include="..\Shane.Church.StirlingBirthday.WP\Helpers\UpgradeBehavior.cs">
+      <Link>Helpers\UpgradeBehavior.cs</Link>
+    </Compile>
     <Compile Include="..\Shane.Church.StirlingBirthday.WP\LocalizedStrings.cs">
       <Link>LocalizedStrings.cs</Link>
     </Compile>
@@ -288,6 +291,16 @@
     <Reference Include="Ninject.WP">
       <HintPath>..\packages\Portable.Ninject.3.0.6\lib\sl4-wp71\Ninject.WP.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=3.9.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Telerik.Windows.Controls.Data, Version=2013.2.718.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWP\2013.2.718.3040\Telerik.Windows.Controls.Data.dll</HintPath>
       <Private>True</Private>

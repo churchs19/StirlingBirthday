@@ -248,4 +248,16 @@ Iは、準備エラーレポートを送信することでご協力をお願い�
   <data name="ShareMenuText" xml:space="preserve">
     <value>シェア</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>利用可能なアップグレード！</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>アップグレードが可能です！あなたは今、アップグレードをインストールしますか？</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I būtu pateicīgi par jūsu palīdzību, nosūtot sagatavoto kļūdas ziņojumu
   <data name="ShareMenuText" xml:space="preserve">
     <value>daļa</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nē</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade pieejams !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Jauninājums ir pieejams ! Vai jūs vēlaties instalēt jaunināšanas tagad ?</value>
+  </data>
 </root>

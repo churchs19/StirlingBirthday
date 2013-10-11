@@ -11,6 +11,7 @@
 	xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
     xmlns:wpCore="clr-namespace:Shane.Church.StirlingBirthday.Core.WP.Converters;assembly=Shane.Church.StirlingBirthday.Core.WP"
     xmlns:helpers="clr-namespace:Shane.Church.StirlingBirthday.WP.Helpers"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
 	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -18,7 +19,11 @@
 	Background="{StaticResource PhoneBackgroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait">
 
-	<phone:PhoneApplicationPage.Resources>
+    <i:Interaction.Behaviors>
+        <helpers:UpgradeBehavior x:Name="upgradeBehavior"/>
+    </i:Interaction.Behaviors>
+    
+    <phone:PhoneApplicationPage.Resources>
         <wpCore:DisplayNamePictureConverter x:Key="displayNameConverter"/>
 		<DataTemplate x:Key="birthdayItemTemplate">
 			<StackPanel Orientation="Horizontal"

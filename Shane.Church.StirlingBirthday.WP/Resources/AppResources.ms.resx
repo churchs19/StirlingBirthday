@@ -248,4 +248,16 @@ I akan menghargai bantuan anda dengan menghantar laporan ralat disediakan. Ini a
   <data name="ShareMenuText" xml:space="preserve">
     <value>Kongsi</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Japan Available!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Menaik taraf boleh didapati ! Adakah anda ingin memasang upgrade sekarang?</value>
+  </data>
 </root>

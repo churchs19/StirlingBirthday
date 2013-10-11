@@ -248,4 +248,16 @@ I لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ 
   <data name="ShareMenuText" xml:space="preserve">
     <value>حصة</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>ترقية متاح !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>ترقية متاح! هل تريد تثبيت الترقية الآن ؟</value>
+  </data>
 </root>

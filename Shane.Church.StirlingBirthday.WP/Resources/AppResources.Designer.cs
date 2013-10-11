@@ -288,6 +288,15 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to no.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No friends had a birthday in the past month..
         /// </summary>
         public static string PastEmptyText {
@@ -446,6 +455,33 @@ namespace Shane.Church.StirlingBirthday.WP.Resources {
         public static string UpcomingPivotHeader {
             get {
                 return ResourceManager.GetString("UpcomingPivotHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An upgrade is available! Do you want to install the upgrade now?.
+        /// </summary>
+        public static string UpgradeText {
+            get {
+                return ResourceManager.GetString("UpgradeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upgrade Available!.
+        /// </summary>
+        public static string UpgradeTitle {
+            get {
+                return ResourceManager.GetString("UpgradeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

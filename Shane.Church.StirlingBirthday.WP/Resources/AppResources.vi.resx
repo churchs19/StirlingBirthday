@@ -248,4 +248,16 @@ i sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo cáo 
   <data name="ShareMenuText" xml:space="preserve">
     <value>chia</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Nâng cấp có sẵn !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Nâng cấp có sẵn ! Bạn có muốn cài đặt các nâng cấp bây giờ?</value>
+  </data>
 </root>

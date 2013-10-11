@@ -248,4 +248,16 @@ I तैयार त्रुटि रिपोर्ट भेजने क�
   <data name="ShareMenuText" xml:space="preserve">
     <value>शेयर</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>उपलब्ध उन्नयन!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>एक उन्नयन उपलब्ध है ! तुम अब उन्नत स्थापित करना चाहते हैं?</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I הייתי מעריך את עזרתך על ידי שליחתדוח השגיא�
   <data name="ShareMenuText" xml:space="preserve">
     <value>מניה</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>שדרוג זמין !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>שדרוג זמין ! האם ברצונך להתקין את השדרוג עכשיו?</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I würde Ihre Unterstützung , indem Sie die vorbereitete Fehlerbericht zu schä
   <data name="ShareMenuText" xml:space="preserve">
     <value>Teilen</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>keine</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade möglich !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Ein Upgrade ist verfügbar ! Möchten Sie das Upgrade jetzt installieren?</value>
+  </data>
 </root>

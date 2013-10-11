@@ -248,4 +248,16 @@ I by som ocenil vašu pomoc zaslaním pripravený chybové hlásenie . To vám p
   <data name="ShareMenuText" xml:space="preserve">
     <value>podiel</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>áno</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade k dispozícii !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Aktualizácia je k dispozícii ! Chcete nainštalovať upgrade teraz ?</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I θα εκτιμούσα τη βοήθειά σας με την αποστολ�
   <data name="ShareMenuText" xml:space="preserve">
     <value>μετοχή</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ναί</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>όχι</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Αναβάθμιση Available !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Η αναβάθμιση είναι διαθέσιμη! Θέλετε να εγκαταστήσετε την αναβάθμιση τώρα;</value>
+  </data>
 </root>

@@ -248,4 +248,16 @@ I apprezzerebbe il vostro aiuto con l'invio del rapporto di errore preparato. Qu
   <data name="ShareMenuText" xml:space="preserve">
     <value>Condividi</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>sì</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Aggiornamento disponibile !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Un aggiornamento è disponibile ! Vuoi installare l'aggiornamento ora ?</value>
+  </data>
 </root>

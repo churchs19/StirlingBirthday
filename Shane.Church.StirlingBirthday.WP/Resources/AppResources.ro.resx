@@ -248,4 +248,16 @@ in -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Ac
   <data name="ShareMenuText" xml:space="preserve">
     <value>acțiune</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade disponibile !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Un upgrade este disponibil ! Nu doriți să instalați upgrade-ul acum ?</value>
+  </data>
 </root>

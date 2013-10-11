@@ -248,4 +248,16 @@ Ik zou uw hulp op prijs stellen door het sturen van de voorbereide foutmelding. 
   <data name="ShareMenuText" xml:space="preserve">
     <value>aandeel</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>geen</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade beschikbaar !</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Een upgrade beschikbaar is ! Wilt u de upgrade nu installeren?</value>
+  </data>
 </root>

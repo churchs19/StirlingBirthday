@@ -248,4 +248,16 @@ olen sooviks teie abi , saates ettevalmistatud veateate . See aitab koos problee
   <data name="ShareMenuText" xml:space="preserve">
     <value>osa</value>
   </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jah</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade saadaval!</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Uuendus on saadaval! Kas soovite installida upgrade nüüd ?</value>
+  </data>
 </root>
