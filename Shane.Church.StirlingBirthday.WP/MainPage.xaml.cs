@@ -193,7 +193,7 @@ namespace Shane.Church.StirlingBirthday.WP
 			}
 			foreach (DataGroup group in JumpListAll.Groups)
 			{
-				if (object.Equals(((MonthGroup)e.DataItem).MonthIndex, ((MonthGroup)group.Key).MonthIndex))
+				if (object.Equals(nextKey, ((MonthGroup)group.Key).MonthIndex))
 				{
 					e.ClosePicker = true;
 					e.ScrollToItem = true;
