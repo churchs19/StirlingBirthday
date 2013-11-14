@@ -260,4 +260,16 @@ I będzie wdzięczna za pomoc , wysyłając przygotowanego raportu o błędzie .
   <data name="UpgradeText" xml:space="preserve">
     <value>Aktualizacja jest dostępna! Czy chcesz zainstalować aktualizację teraz?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Czy mogę zrobić to lepiej ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Jak można poprawić tę aplikację tak, że jesteś w stanie ocenić jej 5 gwiazdek na giełdzie?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>wyślij uwagi</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nie, dziękuję</value>
+  </data>
 </root>

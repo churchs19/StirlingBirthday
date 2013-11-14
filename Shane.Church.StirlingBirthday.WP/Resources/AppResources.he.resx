@@ -260,4 +260,16 @@ I הייתי מעריך את עזרתך על ידי שליחתדוח השגיא�
   <data name="UpgradeText" xml:space="preserve">
     <value>שדרוג זמין ! האם ברצונך להתקין את השדרוג עכשיו?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>האם אני יכול לעשות את זה טוב יותר ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>איך אני יכול לשפר את יישום זה , כך שאתה יהיה מוכן לדרג אותו 5 כוכבים בשוק ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>לתת משוב</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>לא תודה</value>
+  </data>
 </root>

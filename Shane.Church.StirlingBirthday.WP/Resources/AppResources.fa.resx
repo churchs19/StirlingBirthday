@@ -260,4 +260,16 @@
   <data name="UpgradeText" xml:space="preserve">
     <value>ارتقاء در دسترس است ! آیا شما می خواهید برای نصببه روز رسانی در حال حاضر ؟</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>آیا می توانم آن را بهتر است ؟</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>چگونه می توان این نرم افزار را بهبود بخشد به طوری که شما مایل به آن را دوست ندارم 5 ستاره در بازار خواهد بود ؟</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>بازخورد</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>نه ممنون</value>
+  </data>
 </root>

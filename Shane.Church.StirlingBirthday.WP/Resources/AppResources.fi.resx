@@ -260,4 +260,16 @@ i olisin kiitollinen avusta lähettämällävalmis virheraportin . Tämä auttaa
   <data name="UpgradeText" xml:space="preserve">
     <value>Päivitys on saatavilla ! Haluatko asentaapäivityksen nyt ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Voinko tehdä sen paremmin ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Miten voin parantaa tämän hakemuksen , jotta olisit valmis arvostella sitä 5 tähteämarkkinapaikka ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>antaa palautetta</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>ei kiitos</value>
+  </data>
 </root>

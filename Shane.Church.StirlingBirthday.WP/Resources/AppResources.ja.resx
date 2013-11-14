@@ -260,4 +260,16 @@ Iは、準備エラーレポートを送信することでご協力をお願い�
   <data name="UpgradeText" xml:space="preserve">
     <value>アップグレードが可能です！あなたは今、アップグレードをインストールしますか？</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>私はそれを改善することはできますか？</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>あなたはそれを市場で5つ星を評価することをいとわないようにするにはどうすればこのアプリケーションを改善できますか？</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>フィードバックを与える</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>全く感謝しない</value>
+  </data>
 </root>

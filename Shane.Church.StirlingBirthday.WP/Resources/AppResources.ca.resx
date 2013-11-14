@@ -260,4 +260,16 @@ I agrairia la seva ajuda mitjançant l'enviament de l'informe d'errors preparada
   <data name="UpgradeText" xml:space="preserve">
     <value>Una actualització està disponible ! Voleu instal · lar l'actualització ara ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Puc fer-ho millor ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Com puc millorar aquesta aplicació perquè vostè estaria disposat a valorar 5 estrelles situat al mercat ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>donar la seva opinió</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>No, gràcies</value>
+  </data>
 </root>

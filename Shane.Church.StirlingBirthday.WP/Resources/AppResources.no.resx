@@ -260,4 +260,16 @@ I setter pris på din hjelp ved å sende forberedt feilrapport. Dette vil hjelpe
   <data name="UpgradeText" xml:space="preserve">
     <value>En oppgradering er tilgjengelig! Ønsker du å installere oppgraderingen nå ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Kan jeg gjøre det bedre?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Hvordan kan jeg forbedre dette programmet slik at du ville være villig til å vurdere det fem stjerner i markedet?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>gi tilbakemelding</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nei takk</value>
+  </data>
 </root>

@@ -260,4 +260,16 @@ I būtu pateicīgi par jūsu palīdzību, nosūtot sagatavoto kļūdas ziņojumu
   <data name="UpgradeText" xml:space="preserve">
     <value>Jauninājums ir pieejams ! Vai jūs vēlaties instalēt jaunināšanas tagad ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Es varu darīt labāk ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Kā es varu uzlabot šo pieteikumu , lai jūs būtu gatavi to novērtēt 5 zvaigznes tirgū ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>sniegt atsauksmes</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nē paldies</value>
+  </data>
 </root>

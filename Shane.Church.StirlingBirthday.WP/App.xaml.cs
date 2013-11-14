@@ -1,5 +1,6 @@
 ﻿using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Tasks;
 using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Exceptions;
@@ -11,6 +12,7 @@ using Shane.Church.StirlingBirthday.Core.WP.ViewModels;
 using Shane.Church.StirlingBirthday.WP.Resources;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Reflection;
@@ -150,7 +152,29 @@ namespace Shane.Church.StirlingBirthday.WP
 			rateReminder.RecurrencePerUsageCount = 1;
 			rateReminder.AllowUsersToSkipFurtherReminders = true;
 
+			rateReminder.ReminderClosed += rateReminder_ReminderClosed;
+
 			InitializeBackgroundAgent();
+		}
+
+		void rateReminder_ReminderClosed(object sender, ReminderClosedEventArgs e)
+		{
+			if (e.MessageBoxEventArgs.Result == DialogResult.Cancel)
+			{
+				RadMessageBox.Show(buttonsContent: new List<object>() { AppResources.GiveFeedbackButton, AppResources.NoThanksButton },
+					title: AppResources.FeedbackTitle,
+					message: AppResources.FeedbackContent,
+					closedHandler: (eArgs) =>
+					{
+						if (eArgs.ButtonIndex == 0)
+						{
+							EmailComposeTask emailTask = new EmailComposeTask();
+							emailTask.To = "shane@s-church.net";
+							emailTask.Subject = emailTask.Subject = Shane.Church.StirlingBirthday.Core.WP.Properties.Resources.TechnicalSupportEmailSubject;
+							emailTask.Show();
+						}
+					});
+			}
 		}
 
 		void diagnostics_ExceptionOccurred(object sender, ExceptionOccurredEventArgs e)

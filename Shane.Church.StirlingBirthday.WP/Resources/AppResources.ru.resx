@@ -260,4 +260,16 @@ I бы признательны вашей помощи , отправив по�
   <data name="UpgradeText" xml:space="preserve">
     <value>Обновление доступно ! Вы хотите, чтобы установить обновление сейчас?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Могу ли я сделать это лучше?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Как я могу улучшить это приложение так, чтобы вы были бы готовы , чтобы оценить его 5 звезд на рынке?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>давать обратную связь</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Нет, спасибо</value>
+  </data>
 </root>

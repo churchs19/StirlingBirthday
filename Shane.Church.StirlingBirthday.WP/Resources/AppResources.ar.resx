@@ -260,4 +260,16 @@ I لن نقدر مساعدتكم عن طريق إرسال تقرير الخطأ 
   <data name="UpgradeText" xml:space="preserve">
     <value>ترقية متاح! هل تريد تثبيت الترقية الآن ؟</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>يمكنني جعله أفضل ؟</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>كيف يمكنني تحسين هذا التطبيق بحيث كنت على استعداد لمعدل 5 نجوم في السوق ؟</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>تعطي ردود فعل</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>لا شكرا</value>
+  </data>
 </root>

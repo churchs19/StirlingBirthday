@@ -260,4 +260,16 @@ Eu gostaria de receber sua ajuda , enviando o relatório de erro preparada. Isso
   <data name="UpgradeText" xml:space="preserve">
     <value>Uma atualização está disponível ! Você quer instalar a atualização agora?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Eu posso fazer isso melhor?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Como posso melhorar este aplicativo para que você estaria disposto a tarifa a 5 estrelas no mercado?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>dar feedback</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>não, obrigado</value>
+  </data>
 </root>

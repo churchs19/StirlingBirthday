@@ -260,4 +260,16 @@ I б вдячні вашої допомоги , відправивши підг�
   <data name="UpgradeText" xml:space="preserve">
     <value>Оновлення доступно! Ви хочете , щоб встановити оновлення зараз?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Чи можу я зробити це краще?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Як я можу поліпшити це додаток так , щоб ви були б готові , щоб оцінити його 5 зірок на ринку?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>давати зворотний зв'язок</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Ні, дякую</value>
+  </data>
 </root>

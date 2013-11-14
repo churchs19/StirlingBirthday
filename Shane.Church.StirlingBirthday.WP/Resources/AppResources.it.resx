@@ -260,4 +260,16 @@ I apprezzerebbe il vostro aiuto con l'invio del rapporto di errore preparato. Qu
   <data name="UpgradeText" xml:space="preserve">
     <value>Un aggiornamento è disponibile ! Vuoi installare l'aggiornamento ora ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Posso fare di meglio?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Come posso migliorare questa applicazione in modo che si sarebbe disposti a votarla 5 stelle nel mercato ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>dare un feedback</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>no grazie</value>
+  </data>
 </root>

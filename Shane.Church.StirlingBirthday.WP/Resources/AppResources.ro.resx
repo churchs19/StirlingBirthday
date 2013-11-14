@@ -260,4 +260,16 @@ in -ar aprecia ajutorul dvs. prin trimiterea raportul de eroare pregătit . . Ac
   <data name="UpgradeText" xml:space="preserve">
     <value>Un upgrade este disponibil ! Nu doriți să instalați upgrade-ul acum ?</value>
   </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Pot face asta mai bine ?</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Cum pot îmbunătăți această aplicație , astfel încât să -ar fi dispus sa il votezi 5 stele de pe piata ?</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>da feedback-ul</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nu, mulțumesc</value>
+  </data>
 </root>
