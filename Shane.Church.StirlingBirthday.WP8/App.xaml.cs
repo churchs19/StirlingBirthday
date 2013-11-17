@@ -150,7 +150,7 @@ namespace Shane.Church.StirlingBirthday.WP
 			rateReminder.MessageBoxInfo.Buttons = MessageBoxButtons.YesNo;
 
 			//Sets how often the rate reminder is displayed.
-			rateReminder.RecurrencePerUsageCount = 1;
+			rateReminder.RecurrencePerUsageCount = 5;
 			rateReminder.AllowUsersToSkipFurtherReminders = true;
 
 			rateReminder.ReminderClosed += rateReminder_ReminderClosed;
