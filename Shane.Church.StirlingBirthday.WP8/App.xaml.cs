@@ -158,23 +158,21 @@ namespace Shane.Church.StirlingBirthday.WP
 			InitializeBackgroundAgent();
 		}
 
-		void rateReminder_ReminderClosed(object sender, ReminderClosedEventArgs e)
+		async void rateReminder_ReminderClosed(object sender, ReminderClosedEventArgs e)
 		{
 			if (e.MessageBoxEventArgs.Result == DialogResult.Cancel)
 			{
-				RadMessageBox.Show(buttonsContent: new List<object>() { AppResources.GiveFeedbackButton, AppResources.NoThanksButton },
+				var eArgs = await RadMessageBox.ShowAsync(buttonsContent: new List<object>() { AppResources.GiveFeedbackButton, AppResources.NoThanksButton },
 					title: AppResources.FeedbackTitle,
-					message: AppResources.FeedbackContent,
-					closedHandler: (eArgs) =>
-					{
-						if (eArgs.ButtonIndex == 0)
-						{
-							EmailComposeTask emailTask = new EmailComposeTask();
-							emailTask.To = "shane@s-church.net";
-							emailTask.Subject = emailTask.Subject = Shane.Church.StirlingBirthday.Core.WP.Properties.Resources.TechnicalSupportEmailSubject;
-							emailTask.Show();
-						}
-					});
+					message: AppResources.FeedbackContent);
+
+				if (eArgs.ButtonIndex == 0)
+				{
+					EmailComposeTask emailTask = new EmailComposeTask();
+					emailTask.To = "shane@s-church.net";
+					emailTask.Subject = emailTask.Subject = Shane.Church.StirlingBirthday.Core.WP.Properties.Resources.TechnicalSupportEmailSubject;
+					emailTask.Show();
+				}
 			}
 		}
 

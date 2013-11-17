@@ -401,8 +401,8 @@
 			</controls:PivotItem>
 		</controls:Pivot>
 
-        <StackPanel Grid.Row="1" MaxHeight="80" x:Name="AdPanel">
-            <StackPanel>
+        <StackPanel Grid.Row="1" MaxHeight="80">
+            <StackPanel x:Name="AdPanel">
                 <ad:InneractiveAd xmlns:ad="clr-namespace:Inneractive.Nokia.Ad;assembly=Inneractive.Ad"
                                   AppID="ShaneChurch_StirlingBirthday_WP"
                                   AdType="IaAdType_Banner"
