@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Сегодня {0} ' день рождения ! С Днем Рождения {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>В {0} дней</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>В {0} день</value>
+  </data>
 </root>

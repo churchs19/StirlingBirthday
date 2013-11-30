@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Dziś są urodziny {0} ' s ! Wszystkiego najlepszego {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>W {0} dni</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>W {0} dni</value>
+  </data>
 </root>

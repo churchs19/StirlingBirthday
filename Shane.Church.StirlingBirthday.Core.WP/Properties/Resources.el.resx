@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Σήμερα είναι {0} ' s birthday! Χρόνια πολλά {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Σε {0} ημέρες</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>Σε {0} ημέρα</value>
+  </data>
 </root>

@@ -38,6 +38,16 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			}
 		}
 
+		public override string DaysUntilText
+		{
+			get
+			{
+				if (DaysUntil == 0) return Core.Properties.Resources.TodayText;
+
+				return (Math.Abs(DaysUntil) == 1) ? String.Format(Properties.Resources.DaysTextSingular, DaysUntil) : String.Format(Properties.Resources.DaysTextPlural, DaysUntil);
+			}
+		}
+
 
 		public void CallHome()
 		{

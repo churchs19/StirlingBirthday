@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>오늘 은 {0} ' 의 생일 입니다! 생일 {0} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} 일</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} 하루에</value>
+  </data>
 </root>

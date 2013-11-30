@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>היום הוא {0} 'של יום הולדת! יום הולדת שמח {1}!</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>ב{0} ימים</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>ב{0} יום</value>
+  </data>
 </root>

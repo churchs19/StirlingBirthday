@@ -92,20 +92,33 @@
 						Grid.Row="0"
 						Grid.Column="1"
 						TextAlignment="Left"
-						Padding="5 1 5 1"
+						Padding="5,1,5,1"
 						VerticalAlignment="Bottom"
 						TextWrapping="Wrap" 
 						Foreground="{StaticResource PhoneForegroundBrush}"
 						FontSize="{StaticResource PhoneFontSizeLarge}" />
-					<TextBlock Name="textBlockYears"
-   						Text="{Binding AgeText}"
-						Grid.Row="1"
-						Grid.Column="1"
-						TextAlignment="Left"
-						Padding="5 1 5 1"
-						Foreground="{StaticResource AppColor5Brush}"
-						VerticalAlignment="Top" />
-					<StackPanel Grid.Row="0"
+                    <Grid Grid.Row="1"
+                                Grid.Column="1"
+                                Margin="5 1 5 1"
+                                VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+					    <TextBlock Name="textBlockYears"
+                                   Grid.Column="0"
+                                   Text="{Binding AgeText}"
+                                   TextAlignment="Left"
+                                   Padding="0,0,5,0"
+                                   Foreground="{StaticResource AppColor5Brush}"/>
+                        <TextBlock Name="textBlockDaysUntil"
+                                   Grid.Column="1"
+                                   Text="{Binding DaysUntilText}"
+                                   Padding="5,0,5,0"
+                                   TextAlignment="Left"
+                                   Foreground="{StaticResource AppColor3Brush}"/>
+                    </Grid>
+                    <StackPanel Grid.Row="0"
 						Grid.Column="2"
 						Grid.RowSpan="2"
 						VerticalAlignment="Center"
@@ -217,14 +230,27 @@
 						TextWrapping="Wrap" 
 						Foreground="{StaticResource AppColorWhiteBrush}"
 						FontSize="{StaticResource PhoneFontSizeLarge}" />
-                    <TextBlock Name="textBlockYears"
-   						Text="{Binding AgeText}"
-						Grid.Row="1"
-						Grid.Column="1"
-						TextAlignment="Left"
-						Padding="5 1 5 1"
-						Foreground="{StaticResource AppColor3Brush}"
-						VerticalAlignment="Top" />
+                    <Grid Grid.Row="1"
+                                Grid.Column="1"
+                                Margin="5 1 5 1"
+                                VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Name="textBlockYears"
+                                   Grid.Column="0"
+                                   Text="{Binding AgeText}"
+                                   TextAlignment="Left"
+                                   Padding="0,0,5,0"
+                                   Foreground="{StaticResource AppColor3Brush}"/>
+                        <TextBlock Name="textBlockDaysUntil"
+                                   Grid.Column="1"
+                                   Text="{Binding DaysUntilText}"
+                                   Padding="5,0,5,0"
+                                   TextAlignment="Left"
+                                   Foreground="{StaticResource AppColor4Brush}"/>
+                    </Grid>
                     <StackPanel Grid.Row="0"
 						Grid.Column="2"
 						Grid.RowSpan="2"

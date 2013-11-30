@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Ma {0} születésnapja ! Boldog születésnapot {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>A {0} nap</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>A {0} nap</value>
+  </data>
 </root>

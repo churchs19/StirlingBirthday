@@ -1,19 +1,13 @@
 ﻿using GalaSoft.MvvmLight;
-using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
-using Shane.Church.StirlingBirthday.Core.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {
 	public abstract class ContactViewModel : ObservableObject
 	{
-        private BirthdayContact _contact;
+		private BirthdayContact _contact;
 		public ContactViewModel()
 		{
 
@@ -21,7 +15,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 
 		public ContactViewModel(BirthdayContact contact)
 		{
-            _contact = contact;
+			_contact = contact;
 			FirstName = contact.FirstName;
 			LastName = contact.LastName;
 			DisplayName = contact.DisplayName;
@@ -182,6 +176,14 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 			}
 		}
 
+		public virtual string DaysUntilText
+		{
+			get
+			{
+				return DaysUntil.ToString();
+			}
+		}
+
 		public MonthGroup Group
 		{
 			get
@@ -243,7 +245,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 		private ICommand _shareCommand;
 		public ICommand ShareCommand
 		{
-			get { return _shareCommand;}
+			get { return _shareCommand; }
 			set
 			{
 				Set(() => ShareCommand, ref _shareCommand, value);

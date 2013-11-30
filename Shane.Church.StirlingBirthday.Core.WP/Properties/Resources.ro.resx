@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Astăzi este {0} " e ziua de nastere ! Happy Birthday {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>În {0} zile</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>În {0} zi</value>
+  </data>
 </root>

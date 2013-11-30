@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>Bugün {0} ' in doğum günü ! Doğum günün kutlu olsun {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} gün</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} gün içinde</value>
+  </data>
 </root>

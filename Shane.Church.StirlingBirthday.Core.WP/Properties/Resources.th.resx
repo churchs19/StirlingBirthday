@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>วันนี้ เป็นวันเกิดของ {0} 's สุขสันต์วันเกิด {1} !</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>ใน {0} วันที่</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>ใน {0} วัน</value>
+  </data>
 </root>

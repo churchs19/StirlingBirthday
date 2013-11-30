@@ -150,4 +150,10 @@
   <data name="HappyBirthdayShare" xml:space="preserve">
     <value>今天是{0}的生日！祝你生日快乐{1} ！</value>
   </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>在{0}天</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>在{0}天</value>
+  </data>
 </root>
