@@ -183,36 +183,25 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\About.xaml.cs">
-      <Link>About.xaml.cs</Link>
+    <Compile Include="About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\Converters\BitmapImageConverter.cs">
-      <Link>Converters\BitmapImageConverter.cs</Link>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\Helpers\BirthdayItemTemplateSelector.cs">
-      <Link>Helpers\BirthdayItemTemplateSelector.cs</Link>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\Helpers\UpgradeBehavior.cs">
-      <Link>Helpers\UpgradeBehavior.cs</Link>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\LocalizedStrings.cs">
-      <Link>LocalizedStrings.cs</Link>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\MainPage.xaml.cs">
-      <Link>MainPage.xaml.cs</Link>
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.Designer.cs">
-      <Link>Resources\AppResources.Designer.cs</Link>
-      <DependentUpon>AppResources.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\BitmapImageConverter.cs" />
+    <Compile Include="Helpers\BirthdayItemTemplateSelector.cs" />
+    <Compile Include="Helpers\UpgradeBehavior.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -223,35 +212,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\About.png">
-      <Link>Images\About.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\BirthdayOverlay.png">
-      <Link>Images\BirthdayOverlay.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\Call.png">
-      <Link>Images\Call.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\CompanyLogo.png">
-      <Link>Images\CompanyLogo.png</Link>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\Pin.png">
-      <Link>Images\Pin.png</Link>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\Rating.png">
-      <Link>Images\Rating.png</Link>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\Settings.png">
-      <Link>Images\Settings.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Shane.Church.StirlingBirthday.WP\Images\Text.png">
-      <Link>Images\Text.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -260,6 +220,24 @@
     <Content Include="Assets\Tiles\BirthdayIconSmall.png" />
     <Content Include="Assets\Tiles\BirthdayIconWide.png" />
     <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\About.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BirthdayOverlay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Call.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CompanyLogo.png" />
+    <Content Include="Images\Pin.png" />
+    <Content Include="Images\Rating.png" />
+    <Content Include="Images\Settings.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Text.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SplashScreenImage.jpg" />
@@ -277,13 +255,13 @@
     </Reference>
     <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Threading.Tasks">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks.Extensions">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks.Extensions.Phone">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll</HintPath>
     </Reference>
     <Reference Include="Ninject.Common">
       <HintPath>..\packages\Portable.Ninject.3.0.6\lib\sl4-wp71\Ninject.Common.dll</HintPath>
@@ -292,173 +270,35 @@
       <HintPath>..\packages\Portable.Ninject.3.0.6\lib\sl4-wp71\Ninject.WP.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Extensions">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Primitives">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Interactivity, Version=3.9.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.Windows.Controls.Data, Version=2013.3.1016.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWP\2013.3.1016.3040\Telerik.Windows.Controls.Data.dll</HintPath>
+    <Reference Include="Telerik.Windows.Controls.Data, Version=2014.1.226.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWP\2014.1.226.3040\Telerik.Windows.Controls.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Windows.Controls.Input, Version=2013.3.1016.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWP\2013.3.1016.3040\Telerik.Windows.Controls.Input.dll</HintPath>
+    <Reference Include="Telerik.Windows.Controls.Input, Version=2014.1.226.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWP\2014.1.226.3040\Telerik.Windows.Controls.Input.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Windows.Controls.Primitives, Version=2013.3.1016.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWP\2013.3.1016.3040\Telerik.Windows.Controls.Primitives.dll</HintPath>
+    <Reference Include="Telerik.Windows.Controls.Primitives, Version=2014.1.226.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWP\2014.1.226.3040\Telerik.Windows.Controls.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Windows.Core, Version=2013.3.1016.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWP\2013.3.1016.3040\Telerik.Windows.Core.dll</HintPath>
+    <Reference Include="Telerik.Windows.Core, Version=2014.1.226.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWP\2014.1.226.3040\Telerik.Windows.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Windows.Data, Version=2013.3.1016.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWP\2013.3.1016.3040\Telerik.Windows.Data.dll</HintPath>
+    <Reference Include="Telerik.Windows.Data, Version=2014.1.226.3040, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWP\2014.1.226.3040\Telerik.Windows.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ar.resx">
-      <Link>Resources\AppResources.ar.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.bg.resx">
-      <Link>Resources\AppResources.bg.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ca.resx">
-      <Link>Resources\AppResources.ca.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.cs.resx">
-      <Link>Resources\AppResources.cs.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.da.resx">
-      <Link>Resources\AppResources.da.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.de.resx">
-      <Link>Resources\AppResources.de.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.el.resx">
-      <Link>Resources\AppResources.el.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.en-GB.resx">
-      <Link>Resources\AppResources.en-GB.resx</Link>
-      <LastGenOutput>Copy of AppResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.en-US.resx">
-      <Link>Resources\AppResources.en-US.resx</Link>
-      <LastGenOutput>Copy of AppResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.es-ES.resx">
-      <Link>Resources\AppResources.es-ES.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.es-MX.resx">
-      <Link>Resources\AppResources.es-MX.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.es.resx">
-      <Link>Resources\AppResources.es.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.et.resx">
-      <Link>Resources\AppResources.et.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.fa.resx">
-      <Link>Resources\AppResources.fa.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.fi.resx">
-      <Link>Resources\AppResources.fi.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.fr.resx">
-      <Link>Resources\AppResources.fr.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.he.resx">
-      <Link>Resources\AppResources.he.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.hi.resx">
-      <Link>Resources\AppResources.hi.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.hu.resx">
-      <Link>Resources\AppResources.hu.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.id.resx">
-      <Link>Resources\AppResources.id.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.it.resx">
-      <Link>Resources\AppResources.it.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ja.resx">
-      <Link>Resources\AppResources.ja.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ko.resx">
-      <Link>Resources\AppResources.ko.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.lt.resx">
-      <Link>Resources\AppResources.lt.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.lv.resx">
-      <Link>Resources\AppResources.lv.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ms.resx">
-      <Link>Resources\AppResources.ms.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.nl.resx">
-      <Link>Resources\AppResources.nl.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.no.resx">
-      <Link>Resources\AppResources.no.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.pl.resx">
-      <Link>Resources\AppResources.pl.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.pt-BR.resx">
-      <Link>Resources\AppResources.pt-BR.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.pt-PT.resx">
-      <Link>Resources\AppResources.pt-PT.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.pt.resx">
-      <Link>Resources\AppResources.pt.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.resx">
-      <Link>Resources\AppResources.resx</Link>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ro.resx">
-      <Link>Resources\AppResources.ro.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.ru.resx">
-      <Link>Resources\AppResources.ru.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.sk.resx">
-      <Link>Resources\AppResources.sk.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.sl.resx">
-      <Link>Resources\AppResources.sl.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.sv.resx">
-      <Link>Resources\AppResources.sv.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.th.resx">
-      <Link>Resources\AppResources.th.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.tr.resx">
-      <Link>Resources\AppResources.tr.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.uk.resx">
-      <Link>Resources\AppResources.uk.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.vi.resx">
-      <Link>Resources\AppResources.vi.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.zh-CN.resx">
-      <Link>Resources\AppResources.zh-CN.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Shane.Church.StirlingBirthday.WP\Resources\AppResources.zh-TW.resx">
-      <Link>Resources\AppResources.zh-TW.resx</Link>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shane.Church.StirlingBirthday.Core.WP8\Shane.Church.StirlingBirthday.Core.WP8.csproj">
@@ -474,7 +314,7 @@
       <Name>Shane.Church.StirlingBirthday.WP8.Agent</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shane.Church.Utility.Core.WP\Shane.Church.Utility.Core.WP.csproj">
-      <Project>{75A3873F-015F-4784-B6A6-8A4484FBE48D}</Project>
+      <Project>{75a3873f-015f-4784-b6a6-8a4484fbe48d}</Project>
       <Name>Shane.Church.Utility.Core.WP</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shane.Church.Utility.Core\Shane.Church.Utility.Core.csproj">
@@ -483,25 +323,75 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="..\Shane.Church.StirlingBirthday.WP\About.xaml">
-      <Link>About.xaml</Link>
+    <Page Include="About.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\Shane.Church.StirlingBirthday.WP\MainPage.xaml">
-      <Link>MainPage.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\Shane.Church.StirlingBirthday.WP\ThemeResources.xaml">
-      <Link>ThemeResources.xaml</Link>
-      <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ThemeResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar.resx" />
+    <EmbeddedResource Include="Resources\AppResources.bg.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ca.resx" />
+    <EmbeddedResource Include="Resources\AppResources.cs.resx" />
+    <EmbeddedResource Include="Resources\AppResources.da.resx" />
+    <EmbeddedResource Include="Resources\AppResources.de.resx" />
+    <EmbeddedResource Include="Resources\AppResources.el.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en-GB.resx">
+      <LastGenOutput>Copy of AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.en-US.resx">
+      <LastGenOutput>Copy of AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.es-ES.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es-MX.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es.resx" />
+    <EmbeddedResource Include="Resources\AppResources.et.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fa.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.he.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hu.resx" />
+    <EmbeddedResource Include="Resources\AppResources.id.resx" />
+    <EmbeddedResource Include="Resources\AppResources.it.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ja.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ko.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lt.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lv.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ms.resx" />
+    <EmbeddedResource Include="Resources\AppResources.nl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.no.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ro.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ru.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sv.resx" />
+    <EmbeddedResource Include="Resources\AppResources.th.resx" />
+    <EmbeddedResource Include="Resources\AppResources.tr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.uk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.vi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-TW.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
@@ -514,9 +404,9 @@
   -->
   <ProjectExtensions />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
-    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
   </Target>
 </Project>
