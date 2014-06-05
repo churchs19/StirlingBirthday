@@ -1,5 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Strings;
 using System;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
@@ -55,7 +56,7 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
         {
             get
             {
-                return Math.Abs(Age) == 1 ? string.Format(Properties.Resources.SingularAgeText, Age) : string.Format(Properties.Resources.PluralAgeText, Age);
+                return Math.Abs(Age) == 1 ? string.Format(Resources.SingularAgeText, Age) : string.Format(Resources.PluralAgeText, Age);
             }
         }
 

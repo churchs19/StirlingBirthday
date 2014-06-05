@@ -2,7 +2,7 @@
 using Microsoft.Phone.Scheduler;
 using Shane.Church.StirlingBirthday.Core.Exceptions;
 using Shane.Church.StirlingBirthday.Core.Services;
-using Shane.Church.StirlingBirthday.Core.WP.Properties;
+using Shane.Church.StirlingBirthday.Strings;
 using System;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Services

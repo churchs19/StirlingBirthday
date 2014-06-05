@@ -60,6 +60,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 				{
 					try
 					{
+                        ContactsList.Clear();
 						if (e.Results.Any())
 						{
 							var items = (from r in e.Results
@@ -115,7 +116,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 
 		void _phoneContacts_SearchCompleted(object sender, ContactsSearchEventArgs e)
 		{
-			try
+            ContactsList.Clear(); 
+            try
 			{
 				if (e.Results.Any())
 				{

@@ -5,9 +5,10 @@ using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
-using Shane.Church.StirlingBirthday.WP.Resources;
+using Shane.Church.StirlingBirthday.Strings;
 using System;
 using System.Linq;
+using System.Threading;
 using System.Windows;
 using System.Windows.Media;
 using Telerik.Windows.Data;
@@ -36,6 +37,7 @@ namespace Shane.Church.StirlingBirthday.WP
 #endif
 
 			_model = KernelService.Kernel.Get<MainViewModel>();
+            _model.DataLoaded += _model_DataLoaded;
 
 			PropertyGroupDescriptor grouping = new PropertyGroupDescriptor("Group");
 			grouping.SortMode = ListSortMode.Descending;
@@ -43,6 +45,19 @@ namespace Shane.Church.StirlingBirthday.WP
 			JumpListAll.GroupPickerItemsSource = null;
 			JumpListAll.GroupPickerItemsSource = _model.MonthNames;
 		}
+
+        void _model_DataLoaded(object sender, EventArgs e)
+        {
+            ListBoxUpcoming.ItemsSource = null;
+            ListBoxUpcoming.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            ListBoxUpcoming.ItemsSource = _model.UpcomingContacts;
+            ListBoxPast.ItemsSource = null;
+            ListBoxPast.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            ListBoxPast.ItemsSource = _model.PastContacts;
+            JumpListAll.ItemsSource = null;
+            JumpListAll.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            JumpListAll.ItemsSource = _model.AllContacts;
+        }
 
 		#region Ad Control
 		private void InitializeAdControl()
@@ -90,18 +105,23 @@ namespace Shane.Church.StirlingBirthday.WP
 			ApplicationBar.ForegroundColor = (Color)Application.Current.Resources["AppColorWhite"];
 
 			ApplicationBarIconButton appBarButtonReview = new ApplicationBarIconButton(new Uri("/Images/Rating.png", UriKind.Relative));
-			appBarButtonReview.Text = AppResources.RateLabel;
+			appBarButtonReview.Text = Shane.Church.StirlingBirthday.Strings.Resources.RateLabel;
 			appBarButtonReview.Click += appBarReview_Click;
 			ApplicationBar.Buttons.Add(appBarButtonReview);
 
 			ApplicationBarIconButton appBarButtonAbout = new ApplicationBarIconButton(new Uri("/Images/About.png", UriKind.Relative));
-			appBarButtonAbout.Text = AppResources.AboutLabel;
+            appBarButtonAbout.Text = Shane.Church.StirlingBirthday.Strings.Resources.AboutLabel;
 			appBarButtonAbout.Click += appBarAbout_Click;
 			ApplicationBar.Buttons.Add(appBarButtonAbout);
 
 			ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Images/Pin.png", UriKind.Relative));
-			appBarButtonPin.Text = AppResources.PinLabel;
+            appBarButtonPin.Text = Shane.Church.StirlingBirthday.Strings.Resources.PinLabel;
 			appBarButtonPin.Click += appBarButtonPin_Click;
+
+
+            ApplicationBarMenuItem appBarMenuItemAddBirthday = new ApplicationBarMenuItem("Add Birthday");
+            appBarMenuItemAddBirthday.Click += appBarMenuItemAddBirthday_Click;
+            ApplicationBar.MenuItems.Add(appBarMenuItemAddBirthday);
 
 #if DEBUG
 			ApplicationBarMenuItem appBarMenuItemLaunchAgent = new ApplicationBarMenuItem("Debug Scheduled Agent");
@@ -119,6 +139,12 @@ namespace Shane.Church.StirlingBirthday.WP
 			ApplicationBar.MenuItems.Add(appBarMenuItemUnhandledException);
 #endif
 		}
+
+        void appBarMenuItemAddBirthday_Click(object sender, EventArgs e)
+        {
+            if (_model.AddContactCommand.CanExecute(null))
+                _model.AddContactCommand.Execute(null);
+        }
 
 		void appBarButtonPin_Click(object sender, EventArgs e)
 		{
@@ -140,14 +166,12 @@ namespace Shane.Church.StirlingBirthday.WP
 
 		protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
 		{
-			await _model.LoadData();
-			ListBoxUpcoming.ItemsSource = null;
-			ListBoxUpcoming.ItemsSource = _model.UpcomingContacts;
-			ListBoxPast.ItemsSource = null;
-			ListBoxPast.ItemsSource = _model.PastContacts;
-			JumpListAll.ItemsSource = null;
-			JumpListAll.ItemsSource = _model.AllContacts;
-			base.OnNavigatedTo(e);
+            base.OnNavigatedTo(e);
+
+            if (!_model.IsLoading)
+            {
+                await _model.LoadData();
+            }
 
 			var tileService = KernelService.Kernel.Get<ITileUpdateService>();
 			await tileService.SaveUpcomingImages();

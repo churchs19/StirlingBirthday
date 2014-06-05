@@ -2,6 +2,7 @@
 using Microsoft.Phone.Tasks;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
+using Shane.Church.StirlingBirthday.Strings;
 using System;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
@@ -34,7 +35,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			get
 			{
-				return (Math.Abs(Age) == 1) ? String.Format(Properties.Resources.YearsSingular, Age) : String.Format(Properties.Resources.YearsPlural, Age);
+				return (Math.Abs(Age) == 1) ? String.Format(Resources.YearsSingular, Age) : String.Format(Resources.YearsPlural, Age);
 			}
 		}
 
@@ -42,9 +43,9 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			get
 			{
-				if (DaysUntil == 0) return Core.Properties.Resources.TodayText;
+				if (DaysUntil == 0) return Resources.TodayText;
 
-				return (Math.Abs(DaysUntil) == 1) ? String.Format(Properties.Resources.DaysTextSingular, DaysUntil) : String.Format(Properties.Resources.DaysTextPlural, DaysUntil);
+				return (Math.Abs(DaysUntil) == 1) ? String.Format(Resources.DaysTextSingular, DaysUntil) : String.Format(Resources.DaysTextPlural, DaysUntil);
 			}
 		}
 
@@ -71,7 +72,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			SmsComposeTask text = new SmsComposeTask();
 			text.To = MobilePhone;
-			text.Body = Properties.Resources.HappyBirthdayText;
+			text.Body = Resources.HappyBirthdayText;
 			FlurryWP8SDK.Api.LogEvent("Send_SMS");
 			text.Show();
 		}
@@ -89,8 +90,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			EmailComposeTask email = new EmailComposeTask();
 			email.To = Email;
-			email.Subject = Properties.Resources.HappyBirthdayText;
-			email.Body = Properties.Resources.EmailBodyText;
+			email.Subject = Resources.HappyBirthdayText;
+			email.Body = Resources.EmailBodyText;
 			FlurryWP8SDK.Api.LogEvent("Send_Email");
 			email.Show();
 		}
@@ -98,7 +99,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		public void Share()
 		{
 			ShareStatusTask shareStatusTask = new ShareStatusTask();
-			shareStatusTask.Status = String.Format(Properties.Resources.HappyBirthdayShare, this.DisplayName, this.FirstName);
+			shareStatusTask.Status = String.Format(Resources.HappyBirthdayShare, this.DisplayName, this.FirstName);
 			FlurryWP8SDK.Api.LogEvent("Status_Share");
 			shareStatusTask.Show();
 		}

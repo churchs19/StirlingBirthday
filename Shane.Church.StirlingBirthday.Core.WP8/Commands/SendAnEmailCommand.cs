@@ -8,6 +8,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using Shane.Church.StirlingBirthday.Strings;
 using Microsoft.Phone.Tasks;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.Commands
@@ -27,7 +28,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Commands
         {
             EmailComposeTask emailTask = new EmailComposeTask();
             emailTask.To = "shane@s-church.net";
-            emailTask.Subject = emailTask.Subject = Properties.Resources.TechnicalSupportEmailSubject;
+            emailTask.Subject = emailTask.Subject = Resources.TechnicalSupportEmailSubject;
             emailTask.Show();
         }
     }

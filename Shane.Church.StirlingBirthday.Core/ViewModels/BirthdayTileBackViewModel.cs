@@ -2,7 +2,7 @@
 using Shane.Church.StirlingBirthday.Core.Data;
 using System.Linq;
 using System.Collections.Generic;
-using Shane.Church.StirlingBirthday.Core.Properties;
+using Shane.Church.StirlingBirthday.Strings;
 
 namespace Shane.Church.StirlingBirthday.Core.ViewModels
 {

@@ -3,6 +3,7 @@ using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.Core.WP.Controls;
+using Shane.Church.StirlingBirthday.Strings;
 using System;
 using System.Collections.Generic;
 using System.IO.IsolatedStorage;
@@ -74,8 +75,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 						WideTileBackUserControl wideBackTile = new WideTileBackUserControl() { DataContext = backTileModel };
 						tileData = new RadFlipTileData()
 						{
-							Title = Properties.Resources.AppTitle,
-							BackTitle = Properties.Resources.AppTitle,
+							Title = Resources.AppTitle,
+							BackTitle = Resources.AppTitle,
 							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
 													new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
 													new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
@@ -93,7 +94,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 					{
 						tileData = new RadFlipTileData()
 						{
-							Title = Properties.Resources.AppTitle,
+							Title = Resources.AppTitle,
 							BackgroundImage = new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
 							SmallBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
 							WideBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),

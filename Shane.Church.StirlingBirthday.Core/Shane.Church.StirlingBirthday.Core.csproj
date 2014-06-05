@@ -75,6 +75,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\Shane.Church.StirlingBirthday.Strings\Shane.Church.StirlingBirthday.Strings.csproj">
+      <Project>{ac7277ef-6206-48cf-a018-0cde994ddf43}</Project>
+      <Name>Shane.Church.StirlingBirthday.Strings</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shane.Church.Utility.Core\Shane.Church.Utility.Core.csproj">
       <Project>{a28a5353-afbb-4f9e-a1aa-1c9b49523028}</Project>
       <Name>Shane.Church.Utility.Core</Name>
@@ -87,11 +91,6 @@
     <Compile Include="Exceptions\AgentManagementException.cs" />
     <Compile Include="Exceptions\NotFoundException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Services\IAgentManagementService.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\ISettingsService.cs" />
@@ -128,55 +127,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.ar.resx" />
-    <EmbeddedResource Include="Properties\Resources.bg.resx" />
-    <EmbeddedResource Include="Properties\Resources.ca.resx" />
-    <EmbeddedResource Include="Properties\Resources.cs.resx" />
-    <EmbeddedResource Include="Properties\Resources.da.resx" />
-    <EmbeddedResource Include="Properties\Resources.de.resx" />
-    <EmbeddedResource Include="Properties\Resources.el.resx" />
-    <EmbeddedResource Include="Properties\Resources.en-GB.resx" />
-    <EmbeddedResource Include="Properties\Resources.en-US.resx" />
-    <EmbeddedResource Include="Properties\Resources.es-ES.resx" />
-    <EmbeddedResource Include="Properties\Resources.es-MX.resx" />
-    <EmbeddedResource Include="Properties\Resources.es.resx" />
-    <EmbeddedResource Include="Properties\Resources.et.resx" />
-    <EmbeddedResource Include="Properties\Resources.fa.resx" />
-    <EmbeddedResource Include="Properties\Resources.fi.resx" />
-    <EmbeddedResource Include="Properties\Resources.fr.resx" />
-    <EmbeddedResource Include="Properties\Resources.he.resx" />
-    <EmbeddedResource Include="Properties\Resources.hi.resx" />
-    <EmbeddedResource Include="Properties\Resources.hu.resx" />
-    <EmbeddedResource Include="Properties\Resources.id.resx" />
-    <EmbeddedResource Include="Properties\Resources.it.resx" />
-    <EmbeddedResource Include="Properties\Resources.ja.resx" />
-    <EmbeddedResource Include="Properties\Resources.ko.resx" />
-    <EmbeddedResource Include="Properties\Resources.lt.resx" />
-    <EmbeddedResource Include="Properties\Resources.lv.resx" />
-    <EmbeddedResource Include="Properties\Resources.ms.resx" />
-    <EmbeddedResource Include="Properties\Resources.nl.resx" />
-    <EmbeddedResource Include="Properties\Resources.no.resx" />
-    <EmbeddedResource Include="Properties\Resources.pl.resx" />
-    <EmbeddedResource Include="Properties\Resources.pt-BR.resx" />
-    <EmbeddedResource Include="Properties\Resources.pt-PT.resx" />
-    <EmbeddedResource Include="Properties\Resources.pt.resx" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ro.resx" />
-    <EmbeddedResource Include="Properties\Resources.ru.resx" />
-    <EmbeddedResource Include="Properties\Resources.sk.resx" />
-    <EmbeddedResource Include="Properties\Resources.sl.resx" />
-    <EmbeddedResource Include="Properties\Resources.sv.resx" />
-    <EmbeddedResource Include="Properties\Resources.th.resx" />
-    <EmbeddedResource Include="Properties\Resources.tr.resx" />
-    <EmbeddedResource Include="Properties\Resources.uk.resx" />
-    <EmbeddedResource Include="Properties\Resources.vi.resx" />
-    <EmbeddedResource Include="Properties\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Properties\Resources.zh-TW.resx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
