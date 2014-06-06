@@ -2,7 +2,9 @@
 using Microsoft.Phone.Tasks;
 using Shane.Church.StirlingBirthday.Core.Data;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
+using Shane.Church.StirlingBirthday.Core.WP.Commands;
 using Shane.Church.StirlingBirthday.Strings;
+using Shane.Church.Utility.Core.Command;
 using System;
 
 namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels

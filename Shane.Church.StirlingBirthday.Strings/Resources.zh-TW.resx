@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-TW</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="PluralAgeText" xml:space="preserve"><value>{0} 歲</value></data><data name="SingularAgeText" xml:space="preserve"><value>舊的 {0} 年</value></data><data name="TodayText" xml:space="preserve"><value>今天</value></data><data name="DaysTextSingular" xml:space="preserve"><value>在 {0} 天</value></data><data name="DaysTextPlural" xml:space="preserve"><value>在 {0} 天</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>今天是 {0} 的生日!生日快樂 {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} 年</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} 年</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>太多背景代理程式已啟用。請移至前啟用 「 Stirling 生日代理程式 」 停用其他代理程式設定應用程式。</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling 生日的意見反應</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>生日快樂!</value></data><data name="EmailBodyText" xml:space="preserve"><value>生日快樂!我希望您玩得愉快 ！</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>這個裝置不支援背景代理程式，因此這項功能將會停用。</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>這個應用程式的背景代理程式已被使用者停用。</value></data><data name="AgentDescription" xml:space="preserve"><value>這項工作以即將來臨的生日資訊更新 Stirling 生日即時並排顯示。</value></data><data name="NoThanksButton" xml:space="preserve"><value>否，謝謝</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>提供意見反應</value></data><data name="FeedbackContent" xml:space="preserve"><value>如何改善，讓您很願意評定市場 5 顆星的此應用程式？</value></data><data name="FeedbackTitle" xml:space="preserve"><value>可以讓它更好吗？</value></data><data name="UpgradeText" xml:space="preserve"><value>升級是可用的!您要現在安裝升級嗎?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>可用的升級!</value></data><data name="No" xml:space="preserve"><value>否</value></data><data name="Yes" xml:space="preserve"><value>[是]</value></data><data name="ShareMenuText" xml:space="preserve"><value>共用</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>應用程式錯誤</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>應用程式發生問題。很抱歉造成您的不便。
+
+感謝您協助藉由傳送準備的錯誤報告。這將有助於更快解決問題。</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>您可以向左有 {0} 次。</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>必須向左，隔 {0} 天。</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>試用版的提醒</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>不要再顯示這個提醒</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>您正在使用這個應用程式的支援廣告的試用版。您要購買應用程式現在要移除廣告嗎?如果您選擇 [是]-您將會重新導向到市場。</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>試用版已過期</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>不要再顯示這個提醒</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>這個應用程式的試用版已過期。您要購買現在的應用程式嗎?如果您選擇 [是]-您將會重新導向到市場。</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>評等應用程式</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>不要再顯示這個提醒</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>我會很樂意聽見您!如果您喜歡的應用程式，請在市場上將它評分，並分享您的意見。</value></data><data name="MBYesText" xml:space="preserve"><value>[是]</value></data><data name="MBNoText" xml:space="preserve"><value>否</value></data><data name="MBOkText" xml:space="preserve"><value>[確定]</value></data><data name="MBCancelText" xml:space="preserve"><value>[取消]</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>即將推出</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>沒有好友有下個月的生日。</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>技術支援/意見回應電子郵件</value></data><data name="SettingsLabel" xml:space="preserve"><value>設定</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>傳送 SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>傳送電子郵件</value></data><data name="RateLabel" xml:space="preserve"><value>評等我</value></data><data name="PinLabel" xml:space="preserve"><value>pin 碼</value></data><data name="PastPivotHeader" xml:space="preserve"><value>過去</value></data><data name="PastEmptyText" xml:space="preserve"><value>沒有好友有過去一個月的生日。</value></data><data name="LoadingLabel" xml:space="preserve"><value>正在載入...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>如何悲傷!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>撥到公司電話</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>撥打行動電話</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>撥到住宅</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING 生日</value></data><data name="AppDescription" xml:space="preserve"><value>為了提醒您朋友的生日與美麗的即時牌的簡單應用程式</value></data><data name="AppCopyright" xml:space="preserve"><value>著作權 (c) Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>所有</value></data><data name="AllEmptyText" xml:space="preserve"><value>沒有在您的連絡人中找到的生日。</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>評價這個應用程式</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>Shane Church由其他應用程式</value></data><data name="AboutLabel" xml:space="preserve"><value>關於</value></data><data name="AddContactLabel" xml:space="preserve"><value>新增連絡人</value></data></root>

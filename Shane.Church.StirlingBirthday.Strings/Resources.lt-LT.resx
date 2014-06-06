@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>lt-LT</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="PluralAgeText" xml:space="preserve"><value>{0} metai</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} metų amžiaus</value></data><data name="TodayText" xml:space="preserve"><value>Šiandien</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} diena</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} dienų</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Šiandien yra {0}'s birthday! Su gimtadieniu {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} metų</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} metų</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Per daug fonas agentų įgalintas. Eikite į nustatymų programoje išjungti kitus reagentus prieš leidžiant Stirling gimtadienio agentas.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling gimtadienio atsiliepimus</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Su gimtadieniu!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Su gimtadieniu! Tikiuosi, kad jūs turite puiki diena!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Šis prietaisas nepalaiko fono agentų, todėl ši funkcija bus išjungta.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Fono agentų šiai programai išjungti vartotojo.</value></data><data name="AgentDescription" xml:space="preserve"><value>Šią užduotį atnaujina Stirling gimtadienio gyvų plytelių ruošiatės gimtadienio informaciją.</value></data><data name="NoThanksButton" xml:space="preserve"><value>ne, ačiū</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>pateikti atsiliepimus</value></data><data name="FeedbackContent" xml:space="preserve"><value>Kaip pagerinti šį prašymą, kad jums bus nori jį įvertinti 5 žvaigždutes rinkoje?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Gali aš tai padaryti geriau?</value></data><data name="UpgradeText" xml:space="preserve"><value>Yra atnaujinti! Ar norite įdiegti atnaujinti dabar?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Atnaujinti galima!</value></data><data name="No" xml:space="preserve"><value>ne</value></data><data name="Yes" xml:space="preserve"><value>taip</value></data><data name="ShareMenuText" xml:space="preserve"><value>Dalis</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Programos klaida</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Taikymas susidūrė su problema. Aš Atsiprašome už nepatogumus.
+
+Iš paruošto klaidos ataskaitą siunčianti būtume labai dėkingi savo pagalbą. Tai padės išspręsti problemą greičiau.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Jūs turite {0} piką kairėje.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Jūs turite {0} d kairė.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Bandomasis priminimas</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Neberodyti šio priminimo</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Jūs naudojate reklamos bandomąją versiją šios taikomosios programos. Ar norite įsigyti dabar pašalinti skelbimus? Jei taip - jūs būsite nukreipti į rinką.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Trial baigėsi</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Neberodyti šio priminimo</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Šios taikomosios programos bandomasis pasibaigęs. Ar norite įsigyti dabar? Jei taip - jūs būsite nukreipti į rinką.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Įvertinkite programos</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Neberodyti šio priminimo</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Aš norėčiau išgirsti iš tavęs! Jei norite app, prašome norma ją rinkoje ir savo komentarus.</value></data><data name="MBYesText" xml:space="preserve"><value>taip</value></data><data name="MBNoText" xml:space="preserve"><value>ne</value></data><data name="MBOkText" xml:space="preserve"><value>gerai</value></data><data name="MBCancelText" xml:space="preserve"><value>atšaukti</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>Artimiausi</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Draugų gali gimtadienis į kitą mėnesį.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>techninės paramos/atsiliepimų el. paštas</value></data><data name="SettingsLabel" xml:space="preserve"><value>parametrai</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Siųsk SMS ŽINUTĘ</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Siųsti laišką</value></data><data name="RateLabel" xml:space="preserve"><value>kurso me</value></data><data name="PinLabel" xml:space="preserve"><value>PIN kodas</value></data><data name="PastPivotHeader" xml:space="preserve"><value>anksčiau</value></data><data name="PastEmptyText" xml:space="preserve"><value>Draugų turėjo gimtadienį praėjusį mėnesį.</value></data><data name="LoadingLabel" xml:space="preserve"><value>pakrovimo...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Kaip liūdna!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Skambinti darbo</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Skambinkite mobiliuoju</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Kvietimo Pradžia</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING GIMTADIENIS</value></data><data name="AppDescription" xml:space="preserve"><value>paprastą app prisiminimą apie draugų gimtadienius su gražus gyvų plytelių</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane bažnyčios 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>visi</value></data><data name="AllEmptyText" xml:space="preserve"><value>Yra ne gimtadienius rasti kontaktuose.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Įvertinkite šią programą</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>kitų programų Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>apie</value></data><data name="AddContactLabel" xml:space="preserve"><value>Adresato įtraukimas</value></data></root>

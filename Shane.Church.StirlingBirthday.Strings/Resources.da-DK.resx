@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>da-DK</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="PluralAgeText" xml:space="preserve"><value>{0} år</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} år gamle</value></data><data name="TodayText" xml:space="preserve"><value>I dag</value></data><data name="DaysTextSingular" xml:space="preserve"><value>I dag for {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} dage</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>I dag er {0}'s fødselsdag! Tillykke med fødselsdagen {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} år</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} år</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>For mange agenter i baggrunden er aktiveret. Gå til indstillinger for programmet til at deaktivere andre agenser, før du aktiverer Stirling fødselsdag-agent.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling fødselsdag Feedback</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Tillykke med fødselsdagen!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Tillykke med fødselsdagen! Jeg håber, at du har en fantastisk dag!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Denne enhed understøtter ikke agenter i baggrunden, så denne funktion deaktiveres.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Baggrund-agenter for dette program er blevet deaktiveret af brugeren.</value></data><data name="AgentDescription" xml:space="preserve"><value>Denne opgave opdaterer live flisen Stirling fødselsdag med oplysninger om forestående fødselsdag.</value></data><data name="NoThanksButton" xml:space="preserve"><value>Nej tak</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>Giv feedback</value></data><data name="FeedbackContent" xml:space="preserve"><value>Hvordan kan jeg forbedre dette program, så du ville være villig til at vurdere den 5 stjerner på markedet?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Kan jeg gøre det bedre?</value></data><data name="UpgradeText" xml:space="preserve"><value>Der findes en opgradering! Vil du installere opgraderingen nu?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Opgradering er tilgængelig!</value></data><data name="No" xml:space="preserve"><value>ikke</value></data><data name="Yes" xml:space="preserve"><value>Ja</value></data><data name="ShareMenuText" xml:space="preserve"><value>Share</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Programfejl</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Programmet har fundet en fejl. Jeg beklager ulejligheden.
+
+Jeg ville sætte pris på din hjælp ved at sende fejlrapporten forberedt. Dette vil hjælpe med at løse problemet hurtigere.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Du har {0} gang(e) tilbage.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Du har {0} dag(e) tilbage.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Prøveversionen påmindelse</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Vis ikke denne påmindelse igen</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Du bruger ad-understøttet prøveversionen af programmet. Vil du købe programmet nu fjerne ads? Hvis du vælger Ja - omdirigeres du til markedet.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Prøveversionen er udløbet</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Vis ikke denne påmindelse igen</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Prøveversionen af programmet er udløbet. Vil du købe programmet nu? Hvis du vælger Ja - omdirigeres du til markedet.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Bedøm app</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Vis ikke denne påmindelse igen</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Jeg ville elske at høre fra dig! Hvis du kan lide app, skal du vurdere den på marketplace og dele din feedback.</value></data><data name="MBYesText" xml:space="preserve"><value>Ja</value></data><data name="MBNoText" xml:space="preserve"><value>ikke</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>Annuller</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>kommende</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Ingen venner har fødselsdag i næste måned.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>teknisk support, der er feedback email</value></data><data name="SettingsLabel" xml:space="preserve"><value>indstillinger</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Send SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Send E-mail</value></data><data name="RateLabel" xml:space="preserve"><value>Giv mig</value></data><data name="PinLabel" xml:space="preserve"><value>PIN-kode</value></data><data name="PastPivotHeader" xml:space="preserve"><value>tidligere</value></data><data name="PastEmptyText" xml:space="preserve"><value>Ingen venner havde en fødselsdag i den seneste måned.</value></data><data name="LoadingLabel" xml:space="preserve"><value>Indlæser...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Hvordan trist!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Ring til arbejde</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Ring til mobil</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Ring hjem</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING FØDSELSDAG</value></data><data name="AppDescription" xml:space="preserve"><value>en simpel app til at minde dig om dine venners fødselsdage med en smuk levende flise</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>alle</value></data><data name="AllEmptyText" xml:space="preserve"><value>Der er ingen fødselsdage, der er fundet i dine kontaktpersoner.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Bedøm denne app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>andre apps som Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>om</value></data><data name="AddContactLabel" xml:space="preserve"><value>Tilføj kontaktperson</value></data></root>

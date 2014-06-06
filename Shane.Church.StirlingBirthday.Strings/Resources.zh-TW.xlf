@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="zh-TW" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="Shane.Church.StirlingBirthday.Strings" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/PluralAgeText" translate="yes" xml:space="preserve">
+          <source>{0} years old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 歲</target>
+        </trans-unit>
+        <trans-unit id="Resx/SingularAgeText" translate="yes" xml:space="preserve">
+          <source>{0} year old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">舊的 {0} 年</target>
+        </trans-unit>
+        <trans-unit id="Resx/TodayText" translate="yes" xml:space="preserve">
+          <source>Today</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">今天</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextSingular" translate="yes" xml:space="preserve">
+          <source>In {0} day</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在 {0} 天</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextPlural" translate="yes" xml:space="preserve">
+          <source>In {0} days</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在 {0} 天</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayShare" translate="yes" xml:space="preserve">
+          <source>Today is {0}'s birthday! Happy Birthday {1}!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">今天是 {0} 的生日!生日快樂 {1}!</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsSingular" translate="yes" xml:space="preserve">
+          <source>{0} year</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 年</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsPlural" translate="yes" xml:space="preserve">
+          <source>{0} years</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 年</target>
+        </trans-unit>
+        <trans-unit id="Resx/TooManyAgentsError" translate="yes" xml:space="preserve">
+          <source>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">太多背景代理程式已啟用。請移至前啟用 「 Stirling 生日代理程式 」 停用其他代理程式設定應用程式。</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailSubject" translate="yes" xml:space="preserve">
+          <source>Stirling Birthday Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stirling 生日的意見反應</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">生日快樂!</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBodyText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday! I hope you have a great day!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">生日快樂!我希望您玩得愉快 ！</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsNotSupportedError" translate="yes" xml:space="preserve">
+          <source>This device does not support background agents, so this feature will be disabled.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這個裝置不支援背景代理程式，因此這項功能將會停用。</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsDisabledByUserError" translate="yes" xml:space="preserve">
+          <source>Background agents for this application have been disabled by the user.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這個應用程式的背景代理程式已被使用者停用。</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentDescription" translate="yes" xml:space="preserve">
+          <source>This task updates the Stirling Birthday live tile with upcoming birthday information.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這項工作以即將來臨的生日資訊更新 Stirling 生日即時並排顯示。</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoThanksButton" translate="yes" xml:space="preserve">
+          <source>no thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">否，謝謝</target>
+        </trans-unit>
+        <trans-unit id="Resx/GiveFeedbackButton" translate="yes" xml:space="preserve">
+          <source>give feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">提供意見反應</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackContent" translate="yes" xml:space="preserve">
+          <source>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">如何改善，讓您很願意評定市場 5 顆星的此應用程式？</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackTitle" translate="yes" xml:space="preserve">
+          <source>Can I make it better?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">可以讓它更好吗？</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeText" translate="yes" xml:space="preserve">
+          <source>An upgrade is available! Do you want to install the upgrade now?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">升級是可用的!您要現在安裝升級嗎?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeTitle" translate="yes" xml:space="preserve">
+          <source>Upgrade Available!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">可用的升級!</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">否</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[是]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareMenuText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">共用</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Application Error</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">應用程式錯誤</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The application has encountered a problem. I am sorry for the inconvenience.
+
+I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">應用程式發生問題。很抱歉造成您的不便。
+
+感謝您協助藉由傳送準備的錯誤報告。這將有助於更快解決問題。</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderUsageCountMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} time(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您可以向左有 {0} 次。</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderPeriodMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} day(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">必須向左，隔 {0} 天。</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Reminder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">試用版的提醒</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">不要再顯示這個提醒</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您正在使用這個應用程式的支援廣告的試用版。您要購買應用程式現在要移除廣告嗎?如果您選擇 [是]-您將會重新導向到市場。</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">試用版已過期</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">不要再顯示這個提醒</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這個應用程式的試用版已過期。您要購買現在的應用程式嗎?如果您選擇 [是]-您將會重新導向到市場。</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Rate the app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">評等應用程式</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">不要再顯示這個提醒</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">我會很樂意聽見您!如果您喜歡的應用程式，請在市場上將它評分，並分享您的意見。</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBYesText" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[是]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBNoText" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">否</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBOkText" translate="yes" xml:space="preserve">
+          <source>ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[確定]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBCancelText" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[取消]</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingPivotHeader" translate="yes" xml:space="preserve">
+          <source>upcoming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">即將推出</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends have a birthday in the next month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">沒有好友有下個月的生日。</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailLabel" translate="yes" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">技術支援/意見回應電子郵件</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsLabel" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">設定</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendSMSMenuText" translate="yes" xml:space="preserve">
+          <source>Send SMS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">傳送 SMS</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendEmailMenuText" translate="yes" xml:space="preserve">
+          <source>Send Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">傳送電子郵件</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">zh-TW</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLabel" translate="yes" xml:space="preserve">
+          <source>rate me</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">評等我</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinLabel" translate="yes" xml:space="preserve">
+          <source>pin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">pin 碼</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastPivotHeader" translate="yes" xml:space="preserve">
+          <source>past</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">過去</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends had a birthday in the past month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">沒有好友有過去一個月的生日。</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingLabel" translate="yes" xml:space="preserve">
+          <source>loading...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正在載入...</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyLeadText" translate="yes" xml:space="preserve">
+          <source>How sad!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">如何悲傷!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallWorkMenuText" translate="yes" xml:space="preserve">
+          <source>Call Work</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">撥到公司電話</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallMobileMenuText" translate="yes" xml:space="preserve">
+          <source>Call Mobile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">撥打行動電話</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallHomeMenuText" translate="yes" xml:space="preserve">
+          <source>Call Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">撥到住宅</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>STIRLING BIRTHDAY</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">STIRLING 生日</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>a simple app to remind you of your friends' birthdays with a beautiful live tile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">為了提醒您朋友的生日與美麗的即時牌的簡單應用程式</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
+          <source>Copyright © Shane Church 2014</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">著作權 (c) Shane Church 2014</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
+          <source>all</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">所有</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllEmptyText" translate="yes" xml:space="preserve">
+          <source>There are no birthdays found in your contacts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">沒有在您的連絡人中找到的生日。</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutReviewLabel" translate="yes" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">評價這個應用程式</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutOtherAppsLabel" translate="yes" xml:space="preserve">
+          <source>other apps by Shane Church</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shane Church由其他應用程式</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutLabel" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">關於</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddContactLabel" translate="yes" xml:space="preserve">
+          <source>add contact</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">新增連絡人</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

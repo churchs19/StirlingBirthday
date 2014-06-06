@@ -118,206 +118,206 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PluralAgeText" xml:space="preserve">
-    <value>{0} years old</value>
+    <value>{0} سنة</value>
   </data>
   <data name="SingularAgeText" xml:space="preserve">
-    <value>{0} year old</value>
+    <value>{0} سنة</value>
   </data>
   <data name="TodayText" xml:space="preserve">
-    <value>Today</value>
+    <value>اليوم</value>
   </data>
   <data name="DaysTextSingular" xml:space="preserve">
-    <value>In {0} day</value>
+    <value>في يوم {0}</value>
   </data>
   <data name="DaysTextPlural" xml:space="preserve">
-    <value>In {0} days</value>
+    <value>في أيام {0}</value>
   </data>
   <data name="HappyBirthdayShare" xml:space="preserve">
-    <value>Today is {0}'s birthday! Happy Birthday {1}!</value>
+    <value>اليوم هو عيد ميلاد {0}! عيد ميلاد سعيد {1}!</value>
   </data>
   <data name="YearsSingular" xml:space="preserve">
-    <value>{0} year</value>
+    <value>السنة {0}</value>
   </data>
   <data name="YearsPlural" xml:space="preserve">
-    <value>{0} years</value>
+    <value>سنوات {0}</value>
   </data>
   <data name="TooManyAgentsError" xml:space="preserve">
-    <value>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</value>
+    <value>تم تمكين العديد من عوامل الخلفية. الرجاء الانتقال إلى إعدادات التطبيق لتعطيل عوامل أخرى قبل تمكين عامل "ستيرلنغ عيد ميلاد".</value>
   </data>
   <data name="TechnicalSupportEmailSubject" xml:space="preserve">
-    <value>Stirling Birthday Feedback</value>
+    <value>ملاحظات عيد ميلاد ستيرلنغ</value>
   </data>
   <data name="HappyBirthdayText" xml:space="preserve">
-    <value>Happy Birthday!</value>
+    <value>عيد ميلاد سعيد!</value>
   </data>
   <data name="EmailBodyText" xml:space="preserve">
-    <value>Happy Birthday! I hope you have a great day!</value>
+    <value>عيد ميلاد سعيد! أمل أن يكون لديك يوم عظيم!</value>
   </data>
   <data name="AgentsNotSupportedError" xml:space="preserve">
-    <value>This device does not support background agents, so this feature will be disabled.</value>
+    <value>هذا الجهاز لا يدعم عوامل أساسية، حيث سيتم تعطيل هذه الميزة.</value>
   </data>
   <data name="AgentsDisabledByUserError" xml:space="preserve">
-    <value>Background agents for this application have been disabled by the user.</value>
+    <value>تم تعطيل عوامل أساسية لهذا التطبيق عن طريق المستخدم.</value>
   </data>
   <data name="AgentDescription" xml:space="preserve">
-    <value>This task updates the Stirling Birthday live tile with upcoming birthday information.</value>
+    <value>تحديث هذه المهمة البلاطة "عيد ميلاد ستيرلنغ" مباشرة بمعلومات تاريخ الميلاد القادمة.</value>
   </data>
   <data name="NoThanksButton" xml:space="preserve">
-    <value>no thanks</value>
+    <value>لا شكرا</value>
   </data>
   <data name="GiveFeedbackButton" xml:space="preserve">
-    <value>give feedback</value>
+    <value>عرض ملاحظات</value>
   </data>
   <data name="FeedbackContent" xml:space="preserve">
-    <value>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</value>
+    <value>كيف يمكنني تحسين هذا التطبيق حيث أن كنت على استعداد معدل 5 نجوم في سوق العمل؟</value>
   </data>
   <data name="FeedbackTitle" xml:space="preserve">
-    <value>Can I make it better?</value>
+    <value>يمكنني أن نجعلها أفضل؟</value>
   </data>
   <data name="UpgradeText" xml:space="preserve">
-    <value>An upgrade is available! Do you want to install the upgrade now?</value>
+    <value>تتوفر ترقية! هل تريد تثبيت الترقية الآن؟</value>
   </data>
   <data name="UpgradeTitle" xml:space="preserve">
-    <value>Upgrade Available!</value>
+    <value>الترقية متوفرة!</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>no</value>
+    <value>لم</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>yes</value>
+    <value>نعم</value>
   </data>
   <data name="ShareMenuText" xml:space="preserve">
-    <value>Share</value>
+    <value>مشاركة</value>
   </data>
   <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
-    <value>Application Error</value>
+    <value>خطأ في التطبيق</value>
   </data>
   <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
-    <value>The application has encountered a problem. I am sorry for the inconvenience.
+    <value>واجه مشكلة التطبيق. أرجو المعذرة على الإزعاج.
 
-I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</value>
+وأكون ممتنا مساعدتكم بإرسال تقرير عن الخطأ المعد. هذا سوف يساعد على حل المشكلة أسرع.</value>
   </data>
   <data name="TrialReminderUsageCountMessage" xml:space="preserve">
-    <value>You have {0} time(s) left.</value>
+    <value>لديك {0} مرة (مرات) إلى اليسار.</value>
   </data>
   <data name="TrialReminderPeriodMessage" xml:space="preserve">
-    <value>You have {0} day(s) left.</value>
+    <value>لديك {0} يوم (أيام) إلى اليسار.</value>
   </data>
   <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
-    <value>Trial Reminder</value>
+    <value>تذكير التجريبية</value>
   </data>
   <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
-    <value>Do not show this reminder again</value>
+    <value>عدم عرض هذا التذكير مرة أخرى</value>
   </data>
   <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
-    <value>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</value>
+    <value>تستخدمه الإعلانية التي يدعمها الإصدار التجريبي من هذا التطبيق. هل تريد شراء التطبيق الآن لإزالة الإعلانات؟ إذا اخترت نعم-تتم إعادة توجيهك إلى موقع تسوق.</value>
   </data>
   <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
-    <value>Trial Expired</value>
+    <value>انتهت مدة صلاحية الإصدار التجريبي</value>
   </data>
   <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
-    <value>Do not show this reminder again</value>
+    <value>عدم عرض هذا التذكير مرة أخرى</value>
   </data>
   <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
-    <value>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</value>
+    <value>انتهت مدة صلاحية الفترة التجريبية لهذا التطبيق. هل تريد شراء التطبيق الآن؟ إذا اخترت نعم-تتم إعادة توجيهك إلى موقع تسوق.</value>
   </data>
   <data name="RateReminder_MessageBox_Title" xml:space="preserve">
-    <value>Rate the app</value>
+    <value>تصنيف التطبيق</value>
   </data>
   <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
-    <value>Do not show this reminder again</value>
+    <value>عدم عرض هذا التذكير مرة أخرى</value>
   </data>
   <data name="RateReminder_MessageBox_Content" xml:space="preserve">
-    <value>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</value>
+    <value>أحب أن نسمع منك! إذا كنت ترغب في التطبيق، الرجاء تصنيف على السوق ومشاركة الملاحظات الخاصة بك.</value>
   </data>
   <data name="MBYesText" xml:space="preserve">
-    <value>yes</value>
+    <value>نعم</value>
   </data>
   <data name="MBNoText" xml:space="preserve">
-    <value>no</value>
+    <value>لم</value>
   </data>
   <data name="MBOkText" xml:space="preserve">
-    <value>ok</value>
+    <value>موافق</value>
   </data>
   <data name="MBCancelText" xml:space="preserve">
-    <value>cancel</value>
+    <value>إلغاء الأمر</value>
   </data>
   <data name="UpcomingPivotHeader" xml:space="preserve">
-    <value>upcoming</value>
+    <value>المقبلة</value>
   </data>
   <data name="UpcomingEmptyText" xml:space="preserve">
-    <value>No friends have a birthday in the next month.</value>
+    <value>وقد لا أصدقاء عيد ميلاد في الشهر القادم.</value>
   </data>
   <data name="TechnicalSupportEmailLabel" xml:space="preserve">
-    <value>technical support/feedback email</value>
+    <value>الدعم التقني/ملاحظات البريد الإلكتروني</value>
   </data>
   <data name="SettingsLabel" xml:space="preserve">
-    <value>settings</value>
+    <value>إعدادات</value>
   </data>
   <data name="SendSMSMenuText" xml:space="preserve">
-    <value>Send SMS</value>
+    <value>إرسال الرسائل القصيرة</value>
   </data>
   <data name="SendEmailMenuText" xml:space="preserve">
-    <value>Send Email</value>
+    <value>إرسال رسالة بريد إلكتروني</value>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>ar-SA</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
-    <value>LeftToRight</value>
+    <value>RightToLeft</value>
   </data>
   <data name="RateLabel" xml:space="preserve">
-    <value>rate me</value>
+    <value>معدل لي</value>
   </data>
   <data name="PinLabel" xml:space="preserve">
-    <value>pin</value>
+    <value>رقم التعريف الشخصي</value>
   </data>
   <data name="PastPivotHeader" xml:space="preserve">
-    <value>past</value>
+    <value>الماضي</value>
   </data>
   <data name="PastEmptyText" xml:space="preserve">
-    <value>No friends had a birthday in the past month.</value>
+    <value>وقد لا أصدقاء عيد ميلاد في الشهر الماضي.</value>
   </data>
   <data name="LoadingLabel" xml:space="preserve">
-    <value>loading...</value>
+    <value>تحميل...</value>
   </data>
   <data name="EmptyLeadText" xml:space="preserve">
-    <value>How sad!</value>
+    <value>كيف حزين!</value>
   </data>
   <data name="CallWorkMenuText" xml:space="preserve">
-    <value>Call Work</value>
+    <value>الاتصال بهاتف العمل</value>
   </data>
   <data name="CallMobileMenuText" xml:space="preserve">
-    <value>Call Mobile</value>
+    <value>الاتصال بالهاتف الجوال</value>
   </data>
   <data name="CallHomeMenuText" xml:space="preserve">
-    <value>Call Home</value>
+    <value>الاتصال بهاتف المنزل</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
-    <value>STIRLING BIRTHDAY</value>
+    <value>عيد ميلاد ستيرلنغ</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>a simple app to remind you of your friends' birthdays with a beautiful live tile</value>
+    <value>تطبيق بسيط لتذكيرك بأعياد ميلاد أصدقائك باستخدام تجانب مباشرة جميلة</value>
   </data>
   <data name="AppCopyright" xml:space="preserve">
-    <value>Copyright © Shane Church 2014</value>
+    <value>حقوق النشر © الكنيسة شين2014</value>
   </data>
   <data name="AllPivotHeader" xml:space="preserve">
-    <value>all</value>
+    <value>كافة</value>
   </data>
   <data name="AllEmptyText" xml:space="preserve">
-    <value>There are no birthdays found in your contacts.</value>
+    <value>لا توجد أية أعياد الميلاد في جهات الاتصال الخاصة بك.</value>
   </data>
   <data name="AboutReviewLabel" xml:space="preserve">
-    <value>rate this app</value>
+    <value>تقييم هذا التطبيق</value>
   </data>
   <data name="AboutOtherAppsLabel" xml:space="preserve">
-    <value>other apps by Shane Church</value>
+    <value>تطبيقات أخرى بالكنيسة شين</value>
   </data>
   <data name="AboutLabel" xml:space="preserve">
-    <value>about</value>
+    <value>حول</value>
   </data>
   <data name="AddContactLabel" xml:space="preserve">
-    <value>add contact</value>
+    <value>إضافة جهة اتصال</value>
   </data>
 </root>

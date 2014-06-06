@@ -88,6 +88,15 @@ namespace Shane.Church.StirlingBirthday.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to add contact.
+        /// </summary>
+        public static string AddContactLabel {
+            get {
+                return ResourceManager.GetString("AddContactLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This task updates the Stirling Birthday live tile with upcoming birthday information..
         /// </summary>
         public static string AgentDescription {
@@ -133,7 +142,7 @@ namespace Shane.Church.StirlingBirthday.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copyright © Shane Church 2013.
+        ///   Looks up a localized string similar to Copyright © Shane Church 2014.
         /// </summary>
         public static string AppCopyright {
             get {

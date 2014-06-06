@@ -104,6 +104,11 @@ namespace Shane.Church.StirlingBirthday.WP
 			ApplicationBar.BackgroundColor = (Color)Application.Current.Resources["AppColor1"];
 			ApplicationBar.ForegroundColor = (Color)Application.Current.Resources["AppColorWhite"];
 
+            ApplicationBarIconButton appBarButtonAddBirthday = new ApplicationBarIconButton(new Uri("/Images/Add-New.png", UriKind.Relative));
+            appBarButtonAddBirthday.Text = Shane.Church.StirlingBirthday.Strings.Resources.AddContactLabel;
+            appBarButtonAddBirthday.Click += appBarMenuItemAddBirthday_Click;
+            ApplicationBar.Buttons.Add(appBarButtonAddBirthday);
+
 			ApplicationBarIconButton appBarButtonReview = new ApplicationBarIconButton(new Uri("/Images/Rating.png", UriKind.Relative));
 			appBarButtonReview.Text = Shane.Church.StirlingBirthday.Strings.Resources.RateLabel;
 			appBarButtonReview.Click += appBarReview_Click;
@@ -114,14 +119,11 @@ namespace Shane.Church.StirlingBirthday.WP
 			appBarButtonAbout.Click += appBarAbout_Click;
 			ApplicationBar.Buttons.Add(appBarButtonAbout);
 
-			ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Images/Pin.png", UriKind.Relative));
-            appBarButtonPin.Text = Shane.Church.StirlingBirthday.Strings.Resources.PinLabel;
-			appBarButtonPin.Click += appBarButtonPin_Click;
 
 
-            ApplicationBarMenuItem appBarMenuItemAddBirthday = new ApplicationBarMenuItem("Add Birthday");
-            appBarMenuItemAddBirthday.Click += appBarMenuItemAddBirthday_Click;
-            ApplicationBar.MenuItems.Add(appBarMenuItemAddBirthday);
+            //ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Images/Pin.png", UriKind.Relative));
+            //appBarButtonPin.Text = Shane.Church.StirlingBirthday.Strings.Resources.PinLabel;
+            //appBarButtonPin.Click += appBarButtonPin_Click;
 
 #if DEBUG
 			ApplicationBarMenuItem appBarMenuItemLaunchAgent = new ApplicationBarMenuItem("Debug Scheduled Agent");

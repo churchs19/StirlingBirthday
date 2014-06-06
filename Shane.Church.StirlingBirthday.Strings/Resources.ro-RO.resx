@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ro-RO</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="PluralAgeText" xml:space="preserve"><value>{0} ani</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} ani</value></data><data name="TodayText" xml:space="preserve"><value>Astăzi</value></data><data name="DaysTextSingular" xml:space="preserve"><value>În ziua de {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>În {0} zile</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Astăzi este ziua de nastere pe {0}! La multi ani {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} an</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} ani</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Prea multe agenţii de fundal au fost activate. Vă rugăm să mergeţi la aplicarea de setări pentru a dezactiva alţi agenţi înainte de activarea agentul Stirling ziua de nastere.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Feedback de ziua de nastere Stirling</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>La mulţi ani!</value></data><data name="EmailBodyText" xml:space="preserve"><value>La mulţi ani! Sper că aveţi o zi mare!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Acest dispozitiv nu acceptă agenţi de fundal, astfel încât acesta va fi dezactivat.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Agenți de fundal pentru aceasta aplicatie s-au dezactivat de utilizator.</value></data><data name="AgentDescription" xml:space="preserve"><value>Această activitate actualizări Stirling ziua live tile cu viitoarea aniversare informaţii.</value></data><data name="NoThanksButton" xml:space="preserve"><value>nu, mulţumesc</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>să ofere feedback.</value></data><data name="FeedbackContent" xml:space="preserve"><value>Cum poate îmbunătăţi această aplicaţie, astfel încât ai fi dispus să o rata de 5 stele în piaţă?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Puteţi face mai bine?</value></data><data name="UpgradeText" xml:space="preserve"><value>Un upgrade este disponibil! Doriţi să instalaţi actualizarea acum?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Upgrade disponibil!</value></data><data name="No" xml:space="preserve"><value>nu</value></data><data name="Yes" xml:space="preserve"><value>da</value></data><data name="ShareMenuText" xml:space="preserve"><value>Cota de</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Eroare de aplicaţie</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Aplicare a întâmpinat o problemă. Îmi pare rău pentru neplăcerile create.
+
+Aş aprecia ajutorul dvs prin trimiterea raportului pregătit eroare. Acest lucru va ajuta cu rezolvarea problemei mai repede.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Aveţi {0} ori stânga.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Aveţi {0} zile stânga.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Proces memento</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nu se mai afișează acest memento</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Utilizaţi ad-a sprijinit versiunea de încercare a acestei cereri. Vrei pentru a achiziţiona aplicaţia acum pentru a elimina anunţurile? Dacă alegeţi da - veţi fi redirecţionat la piaţă.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Proces a expirat</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nu se mai afișează acest memento</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Procesul de această cerere a expirat. Vrei pentru a achiziţiona aplicaţia acum? Dacă alegeţi da - veţi fi redirecţionat la piaţă.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Rata app</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nu se mai afișează acest memento</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Mi-ar plăcea să aud de la tine! Dacă vă place app, vă rugăm să rata de pe piaţă şi împărtăşesc feedback-ul dumneavoastră.</value></data><data name="MBYesText" xml:space="preserve"><value>da</value></data><data name="MBNoText" xml:space="preserve"><value>nu</value></data><data name="MBOkText" xml:space="preserve"><value>ok</value></data><data name="MBCancelText" xml:space="preserve"><value>Revocare</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>viitoare</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Prietenii nu au o zi de naştere, în luna următoare.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>suport tehnic/feedback-ul e-mail</value></data><data name="SettingsLabel" xml:space="preserve"><value>Setări</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Trimite SMS-uri</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Trimite E-mail</value></data><data name="RateLabel" xml:space="preserve"><value>rata de mine</value></data><data name="PinLabel" xml:space="preserve"><value>PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>trecut</value></data><data name="PastEmptyText" xml:space="preserve"><value>Nici un prieteni a avut o zi de naştere, în ultima lună.</value></data><data name="LoadingLabel" xml:space="preserve"><value>incarcare...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Cât de trist!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Apel de lucru</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Apel mobil</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Apel acasă</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING ZIUA DE NASTERE</value></data><data name="AppDescription" xml:space="preserve"><value>un simplu app pentru a vă reaminti de aniversari prietenii tai cu o ţiglă frumos live</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>toate</value></data><data name="AllEmptyText" xml:space="preserve"><value>Nu sunt nici aniversari găsite în contacte.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>rata de acest app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>alte aplicaţii de Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>despre</value></data><data name="AddContactLabel" xml:space="preserve"><value>Adauga contact</value></data></root>

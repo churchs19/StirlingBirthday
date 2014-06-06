@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="sk-SK" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="Shane.Church.StirlingBirthday.Strings" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/PluralAgeText" translate="yes" xml:space="preserve">
+          <source>{0} years old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} rokov</target>
+        </trans-unit>
+        <trans-unit id="Resx/SingularAgeText" translate="yes" xml:space="preserve">
+          <source>{0} year old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} rok starý</target>
+        </trans-unit>
+        <trans-unit id="Resx/TodayText" translate="yes" xml:space="preserve">
+          <source>Today</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dnes</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextSingular" translate="yes" xml:space="preserve">
+          <source>In {0} day</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">V deň {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextPlural" translate="yes" xml:space="preserve">
+          <source>In {0} days</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} dní</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayShare" translate="yes" xml:space="preserve">
+          <source>Today is {0}'s birthday! Happy Birthday {1}!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dnes je {0}, je narodeniny! Všetko najlepšie k narodeninám {1}!</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsSingular" translate="yes" xml:space="preserve">
+          <source>{0} year</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">rok {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsPlural" translate="yes" xml:space="preserve">
+          <source>{0} years</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} rokov</target>
+        </trans-unit>
+        <trans-unit id="Resx/TooManyAgentsError" translate="yes" xml:space="preserve">
+          <source>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Príliš veľa pozadia agenti boli povolené. Prejdite na nastavenie aplikácie vypnúť ostatné agenti pred zapnutím Stirling narodeniny agent.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailSubject" translate="yes" xml:space="preserve">
+          <source>Stirling Birthday Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stirling narodeniny spätnú väzbu</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Všetko najlepšie k narodeninám!</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBodyText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday! I hope you have a great day!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Všetko najlepšie k narodeninám! Dúfam, že máte skvelý deň!</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsNotSupportedError" translate="yes" xml:space="preserve">
+          <source>This device does not support background agents, so this feature will be disabled.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toto zariadenie nepodporuje pozadia agentov, takže táto funkcia sa vypne.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsDisabledByUserError" translate="yes" xml:space="preserve">
+          <source>Background agents for this application have been disabled by the user.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pozadí látky tejto aplikácie boli vypnuté používateľ.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentDescription" translate="yes" xml:space="preserve">
+          <source>This task updates the Stirling Birthday live tile with upcoming birthday information.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Táto úloha aktualizuje Stirling narodeniny live dlaždice s nadchádzajúce narodeniny informácie.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoThanksButton" translate="yes" xml:space="preserve">
+          <source>no thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nie ďakujem</target>
+        </trans-unit>
+        <trans-unit id="Resx/GiveFeedbackButton" translate="yes" xml:space="preserve">
+          <source>give feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">poskytnúť spätnú väzbu</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackContent" translate="yes" xml:space="preserve">
+          <source>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ako môže zlepšiť túto aplikáciu tak, že by ste boli ochotní ohodnotiť 5 hviezdičiek na trhu?</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackTitle" translate="yes" xml:space="preserve">
+          <source>Can I make it better?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Môžem robiť to lepšie?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeText" translate="yes" xml:space="preserve">
+          <source>An upgrade is available! Do you want to install the upgrade now?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Upgrade je k dispozícii! Chcete nainštalovať upgrade teraz?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeTitle" translate="yes" xml:space="preserve">
+          <source>Upgrade Available!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dostupná inovácia!</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nie</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">áno</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareMenuText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podiel</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Application Error</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba aplikácie</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The application has encountered a problem. I am sorry for the inconvenience.
+
+I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplikácie sa vyskytol problém. Ospravedlňujem sa za vzniknuté problémy.
+
+Ocenil by som vašu pomoc zaslaním pripravené chybové hlásenie. To vám pomôže s riešením problému rýchlejšie.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderUsageCountMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} time(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Máte {0} čase vľavo.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderPeriodMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} day(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Máte {0} dní vľavo.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Reminder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skúšobné upomienky</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nabudúce nezobrazovať toto upozornenie</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Používate ad-podporované skúšobnú verziu tejto aplikácie. Chcete zakúpiť aplikáciu teraz odstrániť reklamy? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skúšobné lehota uplynula</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nabudúce nezobrazovať toto upozornenie</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Súd tejto žiadosti uplynula. Chcete nakúpiť aplikácia teraz? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Rate the app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rýchlosť aplikácie</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nabudúce nezobrazovať toto upozornenie</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rád by som počuť od vás! Ak sa vám páči app, prosím sadzba na trhu a zdieľať svoj názor.</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBYesText" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">áno</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBNoText" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nie</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBOkText" translate="yes" xml:space="preserve">
+          <source>ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ok</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBCancelText" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">zrušiť</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingPivotHeader" translate="yes" xml:space="preserve">
+          <source>upcoming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nadchádzajúce</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends have a birthday in the next month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žiadny priatelia majú narodeniny v ďalšom mesiaci.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailLabel" translate="yes" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">e-mailovú technickú podporu a spätnú väzbu</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsLabel" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nastavenia</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendSMSMenuText" translate="yes" xml:space="preserve">
+          <source>Send SMS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odoslať SMS</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendEmailMenuText" translate="yes" xml:space="preserve">
+          <source>Send Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poslať E-mail</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">sk-SK</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLabel" translate="yes" xml:space="preserve">
+          <source>rate me</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">hodnotiť me</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinLabel" translate="yes" xml:space="preserve">
+          <source>pin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">kód PIN</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastPivotHeader" translate="yes" xml:space="preserve">
+          <source>past</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">minulosti</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends had a birthday in the past month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žiadny priatelia mali narodeniny v minulom mesiaci.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingLabel" translate="yes" xml:space="preserve">
+          <source>loading...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Načítava sa...</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyLeadText" translate="yes" xml:space="preserve">
+          <source>How sad!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ako smutné!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallWorkMenuText" translate="yes" xml:space="preserve">
+          <source>Call Work</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volanie práce</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallMobileMenuText" translate="yes" xml:space="preserve">
+          <source>Call Mobile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volajte mobilný</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallHomeMenuText" translate="yes" xml:space="preserve">
+          <source>Call Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volanie domov</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>STIRLING BIRTHDAY</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">STIRLING NARODENINY</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>a simple app to remind you of your friends' birthdays with a beautiful live tile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">jednoduchá aplikácia vám pripomínajú narodeniny svojich priateľov s krásne živé dlaždice</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
+          <source>Copyright © Shane Church 2014</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church 2014</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
+          <source>all</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Všetky</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllEmptyText" translate="yes" xml:space="preserve">
+          <source>There are no birthdays found in your contacts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neexistujú žiadne narodeniny našiel v priečinku Kontakty.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutReviewLabel" translate="yes" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hodnotiť tento app</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutOtherAppsLabel" translate="yes" xml:space="preserve">
+          <source>other apps by Shane Church</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ostatné apps Shane Church</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutLabel" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">o</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddContactLabel" translate="yes" xml:space="preserve">
+          <source>add contact</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridať kontakt</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

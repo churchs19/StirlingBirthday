@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ko-KR" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="Shane.Church.StirlingBirthday.Strings" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/PluralAgeText" translate="yes" xml:space="preserve">
+          <source>{0} years old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 년</target>
+        </trans-unit>
+        <trans-unit id="Resx/SingularAgeText" translate="yes" xml:space="preserve">
+          <source>{0} year old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 년 이전</target>
+        </trans-unit>
+        <trans-unit id="Resx/TodayText" translate="yes" xml:space="preserve">
+          <source>Today</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">오늘</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextSingular" translate="yes" xml:space="preserve">
+          <source>In {0} day</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 일</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextPlural" translate="yes" xml:space="preserve">
+          <source>In {0} days</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 일</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayShare" translate="yes" xml:space="preserve">
+          <source>Today is {0}'s birthday! Happy Birthday {1}!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">현재 {0}의 생일입니다! {1} 생일 축 하 해!</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsSingular" translate="yes" xml:space="preserve">
+          <source>{0} year</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 년</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsPlural" translate="yes" xml:space="preserve">
+          <source>{0} years</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 년</target>
+        </trans-unit>
+        <trans-unit id="Resx/TooManyAgentsError" translate="yes" xml:space="preserve">
+          <source>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">너무 많은 백그라운드 에이전트를 사용 합니다. 스털링 생일 에이전트를 사용 하기 전에 다른 에이전트를 사용 하지 않도록 설정 하려면 응용 프로그램 설정으로 이동 하십시오.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailSubject" translate="yes" xml:space="preserve">
+          <source>Stirling Birthday Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스털링 생일 피드백</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">생일 축 하 해!</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBodyText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday! I hope you have a great day!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">생일 축 하 해! 바랍니다 좋은 하루를 보내세요!</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsNotSupportedError" translate="yes" xml:space="preserve">
+          <source>This device does not support background agents, so this feature will be disabled.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 기능은 사용할 수 없게 되므로이 장치 백그라운드 에이전트를 지원 하지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsDisabledByUserError" translate="yes" xml:space="preserve">
+          <source>Background agents for this application have been disabled by the user.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용자가이 응용 프로그램에 백그라운드 에이전트가 비활성화 되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentDescription" translate="yes" xml:space="preserve">
+          <source>This task updates the Stirling Birthday live tile with upcoming birthday information.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스털링 생일 라이브 타일 다가오는 생일 정보로 업데이트 하는이 작업입니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoThanksButton" translate="yes" xml:space="preserve">
+          <source>no thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">고맙지만</target>
+        </trans-unit>
+        <trans-unit id="Resx/GiveFeedbackButton" translate="yes" xml:space="preserve">
+          <source>give feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">피드백을 제공</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackContent" translate="yes" xml:space="preserve">
+          <source>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">향상 시키는 방법이 응용 프로그램 시장에서 5 별 등급 기꺼이 수 있도록?</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackTitle" translate="yes" xml:space="preserve">
+          <source>Can I make it better?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">수 하 니 더 나은?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeText" translate="yes" xml:space="preserve">
+          <source>An upgrade is available! Do you want to install the upgrade now?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">업그레이드를 사용할 수! 업그레이드를 지금 설치 하 시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeTitle" translate="yes" xml:space="preserve">
+          <source>Upgrade Available!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">업그레이드 가능!</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">더</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">예</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareMenuText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">공유</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Application Error</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">응용 프로그램 오류</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The application has encountered a problem. I am sorry for the inconvenience.
+
+I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">응용 프로그램에 문제가 발생 했습니다. 불편을 드려 죄송 합니다.
+
+준비 된 오류 보고서를 보내서 프로그램 지원을 부탁 합니다. 이 문제가 더 빨리 확인 하는 데 도움이 됩니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderUsageCountMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} time(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 번 왼쪽 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderPeriodMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} day(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 일 왼쪽 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Reminder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">시험 알림</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 메시지를 다시 표시 하지 않음</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 응용 프로그램의 평가판 버전 광고 지원 사용. 구매 응용 프로그램을 지금 광고를 제거 하 시겠습니까? 예-선택 하면 시장으로 이동 합니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">평가판 만료</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 메시지를 다시 표시 하지 않음</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 응용 프로그램의 평가판이 만료 되었습니다. 이제 응용 프로그램을 구입 하 시겠습니까? 예-선택 하면 시장으로 이동 합니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Rate the app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">응용 프로그램을 평가 합니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 메시지를 다시 표시 하지 않음</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">의견을 듣고 싶어요! 앱을 원하는 시장에서 평가 의견을 공유 하십시오.</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBYesText" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">예</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBNoText" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">더</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBOkText" translate="yes" xml:space="preserve">
+          <source>ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">확인</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBCancelText" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">취소</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingPivotHeader" translate="yes" xml:space="preserve">
+          <source>upcoming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">다가오는</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends have a birthday in the next month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">친구가 없습니다 다음 달에 생일이 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailLabel" translate="yes" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이메일 기술 지원/피드백</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsLabel" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">설정</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendSMSMenuText" translate="yes" xml:space="preserve">
+          <source>Send SMS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SMS 보내기</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendEmailMenuText" translate="yes" xml:space="preserve">
+          <source>Send Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">전자 메일 보내기</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">ko-KR</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLabel" translate="yes" xml:space="preserve">
+          <source>rate me</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">내 등급</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinLabel" translate="yes" xml:space="preserve">
+          <source>pin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">핀</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastPivotHeader" translate="yes" xml:space="preserve">
+          <source>past</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">과거</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends had a birthday in the past month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">친구가 없습니다 지난 달의 생일을 했습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingLabel" translate="yes" xml:space="preserve">
+          <source>loading...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">로드 중...</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyLeadText" translate="yes" xml:space="preserve">
+          <source>How sad!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">방법 슬픈!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallWorkMenuText" translate="yes" xml:space="preserve">
+          <source>Call Work</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">작업 호출</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallMobileMenuText" translate="yes" xml:space="preserve">
+          <source>Call Mobile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">무선 호출</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallHomeMenuText" translate="yes" xml:space="preserve">
+          <source>Call Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">홈 전화</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>STIRLING BIRTHDAY</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스털링 생일</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>a simple app to remind you of your friends' birthdays with a beautiful live tile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아름 다운 라이브 타일을 사용 하 여 친구의 생일을 알려주는 간단한 앱</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
+          <source>Copyright © Shane Church 2014</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">저작권 © Shane Church 2014</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
+          <source>all</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">모든</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllEmptyText" translate="yes" xml:space="preserve">
+          <source>There are no birthdays found in your contacts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">연락처에 있는 생일 없습니다 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutReviewLabel" translate="yes" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 응용 프로그램을 평가 합니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutOtherAppsLabel" translate="yes" xml:space="preserve">
+          <source>other apps by Shane Church</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shane Church에서 다른 응용 프로그램</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutLabel" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">에 대 한</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddContactLabel" translate="yes" xml:space="preserve">
+          <source>add contact</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">대화 상대 추가</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

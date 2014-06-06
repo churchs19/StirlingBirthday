@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="fa-IR" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="Shane.Church.StirlingBirthday.Strings" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/PluralAgeText" translate="yes" xml:space="preserve">
+          <source>{0} years old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} ساله</target>
+        </trans-unit>
+        <trans-unit id="Resx/SingularAgeText" translate="yes" xml:space="preserve">
+          <source>{0} year old</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} ساله</target>
+        </trans-unit>
+        <trans-unit id="Resx/TodayText" translate="yes" xml:space="preserve">
+          <source>Today</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">امروز</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextSingular" translate="yes" xml:space="preserve">
+          <source>In {0} day</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">در روز {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysTextPlural" translate="yes" xml:space="preserve">
+          <source>In {0} days</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">در روز {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayShare" translate="yes" xml:space="preserve">
+          <source>Today is {0}'s birthday! Happy Birthday {1}!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">امروز تولد {0} در است! تولدت مبارک {1}!</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsSingular" translate="yes" xml:space="preserve">
+          <source>{0} year</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">سال {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/YearsPlural" translate="yes" xml:space="preserve">
+          <source>{0} years</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">سال {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/TooManyAgentsError" translate="yes" xml:space="preserve">
+          <source>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">بیش از حد بسیاری از عوامل زمينه فعال شده اند. لطفا برو به تنظیمات برنامه برای غیرفعال کردن عوامل دیگر قبل از فعال سازی عامل تولد استرلینگ.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailSubject" translate="yes" xml:space="preserve">
+          <source>Stirling Birthday Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">استرلینگ تولد بازخورد</target>
+        </trans-unit>
+        <trans-unit id="Resx/HappyBirthdayText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تولدت مبارک!</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBodyText" translate="yes" xml:space="preserve">
+          <source>Happy Birthday! I hope you have a great day!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تولدت مبارک! من امیدوارم که شما یک روز بزرگ!</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsNotSupportedError" translate="yes" xml:space="preserve">
+          <source>This device does not support background agents, so this feature will be disabled.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">بنابراین این ویژگی غیرفعال خواهد شد این دستگاه عوامل زمینه پشتیبانی نمی کند.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentsDisabledByUserError" translate="yes" xml:space="preserve">
+          <source>Background agents for this application have been disabled by the user.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">سابقه نمایندگی برای این برنامه کاربردی توسط کاربر غيرفعال شده اند.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AgentDescription" translate="yes" xml:space="preserve">
+          <source>This task updates the Stirling Birthday live tile with upcoming birthday information.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">این کار به روز رسانی کاشی استرلینگ تولد زنده با تولد آینده اطلاعات.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoThanksButton" translate="yes" xml:space="preserve">
+          <source>no thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نه ممنون</target>
+        </trans-unit>
+        <trans-unit id="Resx/GiveFeedbackButton" translate="yes" xml:space="preserve">
+          <source>give feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">انتقادات</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackContent" translate="yes" xml:space="preserve">
+          <source>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">طوری که شما مایل به آن امتیاز 5 ستاره در بازار خواهد چگونه می توانم این برنامه بهبود است؟</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeedbackTitle" translate="yes" xml:space="preserve">
+          <source>Can I make it better?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">من بهتر می توانید آن را?</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeText" translate="yes" xml:space="preserve">
+          <source>An upgrade is available! Do you want to install the upgrade now?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ارتقا در دسترس است! شما می خواهید به نصب ارتقاء داده شده</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpgradeTitle" translate="yes" xml:space="preserve">
+          <source>Upgrade Available!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ارتقا در دسترس!</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نه</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">بله</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareMenuText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">سهم</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Application Error</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">خطای برنامه کاربردی</target>
+        </trans-unit>
+        <trans-unit id="Resx/Diagnostics_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The application has encountered a problem. I am sorry for the inconvenience.
+
+I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">برنامه با مشکل مواجه شده است. من پوزش می طلبیم برای مزاحمت.
+
+من می خواهم کمک شما با ارسال گزارش خطا آماده قدردانی. این با مشکل به حل سریع تر کمک کند.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderUsageCountMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} time(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">شما باید به دفعات بار {0} چپ.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialReminderPeriodMessage" translate="yes" xml:space="preserve">
+          <source>You have {0} day(s) left.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">شما باید روزها {0} چپ.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Reminder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">یادآوری محاکمه</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نمایش ندادن دوباره این یادآوری</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">شما با استفاده از نسخه آزمایشی پشتیبانی از این نرم افزار. شما می خواهید برای خرید نرم افزار در حال حاضر به حذف تبلیغات اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Trial Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">محاکمه منقضی شده</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نمایش ندادن دوباره این یادآوری</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTrialEnd_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">محاکمه این نرم افزار منقضی شده است. شما می خواهید برای خرید برنامه در حال حاضر? اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Title" translate="yes" xml:space="preserve">
+          <source>Rate the app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">برنامه نرخ</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
+          <source>Do not show this reminder again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نمایش ندادن دوباره این یادآوری</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateReminder_MessageBox_Content" translate="yes" xml:space="preserve">
+          <source>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">خیلی دوست دارم از شما بشنوند! اگر دوست دارید برنامه، لطفا میزان آن در بازار و نظرات خود را به اشتراک بگذارید.</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBYesText" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">بله</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBNoText" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">نه</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBOkText" translate="yes" xml:space="preserve">
+          <source>ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">باشه</target>
+        </trans-unit>
+        <trans-unit id="Resx/MBCancelText" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">"لغو"</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingPivotHeader" translate="yes" xml:space="preserve">
+          <source>upcoming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">آینده</target>
+        </trans-unit>
+        <trans-unit id="Resx/UpcomingEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends have a birthday in the next month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">هیچ دوستان تولد در ماه آینده است.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TechnicalSupportEmailLabel" translate="yes" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">فنی پشتیبانی در پست الکترونیکی</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsLabel" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تنظیمات</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendSMSMenuText" translate="yes" xml:space="preserve">
+          <source>Send SMS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ارسال اس ام اس</target>
+        </trans-unit>
+        <trans-unit id="Resx/SendEmailMenuText" translate="yes" xml:space="preserve">
+          <source>Send Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ارسال ایمیل</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">fa-IR</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">RightToLeft</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLabel" translate="yes" xml:space="preserve">
+          <source>rate me</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">امتياز دهيد</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinLabel" translate="yes" xml:space="preserve">
+          <source>pin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">پین</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastPivotHeader" translate="yes" xml:space="preserve">
+          <source>past</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">گذشته</target>
+        </trans-unit>
+        <trans-unit id="Resx/PastEmptyText" translate="yes" xml:space="preserve">
+          <source>No friends had a birthday in the past month.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">هیچ دوستان تولد در ماه گذشته بود.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingLabel" translate="yes" xml:space="preserve">
+          <source>loading...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">در حال بارگذاری...</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyLeadText" translate="yes" xml:space="preserve">
+          <source>How sad!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">چه غم انگیز است!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallWorkMenuText" translate="yes" xml:space="preserve">
+          <source>Call Work</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تماس محل کار</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallMobileMenuText" translate="yes" xml:space="preserve">
+          <source>Call Mobile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تماس با تلفن همراه</target>
+        </trans-unit>
+        <trans-unit id="Resx/CallHomeMenuText" translate="yes" xml:space="preserve">
+          <source>Call Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">صفحه اصلی تماس بگیرید</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>STIRLING BIRTHDAY</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تولد استرلینگ</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>a simple app to remind you of your friends' birthdays with a beautiful live tile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">یک برنامه ساده به شما یادآوری روز تولد دوستان خود را با کاشی های زنده زیبا</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
+          <source>Copyright © Shane Church 2014</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">کپی رایت © شین کلیسای 2014</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
+          <source>all</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">همه</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllEmptyText" translate="yes" xml:space="preserve">
+          <source>There are no birthdays found in your contacts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">تولد بدون در مخاطبین شما یافت وجود دارد.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutReviewLabel" translate="yes" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">امتیاز این برنامه</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutOtherAppsLabel" translate="yes" xml:space="preserve">
+          <source>other apps by Shane Church</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">برنامه های دیگر توسط کلیسا شین</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutLabel" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">درباره</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddContactLabel" translate="yes" xml:space="preserve">
+          <source>add contact</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">اضافه کردن تماس با ما</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

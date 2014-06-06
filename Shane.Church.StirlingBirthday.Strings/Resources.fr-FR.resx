@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fr-FR</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="PluralAgeText" xml:space="preserve"><value>{0} ans</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} an</value></data><data name="TodayText" xml:space="preserve"><value>Aujourd'hui</value></data><data name="DaysTextSingular" xml:space="preserve"><value>Jour {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Dans {0} jours</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Aujourd'hui est anniversaire de {0} ! Joyeux anniversaire {1} !</value></data><data name="YearsSingular" xml:space="preserve"><value>Exercice {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} ans</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Trop d'agents d'arrière-plan ont été activées. Veuillez accéder à l'application de paramètres pour désactiver les autres agents avant d'activer l'agent Stirling anniversaire.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Commentaires d'anniversaire Stirling</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Joyeux anniversaire !</value></data><data name="EmailBodyText" xml:space="preserve"><value>Joyeux anniversaire ! J'espère que vous avez une bonne journée !</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Ce périphérique ne prend pas charge agents d'arrière-plan, cette fonctionnalité sera désactivée.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Agents d'arrière-plan pour cette application ont été désactivés par l'utilisateur.</value></data><data name="AgentDescription" xml:space="preserve"><value>Cette tâche met à jour la mosaïque live Stirling anniversaire avec anniversaires à venir.</value></data><data name="NoThanksButton" xml:space="preserve"><value>non Merci</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>envoyer des commentaires</value></data><data name="FeedbackContent" xml:space="preserve"><value>Comment puis-je améliorer cette application afin que vous êtes prêt à évaluer les 5 étoiles sur le marché ?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Puis-je j'en fais mieux ?</value></data><data name="UpgradeText" xml:space="preserve"><value>Une mise à niveau est disponible ! Vous souhaitez installer la mise à niveau maintenant ?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Mise à niveau disponible !</value></data><data name="No" xml:space="preserve"><value>ne</value></data><data name="Yes" xml:space="preserve"><value>Oui</value></data><data name="ShareMenuText" xml:space="preserve"><value>Partage</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Erreur d'application</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>L'application a rencontré un problème. Je suis désolé des désagréments.
+
+Je vous saurais votre assistance en envoyant le rapport d'erreurs préparées. Ceci aidera à résoudre le problème plus rapidement.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Il vous reste {0} fois.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Il vous reste {0} jour (s).</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Rappel d'évaluation</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ne plus afficher ce rappel</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Vous utilisez la version d'évaluation ad-prise en charge de cette application. Vous souhaitez acheter maintenant l'application pour supprimer les annonces ? Si vous choisissez Oui - s'affichera sur le marché.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Version d'évaluation a expiré</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ne plus afficher ce rappel</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>La version d'évaluation de cette application a expiré. Vous souhaitez acheter l'application maintenant ? Si vous choisissez Oui - s'affichera sur le marché.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>L'application de taux</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ne plus afficher ce rappel</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>J'aimerais vous entendre ! Si vous aimez l'application, veuillez noter sur le marché et la part de vos commentaires.</value></data><data name="MBYesText" xml:space="preserve"><value>Oui</value></data><data name="MBNoText" xml:space="preserve"><value>ne</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>Annuler</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>à venir</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Aucun ami ne que ton anniversaire dans le mois suivant.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>e-mail du support technique/feedback</value></data><data name="SettingsLabel" xml:space="preserve"><value>paramètres</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Envoyer un SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Envoyer un E-mail</value></data><data name="RateLabel" xml:space="preserve"><value>taux me</value></data><data name="PinLabel" xml:space="preserve"><value>code confidentiel</value></data><data name="PastPivotHeader" xml:space="preserve"><value>passé</value></data><data name="PastEmptyText" xml:space="preserve"><value>Aucun ami n'avait un anniversaire dans le mois dernier.</value></data><data name="LoadingLabel" xml:space="preserve"><value>chargement en cours...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Comment triste !</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Appeler le bureau</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Appeler le Mobile</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Appeler le domicile</value></data><data name="AppTitle" xml:space="preserve"><value>ANNIVERSAIRE DE STIRLING</value></data><data name="AppDescription" xml:space="preserve"><value>une application simple pour vous rappeler les anniversaires de vos amis avec une belle mosaïque live</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>tous les</value></data><data name="AllEmptyText" xml:space="preserve"><value>Il n'y a aucun anniversaires de vos contacts.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Cette application de taux</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>autres applications par Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>à propos</value></data><data name="AddContactLabel" xml:space="preserve"><value>Ajouter un contact</value></data></root>

@@ -47,7 +47,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Commands
             }
             else if(e.TaskResult == TaskResult.None)
             {
-                MessageBox.Show("");
+                //MessageBox.Show("");
             }
         }
 
