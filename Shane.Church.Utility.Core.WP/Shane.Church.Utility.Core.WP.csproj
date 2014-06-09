@@ -112,6 +112,9 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="ChangingObservableObject.cs" />
     <Compile Include="DebugUtility.cs" />
     <Compile Include="Imaging.cs" />

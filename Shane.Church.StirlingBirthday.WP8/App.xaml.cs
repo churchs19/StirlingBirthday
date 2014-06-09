@@ -46,6 +46,7 @@ namespace Shane.Church.StirlingBirthday.WP
         /// </summary>
         public RadRateApplicationReminder rateReminder;
 
+        public string currentVersion;
 
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
@@ -300,6 +301,7 @@ namespace Shane.Church.StirlingBirthday.WP
             //Before using any of the ApplicationBuildingBlocks, this class should be initialized with the version of the application.
             var versionAttrib = new AssemblyName(Assembly.GetExecutingAssembly().FullName);
             ApplicationUsageHelper.Init(versionAttrib.Version.ToString());
+            currentVersion = versionAttrib.Version.ToString();
             FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
             FlurryWP8SDK.Api.SetVersion(versionAttrib.Version.ToString());
         }
@@ -314,6 +316,7 @@ namespace Shane.Church.StirlingBirthday.WP
                 ApplicationUsageHelper.OnApplicationActivated();
             }
             var versionAttrib = new AssemblyName(Assembly.GetExecutingAssembly().FullName);
+            currentVersion = versionAttrib.Version.ToString();
             FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
             FlurryWP8SDK.Api.SetVersion(versionAttrib.Version.ToString());
         }

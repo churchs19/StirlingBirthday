@@ -218,6 +218,9 @@
     <Compile Include="..\Shane.Church.StirlingBirthday.Core.WP8\Services\PhoneTileUpdateService.cs">
       <Link>Services\PhoneTileUpdateService.cs</Link>
     </Compile>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

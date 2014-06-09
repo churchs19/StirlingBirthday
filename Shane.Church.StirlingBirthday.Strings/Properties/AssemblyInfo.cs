@@ -9,18 +9,18 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Shane.Church.StirlingBirthday.Strings")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Shane.Church.StirlingBirthday.Strings")]
-[assembly: AssemblyCopyright("Copyright © Shane Church 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en")]
-
 
 [assembly: InternalsVisibleTo("Shane.Church.StirlingBirthday.WP8")]
 [assembly: InternalsVisibleTo("Shane.Church.StirlingBirthday.WP8.Agent")]
 [assembly: InternalsVisibleTo("Shane.Church.StirlingMoney.Core.WP8")]
 [assembly: InternalsVisibleTo("Shane.Church.StirlingMoney.Core.WP8.Agent")]
+
+
+[assembly: AssemblyCompany("Shane Church")]
+[assembly: AssemblyCopyright("Copyright © Shane Church 2014")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -29,8 +29,9 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-// You can specify all the values or you can default the Build and Revision Numbers 
+// You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.6.*")]
+[assembly: AssemblyFileVersion("2.0.6.0")]
+
+[assembly: NeutralResourcesLanguageAttribute("en")]

@@ -176,6 +176,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Commands\ViewPeopleCommand.cs" />
     <Compile Include="Commands\AddContactCommand.cs" />
     <Compile Include="Commands\OtherAppsCommand.cs" />
