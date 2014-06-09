@@ -278,6 +278,30 @@ Li agrairia la seva assistència enviant l'informe preparat error. Això ajudar�
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">afegir contacte</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obri l'app de persones</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gràcies per descarregar Stirling aniversari!
+
+Aquest app utilitza la informació en l'eix de persones en el teu Windows Phone. 
+
+Degut a limitacions en plataforma, jo sóc incapaç d'afegir o editar aniversaris dins l'app. Per afegir o editar aniversaris, obrir el hub de gent al seu telèfon, afegir o editar un contacte allà i després tornar a l'app. El camp de l'aniversari es troba sota la categoria d'altre en editar els contactes. 
+
+Gràcies!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Benvinguts a Stirling aniversari!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -414,6 +414,15 @@ namespace Shane.Church.StirlingBirthday.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to open people app.
+        /// </summary>
+        public static string OpenPeopleAppLabel {
+            get {
+                return ResourceManager.GetString("OpenPeopleAppLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No friends had a birthday in the past month..
         /// </summary>
         public static string PastEmptyText {
@@ -635,6 +644,30 @@ namespace Shane.Church.StirlingBirthday.Strings {
         public static string UpgradeTitle {
             get {
                 return ResourceManager.GetString("UpgradeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Stirling Birthday!.
+        /// </summary>
+        public static string WelcomeCaption {
+            get {
+                return ResourceManager.GetString("WelcomeCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thanks for downloading Stirling Birthday!
+        ///
+        ///This app uses the information in the People hub on your Windows Phone. 
+        ///
+        ///Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+        ///
+        ///Thanks!.
+        /// </summary>
+        public static string WelcomeText {
+            get {
+                return ResourceManager.GetString("WelcomeText", resourceCulture);
             }
         }
         

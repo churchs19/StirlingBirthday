@@ -278,6 +278,30 @@ Aku akan menghargai bantuan Anda dengan mengirimkan laporan kesalahan disiapkan.
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tambahkan kontak</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">membuka app orang</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Terima kasih untuk men-download ulang Stirling!
+
+Aplikasi ini menggunakan informasi di pusat orang pada Windows Phone Anda. 
+
+Karena keterbatasan platform, saya tidak dapat menambah atau mengedit ulang tahun dalam app. Untuk menambahkan atau mengedit ulang tahun, membuka hub orang pada telepon Anda, menambahkan atau mengedit kontak ada, dan kemudian kembali ke app. Bidang ulang tahun ditemukan di bawah kategori lain ketika mengedit kontak. 
+
+Terima kasih!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Selamat datang di Stirling Birthday!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

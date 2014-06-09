@@ -278,6 +278,30 @@ Aş aprecia ajutorul dvs prin trimiterea raportului pregătit eroare. Acest lucr
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Adauga contact</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">deschide app de oameni</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vă mulţumim pentru descărcare Stirling ziua de nastere!
+
+Acest app utilizează informaţiile în Hubul People pe dumneavoastră Windows Phone. 
+
+Din cauza limitărilor de platforma, eu sunt în imposibilitatea de a adăuga sau edita aniversari în app. Pentru a adăuga sau edita aniversari, deschide Hubul People pe telefon, adăuga / edita un contact acolo, şi apoi reveniţi la aplicaţia. Câmpul de ziua de nastere se găseşte în categoria alte la editarea contactelor. 
+
+mulţumesc!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bine ati venit la Stirling ziua de nastere!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -278,6 +278,30 @@ Ocenil by som vašu pomoc zaslaním pripravené chybové hlásenie. To vám pom�
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridať kontakt</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvorte aplikáciu ľudí</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vďaka za sťahovanie Stirling narodeniny!
+
+Táto aplikácia používa informácie v centre ľudí na vaše Windows Phone. 
+
+Z dôvodu obmedzení platformy, som nemohol pridať alebo upraviť narodeniny v app. Pridať alebo upraviť narodeniny, otvorte centrum People v telefóne pridať alebo upraviť kontakt tam a potom sa vrátiť do app. Narodeniny pole nachádza v kategórii iné keď úpravu kontaktov. 
+
+vďaka!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vitajte v Stirling narodeniny!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -320,4 +320,10 @@
   <data name="AddContactLabel" xml:space="preserve">
     <value>إضافة جهة اتصال</value>
   </data>
-</root>
+<data name="OpenPeopleAppLabel" xml:space="preserve"><value>فتح التطبيق الأشخاص</value></data><data name="WelcomeText" xml:space="preserve"><value>شكرا لتحميل "ستيرلنغ عيد ميلاد"!
+
+يستخدم هذا التطبيق المعلومات في لوحة الوصل الأشخاص على جهاز Windows Phone. 
+
+بسبب قيود في النظام الأساسي، أنا غير قادر على إضافة أو تحرير أعياد الميلاد داخل التطبيق. لإضافة أو تحرير أعياد الميلاد، فتح لوحة الوصل الأشخاص على الهاتف الخاص بك وإضافة أو تحرير جهة اتصال وثم الرجوع إلى التطبيق. يتم العثور على حقل عيد الميلاد في فئة عند تحرير جهات الاتصال. 
+
+بفضل!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>مرحبا بك ستيرلنغ عيد ميلاد!</value></data></root>

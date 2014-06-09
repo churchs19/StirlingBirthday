@@ -278,6 +278,30 @@ Ich schätzen Ihre Hilfe durch Senden des Fehlerberichts bereit. Dies wird mit s
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kontakt hinzufügen</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menschen aufmachen</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vielen Dank für den Download Stirling Geburtstag!
+
+Diese Anwendung verwendet die Informationen in der Kontakte-Hub auf Ihrem Windows Phone. 
+
+Aufgrund von Einschränkungen der Plattform kann ich nicht hinzufügen oder Bearbeiten von Geburtstagen innerhalb der app. Zum Hinzufügen oder Bearbeiten von Geburtstage, Öffnen des Kontakte-Hubs auf Ihrem Telefon, hinzufügen oder Bearbeiten eines Kontakts gibt es und dann zurück an die Anwendung. Das Feld Geburtstag befindet sich unter der Kategorie andere beim Bearbeiten von Kontakten. 
+
+Vielen Dank!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Willkommen bei Firma Stirling Geburtstag!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

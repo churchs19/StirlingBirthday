@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 using System.Windows.Media;
+using Telerik.Windows.Controls;
 using Telerik.Windows.Data;
 
 namespace Shane.Church.StirlingBirthday.WP
@@ -45,19 +46,6 @@ namespace Shane.Church.StirlingBirthday.WP
 			JumpListAll.GroupPickerItemsSource = null;
 			JumpListAll.GroupPickerItemsSource = _model.MonthNames;
 		}
-
-        void _model_DataLoaded(object sender, EventArgs e)
-        {
-            ListBoxUpcoming.ItemsSource = null;
-            ListBoxUpcoming.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
-            ListBoxUpcoming.ItemsSource = _model.UpcomingContacts;
-            ListBoxPast.ItemsSource = null;
-            ListBoxPast.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
-            ListBoxPast.ItemsSource = _model.PastContacts;
-            JumpListAll.ItemsSource = null;
-            JumpListAll.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
-            JumpListAll.ItemsSource = _model.AllContacts;
-        }
 
 		#region Ad Control
 		private void InitializeAdControl()
@@ -96,7 +84,8 @@ namespace Shane.Church.StirlingBirthday.WP
 		}
 		#endregion
 
-		private void InitializeApplicationBar()
+        #region App Bar
+        private void InitializeApplicationBar()
 		{
 			ApplicationBar = new ApplicationBar();
 			ApplicationBar.Mode = ApplicationBarMode.Minimized;
@@ -104,10 +93,15 @@ namespace Shane.Church.StirlingBirthday.WP
 			ApplicationBar.BackgroundColor = (Color)Application.Current.Resources["AppColor1"];
 			ApplicationBar.ForegroundColor = (Color)Application.Current.Resources["AppColorWhite"];
 
-            ApplicationBarIconButton appBarButtonAddBirthday = new ApplicationBarIconButton(new Uri("/Images/Add-New.png", UriKind.Relative));
-            appBarButtonAddBirthday.Text = Shane.Church.StirlingBirthday.Strings.Resources.AddContactLabel;
-            appBarButtonAddBirthday.Click += appBarMenuItemAddBirthday_Click;
-            ApplicationBar.Buttons.Add(appBarButtonAddBirthday);
+            //ApplicationBarIconButton appBarButtonPeople = new ApplicationBarIconButton(new Uri("/Images/People.png", UriKind.Relative));
+            //appBarButtonPeople.Text = Shane.Church.StirlingBirthday.Strings.Resources.OpenPeopleAppLabel;
+            //appBarButtonPeople.Click += appBarButtonPeople_Click;
+            //ApplicationBar.Buttons.Add(appBarButtonPeople);
+
+            //ApplicationBarIconButton appBarButtonAddBirthday = new ApplicationBarIconButton(new Uri("/Images/Add-New.png", UriKind.Relative));
+            //appBarButtonAddBirthday.Text = Shane.Church.StirlingBirthday.Strings.Resources.AddContactLabel;
+            //appBarButtonAddBirthday.Click += appBarMenuItemAddBirthday_Click;
+            //ApplicationBar.Buttons.Add(appBarButtonAddBirthday);
 
 			ApplicationBarIconButton appBarButtonReview = new ApplicationBarIconButton(new Uri("/Images/Rating.png", UriKind.Relative));
 			appBarButtonReview.Text = Shane.Church.StirlingBirthday.Strings.Resources.RateLabel;
@@ -142,6 +136,12 @@ namespace Shane.Church.StirlingBirthday.WP
 #endif
 		}
 
+        void appBarButtonPeople_Click(object sender, EventArgs e)
+        {
+            if (_model.ViewPeopleCommand.CanExecute(null))
+                _model.ViewPeopleCommand.Execute(null);
+        }
+
         void appBarMenuItemAddBirthday_Click(object sender, EventArgs e)
         {
             if (_model.AddContactCommand.CanExecute(null))
@@ -165,8 +165,9 @@ namespace Shane.Church.StirlingBirthday.WP
 			if (_model.RateCommand.CanExecute(null))
 				_model.RateCommand.Execute(null);
 		}
+        #endregion
 
-		protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
 		{
             base.OnNavigatedTo(e);
 
@@ -179,6 +180,28 @@ namespace Shane.Church.StirlingBirthday.WP
 			await tileService.SaveUpcomingImages();
 			await tileService.UpdateTile();
 		}
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            if(ApplicationUsageHelper.ApplicationRunsCountForCurrentVersion == 1)
+            {
+                //Show intro dialog
+                MessageBox.Show(Shane.Church.StirlingBirthday.Strings.Resources.WelcomeText, Shane.Church.StirlingBirthday.Strings.Resources.WelcomeCaption, MessageBoxButton.OK);
+            }
+        }
+
+        void _model_DataLoaded(object sender, EventArgs e)
+        {
+            ListBoxUpcoming.ItemsSource = null;
+            ListBoxUpcoming.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            ListBoxUpcoming.ItemsSource = _model.UpcomingContacts;
+            ListBoxPast.ItemsSource = null;
+            ListBoxPast.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            ListBoxPast.ItemsSource = _model.PastContacts;
+            JumpListAll.ItemsSource = null;
+            JumpListAll.DataVirtualizationMode = Telerik.Windows.Controls.DataVirtualizationMode.OnDemandAutomatic;
+            JumpListAll.ItemsSource = _model.AllContacts;
+        }
 
 		private void ListBoxUpcoming_DataRequested(object sender, EventArgs e)
 		{
@@ -228,5 +251,5 @@ namespace Shane.Church.StirlingBirthday.WP
 				}
 			}
 		}
-	}
+    }
 }

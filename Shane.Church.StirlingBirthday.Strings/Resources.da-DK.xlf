@@ -278,6 +278,30 @@ Jeg ville sætte pris på din hjælp ved at sende fejlrapporten forberedt. Dette
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilføj kontaktperson</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Åbn personer app</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tak for at hente Stirling fødselsdag!
+
+Denne app bruger oplysningerne i personer-hubben på din Windows Phone. 
+
+Jeg kan ikke tilføje eller redigere fødselsdage i programmet på grund af platform begrænsninger. Hvis du vil tilføje eller redigere fødselsdage, åbne personer-hubben på din telefon, tilføje eller redigere en kontakt der og derefter vende tilbage til programmet. Feltet Fødselsdag findes under kategorien andre, når du redigerer kontaktpersoner. 
+
+Tak!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velkommen til Stirling fødselsdag!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

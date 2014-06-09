@@ -278,6 +278,30 @@ Będę wdzięczny za pomoc przez wysłanie raportu o błędzie przygotowany. Pom
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodawanie kontaktu</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otwórz aplikację osób</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dziękujemy za pobranie Stirling urodziny!
+
+Ta aplikacja korzysta z informacji w Centrum kontakty w sieci Windows Phone. 
+
+Ze względu na ograniczenia platformy nie mogę dodać lub edytować Urodziny w aplikacji. Aby dodać lub edytować urodziny, Otwórz Centrum kontakty w telefonie, Dodaj lub Edytuj kontakt istnieje i następnie powróć do aplikacji. Pole Data urodzenia znajduje się w kategorii innych podczas edytowania kontaktów. 
+
+Dzięki!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Urodziny Stirling-Zapraszamy!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

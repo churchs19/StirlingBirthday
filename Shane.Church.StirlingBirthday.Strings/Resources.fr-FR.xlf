@@ -278,6 +278,30 @@ Je vous saurais votre assistance en envoyant le rapport d'erreurs préparées. C
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajouter un contact</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrez l'application des contacts</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nous vous remercions d'avoir téléchargé Stirling anniversaire !
+
+Cette application utilise les informations dans le hub Contacts sur votre Windows Phone. 
+
+En raison de limitations de plate-forme, je ne parviens pas à ajouter ou modifier des anniversaires dans l'application. Pour ajouter ou modifier les dates d'anniversaire, ouvrez le hub Contacts sur votre téléphone, ajouter ou modifier un contact il et revenir ensuite à l'application. Le champ anniversaire se trouve dans la catégorie autre lors de la modification des contacts. 
+
+Merci !</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bienvenue dans Stirling anniversaire !</target>
+        </trans-unit>
       </group>
     </body>
   </file>

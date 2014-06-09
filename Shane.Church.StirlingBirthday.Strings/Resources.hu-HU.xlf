@@ -278,6 +278,30 @@ Kérem, a támogatás által elkészített jelentés küldése. Ez segít a prob
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Névjegy hozzáadása</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">emberek alkalmazás megnyitása</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Letöltés Stirling Születésnapi Köszönöm!
+
+Ez app a Windows Phone az emberek hubra adatainak felhasználásával. 
+
+Platform korlátozásai miatt nem sikerül hozzáadása vagy szerkesztése a app belül születésnapok. Hozzáadása vagy szerkesztése a születésnapokat, nyissa meg a telefonon a személyek hub hozzáadása vagy ott Névjegy szerkesztése, és ezután térjen vissza a app. A születésnap mező az kategóriában található, kapcsolattartók szerkesztése során. 
+
+Köszönöm!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Üdvözöljük a Stirling Születésnapi!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

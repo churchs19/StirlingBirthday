@@ -278,6 +278,30 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">대화 상대 추가</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사람들이 앱을 엽니다</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스털링 생일을 다운로드 주셔서 감사 합니다!
+
+이 응용 프로그램에 Windows Phone 사람 허브의 정보를 사용합니다. 
+
+플랫폼 제한 사항으로 인해 추가 또는 생일 응용 프로그램 내에서 편집할 수 없는 경우 을 추가 하거나 편집 생일 전화에서 사람 허브, 추가 또는 편집할 연락처를 열고 응용 프로그램에 반환 합니다. 생일 필드에는 연락처를 편집할 때 다른 범주에서 발견 되. 
+
+고 마 워!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스털링 생일입니다!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

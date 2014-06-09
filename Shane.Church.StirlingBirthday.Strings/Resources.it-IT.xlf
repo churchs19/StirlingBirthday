@@ -278,6 +278,30 @@ Gradirei l'assistenza inviando la segnalazione errori preparata. Ciò consentir�
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Aggiungi contatto</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aprire app persone</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grazie per aver scaricato Stirling compleanno!
+
+Questa applicazione utilizza le informazioni nell'hub persone sul Windows Phone. 
+
+A causa delle limitazioni della piattaforma, non è possibile aggiungere o modificare i compleanni all'interno dell'applicazione. Per aggiungere o modificare i compleanni, aprire l'hub contatti sul telefono, aggiungere o modificare un contatto è presente e quindi tornare all'applicazione. Il campo Data di nascita viene trovato nella categoria altre durante la modifica di contatti. 
+
+Grazie!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Introduzione a Stirling compleanno!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

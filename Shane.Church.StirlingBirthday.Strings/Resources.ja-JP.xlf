@@ -278,6 +278,30 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">連絡先を追加します。</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ユーザーがアプリを開く</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">スターリングの誕生日をダウンロードするためにありがとうございます。
+
+このアプリケーションは、Windows Phone で、人々 のハブで情報を使用します。
+
+プラットフォームの制限により、追加または編集、アプリケーション内での誕生日をすることです。追加または編集の誕生日、人ハブ、電話で、追加または、連絡先を編集を開き、アプリケーションに戻ります。連絡先を編集するときに、[その他] カテゴリ、[誕生日] フィールドが見つかりました。
+
+ありがとうございます。</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">誕生日のスターリングへようこそ!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

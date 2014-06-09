@@ -278,6 +278,30 @@ Vai novērtējam jūsu palīdzību, nosūtot sagatavotu kļūdu ziņojumu. Tas p
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">pievienot kontaktu</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">atvērt cilvēkiem app</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paldies par lejupielādi Stirling dzimšanas dienā!
+
+Šajā app izmanto informāciju cilvēkiem rumbu uz Windows Phone. 
+
+Platforma ierobežojumu dēļ es nevaru pievienot vai rediģēt dzimšanas dienas ietvaros app. Pievienot vai rediģēt dzimšanas dienas, atvērt cilvēkiem rumbu uz tālruni, pievienot vai rediģēt kontaktu tur un pēc tam atgriezieties app. Dzimšanas dienas lauks ir atrasts zem citas kategorijas, kad rediģējat kontaktu. 
+
+paldies!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laipni lūgti Stirling dzimšanas dienā!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

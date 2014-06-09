@@ -278,6 +278,30 @@ Otan teihin yhteyttä apua lähettämällä valmistetut virheraportin. Tämä au
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lisää yhteystieto</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avaa henkilöt-sovellus</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kiitos lataamisesta Stirling syntymäpäivä!
+
+Tämä app käyttää tietoja käyttäjien Windows Phone-keskitin. 
+
+Ympäristön rajoitukset, koska en voi lisätä tai muokata sovelluksen sisällä syntymäpäivät. Voit lisätä tai muokata syntymäpäivät, Avaa puhelimen käyttäjien keskitin, Lisää tai Muokkaa yhteyshenkilöä ja sovellus palaa. Syntymäpäivä-kentän löytyy toisen luokan yhteyshenkilöiden muokkaaminen. 
+
+Kiitos!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tervetuloa Stirling syntymäpäivä!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -17,7 +17,7 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
 	Background="{StaticResource PhoneBackgroundBrush}"
-    SupportedOrientations="Portrait"  Orientation="Portrait">
+    SupportedOrientations="Portrait"  Orientation="Portrait" Loaded="PhoneApplicationPage_Loaded">
 
     <i:Interaction.Behaviors>
         <helpers:UpgradeBehavior x:Name="upgradeBehavior"/>

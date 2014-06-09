@@ -278,6 +278,30 @@ Tôi sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo c�
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thêm số liên lạc</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">mở ứng dụng người</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cảm ơn bạn đã tải về Stirling sinh nhật!
+
+Ứng dụng này sử dụng các thông tin trong Trung tâm người trên Windows Phone của bạn. 
+
+Do hạn chế nền tảng, tôi không thể thêm hoặc chỉnh sửa ngày sinh nhật trong các ứng dụng. Để thêm hoặc chỉnh sửa ngày sinh nhật, mở Trung tâm người trên điện thoại của bạn, thêm hoặc chỉnh sửa số liên lạc đó, và sau đó trở về các ứng dụng. Trường sinh nhật được tìm thấy loại khác khi chỉnh sửa số liên lạc. 
+
+Cảm ơn!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chào mừng đến với Stirling sinh nhật!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

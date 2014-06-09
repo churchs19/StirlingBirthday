@@ -278,6 +278,30 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Добави контакт</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отворете приложението хора</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Благодаря за изтегляне на Стърлинг рожден ден!
+
+Този app използва информацията в People hub на вашия Windows Phone. 
+
+Поради ограниченията на платформата аз съм в състояние да добавите или редактирате рождени дни в рамките на ап. За да добавите или редактирате рождени дни, отворете People hub на вашия телефон, Добавяне или редактиране на контакт там и след това се върнете на ап. Полето рожден ден се намира в другата категория, при редактиране на контакти. 
+
+Благодаря!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Добре дошли в Стърлинг рожден ден!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -278,6 +278,30 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">संपर्क जोड़ें</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">लोग अनुप्रयोग खोलें</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stirling जन्मदिन को डाउनलोड करने के लिए धन्यवाद!
+
+इस app अपने Windows Phone पर लोग हब में जानकारी का उपयोग करता है। 
+
+प्लेटफ़ॉर्म सीमाओं के कारण, मैं जोड़ने या जन् मदिन अनुप्रयोग में संपादित करने में असमर्थ हूँ। जोड़ें या जन् मदिन को संपादित करने के लिए, आपके फ़ोन पर लोग हब खोलने, जोड़ने या कोई संपर्क संपादित करें और फिर app करने के लिए वापस जाएँ। जन्मदिन की फ़ील्ड संपर्क संपादित करते समय अन्य श्रेणी के अंतर्गत पाया जाता है। 
+
+धन्यवाद!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stirling जन्मदिन में आपका स्वागत है!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

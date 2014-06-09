@@ -320,4 +320,19 @@ I would appreciate your assistance by sending the prepared error report. This wi
   <data name="AddContactLabel" xml:space="preserve">
     <value>add contact</value>
   </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>open people app</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Welcome to Stirling Birthday!</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</value>
+  </data>
 </root>

@@ -278,6 +278,30 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">新增連絡人</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">開啟人應用程式</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">感謝您的下載 Stirling 生日!
+
+這個應用程式會使用中的人集線器上 Windows Phone 的資訊。
+
+由於平台的限制，我無法新增或編輯應用程式內的生日。若要新增或編輯生日，開啟您的電話上的人集線器、 新增或編輯連絡人，然後再回到應用程式。[其他] 類別下找到 [紀念日] 欄位，編輯連絡人時。
+
+感謝您!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">歡迎使用 Stirling 的生日!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

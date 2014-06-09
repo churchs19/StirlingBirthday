@@ -278,6 +278,30 @@ Ma hindan teie abi poolt ettevalmistatud tõrketeatist. See aitab à problemaati
           <source>add contact</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lisa kontakt</target>
         </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">avatud inimesed appi</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Täname allalaadimine Stirling sünnipäev!
+
+See app kasutab teavet oma Windows Phone Rummu inimesed. 
+
+Platvormi piirangute tõttu ma ei saa lisada või redigeerida sünnipäevad jooksul app. Lisada või redigeerida sünnipäevad, avada inimestele Rummu telefoni, lisada või redigeerida kontakti seal ja siis tagasi app. Sünnipäevaks välja leiate teise kategooria kontaktid redigeerimisel. 
+
+Tänud!</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tere tulemast Stirling sünnipäev!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

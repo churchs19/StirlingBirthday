@@ -176,6 +176,16 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
             }
         }
 
+        private ICommand _viewPeopleCommand;
+        public ICommand ViewPeopleCommand
+        {
+            get { return _viewPeopleCommand; }
+            set
+            {
+                Set(() => ViewPeopleCommand, ref _viewPeopleCommand, value);
+            }
+        }
+
         private bool _isLoading;
         public bool IsLoading
         {

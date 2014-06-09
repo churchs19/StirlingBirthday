@@ -23,6 +23,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
             var addContactCmd = new AddContactCommand();
             addContactCmd.ContactAdded += addContactCmd_ContactAdded;
             AddContactCommand = addContactCmd;
+            ViewPeopleCommand = new ViewPeopleCommand();
         }
 
         async void addContactCmd_ContactAdded(object sender, EventArgs e)

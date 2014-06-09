@@ -8,195 +8,195 @@
       <group id="Resx">
         <trans-unit id="Resx/PluralAgeText" translate="yes" xml:space="preserve">
           <source>{0} years old</source>
-          <target state="new">{0} years old</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C0AA4][!!_{0} ўęàřš ôĺď_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/SingularAgeText" translate="yes" xml:space="preserve">
           <source>{0} year old</source>
-          <target state="new">{0} year old</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D8D07][!!_{0} Уęàŗ õĺď_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TodayText" translate="yes" xml:space="preserve">
           <source>Today</source>
-          <target state="new">Today</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EC378][!!_Τôďàў_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/DaysTextSingular" translate="yes" xml:space="preserve">
           <source>In {0} day</source>
-          <target state="new">In {0} day</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C3936][!!_Îή {0} ðàŷ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/DaysTextPlural" translate="yes" xml:space="preserve">
           <source>In {0} days</source>
-          <target state="new">In {0} days</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B5A35][!!_Įή {0} ðàýš_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/HappyBirthdayShare" translate="yes" xml:space="preserve">
           <source>Today is {0}'s birthday! Happy Birthday {1}!</source>
-          <target state="new">Today is {0}'s birthday! Happy Birthday {1}!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AF3A3][!!_Тõðáў įŝ {0}'š ьíŗтђďáÿ! Нâρþŷ ßįŕтнđãŷ {1}!_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/YearsSingular" translate="yes" xml:space="preserve">
           <source>{0} year</source>
-          <target state="new">{0} year</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07D7F][!!_{0} ýèâŕ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/YearsPlural" translate="yes" xml:space="preserve">
           <source>{0} years</source>
-          <target state="new">{0} years</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C7B54][!!_{0} Уêářś_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TooManyAgentsError" translate="yes" xml:space="preserve">
           <source>Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</source>
-          <target state="new">Too many background agents have been enabled. Please go to the settings application to disable other agents before enabling the Stirling Birthday agent.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AEBC9][!!_Тóó мáηУ Бâčĸĝŗòûйð áģêйťś ħàνé ьêéи ęηãъłèď. Ρłęàšę ğò τõ тћę şêţтįηģś ãρрłíĉáтíõй тô ðíŝãБļê ôţћéŕ áğèйţş Бęƒôѓè êйâБĺîйģ τћè Ŝťîŕľíйģ Ъîřţћďàý âģęητ._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TechnicalSupportEmailSubject" translate="yes" xml:space="preserve">
           <source>Stirling Birthday Feedback</source>
-          <target state="new">Stirling Birthday Feedback</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8CC6E][!!_Şτîŕľįйğ ЪįŗτћďàУ ₣éęðБàċк_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/HappyBirthdayText" translate="yes" xml:space="preserve">
           <source>Happy Birthday!</source>
-          <target state="new">Happy Birthday!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[72117][!!_Ηâρþÿ Ьìŕťнđãў!_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/EmailBodyText" translate="yes" xml:space="preserve">
           <source>Happy Birthday! I hope you have a great day!</source>
-          <target state="new">Happy Birthday! I hope you have a great day!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[42A2D][!!_Ħãþрŷ ВíŗţĥđãУ! Í нôρę ŷõû ħàνé à ĝѓèâţ ðàУ!_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AgentsNotSupportedError" translate="yes" xml:space="preserve">
           <source>This device does not support background agents, so this feature will be disabled.</source>
-          <target state="new">This device does not support background agents, so this feature will be disabled.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B70D9][!!_Τћíş ðęνįčè đõęş ήôť šµррòřť ъãĉќġŗôúηď âģêήτš, şô ťĥîš ƒęãťûŗê ẅìļļ Бę ďîśáвłêď._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AgentsDisabledByUserError" translate="yes" xml:space="preserve">
           <source>Background agents for this application have been disabled by the user.</source>
-          <target state="new">Background agents for this application have been disabled by the user.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EF426][!!_Βàċќġѓõúиð áğèήтś ƒôř τħįş ãрþłìċâţìóη ħàνè вęèή ðîşàвļęđ ъŷ τнè µšéř._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AgentDescription" translate="yes" xml:space="preserve">
           <source>This task updates the Stirling Birthday live tile with upcoming birthday information.</source>
-          <target state="new">This task updates the Stirling Birthday live tile with upcoming birthday information.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4F2D8][!!_Ţђîş ţãšќ ûρðãťéś тћé Šτìŕłìηġ ЬíŕтнďâУ łįνè тîłé ŵíтћ ùþċòмįиġ ъįѓτĥďáў íйƒòŕmãτíôή._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/NoThanksButton" translate="yes" xml:space="preserve">
           <source>no thanks</source>
-          <target state="new">no thanks</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FBFB2][!!_иô τћãйкš_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/GiveFeedbackButton" translate="yes" xml:space="preserve">
           <source>give feedback</source>
-          <target state="new">give feedback</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[883F0][!!_ġìνę ƒêęðБâċќ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/FeedbackContent" translate="yes" xml:space="preserve">
           <source>How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</source>
-          <target state="new">How can I improve this application so that you would be willing to rate it 5 stars in the marketplace?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EC150][!!_Ħõẁ ćàη Í ìмρřôνè τнîś âρþłįċãţįõη şò ťĥàτ ўòù ẁóûļď Бé ŵíłļìήğ ťô řâţę îт 5 şтãѓş îη ťђé mâѓќęтрľàčé?_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/FeedbackTitle" translate="yes" xml:space="preserve">
           <source>Can I make it better?</source>
-          <target state="new">Can I make it better?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[97093][!!_Čãй Į mãкę įτ ьęťţęř?_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/UpgradeText" translate="yes" xml:space="preserve">
           <source>An upgrade is available! Do you want to install the upgrade now?</source>
-          <target state="new">An upgrade is available! Do you want to install the upgrade now?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0F736][!!_Àй ûрġřáðé îš àνâíľáьļę! Đõ Уòû ẃàйт ťõ îηśτâľľ τĥè úρĝřàđé ήôẃ?_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/UpgradeTitle" translate="yes" xml:space="preserve">
           <source>Upgrade Available!</source>
-          <target state="new">Upgrade Available!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A49FC][!!_Ûрġŗâďé Ãνáìľãъĺę!_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
           <source>no</source>
-          <target state="new">no</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1954C][!!_ήò_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
           <source>yes</source>
-          <target state="new">yes</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D76BB][!!_ýęš_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/ShareMenuText" translate="yes" xml:space="preserve">
           <source>Share</source>
-          <target state="new">Share</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0D6F2][!!_Śђàѓę_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/Diagnostics_MessageBox_Title" translate="yes" xml:space="preserve">
           <source>Application Error</source>
-          <target state="new">Application Error</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E1CF4][!!_Áþрĺíċãтįóη Ęѓѓõŕ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/Diagnostics_MessageBox_Content" translate="yes" xml:space="preserve">
           <source>The application has encountered a problem. I am sorry for the inconvenience.
 
 I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</source>
-          <target state="new">The application has encountered a problem. I am sorry for the inconvenience.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[02A68][!!_Ţħè àрρľìĉãţìôй ħàš ęήčôùηţèѓęð à ρѓôъľêm. Ì ãm šôřřŷ ƒòŕ ťħê íήčôйνèήìęйċê.
 
-I would appreciate your assistance by sending the prepared error report. This will help with resolving the problem faster.</target>
+Ì ẃõµłď àþþѓèċíáťę ÿõûѓ ãşŝîŝтàηčè БУ šêиđîήğ ţћê þѓèþãřęď èѓřôř ŕęρòŕť. Τћíš ŵíļľ ħęłр ŵíτћ řêŝóļνíηģ тĥè þŕôьłèm ƒâšтéѓ._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TrialReminderUsageCountMessage" translate="yes" xml:space="preserve">
           <source>You have {0} time(s) left.</source>
-          <target state="new">You have {0} time(s) left.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[63605][!!_Ўòú ћàνé {0} тîмé(ś) łêƒτ._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TrialReminderPeriodMessage" translate="yes" xml:space="preserve">
           <source>You have {0} day(s) left.</source>
-          <target state="new">You have {0} day(s) left.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E7E89][!!_Ýõû ĥâνé {0} ďáў(ş) ļęƒτ._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialReminder_MessageBox_Title" translate="yes" xml:space="preserve">
           <source>Trial Reminder</source>
-          <target state="new">Trial Reminder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2C5FC][!!_Ťŕįáľ Ŗêmîηđéѓ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
           <source>Do not show this reminder again</source>
-          <target state="new">Do not show this reminder again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ACA6F][!!_Ðò ηõţ şђôŵ ťĥįś řémîήðêŕ áġàìή_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialReminder_MessageBox_Content" translate="yes" xml:space="preserve">
           <source>You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</source>
-          <target state="new">You are using the ad-supported trial version of this application. Do you want to purchase the application now to remove the ads? If you choose Yes - you will be redirected to the marketplace.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DFA2B][!!_Ýõµ áѓé ûśìйġ ţħè ãð-šûρþòřťęď ťŕîàĺ νéѓşįóή óƒ ţђìŝ âþþłîčàτįõη. Ďò ўôù ẃàήť ťõ рúŗĉħâŝê тћę âþþĺįĉàтìôη йôẅ ťó řèмôνê ťнé ãďŝ? Îƒ ўòµ ĉħôôśè Ўêŝ - ŷôù ẁîľľ ьê ŕéđìŕêčтêď ťõ ţħê máŕќęтρľâčę._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialEnd_MessageBox_Title" translate="yes" xml:space="preserve">
           <source>Trial Expired</source>
-          <target state="new">Trial Expired</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2EA85][!!_Ťřįãļ Ê×ρîŕęđ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
           <source>Do not show this reminder again</source>
-          <target state="new">Do not show this reminder again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AA213][!!_Đõ иôτ şнõẁ ţĥîš ŗèmìйđéŕ âġàįή_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTrialEnd_MessageBox_Content" translate="yes" xml:space="preserve">
           <source>The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</source>
-          <target state="new">The trial of this application has expired. Do you want to purchase the application now? If you choose Yes - you will be redirected to the marketplace.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2B8F9][!!_Τĥê ťřîáł õƒ ţћíŝ àрρĺįċáţîòй ĥàş èхþíŗêð. Ðò ÿôù ẅãήţ ťó ρúŗčђàšê тћè ãρрłîĉâťįõи ήóẅ? Íƒ Уóú čнõóśè Ϋèś - ÿòû ẃîļł ъé řèďįŗéċтéđ ţò тĥê мâŕķêţþĺáčè._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/RateReminder_MessageBox_Title" translate="yes" xml:space="preserve">
           <source>Rate the app</source>
-          <target state="new">Rate the app</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DFF17][!!_Řáťé тнę áþþ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/RateReminder_MessageBox_SkipFurtherRemindersMessage" translate="yes" xml:space="preserve">
           <source>Do not show this reminder again</source>
-          <target state="new">Do not show this reminder again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[784D7][!!_Đó иôτ şђòŵ тнíş ŗęmíήðéѓ àģàįй_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/RateReminder_MessageBox_Content" translate="yes" xml:space="preserve">
           <source>I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</source>
-          <target state="new">I would love to hear from you! If you like the app, please rate it on the marketplace and share your feedback.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FA546][!!_Î ẁôµļð ĺôνé ťò нèáŗ ƒŗõм ŷòû! Íƒ Уóú ļíќè τĥę âρþ, þĺêáŝè ŗãţé îт òй ťћè мãŕкèтρľâčę àήð šĥáŗé ŷòûŕ ƒéęđБâćк._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/MBYesText" translate="yes" xml:space="preserve">
           <source>yes</source>
-          <target state="new">yes</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E9CB3][!!_Уęš_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/MBNoText" translate="yes" xml:space="preserve">
           <source>no</source>
-          <target state="new">no</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8C3C7][!!_иò_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/MBOkText" translate="yes" xml:space="preserve">
           <source>ok</source>
-          <target state="new">ok</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E0F5A][!!_ôĸ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/MBCancelText" translate="yes" xml:space="preserve">
           <source>cancel</source>
-          <target state="new">cancel</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F2E3F][!!_ċãήĉéĺ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/UpcomingPivotHeader" translate="yes" xml:space="preserve">
           <source>upcoming</source>
-          <target state="new">upcoming</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[98843][!!_µþčôмìйģ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/UpcomingEmptyText" translate="yes" xml:space="preserve">
           <source>No friends have a birthday in the next month.</source>
-          <target state="new">No friends have a birthday in the next month.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D4AA8][!!_Ñõ ƒѓîéηðš ћâνê à вìѓтћðâŷ ìή ţћę йę×ţ мóήťħ._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/TechnicalSupportEmailLabel" translate="yes" xml:space="preserve">
           <source>technical support/feedback email</source>
-          <target state="new">technical support/feedback email</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FB8B7][!!_тéćнήíĉàļ şûþрóŗт/ƒéèďвãčќ émãìļ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/SettingsLabel" translate="yes" xml:space="preserve">
           <source>settings</source>
-          <target state="new">settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CD9F5][!!_šęťťíйğŝ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/SendSMSMenuText" translate="yes" xml:space="preserve">
           <source>Send SMS</source>
-          <target state="new">Send SMS</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4055D][!!_Ŝêήď ŠΜŜ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/SendEmailMenuText" translate="yes" xml:space="preserve">
           <source>Send Email</source>
-          <target state="new">Send Email</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[70EDD][!!_Śèиď Èmáíĺ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
           <source>en-US</source>
@@ -208,75 +208,99 @@ I would appreciate your assistance by sending the prepared error report. This wi
         </trans-unit>
         <trans-unit id="Resx/RateLabel" translate="yes" xml:space="preserve">
           <source>rate me</source>
-          <target state="new">rate me</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0BEAF][!!_ŕàτè мę_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/PinLabel" translate="yes" xml:space="preserve">
           <source>pin</source>
-          <target state="new">pin</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AD919][!!_рîή_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/PastPivotHeader" translate="yes" xml:space="preserve">
           <source>past</source>
-          <target state="new">past</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ACAA9][!!_ρâśτ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/PastEmptyText" translate="yes" xml:space="preserve">
           <source>No friends had a birthday in the past month.</source>
-          <target state="new">No friends had a birthday in the past month.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[638B3][!!_Ňô ƒѓîéйďş ђãđ ã ъîŕτħðàУ îи ťђé þàşť мõиτн._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/LoadingLabel" translate="yes" xml:space="preserve">
           <source>loading...</source>
-          <target state="new">loading...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[40F83][!!_ľõáðíйğ..._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/EmptyLeadText" translate="yes" xml:space="preserve">
           <source>How sad!</source>
-          <target state="new">How sad!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3CEEE][!!_Ħôẅ šãđ!_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/CallWorkMenuText" translate="yes" xml:space="preserve">
           <source>Call Work</source>
-          <target state="new">Call Work</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5F88C][!!_Ćàłł Ẅõřĸ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/CallMobileMenuText" translate="yes" xml:space="preserve">
           <source>Call Mobile</source>
-          <target state="new">Call Mobile</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F9FBC][!!_Ćàľľ МóБíľê_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/CallHomeMenuText" translate="yes" xml:space="preserve">
           <source>Call Home</source>
-          <target state="new">Call Home</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8B507][!!_Ċâļĺ Ĥòmè_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>STIRLING BIRTHDAY</source>
-          <target state="new">STIRLING BIRTHDAY</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CCC7D][!!_ŜΤÌŖĿÍŃĜ βÌŘŢĦĎÃЎ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
           <source>a simple app to remind you of your friends' birthdays with a beautiful live tile</source>
-          <target state="new">a simple app to remind you of your friends' birthdays with a beautiful live tile</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5B187][!!_á şìmþłè âрþ тõ ŕèмìήð Уõù òƒ ýòµŕ ƒŗìêиðŝ' Бířтĥðàÿŝ ŵíтн â ьèàµťįƒûł ĺìνę ťíľè_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
           <source>Copyright © Shane Church 2014</source>
-          <target state="new">Copyright © Shane Church 2014</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9EFB8][!!_ĈòрУŗìģнτ © Ŝђàиè Ĉнûѓĉĥ 2014_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>
-          <target state="new">all</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2208A][!!_àļľ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AllEmptyText" translate="yes" xml:space="preserve">
           <source>There are no birthdays found in your contacts.</source>
-          <target state="new">There are no birthdays found in your contacts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[95981][!!_Тћêŕę ãѓè йõ вìѓτĥďâўŝ ƒóúηð íη ўòûř čóиţáčτš._!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AboutReviewLabel" translate="yes" xml:space="preserve">
           <source>rate this app</source>
-          <target state="new">rate this app</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ECFD0][!!_ѓâтè ţĥîş ãþр_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AboutOtherAppsLabel" translate="yes" xml:space="preserve">
           <source>other apps by Shane Church</source>
-          <target state="new">other apps by Shane Church</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BA6BB][!!_õťħęŗ àρрŝ Бŷ Šђâиé Ćђùѓćђ_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AboutLabel" translate="yes" xml:space="preserve">
           <source>about</source>
-          <target state="new">about</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[54D02][!!_âьõúт_!!]</target>
         </trans-unit>
         <trans-unit id="Resx/AddContactLabel" translate="yes" xml:space="preserve">
           <source>add contact</source>
-          <target state="new">add contact</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C1EC8][!!_âðð ĉòйţãĉт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpenPeopleAppLabel" translate="yes" xml:space="preserve">
+          <source>open people app</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5C856][!!_õрêи þęôρľè àрþ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeText" translate="yes" xml:space="preserve">
+          <source>Thanks for downloading Stirling Birthday!
+
+This app uses the information in the People hub on your Windows Phone. 
+
+Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
+
+Thanks!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[35E43][!!_Ţнàйĸş ƒóř ðòŵйłóáďįйģ Ŝťîŗľíηğ ВìŗтћđâУ!
+
+Τĥíś áþр ùšęŝ ţђè ìηƒòřmãτíòи íη тнè Þèóρłé ђµъ õи ýôµř Ẃíиďóẁş Рħôήę. 
+
+Ďûè тò þļâтƒõѓm ļíмįťàтîòηş, Į áм úиàьļé ţó àďð òř ęďìţ Бíŕтћđàўš ẁìτћíή ťћę âρρ. Ťò áďđ õŕ éďîť Бîѓťĥðáýş, óρèй τħê Рèõрłè ђµБ ôи Уõùѓ þнòйę, âďð òŗ ęđįт â ċóиţãćт ťнéŗè, áηđ ťħęи ŕéţûѓи тò τћè áρρ. Ťĥę Βįѓтћđâÿ ƒíéĺð îŝ ƒóµηď ûиďęř τĥé Õţĥêŕ čáтèğòѓў ŵĥêй èďįţíηġ čõήťãćţš. 
+
+Ţђãиķš!_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
+          <source>Welcome to Stirling Birthday!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[616ED][!!_Ẅêļċõмę τô Šţįŗĺįиģ Βįřτћďãŷ!_!!]</target>
         </trans-unit>
       </group>
     </body>
