@@ -181,14 +181,14 @@ namespace Shane.Church.StirlingBirthday.WP
 			await tileService.UpdateTile();
 		}
 
-        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        private async void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
             var settingsService = KernelService.Kernel.Get<ISettingsService>();
             var settingsKey = String.Format("{0}initialMessageShown", (App.Current as App).currentVersion);
             if(ApplicationUsageHelper.ApplicationRunsCountForCurrentVersion == 1 && !settingsService.LoadSetting<bool>(settingsKey))
             {
                 //Show intro dialog
-                RadMessageBox.Show(Shane.Church.StirlingBirthday.Strings.Resources.WelcomeCaption, MessageBoxButtons.OK, Shane.Church.StirlingBirthday.Strings.Resources.WelcomeText);
+                await RadMessageBox.ShowAsync(Shane.Church.StirlingBirthday.Strings.Resources.WelcomeCaption, MessageBoxButtons.OK, Shane.Church.StirlingBirthday.Strings.Resources.WelcomeText);
                 settingsService.SaveSetting<bool>(true, settingsKey);
             }
         }
