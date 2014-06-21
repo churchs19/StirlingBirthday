@@ -196,4 +196,4 @@ Esse aplicativo usa as informações no hub de pessoas no seu Windows Phone.
 
 Devido às limitações da plataforma, não consigo adicionar ou editar aniversários no aplicativo. Para adicionar ou editar aniversários, abra o hub pessoas em seu telefone, adicionar ou editar um contato lá e, em seguida, retornar para o aplicativo. O campo Aniversário é encontrado em outra categoria durante a edição de contatos. 
 
-Obrigado!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bem-vindo ao Stirling aniversário!</value></data></root>
+Obrigado!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bem-vindo ao Stirling aniversário!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Vai um agradecimento especial para Giray Demirel para a tradução de turco!</value></data></root>

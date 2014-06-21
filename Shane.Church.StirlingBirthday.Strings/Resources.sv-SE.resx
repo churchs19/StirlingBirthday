@@ -196,4 +196,4 @@ Den här appen använder informationen i navet på Windows Phone-användare.
 
 Jag kan inte lägga till eller redigera födelsedagar i appen på plattformen begränsningar. Om du vill lägga till eller redigera födelsedagar, öppna personer navet på telefonen, lägga till eller redigera en kontakt det och gå sedan tillbaka till appen. Fältet födelsedag finns under kategorin övrigt när du redigerar kontakter. 
 
-Tack!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Välkommen till Stirling födelsedag!</value></data></root>
+Tack!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Välkommen till Stirling födelsedag!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Ett speciellt tack går till Giray Demirel för turkiska översättning!</value></data></root>

@@ -196,4 +196,4 @@ To app uporablja podatke v vozlišče ljudi na Windows Phone.
 
 Zaradi omejitev platformo, ne morem dodati ali urediti rojstne dneve v app. Dodati ali urediti rojstne dneve, odpreti ljudi hub na telefonu dodajte ali uredite vizitko tam in nato vrnete app. Polje rojstni dan najdete pod druge kategorije pri urejanju stikov. 
 
-hvala!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Dobrodošli na Stirling rojstni dan!</value></data></root>
+hvala!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Dobrodošli na Stirling rojstni dan!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Posebna hvala gre Giray Demirel za turški prevod!</value></data></root>

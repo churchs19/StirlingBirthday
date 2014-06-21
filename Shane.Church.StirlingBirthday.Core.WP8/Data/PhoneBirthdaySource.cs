@@ -136,10 +136,13 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 						GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = new List<BirthdayContact>().AsQueryable() });
 				}
 			}
+#if DEBUG
 			catch (InvalidOperationException iex)
 			{
-#if DEBUG
 				DebugUtility.SaveDiagnosticException(iex);
+#else
+            catch
+            {
 #endif
 				if (GetEntriesCompleted != null)
 					GetEntriesCompleted(this, new GetEntriesCompletedEventArgs() { Contacts = new List<BirthdayContact>().AsQueryable() });

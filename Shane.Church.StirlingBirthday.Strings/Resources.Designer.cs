@@ -612,6 +612,15 @@ namespace Shane.Church.StirlingBirthday.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A special thank you goes to Giray Demirel for the Turkish translation!.
+        /// </summary>
+        public static string TurkishTranslationText {
+            get {
+                return ResourceManager.GetString("TurkishTranslationText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No friends have a birthday in the next month..
         /// </summary>
         public static string UpcomingEmptyText {

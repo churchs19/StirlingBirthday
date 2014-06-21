@@ -298,6 +298,10 @@ Degut a limitacions en plataforma, jo sóc incapaç d'afegir o editar aniversari
 
 Gràcies!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Un gràcies especial va a Giray Demirel per la traducció al turc!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Benvinguts a Stirling aniversari!</target>

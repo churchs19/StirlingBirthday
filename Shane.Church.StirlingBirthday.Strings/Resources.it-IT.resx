@@ -196,4 +196,4 @@ Questa applicazione utilizza le informazioni nell'hub persone sul Windows Phone.
 
 A causa delle limitazioni della piattaforma, non è possibile aggiungere o modificare i compleanni all'interno dell'applicazione. Per aggiungere o modificare i compleanni, aprire l'hub contatti sul telefono, aggiungere o modificare un contatto è presente e quindi tornare all'applicazione. Il campo Data di nascita viene trovato nella categoria altre durante la modifica di contatti. 
 
-Grazie!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Introduzione a Stirling compleanno!</value></data></root>
+Grazie!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Introduzione a Stirling compleanno!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Un ringraziamento speciale va a Giray Demirel per la traduzione turca!</value></data></root>

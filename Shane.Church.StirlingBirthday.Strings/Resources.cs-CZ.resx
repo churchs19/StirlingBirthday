@@ -196,4 +196,4 @@ Tato app používá informace v rozbočovači osoby na vašem Windows Phone.
 
 Vzhledem k omezení platformy nedaří se mi přidat nebo upravit data narození v rámci aplikace. Přidat nebo upravit data narození, otevřít rozbočovač osob ve vašem telefonu, přidat nebo upravit kontakt tam a vraťte se do aplikace. Narozeniny pole nachází v jiné kategorii při úpravě kontaktů. 
 
-Děkuji!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Vítá vás Stirling narozeniny!</value></data></root>
+Děkuji!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Vítá vás Stirling narozeniny!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Zvláštní poděkování Giray Demirel žádají o turecký překlad!</value></data></root>

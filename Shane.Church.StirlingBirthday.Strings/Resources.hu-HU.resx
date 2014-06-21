@@ -196,4 +196,4 @@ Ez app a Windows Phone az emberek hubra adatainak felhasználásával.
 
 Platform korlátozásai miatt nem sikerül hozzáadása vagy szerkesztése a app belül születésnapok. Hozzáadása vagy szerkesztése a születésnapokat, nyissa meg a telefonon a személyek hub hozzáadása vagy ott Névjegy szerkesztése, és ezután térjen vissza a app. A születésnap mező az kategóriában található, kapcsolattartók szerkesztése során. 
 
-Köszönöm!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Üdvözöljük a Stirling Születésnapi!</value></data></root>
+Köszönöm!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Üdvözöljük a Stirling Születésnapi!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Egy külön köszönet a török fordítás ugrik a Giray Demirel!</value></data></root>

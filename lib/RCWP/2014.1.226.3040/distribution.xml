@@ -3,7 +3,6 @@
   <Version>2014.1.226.3040</Version>
   <Trial>false</Trial>
   <Dependencies>
-    <Project>97379405-3cdf-40ee-9161-69bea8af580b</Project>
     <Project>45cb384e-6fb8-4639-a9eb-affba7a9488b</Project>
   </Dependencies>
 </Distribution>

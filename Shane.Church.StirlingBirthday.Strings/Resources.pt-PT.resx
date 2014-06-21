@@ -196,4 +196,4 @@ Esta aplicação utiliza as informações do concentrador de pessoas no seu Wind
 
 Devido a limitações de plataforma, não consigo adicionar ou editar datas de nascimento dentro da aplicação. Para adicionar ou editar datas de nascimento, abra o concentrador de pessoas no telefone, adicionar ou editar um contacto não existe e, em seguida, volte à aplicação de. O campo de aniversário encontra-se na outra categoria quando a edição de contactos. 
 
-Obrigado!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bem-vindo ao Stirling aniversário!</value></data></root>
+Obrigado!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bem-vindo ao Stirling aniversário!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Vai um agradecimentos especiais para Demirel de Giray para a tradução turca!</value></data></root>

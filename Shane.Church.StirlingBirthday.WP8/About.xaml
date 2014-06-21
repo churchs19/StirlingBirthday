@@ -10,7 +10,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-	Background="{StaticResource PhoneBackgroundBrush}"
+    Background="{StaticResource PhoneBackgroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
     shell:SystemTray.IsVisible="False">
@@ -22,12 +22,13 @@
         </Grid.RowDefinitions>
 
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-			<TextBlock x:Name="ApplicationTitle" Text="{Binding LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource AppColor3Brush}"/>
-			<TextBlock x:Name="PageTitle" Text="{Binding LocalizedResources.AboutLabel, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource AppColor3Brush}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding LocalizedResources.AboutLabel, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -42,7 +43,7 @@
                     Margin="12,0,12,0" 
                     FontSize="{StaticResource PhoneFontSizeLarge}" 
                     FontFamily="{StaticResource PhoneFontFamilySemiBold}"
-					Foreground="{StaticResource AppColor3Brush}"/>
+                    Foreground="{StaticResource AppColor3Brush}"/>
                 <TextBlock 
                     Text="{Binding Version}" 
                     Margin="12,0,12,0" 
@@ -56,8 +57,16 @@
                 TextWrapping="Wrap" 
                 Foreground="{StaticResource PhoneForegroundBrush}" 
                 FontSize="{StaticResource PhoneFontSizeNormal}" />
+            <TextBlock
+                Grid.Row="2"
+                Text="{Binding LocalizedResources.TurkishTranslationText, Source={StaticResource LocalizedStrings}}"
+                Margin="12"
+                TextWrapping="Wrap"
+                Foreground="{StaticResource AppColor4Brush}"
+                FontSize="{StaticResource PhoneFontSizeSmall}"
+                />
             <HyperlinkButton 
-                Grid.Row="2" 
+                Grid.Row="3" 
                 Content="{Binding LocalizedResources.TechnicalSupportEmailLabel, Source={StaticResource LocalizedStrings}}" 
                 Margin="0,12,0,0" 
                 HorizontalAlignment="Left" 
@@ -65,7 +74,7 @@
                 FontSize="{StaticResource PhoneFontSizeNormal}" 
                 Command="{Binding SendAnEmailCommand}"/>
             <HyperlinkButton 
-                Grid.Row="3"
+                Grid.Row="4"
                 Content="{Binding LocalizedResources.AboutReviewLabel, Source={StaticResource LocalizedStrings}}" 
                 Margin="0,12,0,0" 
                 HorizontalAlignment="Left" 
@@ -73,24 +82,24 @@
                 FontSize="{StaticResource PhoneFontSizeNormal}" 
                 Command="{Binding RateThisAppCommand}"/>
             <HyperlinkButton 
-                Grid.Row="4"
+                Grid.Row="5"
                 Content="{Binding LocalizedResources.AboutOtherAppsLabel, Source={StaticResource LocalizedStrings}}" 
                 Margin="0,12,0,0" 
                 HorizontalAlignment="Left" 
                 Foreground="{StaticResource AppColor5Brush}" 
                 FontSize="{StaticResource PhoneFontSizeNormal}" 
                 Command="{Binding OtherAppsCommand}"/>
-            <StackPanel Grid.Row="5" Margin="12,0,12,50" VerticalAlignment="Bottom">
+            <StackPanel Grid.Row="6" Margin="12,0,12,50" VerticalAlignment="Bottom">
                 <TextBlock 
                     Text="{Binding LocalizedResources.AppCopyright, Source={StaticResource LocalizedStrings}}" 
                     Margin="0,12,0,0" 
                     FontSize="{StaticResource PhoneFontSizeNormal}"/>
-				<HyperlinkButton Content="http://www.s-church.net"
-					Margin="-10,5,0,0" 
+                <HyperlinkButton Content="http://www.s-church.net"
+                    Margin="-10,5,0,0" 
                     FontSize="{StaticResource PhoneFontSizeNormal}" 
-					Foreground="{StaticResource AppColor5Brush}"
-					HorizontalAlignment="Left"
-					Command="{Binding GoToSChurchNetCommand}"/>
+                    Foreground="{StaticResource AppColor5Brush}"
+                    HorizontalAlignment="Left"
+                    Command="{Binding GoToSChurchNetCommand}"/>
             </StackPanel>
         </Grid>
     </Grid>

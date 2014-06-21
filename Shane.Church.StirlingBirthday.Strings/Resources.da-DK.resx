@@ -196,4 +196,4 @@ Denne app bruger oplysningerne i personer-hubben på din Windows Phone.
 
 Jeg kan ikke tilføje eller redigere fødselsdage i programmet på grund af platform begrænsninger. Hvis du vil tilføje eller redigere fødselsdage, åbne personer-hubben på din telefon, tilføje eller redigere en kontakt der og derefter vende tilbage til programmet. Feltet Fødselsdag findes under kategorien andre, når du redigerer kontaktpersoner. 
 
-Tak!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Velkommen til Stirling fødselsdag!</value></data></root>
+Tak!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Velkommen til Stirling fødselsdag!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>En særlig Tak går til Giray Demirel til den tyrkiske oversættelse!</value></data></root>

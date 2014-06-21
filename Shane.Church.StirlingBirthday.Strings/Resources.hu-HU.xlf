@@ -298,6 +298,10 @@ Platform korlátozásai miatt nem sikerül hozzáadása vagy szerkesztése a app
 
 Köszönöm!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Egy külön köszönet a török fordítás ugrik a Giray Demirel!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Üdvözöljük a Stirling Születésnapi!</target>

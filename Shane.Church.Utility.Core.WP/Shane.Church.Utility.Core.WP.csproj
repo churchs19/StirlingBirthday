@@ -117,6 +117,7 @@
     </Compile>
     <Compile Include="ChangingObservableObject.cs" />
     <Compile Include="DebugUtility.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Imaging.cs" />
     <Compile Include="ManifestAppInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -134,9 +135,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>

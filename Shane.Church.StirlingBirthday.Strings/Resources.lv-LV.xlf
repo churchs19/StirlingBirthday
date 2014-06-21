@@ -298,6 +298,10 @@ Platforma ierobežojumu dēļ es nevaru pievienot vai rediģēt dzimšanas diena
 
 paldies!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Īpašs paldies iet uz Giray Demirel Turcijas tulkošanai!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Laipni lūgti Stirling dzimšanas dienā!</target>

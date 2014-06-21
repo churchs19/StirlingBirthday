@@ -298,6 +298,10 @@ Thanks!</source>
 
 धन्यवाद!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">एक विशेष धन्यवाद तुर्की अनुवाद के लिए Giray Demirel करने के लिए आता है!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Stirling जन्मदिन में आपका स्वागत है!</target>

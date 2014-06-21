@@ -196,4 +196,4 @@ Dette programmet bruker informasjonen i personer-hub på din Windows Phone.
 
 På grunn av begrensninger på plattformen jeg kan ikke legge til eller redigere fødselsdager i programmet. Hvis du vil legge til eller redigere fødselsdager, åpne personer huben på telefonen, legge til eller redigere det en kontakt og deretter gå tilbake til programmet. Feltet bursdag ligger under den andre kategorien når du redigerer kontakter. 
 
-Takk!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Velkommen til Stirling bursdag!</value></data></root>
+Takk!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Velkommen til Stirling bursdag!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>En spesiell Takk går til Giray Demirel for tyrkisk oversettelse!</value></data></root>

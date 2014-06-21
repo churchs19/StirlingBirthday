@@ -196,4 +196,4 @@ Tämä app käyttää tietoja käyttäjien Windows Phone-keskitin.
 
 Ympäristön rajoitukset, koska en voi lisätä tai muokata sovelluksen sisällä syntymäpäivät. Voit lisätä tai muokata syntymäpäivät, Avaa puhelimen käyttäjien keskitin, Lisää tai Muokkaa yhteyshenkilöä ja sovellus palaa. Syntymäpäivä-kentän löytyy toisen luokan yhteyshenkilöiden muokkaaminen. 
 
-Kiitos!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Tervetuloa Stirling syntymäpäivä!</value></data></root>
+Kiitos!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Tervetuloa Stirling syntymäpäivä!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Erityinen Kiitos menee Giray Demirel, Turkin käännös!</value></data></root>

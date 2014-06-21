@@ -298,6 +298,10 @@ Devido a limitações de plataforma, não consigo adicionar ou editar datas de n
 
 Obrigado!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vai um agradecimentos especiais para Demirel de Giray para a tradução turca!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bem-vindo ao Stirling aniversário!</target>

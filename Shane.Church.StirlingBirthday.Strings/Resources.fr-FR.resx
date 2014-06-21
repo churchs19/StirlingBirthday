@@ -196,4 +196,4 @@ Cette application utilise les informations dans le hub Contacts sur votre Window
 
 En raison de limitations de plate-forme, je ne parviens pas à ajouter ou modifier des anniversaires dans l'application. Pour ajouter ou modifier les dates d'anniversaire, ouvrez le hub Contacts sur votre téléphone, ajouter ou modifier un contact il et revenir ensuite à l'application. Le champ anniversaire se trouve dans la catégorie autre lors de la modification des contacts. 
 
-Merci !</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bienvenue dans Stirling anniversaire !</value></data></root>
+Merci !</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bienvenue dans Stirling anniversaire !</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Un Merci spécial accède à Giray Demirel pour la traduction turque !</value></data></root>

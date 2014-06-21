@@ -196,4 +196,4 @@ This app uses the information in the People hub on your Windows Phone.
 
 Due to platform limitations, I am unable to add or edit birthdays within the app. To add or edit birthdays, open the People hub on your phone, add or edit a contact there, and then return to the app. The Birthday field is found under the Other category when editing contacts. 
 
-Thanks!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Welcome to Stirling Birthday!</value></data></root>
+Thanks!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Welcome to Stirling Birthday!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>A special thank you goes to Giray Demirel for the Turkish translation!</value></data></root>

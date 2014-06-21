@@ -298,6 +298,10 @@ Jeg kan ikke tilføje eller redigere fødselsdage i programmet på grund af plat
 
 Tak!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">En særlig Tak går til Giray Demirel til den tyrkiske oversættelse!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Velkommen til Stirling fødselsdag!</target>

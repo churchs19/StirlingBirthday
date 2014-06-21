@@ -196,4 +196,4 @@
 
 เนื่องจากข้อจำกัดของแพลตฟอร์ม ฉันไม่สามารถเพิ่ม หรือแก้ไขวันเกิดภายในโปรแกรมประยุกต์นี้ การเพิ่ม หรือแก้ไขวันเกิด เปิดฮับบุคคลบนโทรศัพท์ของคุณ เพิ่ม หรือแก้ไขผู้ติดต่อมี และจากนั้น กลับไปโปรแกรมประยุกต์ ฟิลด์วันเกิดจะอยู่ภายใต้ประเภทอื่น ๆ เมื่อทำการแก้ไขผู้ติดต่อ 
 
-ขอบคุณ</value></data><data name="WelcomeCaption" xml:space="preserve"><value>ยินดีต้อนรับสู่วันเกิด Stirling</value></data></root>
+ขอบคุณ</value></data><data name="WelcomeCaption" xml:space="preserve"><value>ยินดีต้อนรับสู่วันเกิด Stirling</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>ขอบคุณเป็นพิเศษไป Giray Demirel สำหรับการแปลภาษาตุรกี</value></data></root>

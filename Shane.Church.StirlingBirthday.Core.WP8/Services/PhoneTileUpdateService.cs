@@ -4,10 +4,13 @@ using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.Core.WP.Controls;
 using Shane.Church.StirlingBirthday.Strings;
+using Shane.Church.Utility.Core.WP.Extensions;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO.IsolatedStorage;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using Telerik.Windows.Controls;
@@ -57,8 +60,6 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 
 			Deployment.Current.Dispatcher.BeginInvoke(() =>
 			{
-
-
 #if DEBUG
 				DebugUtility.DebugOutputMemoryUsage("UpdateTileSynchronous - Medium Tile Control Created");
 #endif
@@ -75,8 +76,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 						WideTileBackUserControl wideBackTile = new WideTileBackUserControl() { DataContext = backTileModel };
 						tileData = new RadFlipTileData()
 						{
-							Title = Resources.AppTitle,
-							BackTitle = Resources.AppTitle,
+							Title = Resources.AppTitle.ToTitleCase(),
+							BackTitle = Resources.AppTitle.ToTitleCase(),
 							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
 													new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
 													new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
@@ -94,7 +95,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 					{
 						tileData = new RadFlipTileData()
 						{
-							Title = Resources.AppTitle,
+							Title = Resources.AppTitle.ToTitleCase(),
 							BackgroundImage = new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.Relative),
 							SmallBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileSmall.png", UriKind.RelativeOrAbsolute),
 							WideBackgroundImage = new Uri("/Assets/Tiles/BirthdayTileWide.png", UriKind.RelativeOrAbsolute),
@@ -112,8 +113,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 						MediumTileBackUserControlWP7 medBackTile = new MediumTileBackUserControlWP7() { DataContext = backTileModel };
 						tileData = new RadExtendedTileData()
 						{
-							Title = Properties.Resources.AppTitle,
-							BackTitle = Properties.Resources.AppTitle,
+							Title = Resources.AppTitle.ToTitleCase(),
+							BackTitle = Resources.AppTitle,
 							BackgroundImage = appStorage.FileExists(string.Format(isoStorePath, displayName, "m")) ?
 												new Uri(string.Format(isoStoreUri, displayName, "m"), UriKind.RelativeOrAbsolute) :
 												new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute),
@@ -124,7 +125,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Services
 					{
 						tileData = new RadExtendedTileData()
 						{
-							Title = Properties.Resources.AppTitle,
+							Title = Resources.AppTitle.ToTitleCase(),
 							BackgroundImage = new Uri("/Assets/Tiles/BirthdayTileMedium.png", UriKind.RelativeOrAbsolute)
 						};
 

@@ -298,6 +298,10 @@ Aufgrund von Einschränkungen der Plattform kann ich nicht hinzufügen oder Bear
 
 Vielen Dank!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ein besonderer Dank geht an Giray Demirel für die türkische Übersetzung!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Willkommen bei Firma Stirling Geburtstag!</target>

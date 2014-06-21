@@ -298,6 +298,10 @@ Zaradi omejitev platformo, ne morem dodati ali urediti rojstne dneve v app. Doda
 
 hvala!</target>
         </trans-unit>
+        <trans-unit id="Resx/TurkishTranslationText" translate="yes" xml:space="preserve">
+          <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Posebna hvala gre Giray Demirel za turški prevod!</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Dobrodošli na Stirling rojstni dan!</target>

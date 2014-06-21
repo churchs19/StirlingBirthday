@@ -335,4 +335,7 @@ Due to platform limitations, I am unable to add or edit birthdays within the app
 
 Thanks!</value>
   </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>A special thank you goes to Giray Demirel for the Turkish translation!</value>
+  </data>
 </root>
