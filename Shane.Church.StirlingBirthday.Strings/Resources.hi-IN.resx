@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>hi-IN</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} वर्ष पुराना</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} वर्ष पुराना</value></data><data name="TodayText" xml:space="preserve"><value>आज</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} दिन में</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} दिनों में</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>{0} का जन्मदिन आज है! जन्मदिन की शुभकामनाएँ {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} वर्ष</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} वर्ष</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>बहुत अधिक पृष्ठभूमि एजेंट सक्षम किया गया है। Stirling जन्मदिन एजेंट को सक्षम करने से पहले अन्य एजेंट्स को अक्षम करने के लिए सेटिंग्स अनुप्रयोग के लिए कृपया पर जाएँ।</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling जन्मदिन की प्रतिक्रिया</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>जन्मदिन की शुभकामनाएँ!</value></data><data name="EmailBodyText" xml:space="preserve"><value>जन्मदिन की शुभकामनाएँ! मुझे आशा है कि आप एक महान दिन है!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>यह सुविधा अक्षम कर दिया जाएगा, ताकि पृष्ठभूमि एजेंट्स, इस डिवाइस समर्थन नहीं करता।</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>इस अनुप्रयोग के लिए पृष्ठभूमि एजेंट उपयोगकर्ता द्वारा अक्षम किया गया है।</value></data><data name="AgentDescription" xml:space="preserve"><value>यह कार्य Stirling जन्मदिन लाइव टाइल आगामी जन्मदिन की जानकारी के साथ अद्यतन करता है।</value></data><data name="NoThanksButton" xml:space="preserve"><value>नहीं धन्यवाद</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>प्रतिक्रिया दें</value></data><data name="FeedbackContent" xml:space="preserve"><value>कैसे ताकि आप इसे 5 सितारों में बाज़ार का मूल्यांकन करने के लिए इच्छुक हो सकता मैं इस अनुप्रयोग सुधार कर सकते हैं?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>मैं इसे बेहतर बना सकते हैं?</value></data><data name="UpgradeText" xml:space="preserve"><value>कोई अद्यतन उपलब्ध है! क्या आप अभी नवीनीकरण को स्थापित करने के लिए चाहते हैं?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>नवीनीकरण उपलब्ध!</value></data><data name="No" xml:space="preserve"><value>नहीं</value></data><data name="Yes" xml:space="preserve"><value>हाँ</value></data><data name="ShareMenuText" xml:space="preserve"><value>साझा करें</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>अनुप्रयोग त्रुटि</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>अनुप्रयोग में कोई समस्या आई। मैं असुविधा के लिए क्षमा करें।
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} वर्ष पुराना</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} वर्ष पुराना</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} दिन में</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} दिनों में</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>{0} का जन्मदिन आज है! जन्मदिन की शुभकामनाएँ {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} वर्ष</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} वर्ष</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>बहुत अधिक पृष्ठभूमि एजेंट सक्षम किया गया है। Stirling जन्मदिन एजेंट को सक्षम करने से पहले अन्य एजेंट्स को अक्षम करने के लिए सेटिंग्स अनुप्रयोग के लिए कृपया पर जाएँ।</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling जन्मदिन की प्रतिक्रिया</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>जन्मदिन की शुभकामनाएँ!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>जन्मदिन की शुभकामनाएँ! मुझे आशा है कि आप एक महान दिन है!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>यह सुविधा अक्षम कर दिया जाएगा, ताकि पृष्ठभूमि एजेंट्स, इस डिवाइस समर्थन नहीं करता।</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>इस अनुप्रयोग के लिए पृष्ठभूमि एजेंट उपयोगकर्ता द्वारा अक्षम किया गया है।</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>यह कार्य Stirling जन्मदिन लाइव टाइल आगामी जन्मदिन की जानकारी के साथ अद्यतन करता है।</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>नहीं धन्यवाद</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>प्रतिक्रिया दें</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>कैसे ताकि आप इसे 5 सितारों में बाज़ार का मूल्यांकन करने के लिए इच्छुक हो सकता मैं इस अनुप्रयोग सुधार कर सकते हैं?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>मैं इसे बेहतर बना सकते हैं?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>कोई अद्यतन उपलब्ध है! क्या आप अभी नवीनीकरण को स्थापित करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>नवीनीकरण उपलब्ध!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>साझा करें</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>अनुप्रयोग त्रुटि</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>अनुप्रयोग में कोई समस्या आई। मैं असुविधा के लिए क्षमा करें।
 
-तैयार त्रुटि रिपोर्ट भेजकर मुझे आपकी सहायता की सराहना करेंगे। यह समस्या के जल्दी समाधान के साथ में मदद मिलेगी।</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>आपको {0} बार बाईं ओर है।</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>आपको {0} दिन बाईं ओर है।</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>परीक्षण अनुस्मारक</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>यह अनुस्मारक फिर से न दिखाएँ</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>विज्ञापन-समर्थित परीक्षण संस्करण इस अनुप्रयोग का उपयोग कर रहे हैं। आपके विज्ञापन को हटाने के लिए अनुप्रयोग अब खरीदने के लिए चाहते हैं? यदि आप हाँ - चुन आप बाज़ार को रीडायरेक्ट किया जाएगा।</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>परीक्षण समय सीमा समाप्त</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>यह अनुस्मारक फिर से न दिखाएँ</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>इस अनुप्रयोग के परीक्षण समाप्त हो गया है। यदि आप अनुप्रयोग अब खरीदने के लिए चाहते हैं? यदि आप हाँ - चुन आप बाज़ार को रीडायरेक्ट किया जाएगा।</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>अनुप्रयोग को रेट करें</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>यह अनुस्मारक फिर से न दिखाएँ</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>मुझे आप से सुनने के लिए प्यार करेंगे! आप app चाहते हैं, तो कृपया इसे बाज़ार पर मूल्यांकन और आपकी प्रतिक्रिया साझा करें।</value></data><data name="MBYesText" xml:space="preserve"><value>हाँ</value></data><data name="MBNoText" xml:space="preserve"><value>नहीं</value></data><data name="MBOkText" xml:space="preserve"><value>ठीक</value></data><data name="MBCancelText" xml:space="preserve"><value>रद्द करें</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>आने वाले</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>कोई दोस्त अगले महीने में जन्मदिन है।</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>तकनीकी समर्थन/प्रतिक्रिया ई-मेल</value></data><data name="SettingsLabel" xml:space="preserve"><value>सेटिंग्स</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>SMS भेजें</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>ई-मेल भेजें</value></data><data name="RateLabel" xml:space="preserve"><value>मेरे दर</value></data><data name="PinLabel" xml:space="preserve"><value>पिन</value></data><data name="PastPivotHeader" xml:space="preserve"><value>अतीत</value></data><data name="PastEmptyText" xml:space="preserve"><value>पिछले महीने में जन्मदिन कोई दोस्त थे।</value></data><data name="LoadingLabel" xml:space="preserve"><value>लोड कर रहा है...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>दुखी कैसे!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>कार्य को कॉल करें</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>मोबाइल पर कॉल करें</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>घर पर कॉल</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING जन्मदिन</value></data><data name="AppDescription" xml:space="preserve"><value>आप एक सुंदर लाइव टाइल के साथ अपने मित्रों की जन् मदिन की याद दिलाने के लिए एक सरल अनुप्रयोग</value></data><data name="AppCopyright" xml:space="preserve"><value>कॉपीराइट © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>सभी</value></data><data name="AllEmptyText" xml:space="preserve"><value>कोई जन्मदिवस आपके संपर्क में मिल रहे हैं।</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>इस अनुप्रयोग को रेट करें</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>अन्य apps द्वारा Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>के बारे में</value></data><data name="AddContactLabel" xml:space="preserve"><value>संपर्क जोड़ें</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>लोग अनुप्रयोग खोलें</value></data><data name="WelcomeText" xml:space="preserve"><value>Stirling जन्मदिन को डाउनलोड करने के लिए धन्यवाद!
+तैयार त्रुटि रिपोर्ट भेजकर मुझे आपकी सहायता की सराहना करेंगे। यह समस्या के जल्दी समाधान के साथ में मदद मिलेगी।</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>आपको {0} बार बाईं ओर है।</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>आपको {0} दिन बाईं ओर है।</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>परीक्षण अनुस्मारक</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>यह अनुस्मारक फिर से न दिखाएँ</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>विज्ञापन-समर्थित परीक्षण संस्करण इस अनुप्रयोग का उपयोग कर रहे हैं। आपके विज्ञापन को हटाने के लिए अनुप्रयोग अब खरीदने के लिए चाहते हैं? यदि आप हाँ - चुन आप बाज़ार को रीडायरेक्ट किया जाएगा।</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>परीक्षण समय सीमा समाप्त</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>यह अनुस्मारक फिर से न दिखाएँ</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>इस अनुप्रयोग के परीक्षण समाप्त हो गया है। यदि आप अनुप्रयोग अब खरीदने के लिए चाहते हैं? यदि आप हाँ - चुन आप बाज़ार को रीडायरेक्ट किया जाएगा।</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>अनुप्रयोग को रेट करें</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>यह अनुस्मारक फिर से न दिखाएँ</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>मुझे आप से सुनने के लिए प्यार करेंगे! आप app चाहते हैं, तो कृपया इसे बाज़ार पर मूल्यांकन और आपकी प्रतिक्रिया साझा करें।</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>आने वाले</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>कोई दोस्त अगले महीने में जन्मदिन है।</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>तकनीकी समर्थन/प्रतिक्रिया ई-मेल</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>SMS भेजें</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>ई-मेल भेजें</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>मेरे दर</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>पिन</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>अतीत</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>पिछले महीने में जन्मदिन कोई दोस्त थे।</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>लोड कर रहा है...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>दुखी कैसे!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>कार्य को कॉल करें</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>मोबाइल पर कॉल करें</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>घर पर कॉल</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING जन्मदिन</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>आप एक सुंदर लाइव टाइल के साथ अपने मित्रों की जन् मदिन की याद दिलाने के लिए एक सरल अनुप्रयोग</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>कॉपीराइट © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>सभी</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>कोई जन्मदिवस आपके संपर्क में मिल रहे हैं।</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>इस अनुप्रयोग को रेट करें</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>अन्य apps द्वारा Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>संपर्क जोड़ें</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>लोग अनुप्रयोग खोलें</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Stirling जन्मदिन को डाउनलोड करने के लिए धन्यवाद!
 
 इस app अपने Windows Phone पर लोग हब में जानकारी का उपयोग करता है। 
 
 प्लेटफ़ॉर्म सीमाओं के कारण, मैं जोड़ने या जन् मदिन अनुप्रयोग में संपादित करने में असमर्थ हूँ। जोड़ें या जन् मदिन को संपादित करने के लिए, आपके फ़ोन पर लोग हब खोलने, जोड़ने या कोई संपर्क संपादित करें और फिर app करने के लिए वापस जाएँ। जन्मदिन की फ़ील्ड संपर्क संपादित करते समय अन्य श्रेणी के अंतर्गत पाया जाता है। 
 
-धन्यवाद!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Stirling जन्मदिन में आपका स्वागत है!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>एक विशेष धन्यवाद तुर्की अनुवाद के लिए Giray Demirel करने के लिए आता है!</value></data></root>
+धन्यवाद!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Stirling जन्मदिन में आपका स्वागत है!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>एक विशेष धन्यवाद तुर्की अनुवाद के लिए Giray Demirel करने के लिए आता है!</value>
+  </data>
+</root>

@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>ms-MY</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>tahun {0}</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} tahun lama</value></data><data name="TodayText" xml:space="preserve"><value>Hari ini</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} hari</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Dalam {0} hari</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Hari ini {0}'s birthday! Selamat hari lahir {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>tahun {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>tahun {0}</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Ejen-ejen latar belakang yang terlalu banyak telah didayakan. Sila pergi ke permohonan seting untuk mematikan ejen lain sebelum membolehkan ejen Stirling Birthday.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Maklum balas Birthday Stirling</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>selamat hari jadi!</value></data><data name="EmailBodyText" xml:space="preserve"><value>selamat hari jadi! Saya berharap anda mempunyai hari yang hebat!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Peranti ini tidak menyokong latar belakang agen, jadi ciri-ciri ini akan dinyahdayakan.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Latar belakang ejen bagi permohonan ini telah dilumpuhkan oleh pengguna.</value></data><data name="AgentDescription" xml:space="preserve"><value>Tugas ini mengemaskini jubin hidup Stirling Birthday dengan Keputeraan maklumat.</value></data><data name="NoThanksButton" xml:space="preserve"><value>terima kasih saja</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>memberi maklum balas</value></data><data name="FeedbackContent" xml:space="preserve"><value>Bagaimana saya boleh memperbaiki permohonan ini supaya anda akan bersedia untuk kadar 5 bintang di pasaran?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Saya boleh membuat dengan lebih baik?</value></data><data name="UpgradeText" xml:space="preserve"><value>Ada peningkatan! Adakah anda mahu memasang naik taraf sekarang?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Peningkatan yang disediakan!</value></data><data name="No" xml:space="preserve"><value>tidak</value></data><data name="Yes" xml:space="preserve"><value>Ya</value></data><data name="ShareMenuText" xml:space="preserve"><value>Saham</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Ralat aplikasi</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Permohonan telah menghadapi masalah. Saya minta maaf atas sebarang kesulitan.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>tahun {0}</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} tahun lama</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Hari ini</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} hari</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Dalam {0} hari</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Hari ini {0}'s birthday! Selamat hari lahir {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>tahun {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>tahun {0}</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Ejen-ejen latar belakang yang terlalu banyak telah didayakan. Sila pergi ke permohonan seting untuk mematikan ejen lain sebelum membolehkan ejen Stirling Birthday.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Maklum balas Birthday Stirling</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>selamat hari jadi!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>selamat hari jadi! Saya berharap anda mempunyai hari yang hebat!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Peranti ini tidak menyokong latar belakang agen, jadi ciri-ciri ini akan dinyahdayakan.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Latar belakang ejen bagi permohonan ini telah dilumpuhkan oleh pengguna.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Tugas ini mengemaskini jubin hidup Stirling Birthday dengan Keputeraan maklumat.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>terima kasih saja</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>memberi maklum balas</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Bagaimana saya boleh memperbaiki permohonan ini supaya anda akan bersedia untuk kadar 5 bintang di pasaran?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Saya boleh membuat dengan lebih baik?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Ada peningkatan! Adakah anda mahu memasang naik taraf sekarang?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Peningkatan yang disediakan!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Saham</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Ralat aplikasi</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Permohonan telah menghadapi masalah. Saya minta maaf atas sebarang kesulitan.
 
-Saya menghargai bantuan anda dengan menghantar laporan ralat yang disediakan. Ini akan membantu dengan menyelesaikan masalah dengan lebih cepat.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Anda mempunyai kali {0} kiri.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Anda mempunyai {0} hari kiri.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Peringatan percubaan</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Paparkan peringatan ini lagi</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Anda menggunakan versi percubaan yang sokongan iklan permohonan ini. Adakah anda mahu untuk membeli permohonan itu sekarang untuk mengalih keluar iklan? Jika anda memilih Ya - anda akan dihantar ke pasaran.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Tamat tempoh percubaan</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Paparkan peringatan ini lagi</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Perbicaraan permohonan ini telah tamat tempoh. Adakah anda mahu untuk membeli permohonan itu sekarang? Jika anda memilih Ya - anda akan dihantar ke pasaran.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Kadar aplikasi</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Paparkan peringatan ini lagi</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Saya akan senang mendengar daripada anda! Jika anda suka aplikasi tersebut, sila Nilaikan ia di kawasan pasar dan berkongsi maklum balas anda.</value></data><data name="MBYesText" xml:space="preserve"><value>Ya</value></data><data name="MBNoText" xml:space="preserve"><value>tidak</value></data><data name="MBOkText" xml:space="preserve"><value>ok</value></data><data name="MBCancelText" xml:space="preserve"><value>Batal</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>akan datang</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Kawan-kawan tidak mempunyai tarikh lahir dalam bulan berikutnya.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>e-mel sokongan/maklumbalas teknikal</value></data><data name="SettingsLabel" xml:space="preserve"><value>seting</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Menghantar SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Menghantar e-mel</value></data><data name="RateLabel" xml:space="preserve"><value>Nilaikan saya</value></data><data name="PinLabel" xml:space="preserve"><value>PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>masa lalu</value></data><data name="PastEmptyText" xml:space="preserve"><value>Tiada pernah hari jadi pada bulan lepas.</value></data><data name="LoadingLabel" xml:space="preserve"><value>memuatkan...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Bagaimana sedih!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Panggilan kerja</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Telefon mudah alih</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Panggilan rumah</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING BIRTHDAY</value></data><data name="AppDescription" xml:space="preserve"><value>aplikasi yang mudah untuk mengingatkan anda tentang hari lahir rakan anda dengan jubin hidup indah</value></data><data name="AppCopyright" xml:space="preserve"><value>Hakcipta Terpelihara © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>Semua</value></data><data name="AllEmptyText" xml:space="preserve"><value>Terdapat tiada hari lahir yang dijumpai dalam orang hubungan anda.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>kadar aplikasi ini</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>apl lain oleh Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>kira-kira</value></data><data name="AddContactLabel" xml:space="preserve"><value>Tambah kenalan</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Buka aplikasi orang</value></data><data name="WelcomeText" xml:space="preserve"><value>Terima kasih untuk memuat turun Stirling Birthday!
+Saya menghargai bantuan anda dengan menghantar laporan ralat yang disediakan. Ini akan membantu dengan menyelesaikan masalah dengan lebih cepat.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Anda mempunyai kali {0} kiri.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Anda mempunyai {0} hari kiri.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Peringatan percubaan</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Paparkan peringatan ini lagi</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Anda menggunakan versi percubaan yang sokongan iklan permohonan ini. Adakah anda mahu untuk membeli permohonan itu sekarang untuk mengalih keluar iklan? Jika anda memilih Ya - anda akan dihantar ke pasaran.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Tamat tempoh percubaan</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Paparkan peringatan ini lagi</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Perbicaraan permohonan ini telah tamat tempoh. Adakah anda mahu untuk membeli permohonan itu sekarang? Jika anda memilih Ya - anda akan dihantar ke pasaran.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Kadar aplikasi</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Paparkan peringatan ini lagi</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Saya akan senang mendengar daripada anda! Jika anda suka aplikasi tersebut, sila Nilaikan ia di kawasan pasar dan berkongsi maklum balas anda.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>akan datang</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Kawan-kawan tidak mempunyai tarikh lahir dalam bulan berikutnya.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>e-mel sokongan/maklumbalas teknikal</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>seting</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Menghantar SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Menghantar e-mel</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>Nilaikan saya</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>masa lalu</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Tiada pernah hari jadi pada bulan lepas.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>memuatkan...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Bagaimana sedih!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Panggilan kerja</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Telefon mudah alih</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Panggilan rumah</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING BIRTHDAY</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>aplikasi yang mudah untuk mengingatkan anda tentang hari lahir rakan anda dengan jubin hidup indah</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Hakcipta Terpelihara © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Terdapat tiada hari lahir yang dijumpai dalam orang hubungan anda.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>kadar aplikasi ini</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>apl lain oleh Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>kira-kira</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Tambah kenalan</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Buka aplikasi orang</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Terima kasih untuk memuat turun Stirling Birthday!
 
 Aplikasi ini menggunakan maklumat di dalam Hab orang di Windows Phone anda. 
 
 Disebabkan oleh keterbatasan platform, saya tidak dapat menambah atau menyunting hari lahir dalam aplikasi. Untuk menambah atau menyunting hari lahir, membuka hab orang pada telefon anda, tambah atau mengedit kenalan sana dan kemudian kembali ke aplikasi ini. Medan Birthday didapati di bawah kategori lain saat mengedit kenalan. 
 
-Terima kasih!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Selamat datang ke Stirling Birthday!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Khas ucapan terima kasih juga kepada Giray Demirel terjemahan Turki!</value></data></root>
+Terima kasih!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Selamat datang ke Stirling Birthday!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Khas ucapan terima kasih juga kepada Giray Demirel terjemahan Turki!</value>
+  </data>
+</root>

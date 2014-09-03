@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>el-GR</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} ετών</value></data><data name="SingularAgeText" xml:space="preserve"><value>παλιό έτος {0}</value></data><data name="TodayText" xml:space="preserve"><value>Σήμερα</value></data><data name="DaysTextSingular" xml:space="preserve"><value>Σε ημέρα {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Σε {0} ημέρες</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Σήμερα είναι τα γενέθλια του {0}! Χρόνια πολλά {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>έτος {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} έτη</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Πάρα πολλοί παράγοντες φόντου έχει ενεργοποιηθεί. Μεταβείτε στην εφαρμογή ρυθμίσεις απενεργοποίησης άλλους παράγοντες πριν από την ενεργοποίηση του παράγοντα γενέθλια Stirling.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling γενέθλια σχολίων</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Χρόνια πολλά!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Χρόνια πολλά! Ελπίζω να έχετε μια σπουδαία ημέρα!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Αυτή η συσκευή δεν υποστηρίζει φόντου παράγοντες, έτσι ώστε αυτή η δυνατότητα θα απενεργοποιηθεί.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Φόντο παράγοντες για αυτήν την εφαρμογή έχουν απενεργοποιηθεί από το χρήστη.</value></data><data name="AgentDescription" xml:space="preserve"><value>Αυτή η εργασία ενημερώνει την παράθεση live Stirling γενέθλια με πληροφορίες προσεχή γενέθλια.</value></data><data name="NoThanksButton" xml:space="preserve"><value>όχι, ευχαριστώ</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>Στείλτε τα σχόλιά</value></data><data name="FeedbackContent" xml:space="preserve"><value>Πώς μπορώ να βελτιώσω αυτήν την εφαρμογή, έτσι ώστε να είναι πρόθυμοι να χαρακτηρίσετε 5 αστέρια στην αγορά;</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Να μπορώ να το βελτιώσουμε;</value></data><data name="UpgradeText" xml:space="preserve"><value>Υπάρχει διαθέσιμη μια αναβάθμιση! Θέλετε να εγκαταστήσετε την αναβάθμιση τώρα;</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Διαθέσιμη αναβάθμιση!</value></data><data name="No" xml:space="preserve"><value>δεν</value></data><data name="Yes" xml:space="preserve"><value>Ναι</value></data><data name="ShareMenuText" xml:space="preserve"><value>Κοινόχρηστο στοιχείο</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Σφάλμα εφαρμογής</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Η εφαρμογή αντιμετώπισε πρόβλημα. Λυπούμαστε για την αναστάτωση.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} ετών</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>παλιό έτος {0}</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Σήμερα</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>Σε ημέρα {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Σε {0} ημέρες</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Σήμερα είναι τα γενέθλια του {0}! Χρόνια πολλά {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>έτος {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} έτη</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Πάρα πολλοί παράγοντες φόντου έχει ενεργοποιηθεί. Μεταβείτε στην εφαρμογή ρυθμίσεις απενεργοποίησης άλλους παράγοντες πριν από την ενεργοποίηση του παράγοντα γενέθλια Stirling.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling γενέθλια σχολίων</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Χρόνια πολλά!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Χρόνια πολλά! Ελπίζω να έχετε μια σπουδαία ημέρα!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Αυτή η συσκευή δεν υποστηρίζει φόντου παράγοντες, έτσι ώστε αυτή η δυνατότητα θα απενεργοποιηθεί.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Φόντο παράγοντες για αυτήν την εφαρμογή έχουν απενεργοποιηθεί από το χρήστη.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Αυτή η εργασία ενημερώνει την παράθεση live Stirling γενέθλια με πληροφορίες προσεχή γενέθλια.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>όχι, ευχαριστώ</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>Στείλτε τα σχόλιά</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Πώς μπορώ να βελτιώσω αυτήν την εφαρμογή, έτσι ώστε να είναι πρόθυμοι να χαρακτηρίσετε 5 αστέρια στην αγορά;</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Να μπορώ να το βελτιώσουμε;</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Υπάρχει διαθέσιμη μια αναβάθμιση! Θέλετε να εγκαταστήσετε την αναβάθμιση τώρα;</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Διαθέσιμη αναβάθμιση!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>δεν</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Κοινόχρηστο στοιχείο</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Σφάλμα εφαρμογής</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Η εφαρμογή αντιμετώπισε πρόβλημα. Λυπούμαστε για την αναστάτωση.
 
-Θα εκτιμώ σας Βοήθειας με την αποστολή της αναφοράς σφάλματος παρασκευασμένα. Αυτό θα σας βοηθήσει με την επίλυση του προβλήματος ταχύτερα.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Έχετε {0} φορές προς τα αριστερά.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Έχετε αριστερά {0} ημέρες.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Δοκιμαστική υπενθύμισης</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Χρησιμοποιείτε το ad-υποστηρίζεται δοκιμαστική έκδοση αυτής της εφαρμογής. Θέλετε να αγοράσετε την εφαρμογή τώρα για να καταργήσετε τις διαφημίσεις; Εάν επιλέξετε Ναι - θα ανακατευθυνθείτε στην αγορά του.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Λήξη δοκιμαστικής έκδοσης</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Η δοκιμαστική έκδοση αυτής της εφαρμογής έχει λήξει. Θέλετε να αγοράσετε την εφαρμογή τώρα; Εάν επιλέξετε Ναι - θα ανακατευθυνθείτε στην αγορά του.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Αξιολόγηση της εφαρμογής</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Θα αγαπώ να σας ακούσουμε! Εάν σας αρέσει η εφαρμογή, το χαρακτηρίσετε στην αγορά του και μοιραστείτε τα σχόλιά σας.</value></data><data name="MBYesText" xml:space="preserve"><value>Ναι</value></data><data name="MBNoText" xml:space="preserve"><value>δεν</value></data><data name="MBOkText" xml:space="preserve"><value>ΟΚ</value></data><data name="MBCancelText" xml:space="preserve"><value>Ακύρωση</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>επερχόμενες</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Χωρίς φίλους έχουν Γενέθλια του επόμενου μήνα.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>ηλεκτρονικό ταχυδρομείο τεχνικής υποστήριξης/σχολίων</value></data><data name="SettingsLabel" xml:space="preserve"><value>ρυθμίσεις</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Αποστολή SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Αποστολή ηλεκτρονικού ταχυδρομείου</value></data><data name="RateLabel" xml:space="preserve"><value>χαρακτηρισμός μου</value></data><data name="PinLabel" xml:space="preserve"><value>PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>παρελθόν</value></data><data name="PastEmptyText" xml:space="preserve"><value>Δεν υπάρχουν φίλοι είχε γενέθλια στο στον προηγούμενο μήνα.</value></data><data name="LoadingLabel" xml:space="preserve"><value>φόρτωση...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Πώς sad!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Κλήση εργασίας</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Κλήση κινητού</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Κλήση στο σπίτι</value></data><data name="AppTitle" xml:space="preserve"><value>ΓΕΝΈΘΛΙΑ ΤΟΥ STIRLING</value></data><data name="AppDescription" xml:space="preserve"><value>ένα απλό app για να σας υπενθυμίζει τα γενέθλια των φίλων σας με ένα όμορφο πλακίδιο live</value></data><data name="AppCopyright" xml:space="preserve"><value>Πνευματικά δικαιώματα © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>όλες</value></data><data name="AllEmptyText" xml:space="preserve"><value>Υπάρχουν δεν γενέθλια βρίσκεται στις επαφές σας.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Βαθμολογήστε αυτήν την εφαρμογή</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>άλλες εφαρμογές από Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>σχετικά με</value></data><data name="AddContactLabel" xml:space="preserve"><value>Προσθήκη επαφής</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Άνοιγμα εφαρμογής άτομα</value></data><data name="WelcomeText" xml:space="preserve"><value>Σας ευχαριστούμε για τη λήψη Stirling γενέθλια!
+Θα εκτιμώ σας Βοήθειας με την αποστολή της αναφοράς σφάλματος παρασκευασμένα. Αυτό θα σας βοηθήσει με την επίλυση του προβλήματος ταχύτερα.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Έχετε {0} φορές προς τα αριστερά.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Έχετε αριστερά {0} ημέρες.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Δοκιμαστική υπενθύμισης</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Χρησιμοποιείτε το ad-υποστηρίζεται δοκιμαστική έκδοση αυτής της εφαρμογής. Θέλετε να αγοράσετε την εφαρμογή τώρα για να καταργήσετε τις διαφημίσεις; Εάν επιλέξετε Ναι - θα ανακατευθυνθείτε στην αγορά του.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Λήξη δοκιμαστικής έκδοσης</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση αυτής της εφαρμογής έχει λήξει. Θέλετε να αγοράσετε την εφαρμογή τώρα; Εάν επιλέξετε Ναι - θα ανακατευθυνθείτε στην αγορά του.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Αξιολόγηση της εφαρμογής</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Να μην εμφανιστεί ξανά αυτή η υπενθύμιση</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Θα αγαπώ να σας ακούσουμε! Εάν σας αρέσει η εφαρμογή, το χαρακτηρίσετε στην αγορά του και μοιραστείτε τα σχόλιά σας.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>δεν</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ΟΚ</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>επερχόμενες</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Χωρίς φίλους έχουν Γενέθλια του επόμενου μήνα.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>ηλεκτρονικό ταχυδρομείο τεχνικής υποστήριξης/σχολίων</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>ρυθμίσεις</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Αποστολή SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Αποστολή ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>χαρακτηρισμός μου</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>παρελθόν</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Δεν υπάρχουν φίλοι είχε γενέθλια στο στον προηγούμενο μήνα.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>φόρτωση...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Πώς sad!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Κλήση εργασίας</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Κλήση κινητού</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Κλήση στο σπίτι</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ΓΕΝΈΘΛΙΑ ΤΟΥ STIRLING</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ένα απλό app για να σας υπενθυμίζει τα γενέθλια των φίλων σας με ένα όμορφο πλακίδιο live</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Πνευματικά δικαιώματα © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>όλες</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Υπάρχουν δεν γενέθλια βρίσκεται στις επαφές σας.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Βαθμολογήστε αυτήν την εφαρμογή</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>άλλες εφαρμογές από Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>σχετικά με</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Προσθήκη επαφής</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Άνοιγμα εφαρμογής άτομα</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Σας ευχαριστούμε για τη λήψη Stirling γενέθλια!
 
 Αυτό το app χρησιμοποιεί τις πληροφορίες του διανομέα άτομα σχετικά με το Windows Phone. 
 
 Λόγω περιορισμών πλατφόρμα, δεν μπορώ να κάνω για να προσθέσετε ή να επεξεργαστείτε τα γενέθλια εντός της εφαρμογής. Για να προσθέσετε ή να επεξεργαστείτε τα γενέθλια, ανοίξτε το διανομέα άτομα στο τηλέφωνό σας, προσθήκη ή επεξεργασία επαφής υπάρχει και, στη συνέχεια, να επιστρέψετε στην εφαρμογή. Το πεδίο "ημερομηνία γέννησης" βρίσκεται στην κατηγορία άλλα κατά την επεξεργασία επαφών. 
 
-Ευχαριστούμε!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Καλώς ορίσατε στον Stirling γενέθλια!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Ένα ειδικό Ευχαριστώ μεταβαίνει Giray Demirel της τουρκικής μετάφρασης!</value></data></root>
+Ευχαριστούμε!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Καλώς ορίσατε στον Stirling γενέθλια!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Ένα ειδικό Ευχαριστώ μεταβαίνει Giray Demirel της τουρκικής μετάφρασης!</value>
+  </data>
+</root>

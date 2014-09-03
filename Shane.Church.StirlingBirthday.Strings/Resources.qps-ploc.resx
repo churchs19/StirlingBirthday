@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>qps-ploc</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>[C0AA4][!!_{0} ўęàřš ôĺď_!!]</value></data><data name="SingularAgeText" xml:space="preserve"><value>[D8D07][!!_{0} Уęàŗ õĺď_!!]</value></data><data name="TodayText" xml:space="preserve"><value>[EC378][!!_Τôďàў_!!]</value></data><data name="DaysTextSingular" xml:space="preserve"><value>[C3936][!!_Îή {0} ðàŷ_!!]</value></data><data name="DaysTextPlural" xml:space="preserve"><value>[B5A35][!!_Įή {0} ðàýš_!!]</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>[AF3A3][!!_Тõðáў įŝ {0}'š ьíŗтђďáÿ! Нâρþŷ ßįŕтнđãŷ {1}!_!!]</value></data><data name="YearsSingular" xml:space="preserve"><value>[07D7F][!!_{0} ýèâŕ_!!]</value></data><data name="YearsPlural" xml:space="preserve"><value>[C7B54][!!_{0} Уêářś_!!]</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>[AEBC9][!!_Тóó мáηУ Бâčĸĝŗòûйð áģêйťś ħàνé ьêéи ęηãъłèď. Ρłęàšę ğò τõ тћę şêţтįηģś ãρрłíĉáтíõй тô ðíŝãБļê ôţћéŕ áğèйţş Бęƒôѓè êйâБĺîйģ τћè Ŝťîŕľíйģ Ъîřţћďàý âģęητ._!!]</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>[8CC6E][!!_Şτîŕľįйğ ЪįŗτћďàУ ₣éęðБàċк_!!]</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>[72117][!!_Ηâρþÿ Ьìŕťнđãў!_!!]</value></data><data name="EmailBodyText" xml:space="preserve"><value>[42A2D][!!_Ħãþрŷ ВíŗţĥđãУ! Í нôρę ŷõû ħàνé à ĝѓèâţ ðàУ!_!!]</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>[B70D9][!!_Τћíş ðęνįčè đõęş ήôť šµррòřť ъãĉќġŗôúηď âģêήτš, şô ťĥîš ƒęãťûŗê ẅìļļ Бę ďîśáвłêď._!!]</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>[EF426][!!_Βàċќġѓõúиð áğèήтś ƒôř τħįş ãрþłìċâţìóη ħàνè вęèή ðîşàвļęđ ъŷ τнè µšéř._!!]</value></data><data name="AgentDescription" xml:space="preserve"><value>[4F2D8][!!_Ţђîş ţãšќ ûρðãťéś тћé Šτìŕłìηġ ЬíŕтнďâУ łįνè тîłé ŵíтћ ùþċòмįиġ ъįѓτĥďáў íйƒòŕmãτíôή._!!]</value></data><data name="NoThanksButton" xml:space="preserve"><value>[FBFB2][!!_иô τћãйкš_!!]</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>[883F0][!!_ġìνę ƒêęðБâċќ_!!]</value></data><data name="FeedbackContent" xml:space="preserve"><value>[EC150][!!_Ħõẁ ćàη Í ìмρřôνè τнîś âρþłįċãţįõη şò ťĥàτ ўòù ẁóûļď Бé ŵíłļìήğ ťô řâţę îт 5 şтãѓş îη ťђé mâѓќęтрľàčé?_!!]</value></data><data name="FeedbackTitle" xml:space="preserve"><value>[97093][!!_Čãй Į mãкę įτ ьęťţęř?_!!]</value></data><data name="UpgradeText" xml:space="preserve"><value>[0F736][!!_Àй ûрġřáðé îš àνâíľáьļę! Đõ Уòû ẃàйт ťõ îηśτâľľ τĥè úρĝřàđé ήôẃ?_!!]</value></data><data name="UpgradeTitle" xml:space="preserve"><value>[A49FC][!!_Ûрġŗâďé Ãνáìľãъĺę!_!!]</value></data><data name="No" xml:space="preserve"><value>[1954C][!!_ήò_!!]</value></data><data name="Yes" xml:space="preserve"><value>[D76BB][!!_ýęš_!!]</value></data><data name="ShareMenuText" xml:space="preserve"><value>[0D6F2][!!_Śђàѓę_!!]</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>[E1CF4][!!_Áþрĺíċãтįóη Ęѓѓõŕ_!!]</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>[02A68][!!_Ţħè àрρľìĉãţìôй ħàš ęήčôùηţèѓęð à ρѓôъľêm. Ì ãm šôřřŷ ƒòŕ ťħê íήčôйνèήìęйċê.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>[C0AA4][!!_{0} ўęàřš ôĺď_!!]</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>[D8D07][!!_{0} Уęàŗ õĺď_!!]</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>[EC378][!!_Τôďàў_!!]</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>[C3936][!!_Îή {0} ðàŷ_!!]</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>[B5A35][!!_Įή {0} ðàýš_!!]</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>[AF3A3][!!_Тõðáў įŝ {0}'š ьíŗтђďáÿ! Нâρþŷ ßįŕтнđãŷ {1}!_!!]</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>[07D7F][!!_{0} ýèâŕ_!!]</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>[C7B54][!!_{0} Уêářś_!!]</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>[AEBC9][!!_Тóó мáηУ Бâčĸĝŗòûйð áģêйťś ħàνé ьêéи ęηãъłèď. Ρłęàšę ğò τõ тћę şêţтįηģś ãρрłíĉáтíõй тô ðíŝãБļê ôţћéŕ áğèйţş Бęƒôѓè êйâБĺîйģ τћè Ŝťîŕľíйģ Ъîřţћďàý âģęητ._!!]</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>[8CC6E][!!_Şτîŕľįйğ ЪįŗτћďàУ ₣éęðБàċк_!!]</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>[72117][!!_Ηâρþÿ Ьìŕťнđãў!_!!]</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>[42A2D][!!_Ħãþрŷ ВíŗţĥđãУ! Í нôρę ŷõû ħàνé à ĝѓèâţ ðàУ!_!!]</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>[B70D9][!!_Τћíş ðęνįčè đõęş ήôť šµррòřť ъãĉќġŗôúηď âģêήτš, şô ťĥîš ƒęãťûŗê ẅìļļ Бę ďîśáвłêď._!!]</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>[EF426][!!_Βàċќġѓõúиð áğèήтś ƒôř τħįş ãрþłìċâţìóη ħàνè вęèή ðîşàвļęđ ъŷ τнè µšéř._!!]</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>[4F2D8][!!_Ţђîş ţãšќ ûρðãťéś тћé Šτìŕłìηġ ЬíŕтнďâУ łįνè тîłé ŵíтћ ùþċòмįиġ ъįѓτĥďáў íйƒòŕmãτíôή._!!]</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>[FBFB2][!!_иô τћãйкš_!!]</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>[883F0][!!_ġìνę ƒêęðБâċќ_!!]</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>[EC150][!!_Ħõẁ ćàη Í ìмρřôνè τнîś âρþłįċãţįõη şò ťĥàτ ўòù ẁóûļď Бé ŵíłļìήğ ťô řâţę îт 5 şтãѓş îη ťђé mâѓќęтрľàčé?_!!]</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>[97093][!!_Čãй Į mãкę įτ ьęťţęř?_!!]</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>[0F736][!!_Àй ûрġřáðé îš àνâíľáьļę! Đõ Уòû ẃàйт ťõ îηśτâľľ τĥè úρĝřàđé ήôẃ?_!!]</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>[A49FC][!!_Ûрġŗâďé Ãνáìľãъĺę!_!!]</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>[1954C][!!_ήò_!!]</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>[D76BB][!!_ýęš_!!]</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>[0D6F2][!!_Śђàѓę_!!]</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>[E1CF4][!!_Áþрĺíċãтįóη Ęѓѓõŕ_!!]</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>[02A68][!!_Ţħè àрρľìĉãţìôй ħàš ęήčôùηţèѓęð à ρѓôъľêm. Ì ãm šôřřŷ ƒòŕ ťħê íήčôйνèήìęйċê.
 
-Ì ẃõµłď àþþѓèċíáťę ÿõûѓ ãşŝîŝтàηčè БУ šêиđîήğ ţћê þѓèþãřęď èѓřôř ŕęρòŕť. Τћíš ŵíļľ ħęłр ŵíτћ řêŝóļνíηģ тĥè þŕôьłèm ƒâšтéѓ._!!]</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>[63605][!!_Ўòú ћàνé {0} тîмé(ś) łêƒτ._!!]</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>[E7E89][!!_Ýõû ĥâνé {0} ďáў(ş) ļęƒτ._!!]</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>[2C5FC][!!_Ťŕįáľ Ŗêmîηđéѓ_!!]</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>[ACA6F][!!_Ðò ηõţ şђôŵ ťĥįś řémîήðêŕ áġàìή_!!]</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>[DFA2B][!!_Ýõµ áѓé ûśìйġ ţħè ãð-šûρþòřťęď ťŕîàĺ νéѓşįóή óƒ ţђìŝ âþþłîčàτįõη. Ďò ўôù ẃàήť ťõ рúŗĉħâŝê тћę âþþĺįĉàтìôη йôẅ ťó řèмôνê ťнé ãďŝ? Îƒ ўòµ ĉħôôśè Ўêŝ - ŷôù ẁîľľ ьê ŕéđìŕêčтêď ťõ ţħê máŕќęтρľâčę._!!]</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>[2EA85][!!_Ťřįãļ Ê×ρîŕęđ_!!]</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>[AA213][!!_Đõ иôτ şнõẁ ţĥîš ŗèmìйđéŕ âġàįή_!!]</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>[2B8F9][!!_Τĥê ťřîáł õƒ ţћíŝ àрρĺįċáţîòй ĥàş èхþíŗêð. Ðò ÿôù ẅãήţ ťó ρúŗčђàšê тћè ãρрłîĉâťįõи ήóẅ? Íƒ Уóú čнõóśè Ϋèś - ÿòû ẃîļł ъé řèďįŗéċтéđ ţò тĥê мâŕķêţþĺáčè._!!]</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>[DFF17][!!_Řáťé тнę áþþ_!!]</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>[784D7][!!_Đó иôτ şђòŵ тнíş ŗęmíήðéѓ àģàįй_!!]</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>[FA546][!!_Î ẁôµļð ĺôνé ťò нèáŗ ƒŗõм ŷòû! Íƒ Уóú ļíќè τĥę âρþ, þĺêáŝè ŗãţé îт òй ťћè мãŕкèтρľâčę àήð šĥáŗé ŷòûŕ ƒéęđБâćк._!!]</value></data><data name="MBYesText" xml:space="preserve"><value>[E9CB3][!!_Уęš_!!]</value></data><data name="MBNoText" xml:space="preserve"><value>[8C3C7][!!_иò_!!]</value></data><data name="MBOkText" xml:space="preserve"><value>[E0F5A][!!_ôĸ_!!]</value></data><data name="MBCancelText" xml:space="preserve"><value>[F2E3F][!!_ċãήĉéĺ_!!]</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>[98843][!!_µþčôмìйģ_!!]</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>[D4AA8][!!_Ñõ ƒѓîéηðš ћâνê à вìѓтћðâŷ ìή ţћę йę×ţ мóήťħ._!!]</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>[FB8B7][!!_тéćнήíĉàļ şûþрóŗт/ƒéèďвãčќ émãìļ_!!]</value></data><data name="SettingsLabel" xml:space="preserve"><value>[CD9F5][!!_šęťťíйğŝ_!!]</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>[4055D][!!_Ŝêήď ŠΜŜ_!!]</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>[70EDD][!!_Śèиď Èmáíĺ_!!]</value></data><data name="RateLabel" xml:space="preserve"><value>[0BEAF][!!_ŕàτè мę_!!]</value></data><data name="PinLabel" xml:space="preserve"><value>[AD919][!!_рîή_!!]</value></data><data name="PastPivotHeader" xml:space="preserve"><value>[ACAA9][!!_ρâśτ_!!]</value></data><data name="PastEmptyText" xml:space="preserve"><value>[638B3][!!_Ňô ƒѓîéйďş ђãđ ã ъîŕτħðàУ îи ťђé þàşť мõиτн._!!]</value></data><data name="LoadingLabel" xml:space="preserve"><value>[40F83][!!_ľõáðíйğ..._!!]</value></data><data name="EmptyLeadText" xml:space="preserve"><value>[3CEEE][!!_Ħôẅ šãđ!_!!]</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>[5F88C][!!_Ćàłł Ẅõřĸ_!!]</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>[F9FBC][!!_Ćàľľ МóБíľê_!!]</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>[8B507][!!_Ċâļĺ Ĥòmè_!!]</value></data><data name="AppTitle" xml:space="preserve"><value>[CCC7D][!!_ŜΤÌŖĿÍŃĜ βÌŘŢĦĎÃЎ_!!]</value></data><data name="AppDescription" xml:space="preserve"><value>[5B187][!!_á şìmþłè âрþ тõ ŕèмìήð Уõù òƒ ýòµŕ ƒŗìêиðŝ' Бířтĥðàÿŝ ŵíтн â ьèàµťįƒûł ĺìνę ťíľè_!!]</value></data><data name="AppCopyright" xml:space="preserve"><value>[9EFB8][!!_ĈòрУŗìģнτ © Ŝђàиè Ĉнûѓĉĥ 2014_!!]</value></data><data name="AllPivotHeader" xml:space="preserve"><value>[2208A][!!_àļľ_!!]</value></data><data name="AllEmptyText" xml:space="preserve"><value>[95981][!!_Тћêŕę ãѓè йõ вìѓτĥďâўŝ ƒóúηð íη ўòûř čóиţáčτš._!!]</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>[ECFD0][!!_ѓâтè ţĥîş ãþр_!!]</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>[BA6BB][!!_õťħęŗ àρрŝ Бŷ Šђâиé Ćђùѓćђ_!!]</value></data><data name="AboutLabel" xml:space="preserve"><value>[54D02][!!_âьõúт_!!]</value></data><data name="AddContactLabel" xml:space="preserve"><value>[C1EC8][!!_âðð ĉòйţãĉт_!!]</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>[5C856][!!_õрêи þęôρľè àрþ_!!]</value></data><data name="WelcomeText" xml:space="preserve"><value>[35E43][!!_Ţнàйĸş ƒóř ðòŵйłóáďįйģ Ŝťîŗľíηğ ВìŗтћđâУ!
+Ì ẃõµłď àþþѓèċíáťę ÿõûѓ ãşŝîŝтàηčè БУ šêиđîήğ ţћê þѓèþãřęď èѓřôř ŕęρòŕť. Τћíš ŵíļľ ħęłр ŵíτћ řêŝóļνíηģ тĥè þŕôьłèm ƒâšтéѓ._!!]</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>[63605][!!_Ўòú ћàνé {0} тîмé(ś) łêƒτ._!!]</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>[E7E89][!!_Ýõû ĥâνé {0} ďáў(ş) ļęƒτ._!!]</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>[2C5FC][!!_Ťŕįáľ Ŗêmîηđéѓ_!!]</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>[ACA6F][!!_Ðò ηõţ şђôŵ ťĥįś řémîήðêŕ áġàìή_!!]</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>[DFA2B][!!_Ýõµ áѓé ûśìйġ ţħè ãð-šûρþòřťęď ťŕîàĺ νéѓşįóή óƒ ţђìŝ âþþłîčàτįõη. Ďò ўôù ẃàήť ťõ рúŗĉħâŝê тћę âþþĺįĉàтìôη йôẅ ťó řèмôνê ťнé ãďŝ? Îƒ ўòµ ĉħôôśè Ўêŝ - ŷôù ẁîľľ ьê ŕéđìŕêčтêď ťõ ţħê máŕќęтρľâčę._!!]</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>[2EA85][!!_Ťřįãļ Ê×ρîŕęđ_!!]</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>[AA213][!!_Đõ иôτ şнõẁ ţĥîš ŗèmìйđéŕ âġàįή_!!]</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>[2B8F9][!!_Τĥê ťřîáł õƒ ţћíŝ àрρĺįċáţîòй ĥàş èхþíŗêð. Ðò ÿôù ẅãήţ ťó ρúŗčђàšê тћè ãρрłîĉâťįõи ήóẅ? Íƒ Уóú čнõóśè Ϋèś - ÿòû ẃîļł ъé řèďįŗéċтéđ ţò тĥê мâŕķêţþĺáčè._!!]</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>[DFF17][!!_Řáťé тнę áþþ_!!]</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>[784D7][!!_Đó иôτ şђòŵ тнíş ŗęmíήðéѓ àģàįй_!!]</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>[FA546][!!_Î ẁôµļð ĺôνé ťò нèáŗ ƒŗõм ŷòû! Íƒ Уóú ļíќè τĥę âρþ, þĺêáŝè ŗãţé îт òй ťћè мãŕкèтρľâčę àήð šĥáŗé ŷòûŕ ƒéęđБâćк._!!]</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>[E9CB3][!!_Уęš_!!]</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>[8C3C7][!!_иò_!!]</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>[E0F5A][!!_ôĸ_!!]</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>[F2E3F][!!_ċãήĉéĺ_!!]</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>[98843][!!_µþčôмìйģ_!!]</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>[D4AA8][!!_Ñõ ƒѓîéηðš ћâνê à вìѓтћðâŷ ìή ţћę йę×ţ мóήťħ._!!]</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>[FB8B7][!!_тéćнήíĉàļ şûþрóŗт/ƒéèďвãčќ émãìļ_!!]</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>[CD9F5][!!_šęťťíйğŝ_!!]</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>[4055D][!!_Ŝêήď ŠΜŜ_!!]</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>[70EDD][!!_Śèиď Èmáíĺ_!!]</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>[0BEAF][!!_ŕàτè мę_!!]</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>[AD919][!!_рîή_!!]</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>[ACAA9][!!_ρâśτ_!!]</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>[638B3][!!_Ňô ƒѓîéйďş ђãđ ã ъîŕτħðàУ îи ťђé þàşť мõиτн._!!]</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>[40F83][!!_ľõáðíйğ..._!!]</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>[3CEEE][!!_Ħôẅ šãđ!_!!]</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>[5F88C][!!_Ćàłł Ẅõřĸ_!!]</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>[F9FBC][!!_Ćàľľ МóБíľê_!!]</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>[8B507][!!_Ċâļĺ Ĥòmè_!!]</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>[CCC7D][!!_ŜΤÌŖĿÍŃĜ βÌŘŢĦĎÃЎ_!!]</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>[5B187][!!_á şìmþłè âрþ тõ ŕèмìήð Уõù òƒ ýòµŕ ƒŗìêиðŝ' Бířтĥðàÿŝ ŵíтн â ьèàµťįƒûł ĺìνę ťíľè_!!]</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>[9EFB8][!!_ĈòрУŗìģнτ © Ŝђàиè Ĉнûѓĉĥ 2014_!!]</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>[2208A][!!_àļľ_!!]</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>[95981][!!_Тћêŕę ãѓè йõ вìѓτĥďâўŝ ƒóúηð íη ўòûř čóиţáčτš._!!]</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>[ECFD0][!!_ѓâтè ţĥîş ãþр_!!]</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>[BA6BB][!!_õťħęŗ àρрŝ Бŷ Šђâиé Ćђùѓćђ_!!]</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>[54D02][!!_âьõúт_!!]</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>[C1EC8][!!_âðð ĉòйţãĉт_!!]</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>[5C856][!!_õрêи þęôρľè àрþ_!!]</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>[35E43][!!_Ţнàйĸş ƒóř ðòŵйłóáďįйģ Ŝťîŗľíηğ ВìŗтћđâУ!
 
 Τĥíś áþр ùšęŝ ţђè ìηƒòřmãτíòи íη тнè Þèóρłé ђµъ õи ýôµř Ẃíиďóẁş Рħôήę. 
 
 Ďûè тò þļâтƒõѓm ļíмįťàтîòηş, Į áм úиàьļé ţó àďð òř ęďìţ Бíŕтћđàўš ẁìτћíή ťћę âρρ. Ťò áďđ õŕ éďîť Бîѓťĥðáýş, óρèй τħê Рèõрłè ђµБ ôи Уõùѓ þнòйę, âďð òŗ ęđįт â ċóиţãćт ťнéŗè, áηđ ťħęи ŕéţûѓи тò τћè áρρ. Ťĥę Βįѓтћđâÿ ƒíéĺð îŝ ƒóµηď ûиďęř τĥé Õţĥêŕ čáтèğòѓў ŵĥêй èďįţíηġ čõήťãćţš. 
 
-Ţђãиķš!_!!]</value></data><data name="WelcomeCaption" xml:space="preserve"><value>[616ED][!!_Ẅêļċõмę τô Šţįŗĺįиģ Βįřτћďãŷ!_!!]</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>[3BBB9][!!_Á şρêċìáļ тђãήк ýôµ ġõéš ťò Ğîŗáў Ďêмìѓèł ƒôѓ τнè Ţµŗќįśђ τŕâηšľâтíóи!_!!]</value></data></root>
+Ţђãиķš!_!!]</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>[616ED][!!_Ẅêļċõмę τô Šţįŗĺįиģ Βįřτћďãŷ!_!!]</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>[3BBB9][!!_Á şρêċìáļ тђãήк ýôµ ġõéš ťò Ğîŗáў Ďêмìѓèł ƒôѓ τнè Ţµŗќįśђ τŕâηšľâтíóи!_!!]</value>
+  </data>
+</root>

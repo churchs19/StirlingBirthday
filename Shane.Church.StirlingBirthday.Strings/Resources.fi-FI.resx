@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>fi-FI</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0}-vuotias</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} vuoden vanha</value></data><data name="TodayText" xml:space="preserve"><value>Tänään</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} päivän</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} päivän kuluttua</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Tänään on {0}-syntymäpäivä! Hyvää syntymäpäivää {1}.</value></data><data name="YearsSingular" xml:space="preserve"><value>vuosi: {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} vuotta</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Liian monta tausta-aineet on otettu käyttöön. Siirry asetukset-sovelluksen Poista käytöstä muut Stirling Syntymäpäivä-agentti.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling Syntymäpäivä-palaute</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Hyvää syntymäpäivää!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Hyvää syntymäpäivää! Toivottavasti sinulla on hyvä päivä!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Tämä laite ei tue tausta tekijöiden, joten tämä ominaisuus poistetaan käytöstä.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Käyttäjä on poistettu käytöstä tämän sovelluksen tekijöitä taustalla.</value></data><data name="AgentDescription" xml:space="preserve"><value>Tehtävä päivittää Stirling Syntymäpäivä live tile tuleva Syntymäpäivä tiedot.</value></data><data name="NoThanksButton" xml:space="preserve"><value>ei Kiitos</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>Anna palautetta</value></data><data name="FeedbackContent" xml:space="preserve"><value>Miten voin parantaa tämän sovelluksen niin, että sinulla olisi halukas luokittelussa on marketplace-5 tähteä?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Voin tehdä sen paremmin?</value></data><data name="UpgradeText" xml:space="preserve"><value>On saatavana päivitys! Haluatko asentaa päivityksen nyt?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Päivitys saatavilla!</value></data><data name="No" xml:space="preserve"><value>ei</value></data><data name="Yes" xml:space="preserve"><value>Kyllä</value></data><data name="ShareMenuText" xml:space="preserve"><value>Jaa</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Sovellusvirhe</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Sovellus on kohdannut virheen. Minulla on suljettava.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0}-vuotias</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} vuoden vanha</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} päivän</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} päivän kuluttua</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Tänään on {0}-syntymäpäivä! Hyvää syntymäpäivää {1}.</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>vuosi: {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} vuotta</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Liian monta tausta-aineet on otettu käyttöön. Siirry asetukset-sovelluksen Poista käytöstä muut Stirling Syntymäpäivä-agentti.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling Syntymäpäivä-palaute</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Hyvää syntymäpäivää!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Hyvää syntymäpäivää! Toivottavasti sinulla on hyvä päivä!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Tämä laite ei tue tausta tekijöiden, joten tämä ominaisuus poistetaan käytöstä.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Käyttäjä on poistettu käytöstä tämän sovelluksen tekijöitä taustalla.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Tehtävä päivittää Stirling Syntymäpäivä live tile tuleva Syntymäpäivä tiedot.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>ei Kiitos</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>Anna palautetta</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Miten voin parantaa tämän sovelluksen niin, että sinulla olisi halukas luokittelussa on marketplace-5 tähteä?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Voin tehdä sen paremmin?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>On saatavana päivitys! Haluatko asentaa päivityksen nyt?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Päivitys saatavilla!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Jaa</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Sovellusvirhe</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Sovellus on kohdannut virheen. Minulla on suljettava.
 
-Otan teihin yhteyttä apua lähettämällä valmistetut virheraportin. Tämä auttaa ongelman ratkaisemiseksi nopeasti.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Sinulla on {0} kerran vasemmalle.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Vielä {0} päivä(ä) jäljellä.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Kokeiluversio muistutus</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Älä näytä tätä muistutusta uudelleen</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Ad tueta kokeiluversio tämä sovellus on käytössä. Haluatko ostaa sovelluksen nyt poistaa mainoksia? Jos valitset Kyllä - sinut ohjataan on marketplace.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Kokeiluversio on vanhentunut</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Älä näytä tätä muistutusta uudelleen</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Tämän sovelluksen kokeiluversio on vanhentunut. Haluatko ostaa sovelluksen nyt? Jos valitset Kyllä - sinut ohjataan on marketplace.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Kurssi app</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Älä näytä tätä muistutusta uudelleen</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Minusta kuulla mielipiteesi! Jos haluat luoda sovelluksen, luokitella sen marketplace- ja jakaa palautetta.</value></data><data name="MBYesText" xml:space="preserve"><value>Kyllä</value></data><data name="MBNoText" xml:space="preserve"><value>ei</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>Peruuta</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>tulevista</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Ystäviä ei ole Syntymäpäivä seuraavan kuukauden.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>tekninen tuki ja palaute-sähköposti</value></data><data name="SettingsLabel" xml:space="preserve"><value>asetukset</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Lähetä Tekstiviesti</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Lähetä sähköpostiviesti</value></data><data name="RateLabel" xml:space="preserve"><value>me luokitella</value></data><data name="PinLabel" xml:space="preserve"><value>PIN-koodi</value></data><data name="PastPivotHeader" xml:space="preserve"><value>aiemmin</value></data><data name="PastEmptyText" xml:space="preserve"><value>Ei ole ystäviä oli Syntymäpäivä viime kuussa.</value></data><data name="LoadingLabel" xml:space="preserve"><value>ladataan...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Miten Surullinen!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Työhön kutsu</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Soita Mobile</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Soita kotinumeroon</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING SYNTYMÄPÄIVÄ</value></data><data name="AppDescription" xml:space="preserve"><value>simple app muistuttamaan sinua kanssa kaunis live tile ystäviesi syntymäpäivät</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>kaikki</value></data><data name="AllEmptyText" xml:space="preserve"><value>Ei ole syntymäpäivät Yhteystiedot löytyvät.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Arvioi tämä app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>muut apps by Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>tietoja</value></data><data name="AddContactLabel" xml:space="preserve"><value>Lisää yhteystieto</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Avaa henkilöt-sovellus</value></data><data name="WelcomeText" xml:space="preserve"><value>Kiitos lataamisesta Stirling syntymäpäivä!
+Otan teihin yhteyttä apua lähettämällä valmistetut virheraportin. Tämä auttaa ongelman ratkaisemiseksi nopeasti.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Sinulla on {0} kerran vasemmalle.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Vielä {0} päivä(ä) jäljellä.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Kokeiluversio muistutus</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutusta uudelleen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Ad tueta kokeiluversio tämä sovellus on käytössä. Haluatko ostaa sovelluksen nyt poistaa mainoksia? Jos valitset Kyllä - sinut ohjataan on marketplace.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Kokeiluversio on vanhentunut</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutusta uudelleen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Tämän sovelluksen kokeiluversio on vanhentunut. Haluatko ostaa sovelluksen nyt? Jos valitset Kyllä - sinut ohjataan on marketplace.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Kurssi app</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Älä näytä tätä muistutusta uudelleen</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Minusta kuulla mielipiteesi! Jos haluat luoda sovelluksen, luokitella sen marketplace- ja jakaa palautetta.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>tulevista</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Ystäviä ei ole Syntymäpäivä seuraavan kuukauden.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>tekninen tuki ja palaute-sähköposti</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>asetukset</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Lähetä Tekstiviesti</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Lähetä sähköpostiviesti</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>me luokitella</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN-koodi</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>aiemmin</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Ei ole ystäviä oli Syntymäpäivä viime kuussa.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>ladataan...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Miten Surullinen!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Työhön kutsu</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Soita Mobile</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Soita kotinumeroon</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING SYNTYMÄPÄIVÄ</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>simple app muistuttamaan sinua kanssa kaunis live tile ystäviesi syntymäpäivät</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>kaikki</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Ei ole syntymäpäivät Yhteystiedot löytyvät.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Arvioi tämä app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>muut apps by Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>tietoja</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Lisää yhteystieto</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Avaa henkilöt-sovellus</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Kiitos lataamisesta Stirling syntymäpäivä!
 
 Tämä app käyttää tietoja käyttäjien Windows Phone-keskitin. 
 
 Ympäristön rajoitukset, koska en voi lisätä tai muokata sovelluksen sisällä syntymäpäivät. Voit lisätä tai muokata syntymäpäivät, Avaa puhelimen käyttäjien keskitin, Lisää tai Muokkaa yhteyshenkilöä ja sovellus palaa. Syntymäpäivä-kentän löytyy toisen luokan yhteyshenkilöiden muokkaaminen. 
 
-Kiitos!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Tervetuloa Stirling syntymäpäivä!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Erityinen Kiitos menee Giray Demirel, Turkin käännös!</value></data></root>
+Kiitos!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Tervetuloa Stirling syntymäpäivä!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Erityinen Kiitos menee Giray Demirel, Turkin käännös!</value>
+  </data>
+</root>

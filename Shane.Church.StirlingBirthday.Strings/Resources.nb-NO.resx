@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>nb-NO</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} år</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} år gamle</value></data><data name="TodayText" xml:space="preserve"><value>I dag</value></data><data name="DaysTextSingular" xml:space="preserve"><value>I dag for {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Om {0} dager</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>I dag er {0} med dagen! Gratulerer med dagen {1}.</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} år</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} år</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>For mange agenter i bakgrunnen er aktivert. Gå til innstillinger-programmet til å deaktivere andre agenter før du aktiverer Stirling fødselsdag-agent.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling fødselsdag tilbakemelding</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Gratulerer med dagen!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Gratulerer med dagen! Jeg håper du har en fantastisk dag!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Denne enheten støtter ikke agenter i bakgrunnen, slik at denne funksjonen deaktiveres.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Bakgrunn-agenter for dette programmet er deaktivert av brukeren.</value></data><data name="AgentDescription" xml:space="preserve"><value>Denne oppgaven oppdaterer flisen Stirling bursdag live med informasjon om kommende fødselsdag.</value></data><data name="NoThanksButton" xml:space="preserve"><value>Nei takk</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>Gi tilbakemelding</value></data><data name="FeedbackContent" xml:space="preserve"><value>Hvordan kan jeg forbedre dette programmet slik at du er villig til å klassifisere det 5 stjerner i markedet?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Kan jeg gjøre det bedre?</value></data><data name="UpgradeText" xml:space="preserve"><value>Det finnes en oppgradering! Vil du installere oppgraderingen nå?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Oppgradering tilgjengelig!</value></data><data name="No" xml:space="preserve"><value>ikke</value></data><data name="Yes" xml:space="preserve"><value>Ja</value></data><data name="ShareMenuText" xml:space="preserve"><value>Del</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Programfeil</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Det oppstod et problem i programmet. Jeg beklager inntrufne.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} år</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} år gamle</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>I dag for {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Om {0} dager</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>I dag er {0} med dagen! Gratulerer med dagen {1}.</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} år</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} år</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>For mange agenter i bakgrunnen er aktivert. Gå til innstillinger-programmet til å deaktivere andre agenter før du aktiverer Stirling fødselsdag-agent.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling fødselsdag tilbakemelding</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Gratulerer med dagen!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Gratulerer med dagen! Jeg håper du har en fantastisk dag!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Denne enheten støtter ikke agenter i bakgrunnen, slik at denne funksjonen deaktiveres.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Bakgrunn-agenter for dette programmet er deaktivert av brukeren.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Denne oppgaven oppdaterer flisen Stirling bursdag live med informasjon om kommende fødselsdag.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Nei takk</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>Gi tilbakemelding</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Hvordan kan jeg forbedre dette programmet slik at du er villig til å klassifisere det 5 stjerner i markedet?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Kan jeg gjøre det bedre?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Det finnes en oppgradering! Vil du installere oppgraderingen nå?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Oppgradering tilgjengelig!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ikke</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Programfeil</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Det oppstod et problem i programmet. Jeg beklager inntrufne.
 
-Jeg setter pris på din hjelp ved å sende feilrapporten forberedt. Dette vil hjelpe med å løse problemet raskere.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Du har {0} gang(er) til venstre.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Du har {0} dag(er) igjen.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Prøveversjonen påminnelse</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ikke Vis denne påminnelsen igjen</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Du bruker ad-støttet prøveversjonen av dette programmet. Vil du kjøpe programmet nå å fjerne annonser? Hvis du velger Ja - vil du bli omadressert til markedet.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Prøveversjon utløpt</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ikke Vis denne påminnelsen igjen</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Prøveversjon av dette programmet er utløpt. Vil du kjøpe programmet nå? Hvis du velger Ja - vil du bli omadressert til markedet.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Vurder programmet</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ikke Vis denne påminnelsen igjen</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Jeg håper å høre fra deg! Hvis du liker programmet, vurdere det på markedet og dele dine synspunkter.</value></data><data name="MBYesText" xml:space="preserve"><value>Ja</value></data><data name="MBNoText" xml:space="preserve"><value>ikke</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>Avbryt</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>kommende</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Ingen venner har fødselsdag i neste måned.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>e-post til teknisk kundestøtte/tilbakemelding</value></data><data name="SettingsLabel" xml:space="preserve"><value>innstillinger</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Send SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Send e-post</value></data><data name="RateLabel" xml:space="preserve"><value>Ranger meg</value></data><data name="PinLabel" xml:space="preserve"><value>PIN-kode</value></data><data name="PastPivotHeader" xml:space="preserve"><value>tidligere</value></data><data name="PastEmptyText" xml:space="preserve"><value>Ingen venner hadde en fødselsdag i den siste måneden.</value></data><data name="LoadingLabel" xml:space="preserve"><value>Laster inn...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Hvordan trist!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Ring arbeid</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Ring mobil</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Ring privat</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING FØDSELSDAG</value></data><data name="AppDescription" xml:space="preserve"><value>et enkelt program å minne deg på dine venners bursdager med en vakker live side ved side</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>alle</value></data><data name="AllEmptyText" xml:space="preserve"><value>Det finnes ingen fødselsdager i kontaktene dine.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Vurder denne app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>andre programmer av Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>om</value></data><data name="AddContactLabel" xml:space="preserve"><value>Legg til kontakt</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Åpne personer app</value></data><data name="WelcomeText" xml:space="preserve"><value>Takk for nedlasting av Stirling bursdag!
+Jeg setter pris på din hjelp ved å sende feilrapporten forberedt. Dette vil hjelpe med å løse problemet raskere.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Du har {0} gang(er) til venstre.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Du har {0} dag(er) igjen.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Prøveversjonen påminnelse</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke Vis denne påminnelsen igjen</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Du bruker ad-støttet prøveversjonen av dette programmet. Vil du kjøpe programmet nå å fjerne annonser? Hvis du velger Ja - vil du bli omadressert til markedet.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Prøveversjon utløpt</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke Vis denne påminnelsen igjen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Prøveversjon av dette programmet er utløpt. Vil du kjøpe programmet nå? Hvis du velger Ja - vil du bli omadressert til markedet.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Vurder programmet</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ikke Vis denne påminnelsen igjen</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Jeg håper å høre fra deg! Hvis du liker programmet, vurdere det på markedet og dele dine synspunkter.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ikke</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>kommende</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Ingen venner har fødselsdag i neste måned.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>e-post til teknisk kundestøtte/tilbakemelding</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>innstillinger</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Send SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Send e-post</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>Ranger meg</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN-kode</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>tidligere</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Ingen venner hadde en fødselsdag i den siste måneden.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>Laster inn...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Hvordan trist!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Ring arbeid</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Ring mobil</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Ring privat</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING FØDSELSDAG</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>et enkelt program å minne deg på dine venners bursdager med en vakker live side ved side</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>alle</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Det finnes ingen fødselsdager i kontaktene dine.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Vurder denne app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>andre programmer av Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>om</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Legg til kontakt</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Åpne personer app</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Takk for nedlasting av Stirling bursdag!
 
 Dette programmet bruker informasjonen i personer-hub på din Windows Phone. 
 
 På grunn av begrensninger på plattformen jeg kan ikke legge til eller redigere fødselsdager i programmet. Hvis du vil legge til eller redigere fødselsdager, åpne personer huben på telefonen, legge til eller redigere det en kontakt og deretter gå tilbake til programmet. Feltet bursdag ligger under den andre kategorien når du redigerer kontakter. 
 
-Takk!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Velkommen til Stirling bursdag!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>En spesiell Takk går til Giray Demirel for tyrkisk oversettelse!</value></data></root>
+Takk!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Velkommen til Stirling bursdag!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>En spesiell Takk går til Giray Demirel for tyrkisk oversettelse!</value>
+  </data>
+</root>

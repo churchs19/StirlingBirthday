@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>sl-SI</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} let</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} let star</value></data><data name="TodayText" xml:space="preserve"><value>Danes</value></data><data name="DaysTextSingular" xml:space="preserve"><value>V dan {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>V {0} dni</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Danes je {0}'s rojstni dan! Happy Birthday {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>leto {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} let</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Preveč ozadje agenti imajo omogočen. Prosimo, pojdite na nastavitve aplikacijo onemogočiti drugih agentov, preden omogočite agent Stirling rojstni dan.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling rojstni dan povratne informacije</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Vse najboljše!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Vse najboljše! Upam, da imate velik dan!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Ta naprava podpira ozadje agenti, zato ta funkcija bo onemogočena.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Ozadje agenti za ta program so onemogočil uporabnik.</value></data><data name="AgentDescription" xml:space="preserve"><value>To opravilo posodobi živo ploščic Stirling rojstni dan naslednji rojstni dan informacije.</value></data><data name="NoThanksButton" xml:space="preserve"><value>ne, hvala</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>povratne informacije</value></data><data name="FeedbackContent" xml:space="preserve"><value>Kako lahko izboljšam ta program, tako da bi bil pripravljen obrok to 5 zvezdic na trgu?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Lahko bi bilo boljše?</value></data><data name="UpgradeText" xml:space="preserve"><value>Nadgradnja je na voljo! Ali želite zdaj namestiti nadgradnjo?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Nadgradnja na voljo!</value></data><data name="No" xml:space="preserve"><value>ne</value></data><data name="Yes" xml:space="preserve"><value>da</value></data><data name="ShareMenuText" xml:space="preserve"><value>Delež</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Uporaba zmota</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Program je naletel na težavo. Žal mi je za morebitne nevšečnosti.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} let</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} let star</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Danes</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>V dan {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>V {0} dni</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Danes je {0}'s rojstni dan! Happy Birthday {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>leto {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} let</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Preveč ozadje agenti imajo omogočen. Prosimo, pojdite na nastavitve aplikacijo onemogočiti drugih agentov, preden omogočite agent Stirling rojstni dan.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling rojstni dan povratne informacije</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Vse najboljše!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Vse najboljše! Upam, da imate velik dan!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Ta naprava podpira ozadje agenti, zato ta funkcija bo onemogočena.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Ozadje agenti za ta program so onemogočil uporabnik.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>To opravilo posodobi živo ploščic Stirling rojstni dan naslednji rojstni dan informacije.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>ne, hvala</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>povratne informacije</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Kako lahko izboljšam ta program, tako da bi bil pripravljen obrok to 5 zvezdic na trgu?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Lahko bi bilo boljše?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Nadgradnja je na voljo! Ali želite zdaj namestiti nadgradnjo?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Nadgradnja na voljo!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Delež</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Uporaba zmota</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Program je naletel na težavo. Žal mi je za morebitne nevšečnosti.
 
-Jaz hoteti uvaževati vaš pomoč pošlje poročilo o napaki pripravljeni. To bo pomagalo pri reševanju problema hitreje.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Imate {0} 3-krat levo.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Imate {0} dni levo.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Poskus opomnik</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ta opomin ne kaži več</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Uporabljate ad-zaslomba poskusno različico tega programa. Ali želite nakup uporabe zdaj umakniti ads? Če izberete Yes - boste preusmerjeni na trgu.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Poskus izdihniti</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ta opomin ne kaži več</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Poskus to uporaba has izdihniti. Ali želite nakup uporabe zdaj? Če izberete Yes - boste preusmerjeni na trgu.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Ocenite app</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Ta opomin ne kaži več</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Bi radi slišali od vas! Če vam je všeč app, prosim ocenite na trgu in delite svoje povratne informacije.</value></data><data name="MBYesText" xml:space="preserve"><value>da</value></data><data name="MBNoText" xml:space="preserve"><value>ne</value></data><data name="MBOkText" xml:space="preserve"><value>v redu</value></data><data name="MBCancelText" xml:space="preserve"><value>Prekliči</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>prihajajoči</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Št prijatelji imajo rojstni dan v naslednjem mesecu.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>email tehnične podpore in povratnih informacij</value></data><data name="SettingsLabel" xml:space="preserve"><value>nastavitve</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Pošlji SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Pošlji Email</value></data><data name="RateLabel" xml:space="preserve"><value>Ocenite me</value></data><data name="PinLabel" xml:space="preserve"><value>PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>preteklosti</value></data><data name="PastEmptyText" xml:space="preserve"><value>Št prijatelji imel rojstni dan v preteklem mesecu.</value></data><data name="LoadingLabel" xml:space="preserve"><value>nalaganje...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Kako žalostno!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Klic delo</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Mobilni klic</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Oklic dom</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING ROJSTNI DAN</value></data><data name="AppDescription" xml:space="preserve"><value>preprost app spomniti vi od vaš prijateljstvo rojstne dneve z lepo živo ploščico</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane cerkev 2014</value><comment></comment></data><data name="AllPivotHeader" xml:space="preserve"><value>vse</value></data><data name="AllEmptyText" xml:space="preserve"><value>Obstajajo ne rojstne dneve v stikih.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Ocenite to app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>druge aplikacije, ki jih Shane cerkev</value></data><data name="AboutLabel" xml:space="preserve"><value>o</value></data><data name="AddContactLabel" xml:space="preserve"><value>Dodaj stik</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>odprite app ljudi</value></data><data name="WelcomeText" xml:space="preserve"><value>Hvala za downloading Stirling rojstni dan!
+Jaz hoteti uvaževati vaš pomoč pošlje poročilo o napaki pripravljeni. To bo pomagalo pri reševanju problema hitreje.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Imate {0} 3-krat levo.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Imate {0} dni levo.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Poskus opomnik</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ta opomin ne kaži več</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Uporabljate ad-zaslomba poskusno različico tega programa. Ali želite nakup uporabe zdaj umakniti ads? Če izberete Yes - boste preusmerjeni na trgu.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Poskus izdihniti</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ta opomin ne kaži več</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Poskus to uporaba has izdihniti. Ali želite nakup uporabe zdaj? Če izberete Yes - boste preusmerjeni na trgu.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Ocenite app</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Ta opomin ne kaži več</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Bi radi slišali od vas! Če vam je všeč app, prosim ocenite na trgu in delite svoje povratne informacije.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>v redu</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>prihajajoči</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Št prijatelji imajo rojstni dan v naslednjem mesecu.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>email tehnične podpore in povratnih informacij</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>nastavitve</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Pošlji SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Pošlji Email</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>Ocenite me</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>preteklosti</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Št prijatelji imel rojstni dan v preteklem mesecu.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>nalaganje...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Kako žalostno!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Klic delo</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Mobilni klic</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Oklic dom</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING ROJSTNI DAN</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>preprost app spomniti vi od vaš prijateljstvo rojstne dneve z lepo živo ploščico</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane cerkev 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>vse</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Obstajajo ne rojstne dneve v stikih.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Ocenite to app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>druge aplikacije, ki jih Shane cerkev</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Dodaj stik</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>odprite app ljudi</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Hvala za downloading Stirling rojstni dan!
 
 To app uporablja podatke v vozlišče ljudi na Windows Phone. 
 
 Zaradi omejitev platformo, ne morem dodati ali urediti rojstne dneve v app. Dodati ali urediti rojstne dneve, odpreti ljudi hub na telefonu dodajte ali uredite vizitko tam in nato vrnete app. Polje rojstni dan najdete pod druge kategorije pri urejanju stikov. 
 
-hvala!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Dobrodošli na Stirling rojstni dan!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Posebna hvala gre Giray Demirel za turški prevod!</value></data></root>
+hvala!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Dobrodošli na Stirling rojstni dan!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Posebna hvala gre Giray Demirel za turški prevod!</value>
+  </data>
+</root>

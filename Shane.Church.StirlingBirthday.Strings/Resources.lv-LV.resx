@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>lv-LV</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} gadus vecs</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} gadu vecs</value></data><data name="TodayText" xml:space="preserve"><value>Šodien</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} dienu</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Pēc {0} dienām</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Šodien ir {0} ir dzimšanas diena! Happy Birthday {} 1!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} gadu</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} gadus</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Pārāk daudz fona aģenti ir iespējoti. Lūdzu, dodieties uz atspējot citu reaģentu pirms iespējojat Stirling Birthday aģents uzstādījumu.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling Birthday atsauksmes</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Daudz laimes dzimšanas dienā!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Daudz laimes dzimšanas dienā! Es ceru, ka jums ir lieliska diena!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Šī ierīce neatbalsta fona aģentiem, lai šī funkcija tiek deaktivizēta.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Fona aģenti, šai lietojumprogrammai ir atspējoti lietotājs.</value></data><data name="AgentDescription" xml:space="preserve"><value>Šī uzdevuma atjauninājumus Stirling dzimšanas dienu dzīvot flīžu gaidāmajā dzimšanas dienā informāciju.</value></data><data name="NoThanksButton" xml:space="preserve"><value>nē, paldies</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>sniegt atsauksmes</value></data><data name="FeedbackContent" xml:space="preserve"><value>Kā es varu uzlabot šo programmu tā, lai jūs būtu gatavs to novērtēt 5 zvaigžņu tirgū?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Vai es varu veikt labāk?</value></data><data name="UpgradeText" xml:space="preserve"><value>Jauninājums ir pieejama! Vai vēlaties instalēt jauninājumu tagad?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Jauninājums pieejams!</value></data><data name="No" xml:space="preserve"><value>nē</value></data><data name="Yes" xml:space="preserve"><value>jā</value></data><data name="ShareMenuText" xml:space="preserve"><value>Akciju</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Lietojumprogrammas kļūda</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Pieteikums ir radusies problēma. Es atvainojos par neērtībām.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} gadus vecs</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} gadu vecs</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Šodien</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} dienu</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Pēc {0} dienām</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Šodien ir {0} ir dzimšanas diena! Happy Birthday {} 1!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} gadu</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} gadus</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Pārāk daudz fona aģenti ir iespējoti. Lūdzu, dodieties uz atspējot citu reaģentu pirms iespējojat Stirling Birthday aģents uzstādījumu.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling Birthday atsauksmes</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Daudz laimes dzimšanas dienā!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Daudz laimes dzimšanas dienā! Es ceru, ka jums ir lieliska diena!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Šī ierīce neatbalsta fona aģentiem, lai šī funkcija tiek deaktivizēta.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Fona aģenti, šai lietojumprogrammai ir atspējoti lietotājs.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Šī uzdevuma atjauninājumus Stirling dzimšanas dienu dzīvot flīžu gaidāmajā dzimšanas dienā informāciju.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nē, paldies</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>sniegt atsauksmes</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Kā es varu uzlabot šo programmu tā, lai jūs būtu gatavs to novērtēt 5 zvaigžņu tirgū?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Vai es varu veikt labāk?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Jauninājums ir pieejama! Vai vēlaties instalēt jauninājumu tagad?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Jauninājums pieejams!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nē</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Akciju</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Lietojumprogrammas kļūda</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Pieteikums ir radusies problēma. Es atvainojos par neērtībām.
 
-Vai novērtējam jūsu palīdzību, nosūtot sagatavotu kļūdu ziņojumu. Tas palīdzēs ātrāk atrisināt šo problēmu.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Jums ir {0} reizes pa kreisi.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>{0} nedēļas jums ir pa kreisi.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Izmēģinājuma atgādinājums</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Turpmāk nerādīt šo atgādinājumu</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Izmantojat ad atbalstīto izmēģinājuma versiju par šo pieteikumu. Vai vēlaties iegādāties programmai tagad izņemt reklāmas Ja izvēlaties Jā - jums tiks novirzīts uz tirgus laukumu.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Izmēģinājuma versijas derīgums</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Turpmāk nerādīt šo atgādinājumu</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Šo programmu izmēģinājuma termiņa beigām. Vai vēlaties iegādāties pieteikums tagad? Ja izvēlaties Jā - jums tiks novirzīts uz tirgus laukumu.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Novērtēt app</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Turpmāk nerādīt šo atgādinājumu</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Labprāt vēlētos dzirdēt no jums! Ja tev patīk app, lūdzu, novērtējiet tā tirgū un dalīties ar jūsu atsauksmi.</value></data><data name="MBYesText" xml:space="preserve"><value>jā</value></data><data name="MBNoText" xml:space="preserve"><value>nē</value></data><data name="MBOkText" xml:space="preserve"><value>labi</value></data><data name="MBCancelText" xml:space="preserve"><value>atcelt</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>gaidāmās</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Nav draugu ir dzimšanas diena, nākamajā mēnesī.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>tehniskais atbalsts/atsauksmes e-pasta</value></data><data name="SettingsLabel" xml:space="preserve"><value>iestatījumus</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Nosūtīt SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Sūtīt e-pastu</value></data><data name="RateLabel" xml:space="preserve"><value>mani novērtēja</value></data><data name="PinLabel" xml:space="preserve"><value>PIN kodu</value></data><data name="PastPivotHeader" xml:space="preserve"><value>agrāk</value></data><data name="PastEmptyText" xml:space="preserve"><value>Bez draugiem bija dzimšanas diena, pēdējā mēneša laikā.</value></data><data name="LoadingLabel" xml:space="preserve"><value>notiek ielāde...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Cik skumji!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Zvaniet darba</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Mobilo zvanu</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Piezvanīt uz mājām</value></data><data name="AppTitle" xml:space="preserve"><value>"STIRLING" DZIMŠANAS DIENA</value></data><data name="AppDescription" xml:space="preserve"><value>vienkāršu app, lai atgādinātu par savu draugu dzimšanas dienas skaisti dzīvot mozaīkā</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>visi</value></data><data name="AllEmptyText" xml:space="preserve"><value>Tur ir [numurs] nav atrasta kontaktpersonas dzimšanas.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>novērtēt šo app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>citas progr ar Church, Shane</value></data><data name="AboutLabel" xml:space="preserve"><value>par</value></data><data name="AddContactLabel" xml:space="preserve"><value>pievienot kontaktu</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>atvērt cilvēkiem app</value></data><data name="WelcomeText" xml:space="preserve"><value>Paldies par lejupielādi Stirling dzimšanas dienā!
+Vai novērtējam jūsu palīdzību, nosūtot sagatavotu kļūdu ziņojumu. Tas palīdzēs ātrāk atrisināt šo problēmu.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Jums ir {0} reizes pa kreisi.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>{0} nedēļas jums ir pa kreisi.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Izmēģinājuma atgādinājums</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Turpmāk nerādīt šo atgādinājumu</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Izmantojat ad atbalstīto izmēģinājuma versiju par šo pieteikumu. Vai vēlaties iegādāties programmai tagad izņemt reklāmas Ja izvēlaties Jā - jums tiks novirzīts uz tirgus laukumu.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Izmēģinājuma versijas derīgums</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Turpmāk nerādīt šo atgādinājumu</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Šo programmu izmēģinājuma termiņa beigām. Vai vēlaties iegādāties pieteikums tagad? Ja izvēlaties Jā - jums tiks novirzīts uz tirgus laukumu.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Novērtēt app</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Turpmāk nerādīt šo atgādinājumu</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Labprāt vēlētos dzirdēt no jums! Ja tev patīk app, lūdzu, novērtējiet tā tirgū un dalīties ar jūsu atsauksmi.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>nē</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>labi</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>atcelt</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>gaidāmās</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Nav draugu ir dzimšanas diena, nākamajā mēnesī.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>tehniskais atbalsts/atsauksmes e-pasta</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>iestatījumus</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Nosūtīt SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Sūtīt e-pastu</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>mani novērtēja</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN kodu</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>agrāk</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Bez draugiem bija dzimšanas diena, pēdējā mēneša laikā.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>notiek ielāde...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Cik skumji!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Zvaniet darba</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Mobilo zvanu</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Piezvanīt uz mājām</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>"STIRLING" DZIMŠANAS DIENA</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>vienkāršu app, lai atgādinātu par savu draugu dzimšanas dienas skaisti dzīvot mozaīkā</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>visi</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Tur ir [numurs] nav atrasta kontaktpersonas dzimšanas.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>novērtēt šo app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>citas progr ar Church, Shane</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>pievienot kontaktu</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>atvērt cilvēkiem app</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Paldies par lejupielādi Stirling dzimšanas dienā!
 
 Šajā app izmanto informāciju cilvēkiem rumbu uz Windows Phone. 
 
 Platforma ierobežojumu dēļ es nevaru pievienot vai rediģēt dzimšanas dienas ietvaros app. Pievienot vai rediģēt dzimšanas dienas, atvērt cilvēkiem rumbu uz tālruni, pievienot vai rediģēt kontaktu tur un pēc tam atgriezieties app. Dzimšanas dienas lauks ir atrasts zem citas kategorijas, kad rediģējat kontaktu. 
 
-paldies!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Laipni lūgti Stirling dzimšanas dienā!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Īpašs paldies iet uz Giray Demirel Turcijas tulkošanai!</value></data></root>
+paldies!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Laipni lūgti Stirling dzimšanas dienā!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Īpašs paldies iet uz Giray Demirel Turcijas tulkošanai!</value>
+  </data>
+</root>

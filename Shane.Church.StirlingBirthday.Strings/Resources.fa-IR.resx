@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>fa-IR</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>RightToLeft</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} ساله</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} ساله</value></data><data name="TodayText" xml:space="preserve"><value>امروز</value></data><data name="DaysTextSingular" xml:space="preserve"><value>در روز {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>در روز {0}</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>امروز تولد {0} در است! تولدت مبارک {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>سال {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>سال {0}</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>بیش از حد بسیاری از عوامل زمينه فعال شده اند. لطفا برو به تنظیمات برنامه برای غیرفعال کردن عوامل دیگر قبل از فعال سازی عامل تولد استرلینگ.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>استرلینگ تولد بازخورد</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>تولدت مبارک!</value></data><data name="EmailBodyText" xml:space="preserve"><value>تولدت مبارک! من امیدوارم که شما یک روز بزرگ!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>بنابراین این ویژگی غیرفعال خواهد شد این دستگاه عوامل زمینه پشتیبانی نمی کند.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>سابقه نمایندگی برای این برنامه کاربردی توسط کاربر غيرفعال شده اند.</value></data><data name="AgentDescription" xml:space="preserve"><value>این کار به روز رسانی کاشی استرلینگ تولد زنده با تولد آینده اطلاعات.</value></data><data name="NoThanksButton" xml:space="preserve"><value>نه ممنون</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>انتقادات</value></data><data name="FeedbackContent" xml:space="preserve"><value>طوری که شما مایل به آن امتیاز 5 ستاره در بازار خواهد چگونه می توانم این برنامه بهبود است؟</value></data><data name="FeedbackTitle" xml:space="preserve"><value>من بهتر می توانید آن را?</value></data><data name="UpgradeText" xml:space="preserve"><value>ارتقا در دسترس است! شما می خواهید به نصب ارتقاء داده شده</value></data><data name="UpgradeTitle" xml:space="preserve"><value>ارتقا در دسترس!</value></data><data name="No" xml:space="preserve"><value>نه</value></data><data name="Yes" xml:space="preserve"><value>بله</value></data><data name="ShareMenuText" xml:space="preserve"><value>سهم</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>خطای برنامه کاربردی</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>برنامه با مشکل مواجه شده است. من پوزش می طلبیم برای مزاحمت.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} ساله</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} ساله</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>امروز</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>در روز {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>در روز {0}</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>امروز تولد {0} در است! تولدت مبارک {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>سال {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>سال {0}</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>بیش از حد بسیاری از عوامل زمينه فعال شده اند. لطفا برو به تنظیمات برنامه برای غیرفعال کردن عوامل دیگر قبل از فعال سازی عامل تولد استرلینگ.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>استرلینگ تولد بازخورد</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>تولدت مبارک!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>تولدت مبارک! من امیدوارم که شما یک روز بزرگ!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>بنابراین این ویژگی غیرفعال خواهد شد این دستگاه عوامل زمینه پشتیبانی نمی کند.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>سابقه نمایندگی برای این برنامه کاربردی توسط کاربر غيرفعال شده اند.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>این کار به روز رسانی کاشی استرلینگ تولد زنده با تولد آینده اطلاعات.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>نه ممنون</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>انتقادات</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>طوری که شما مایل به آن امتیاز 5 ستاره در بازار خواهد چگونه می توانم این برنامه بهبود است؟</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>من بهتر می توانید آن را?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>ارتقا در دسترس است! شما می خواهید به نصب ارتقاء داده شده</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>ارتقا در دسترس!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>نه</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>سهم</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>خطای برنامه کاربردی</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>برنامه با مشکل مواجه شده است. من پوزش می طلبیم برای مزاحمت.
 
-من می خواهم کمک شما با ارسال گزارش خطا آماده قدردانی. این با مشکل به حل سریع تر کمک کند.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>شما باید به دفعات بار {0} چپ.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>شما باید روزها {0} چپ.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>یادآوری محاکمه</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>نمایش ندادن دوباره این یادآوری</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>شما با استفاده از نسخه آزمایشی پشتیبانی از این نرم افزار. شما می خواهید برای خرید نرم افزار در حال حاضر به حذف تبلیغات اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>محاکمه منقضی شده</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>نمایش ندادن دوباره این یادآوری</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>محاکمه این نرم افزار منقضی شده است. شما می خواهید برای خرید برنامه در حال حاضر? اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>برنامه نرخ</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>نمایش ندادن دوباره این یادآوری</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>خیلی دوست دارم از شما بشنوند! اگر دوست دارید برنامه، لطفا میزان آن در بازار و نظرات خود را به اشتراک بگذارید.</value></data><data name="MBYesText" xml:space="preserve"><value>بله</value></data><data name="MBNoText" xml:space="preserve"><value>نه</value></data><data name="MBOkText" xml:space="preserve"><value>باشه</value></data><data name="MBCancelText" xml:space="preserve"><value>"لغو"</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>آینده</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>هیچ دوستان تولد در ماه آینده است.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>فنی پشتیبانی در پست الکترونیکی</value></data><data name="SettingsLabel" xml:space="preserve"><value>تنظیمات</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>ارسال اس ام اس</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>ارسال ایمیل</value></data><data name="RateLabel" xml:space="preserve"><value>امتياز دهيد</value></data><data name="PinLabel" xml:space="preserve"><value>پین</value></data><data name="PastPivotHeader" xml:space="preserve"><value>گذشته</value></data><data name="PastEmptyText" xml:space="preserve"><value>هیچ دوستان تولد در ماه گذشته بود.</value></data><data name="LoadingLabel" xml:space="preserve"><value>در حال بارگذاری...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>چه غم انگیز است!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>تماس محل کار</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>تماس با تلفن همراه</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>صفحه اصلی تماس بگیرید</value></data><data name="AppTitle" xml:space="preserve"><value>تولد استرلینگ</value></data><data name="AppDescription" xml:space="preserve"><value>یک برنامه ساده به شما یادآوری روز تولد دوستان خود را با کاشی های زنده زیبا</value></data><data name="AppCopyright" xml:space="preserve"><value>کپی رایت © شین کلیسای 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>همه</value></data><data name="AllEmptyText" xml:space="preserve"><value>تولد بدون در مخاطبین شما یافت وجود دارد.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>امتیاز این برنامه</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>برنامه های دیگر توسط کلیسا شین</value></data><data name="AboutLabel" xml:space="preserve"><value>درباره</value></data><data name="AddContactLabel" xml:space="preserve"><value>اضافه کردن تماس با ما</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>برنامه باز کردن افراد</value></data><data name="WelcomeText" xml:space="preserve"><value>با تشکر برای دانلود استرلینگ تولد!
+من می خواهم کمک شما با ارسال گزارش خطا آماده قدردانی. این با مشکل به حل سریع تر کمک کند.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>شما باید به دفعات بار {0} چپ.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>شما باید روزها {0} چپ.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>یادآوری محاکمه</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>نمایش ندادن دوباره این یادآوری</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>شما با استفاده از نسخه آزمایشی پشتیبانی از این نرم افزار. شما می خواهید برای خرید نرم افزار در حال حاضر به حذف تبلیغات اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>محاکمه منقضی شده</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>نمایش ندادن دوباره این یادآوری</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>محاکمه این نرم افزار منقضی شده است. شما می خواهید برای خرید برنامه در حال حاضر? اگر شما را انتخاب کنید بله - شما را به بازار هدایت.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>برنامه نرخ</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>نمایش ندادن دوباره این یادآوری</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>خیلی دوست دارم از شما بشنوند! اگر دوست دارید برنامه، لطفا میزان آن در بازار و نظرات خود را به اشتراک بگذارید.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>نه</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>باشه</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>"لغو"</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>آینده</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>هیچ دوستان تولد در ماه آینده است.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>فنی پشتیبانی در پست الکترونیکی</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>ارسال اس ام اس</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>ارسال ایمیل</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>امتياز دهيد</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>پین</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>گذشته</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>هیچ دوستان تولد در ماه گذشته بود.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>در حال بارگذاری...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>چه غم انگیز است!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>تماس محل کار</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>تماس با تلفن همراه</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>صفحه اصلی تماس بگیرید</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>تولد استرلینگ</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>یک برنامه ساده به شما یادآوری روز تولد دوستان خود را با کاشی های زنده زیبا</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>کپی رایت © شین کلیسای 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>تولد بدون در مخاطبین شما یافت وجود دارد.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>امتیاز این برنامه</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>برنامه های دیگر توسط کلیسا شین</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>اضافه کردن تماس با ما</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>برنامه باز کردن افراد</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>با تشکر برای دانلود استرلینگ تولد!
 
 این برنامه با استفاده از اطلاعات در افراد توپی در Windows Phone خود را. 
 
 با توجه به محدودیت های پلت فرم، من قادر به افزودن یا ویرایش تولد داخل app. برای اضافه یا ویرایش تولد باز هاب مردم بر روی تلفن خود، اضافه یا ویرایش یک مخاطب وجود دارد و سپس بازگشت به برنامه. زمینه تولد زیر شاخه های دیگر هنگامی که ویرایش مخاطبین یافت می شود. 
 
-متشکرم!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>خوش آمدید به استرلینگ تولد!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>ویژه با تشکر از شما برای ترجمه ترکی به Giray Demirel می رود!</value></data></root>
+متشکرم!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>خوش آمدید به استرلینگ تولد!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>ویژه با تشکر از شما برای ترجمه ترکی به Giray Demirel می رود!</value>
+  </data>
+</root>

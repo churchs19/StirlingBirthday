@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>sk-SK</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} rokov</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} rok starý</value></data><data name="TodayText" xml:space="preserve"><value>Dnes</value></data><data name="DaysTextSingular" xml:space="preserve"><value>V deň {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} dní</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Dnes je {0}, je narodeniny! Všetko najlepšie k narodeninám {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>rok {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} rokov</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Príliš veľa pozadia agenti boli povolené. Prejdite na nastavenie aplikácie vypnúť ostatné agenti pred zapnutím Stirling narodeniny agent.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling narodeniny spätnú väzbu</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Všetko najlepšie k narodeninám!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Všetko najlepšie k narodeninám! Dúfam, že máte skvelý deň!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Toto zariadenie nepodporuje pozadia agentov, takže táto funkcia sa vypne.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Pozadí látky tejto aplikácie boli vypnuté používateľ.</value></data><data name="AgentDescription" xml:space="preserve"><value>Táto úloha aktualizuje Stirling narodeniny live dlaždice s nadchádzajúce narodeniny informácie.</value></data><data name="NoThanksButton" xml:space="preserve"><value>nie ďakujem</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>poskytnúť spätnú väzbu</value></data><data name="FeedbackContent" xml:space="preserve"><value>Ako môže zlepšiť túto aplikáciu tak, že by ste boli ochotní ohodnotiť 5 hviezdičiek na trhu?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Môžem robiť to lepšie?</value></data><data name="UpgradeText" xml:space="preserve"><value>Upgrade je k dispozícii! Chcete nainštalovať upgrade teraz?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Dostupná inovácia!</value></data><data name="No" xml:space="preserve"><value>nie</value></data><data name="Yes" xml:space="preserve"><value>áno</value></data><data name="ShareMenuText" xml:space="preserve"><value>Podiel</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Chyba aplikácie</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Aplikácie sa vyskytol problém. Ospravedlňujem sa za vzniknuté problémy.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} rokov</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} rok starý</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>V deň {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} dní</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Dnes je {0}, je narodeniny! Všetko najlepšie k narodeninám {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>rok {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} rokov</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Príliš veľa pozadia agenti boli povolené. Prejdite na nastavenie aplikácie vypnúť ostatné agenti pred zapnutím Stirling narodeniny agent.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling narodeniny spätnú väzbu</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Všetko najlepšie k narodeninám!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Všetko najlepšie k narodeninám! Dúfam, že máte skvelý deň!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Toto zariadenie nepodporuje pozadia agentov, takže táto funkcia sa vypne.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Pozadí látky tejto aplikácie boli vypnuté používateľ.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Táto úloha aktualizuje Stirling narodeniny live dlaždice s nadchádzajúce narodeniny informácie.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>nie ďakujem</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>poskytnúť spätnú väzbu</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Ako môže zlepšiť túto aplikáciu tak, že by ste boli ochotní ohodnotiť 5 hviezdičiek na trhu?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Môžem robiť to lepšie?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Upgrade je k dispozícii! Chcete nainštalovať upgrade teraz?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Dostupná inovácia!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>áno</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Podiel</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Chyba aplikácie</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Aplikácie sa vyskytol problém. Ospravedlňujem sa za vzniknuté problémy.
 
-Ocenil by som vašu pomoc zaslaním pripravené chybové hlásenie. To vám pomôže s riešením problému rýchlejšie.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Máte {0} čase vľavo.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Máte {0} dní vľavo.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Skúšobné upomienky</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nabudúce nezobrazovať toto upozornenie</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Používate ad-podporované skúšobnú verziu tejto aplikácie. Chcete zakúpiť aplikáciu teraz odstrániť reklamy? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Skúšobné lehota uplynula</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nabudúce nezobrazovať toto upozornenie</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Súd tejto žiadosti uplynula. Chcete nakúpiť aplikácia teraz? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Rýchlosť aplikácie</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Nabudúce nezobrazovať toto upozornenie</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Rád by som počuť od vás! Ak sa vám páči app, prosím sadzba na trhu a zdieľať svoj názor.</value></data><data name="MBYesText" xml:space="preserve"><value>áno</value></data><data name="MBNoText" xml:space="preserve"><value>nie</value></data><data name="MBOkText" xml:space="preserve"><value>ok</value></data><data name="MBCancelText" xml:space="preserve"><value>zrušiť</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>nadchádzajúce</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Žiadny priatelia majú narodeniny v ďalšom mesiaci.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>e-mailovú technickú podporu a spätnú väzbu</value></data><data name="SettingsLabel" xml:space="preserve"><value>nastavenia</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Odoslať SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Poslať E-mail</value></data><data name="RateLabel" xml:space="preserve"><value>hodnotiť me</value></data><data name="PinLabel" xml:space="preserve"><value>kód PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>minulosti</value></data><data name="PastEmptyText" xml:space="preserve"><value>Žiadny priatelia mali narodeniny v minulom mesiaci.</value></data><data name="LoadingLabel" xml:space="preserve"><value>Načítava sa...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Ako smutné!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Volanie práce</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Volajte mobilný</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Volanie domov</value></data><data name="AppTitle" xml:space="preserve"><value>STIRLING NARODENINY</value></data><data name="AppDescription" xml:space="preserve"><value>jednoduchá aplikácia vám pripomínajú narodeniny svojich priateľov s krásne živé dlaždice</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>Všetky</value></data><data name="AllEmptyText" xml:space="preserve"><value>Neexistujú žiadne narodeniny našiel v priečinku Kontakty.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Hodnotiť tento app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>Ostatné apps Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>o</value></data><data name="AddContactLabel" xml:space="preserve"><value>Pridať kontakt</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Otvorte aplikáciu ľudí</value></data><data name="WelcomeText" xml:space="preserve"><value>Vďaka za sťahovanie Stirling narodeniny!
+Ocenil by som vašu pomoc zaslaním pripravené chybové hlásenie. To vám pomôže s riešením problému rýchlejšie.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Máte {0} čase vľavo.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Máte {0} dní vľavo.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Skúšobné upomienky</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nabudúce nezobrazovať toto upozornenie</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Používate ad-podporované skúšobnú verziu tejto aplikácie. Chcete zakúpiť aplikáciu teraz odstrániť reklamy? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Skúšobné lehota uplynula</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nabudúce nezobrazovať toto upozornenie</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Súd tejto žiadosti uplynula. Chcete nakúpiť aplikácia teraz? Ak vyberiete možnosť Áno - budete presmerovaný na trhu.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Rýchlosť aplikácie</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Nabudúce nezobrazovať toto upozornenie</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Rád by som počuť od vás! Ak sa vám páči app, prosím sadzba na trhu a zdieľať svoj názor.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>áno</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>zrušiť</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>nadchádzajúce</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Žiadny priatelia majú narodeniny v ďalšom mesiaci.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>e-mailovú technickú podporu a spätnú väzbu</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>nastavenia</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Odoslať SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Poslať E-mail</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>hodnotiť me</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>kód PIN</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>minulosti</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Žiadny priatelia mali narodeniny v minulom mesiaci.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>Načítava sa...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Ako smutné!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Volanie práce</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Volajte mobilný</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Volanie domov</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>STIRLING NARODENINY</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>jednoduchá aplikácia vám pripomínajú narodeniny svojich priateľov s krásne živé dlaždice</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>Všetky</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Neexistujú žiadne narodeniny našiel v priečinku Kontakty.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Hodnotiť tento app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>Ostatné apps Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Pridať kontakt</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Otvorte aplikáciu ľudí</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Vďaka za sťahovanie Stirling narodeniny!
 
 Táto aplikácia používa informácie v centre ľudí na vaše Windows Phone. 
 
 Z dôvodu obmedzení platformy, som nemohol pridať alebo upraviť narodeniny v app. Pridať alebo upraviť narodeniny, otvorte centrum People v telefóne pridať alebo upraviť kontakt tam a potom sa vrátiť do app. Narodeniny pole nachádza v kategórii iné keď úpravu kontaktov. 
 
-vďaka!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Vitajte v Stirling narodeniny!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Špeciálna děkuji jede na Giray Demirel Turecký preklad!</value></data></root>
+vďaka!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Vitajte v Stirling narodeniny!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Špeciálna děkuji jede na Giray Demirel Turecký preklad!</value>
+  </data>
+</root>

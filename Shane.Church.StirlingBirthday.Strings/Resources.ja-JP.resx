@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>ja-JP</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} 年</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} 年が古い</value></data><data name="TodayText" xml:space="preserve"><value>今日</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} 日で</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} 日</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>今日は {0} の誕生日です。お誕生日 {1}。</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} 年</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} 年</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>多くのバック グラウンド エージェントが有効になっています。スターリングの誕生日のエージェントを有効にする前に他のエージェントを無効にするアプリケーションの設定を参照してください。</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>スターリングの誕生日のフィードバック</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>お誕生日!</value></data><data name="EmailBodyText" xml:space="preserve"><value>お誕生日!すばらしい日があることを願って!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>この機能は無効になっているため、このデバイスは、バック グラウンド エージェントをサポートしません。</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>ユーザーがこのアプリケーションのバック グラウンド エージェントが無効になっています。</value></data><data name="AgentDescription" xml:space="preserve"><value>このタスクは、今後の誕生日情報を含むスターリング誕生日ライブ タイルを更新します。</value></data><data name="NoThanksButton" xml:space="preserve"><value>いいえ</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>フィードバックを与える</value></data><data name="FeedbackContent" xml:space="preserve"><value>市場の 5 つの星それを評価することができますようにこのアプリケーションを向上する方法</value></data><data name="FeedbackTitle" xml:space="preserve"><value>するより良いですか。</value></data><data name="UpgradeText" xml:space="preserve"><value>アップグレードが利用可能です。今すぐアップグレードをインストールしてもよろしいですか。</value></data><data name="UpgradeTitle" xml:space="preserve"><value>アップグレードが利用可能です。</value></data><data name="No" xml:space="preserve"><value>いいえ</value></data><data name="Yes" xml:space="preserve"><value>[はい]</value></data><data name="ShareMenuText" xml:space="preserve"><value>共有</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>アプリケーションのエラー</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>アプリケーションでは、問題が発生しました。私は不便を申し訳ありません。
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} 年が古い</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} 日で</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} 日</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>今日は {0} の誕生日です。お誕生日 {1}。</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>多くのバック グラウンド エージェントが有効になっています。スターリングの誕生日のエージェントを有効にする前に他のエージェントを無効にするアプリケーションの設定を参照してください。</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>スターリングの誕生日のフィードバック</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>お誕生日!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>お誕生日!すばらしい日があることを願って!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>この機能は無効になっているため、このデバイスは、バック グラウンド エージェントをサポートしません。</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>ユーザーがこのアプリケーションのバック グラウンド エージェントが無効になっています。</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>このタスクは、今後の誕生日情報を含むスターリング誕生日ライブ タイルを更新します。</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>フィードバックを与える</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>市場の 5 つの星それを評価することができますようにこのアプリケーションを向上する方法</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>するより良いですか。</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>アップグレードが利用可能です。今すぐアップグレードをインストールしてもよろしいですか。</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>アップグレードが利用可能です。</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>[はい]</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>アプリケーションのエラー</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>アプリケーションでは、問題が発生しました。私は不便を申し訳ありません。
 
-準備されたエラー レポートを送信することで、支援を歓迎します。これは、迅速に問題を解決するのに役立ちます。</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>残り {0} 回があります。</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>左から {0} 日があります。</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>試用版のアラーム</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>このメッセージを今後表示しません。</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>このアプリケーションの広告でサポートされている試用版を使用しています。これで、広告を削除するアプリケーションを購入してもよろしいですか。[はい] - 選択した場合は、市場にリダイレクトされます。</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>試用版の有効期限が切れた</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>このメッセージを今後表示しません。</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>このアプリケーションの試用版の有効期限が切れています。これで、アプリケーションを購入してもよろしいですか。[はい] - 選択した場合は、市場にリダイレクトされます。</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>アプリケーションを評価します。</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>このメッセージを今後表示しません。</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>ぜひお待ちしております!アプリケーションの場合は、それ市場の評価し、ご意見を共有します。</value></data><data name="MBYesText" xml:space="preserve"><value>[はい]</value></data><data name="MBNoText" xml:space="preserve"><value>いいえ</value></data><data name="MBOkText" xml:space="preserve"><value>[ok]</value></data><data name="MBCancelText" xml:space="preserve"><value>[キャンセル]</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>今後予定されています。</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>友人には次の月に誕生日をおめでとうなし。</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>テクニカル サポートとフィードバックの電子メール</value></data><data name="SettingsLabel" xml:space="preserve"><value>設定</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>SMS を送信します。</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>電子メールを送信します。</value></data><data name="RateLabel" xml:space="preserve"><value>私を評価します。</value></data><data name="PinLabel" xml:space="preserve"><value>暗証番号 (pin)</value></data><data name="PastPivotHeader" xml:space="preserve"><value>過去</value></data><data name="PastEmptyText" xml:space="preserve"><value>友人は、過去の月に誕生日をなかった。</value></data><data name="LoadingLabel" xml:space="preserve"><value>読み込んでいます.</value></data><data name="EmptyLeadText" xml:space="preserve"><value>どのように悲しい!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>職場に電話します。</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>携帯電話を呼び出し</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>コール ホーム</value></data><data name="AppTitle" xml:space="preserve"><value>スターリングの誕生日</value></data><data name="AppDescription" xml:space="preserve"><value>ライブの美しいタイルで、友人の誕生日を通知するは簡単なアプリケーション</value></data><data name="AppCopyright" xml:space="preserve"><value>著作権 © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>すべて</value></data><data name="AllEmptyText" xml:space="preserve"><value>連絡先の誕生日ではありません。</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>このアプリを評価します。</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>Shane Churchのによって、他のアプリケーション</value></data><data name="AboutLabel" xml:space="preserve"><value>について</value></data><data name="AddContactLabel" xml:space="preserve"><value>連絡先を追加します。</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>ユーザーがアプリを開く</value></data><data name="WelcomeText" xml:space="preserve"><value>スターリングの誕生日をダウンロードするためにありがとうございます。
+準備されたエラー レポートを送信することで、支援を歓迎します。これは、迅速に問題を解決するのに役立ちます。</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>残り {0} 回があります。</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>左から {0} 日があります。</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>試用版のアラーム</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このメッセージを今後表示しません。</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>このアプリケーションの広告でサポートされている試用版を使用しています。これで、広告を削除するアプリケーションを購入してもよろしいですか。[はい] - 選択した場合は、市場にリダイレクトされます。</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>試用版の有効期限が切れた</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このメッセージを今後表示しません。</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>このアプリケーションの試用版の有効期限が切れています。これで、アプリケーションを購入してもよろしいですか。[はい] - 選択した場合は、市場にリダイレクトされます。</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>アプリケーションを評価します。</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>このメッセージを今後表示しません。</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>ぜひお待ちしております!アプリケーションの場合は、それ市場の評価し、ご意見を共有します。</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>[はい]</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>[ok]</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>[キャンセル]</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>今後予定されています。</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>友人には次の月に誕生日をおめでとうなし。</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>テクニカル サポートとフィードバックの電子メール</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>SMS を送信します。</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>電子メールを送信します。</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>私を評価します。</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>暗証番号 (pin)</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>過去</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>友人は、過去の月に誕生日をなかった。</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>読み込んでいます.</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>どのように悲しい!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>職場に電話します。</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>携帯電話を呼び出し</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>コール ホーム</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>スターリングの誕生日</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ライブの美しいタイルで、友人の誕生日を通知するは簡単なアプリケーション</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>著作権 © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>連絡先の誕生日ではありません。</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>このアプリを評価します。</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>Shane Churchのによって、他のアプリケーション</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>連絡先を追加します。</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>ユーザーがアプリを開く</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>スターリングの誕生日をダウンロードするためにありがとうございます。
 
 このアプリケーションは、Windows Phone で、人々 のハブで情報を使用します。
 
 プラットフォームの制限により、追加または編集、アプリケーション内での誕生日をすることです。追加または編集の誕生日、人ハブ、電話で、追加または、連絡先を編集を開き、アプリケーションに戻ります。連絡先を編集するときに、[その他] カテゴリ、[誕生日] フィールドが見つかりました。
 
-ありがとうございます。</value></data><data name="WelcomeCaption" xml:space="preserve"><value>誕生日のスターリングへようこそ!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>ありがとうは、特別なトルコ語翻訳は Giray Demirel!</value></data></root>
+ありがとうございます。</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>誕生日のスターリングへようこそ!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>ありがとうは、特別なトルコ語翻訳は Giray Demirel!</value>
+  </data>
+</root>

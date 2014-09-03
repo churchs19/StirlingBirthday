@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>nl-NL</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} jaar oud</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} jaar oud</value></data><data name="TodayText" xml:space="preserve"><value>Vandaag</value></data><data name="DaysTextSingular" xml:space="preserve"><value>{0} dag</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} dagen</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Vandaag is de verjaardag van {0}! Prettige verjaardag {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} jaar</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} jaar</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Te veel achtergrond agenten zijn ingeschakeld. Ga naar de instellingen voor toepassing andere agentia uitschakelen voordat u de verjaardag van Stirling-agent inschakelt.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Stirling Verjaardag Feedback</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Prettige verjaardag!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Prettige verjaardag! Ik hoop dat je hebt een geweldige dag!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Dit apparaat ondersteunt geen achtergrond agenten, zodat deze functie uitgeschakeld.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Achtergrond-agenten voor deze toepassing is uitgeschakeld door de gebruiker.</value></data><data name="AgentDescription" xml:space="preserve"><value>De verjaardag van Stirling live tegel deze taak bijgewerkt met gegevens die binnenkort jarig.</value></data><data name="NoThanksButton" xml:space="preserve"><value>Nee, dank</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>feedback geven</value></data><data name="FeedbackContent" xml:space="preserve"><value>Hoe kan ik deze toepassing verbeteren zodat u bereid te waarderen 5 sterren op de markt zou zijn?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Ik maak het beter?</value></data><data name="UpgradeText" xml:space="preserve"><value>Een upgrade is beschikbaar! Wilt u de upgrade nu installeren?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Upgrade beschikbaar!</value></data><data name="No" xml:space="preserve"><value>Nee</value></data><data name="Yes" xml:space="preserve"><value>Ja</value></data><data name="ShareMenuText" xml:space="preserve"><value>Share</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Toepassingsfout</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>De toepassing is een fout opgetreden. Ik excuses voor het ongemak.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} jaar oud</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} jaar oud</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>{0} dag</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} dagen</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Vandaag is de verjaardag van {0}! Prettige verjaardag {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} jaar</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} jaar</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Te veel achtergrond agenten zijn ingeschakeld. Ga naar de instellingen voor toepassing andere agentia uitschakelen voordat u de verjaardag van Stirling-agent inschakelt.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Stirling Verjaardag Feedback</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Prettige verjaardag!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Prettige verjaardag! Ik hoop dat je hebt een geweldige dag!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Dit apparaat ondersteunt geen achtergrond agenten, zodat deze functie uitgeschakeld.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Achtergrond-agenten voor deze toepassing is uitgeschakeld door de gebruiker.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>De verjaardag van Stirling live tegel deze taak bijgewerkt met gegevens die binnenkort jarig.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Nee, dank</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>feedback geven</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Hoe kan ik deze toepassing verbeteren zodat u bereid te waarderen 5 sterren op de markt zou zijn?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Ik maak het beter?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Een upgrade is beschikbaar! Wilt u de upgrade nu installeren?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Upgrade beschikbaar!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Toepassingsfout</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>De toepassing is een fout opgetreden. Ik excuses voor het ongemak.
 
-Ik zou uw hulp op prijs stellen door de voorbereide foutenrapport te verzenden. Dit helpt bij het oplossen van het probleem sneller.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Hebt u nog {0} keer over.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Hebt u links {0} dag(en).</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Evaluatieversie herinnering</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Deze herinnering niet meer weergeven</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>U gebruikt de ad-ondersteunde evaluatieversie van deze toepassing. Wilt u nu de toepassing voor het verwijderen van de advertenties kopen? Als u Ja - wordt u omgeleid naar de markt.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Evaluatieversie is verlopen</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Deze herinnering niet meer weergeven</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>De evaluatieversie van deze toepassing is verlopen. Wilt u de toepassing nu kopen? Als u Ja - wordt u omgeleid naar de markt.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Beoordeel de app.</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Deze herinnering niet meer weergeven</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Ik zou graag van u! Als u de app, het op de markt te beoordelen en stuur ons uw feedback.</value></data><data name="MBYesText" xml:space="preserve"><value>Ja</value></data><data name="MBNoText" xml:space="preserve"><value>Nee</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>annuleren</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>aanstaande</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Geen vrienden hebben een verjaardag in de volgende maand.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>technische ondersteuning/feedback e-mailadres</value></data><data name="SettingsLabel" xml:space="preserve"><value>instellingen</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>SMS-bericht verzenden</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>E-mail verzenden</value></data><data name="RateLabel" xml:space="preserve"><value>Beoordeel me</value></data><data name="PinLabel" xml:space="preserve"><value>PIN-code</value></data><data name="PastPivotHeader" xml:space="preserve"><value>verleden</value></data><data name="PastEmptyText" xml:space="preserve"><value>Geen vrienden had een verjaardag in de afgelopen maand.</value></data><data name="LoadingLabel" xml:space="preserve"><value>Bezig met laden...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Hoe Droevig!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Werk bellen</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Mobiel bellen</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Thuis bellen</value></data><data name="AppTitle" xml:space="preserve"><value>VERJAARDAG VAN STIRLING</value></data><data name="AppDescription" xml:space="preserve"><value>een eenvoudige toepassing om u te herinneren van de verjaardagen van uw vrienden met een prachtige live tegel</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>alle</value></data><data name="AllEmptyText" xml:space="preserve"><value>Er zijn geen verjaardagen die in uw contactpersonen gevonden.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Beoordeel dit app</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>andere apps door Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>over</value></data><data name="AddContactLabel" xml:space="preserve"><value>contactpersoon toevoegen</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>mensen app openen</value></data><data name="WelcomeText" xml:space="preserve"><value>Bedankt voor het downloaden van Stirling verjaardag!
+Ik zou uw hulp op prijs stellen door de voorbereide foutenrapport te verzenden. Dit helpt bij het oplossen van het probleem sneller.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Hebt u nog {0} keer over.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Hebt u links {0} dag(en).</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Evaluatieversie herinnering</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Deze herinnering niet meer weergeven</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>U gebruikt de ad-ondersteunde evaluatieversie van deze toepassing. Wilt u nu de toepassing voor het verwijderen van de advertenties kopen? Als u Ja - wordt u omgeleid naar de markt.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Evaluatieversie is verlopen</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Deze herinnering niet meer weergeven</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>De evaluatieversie van deze toepassing is verlopen. Wilt u de toepassing nu kopen? Als u Ja - wordt u omgeleid naar de markt.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Beoordeel de app.</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Deze herinnering niet meer weergeven</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Ik zou graag van u! Als u de app, het op de markt te beoordelen en stuur ons uw feedback.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>aanstaande</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Geen vrienden hebben een verjaardag in de volgende maand.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>technische ondersteuning/feedback e-mailadres</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>SMS-bericht verzenden</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>E-mail verzenden</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>Beoordeel me</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN-code</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>verleden</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Geen vrienden had een verjaardag in de afgelopen maand.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>Bezig met laden...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Hoe Droevig!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Werk bellen</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Mobiel bellen</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Thuis bellen</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>VERJAARDAG VAN STIRLING</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>een eenvoudige toepassing om u te herinneren van de verjaardagen van uw vrienden met een prachtige live tegel</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>alle</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Er zijn geen verjaardagen die in uw contactpersonen gevonden.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Beoordeel dit app</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>andere apps door Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>contactpersoon toevoegen</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>mensen app openen</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Bedankt voor het downloaden van Stirling verjaardag!
 
 Deze toepassing gebruikt de informatie in de hub mensen op uw Windows Phone. 
 
 Als gevolg van beperkingen platform ben ik niet toevoegen of bewerken van verjaardagen binnen de app. Toevoegen of bewerken van verjaardagen, de hub mensen op uw telefoon openen, toevoegen aan of er een contactpersoon bewerken en vervolgens terug naar de app. Het veld Verjaardag is gevonden in de andere categorie bij het bewerken van contactpersonen. 
 
-Hartelijk dank!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Welkom bij Stirling verjaardag!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Speciale dank gaat naar Giray Demirel voor de Turkse vertaling!</value></data></root>
+Hartelijk dank!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Welkom bij Stirling verjaardag!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Speciale dank gaat naar Giray Demirel voor de Turkse vertaling!</value>
+  </data>
+</root>

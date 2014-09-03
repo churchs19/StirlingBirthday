@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>pt-PT</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} anos</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} ano de idade</value></data><data name="TodayText" xml:space="preserve"><value>Hoje</value></data><data name="DaysTextSingular" xml:space="preserve"><value>No dia {0}</value></data><data name="DaysTextPlural" xml:space="preserve"><value>Dentro de {0} dias</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Hoje é teu aniversário do {0}! Feliz aniversário {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>ano de {0}</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} anos</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Agentes de fundo demasiados foram activados. Vá para a aplicação de definições para desactivar outros agentes antes de activar o agente Stirling aniversário.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Comentários de aniversário Stirling</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Feliz aniversário!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Feliz aniversário! Espero que tenha um dia fantástico!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Este dispositivo não suporta agentes de fundo, esta funcionalidade será desactivada.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Agentes de fundo para esta aplicação tem sido desactivados pelo utilizador.</value></data><data name="AgentDescription" xml:space="preserve"><value>Esta tarefa actualiza o mosaico vivo Stirling aniversário com informações do próximo aniversário.</value></data><data name="NoThanksButton" xml:space="preserve"><value>Obrigado</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>enviar comentários</value></data><data name="FeedbackContent" xml:space="preserve"><value>Como posso melhorar esta aplicação para que estaria disposto classificar-se 5 estrelas nos serviços electrónicos do?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>É possível fazê-lo melhor?</value></data><data name="UpgradeText" xml:space="preserve"><value>Está disponível uma actualização! Confirma que deseja instalar a actualização agora?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Actualização disponível!</value></data><data name="No" xml:space="preserve"><value>não</value></data><data name="Yes" xml:space="preserve"><value>Sim</value></data><data name="ShareMenuText" xml:space="preserve"><value>Partilha</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Erro de aplicação</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>A aplicação encontrou um problema. Lamentamos qualquer incómodo.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} anos</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} ano de idade</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>No dia {0}</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>Dentro de {0} dias</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Hoje é teu aniversário do {0}! Feliz aniversário {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>ano de {0}</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} anos</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Agentes de fundo demasiados foram activados. Vá para a aplicação de definições para desactivar outros agentes antes de activar o agente Stirling aniversário.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Comentários de aniversário Stirling</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Feliz aniversário!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Feliz aniversário! Espero que tenha um dia fantástico!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Este dispositivo não suporta agentes de fundo, esta funcionalidade será desactivada.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Agentes de fundo para esta aplicação tem sido desactivados pelo utilizador.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Esta tarefa actualiza o mosaico vivo Stirling aniversário com informações do próximo aniversário.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Obrigado</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>enviar comentários</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Como posso melhorar esta aplicação para que estaria disposto classificar-se 5 estrelas nos serviços electrónicos do?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>É possível fazê-lo melhor?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Está disponível uma actualização! Confirma que deseja instalar a actualização agora?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Actualização disponível!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>não</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Partilha</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Erro de aplicação</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>A aplicação encontrou um problema. Lamentamos qualquer incómodo.
 
-Agradecia a sua assistência através do envio de relatório de erros preparada. Isto irá ajudar na resolução mais rapidamente o problema.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Tem {0} vez (es) para a esquerda.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>Tem {0} dia (s) à esquerda.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Lembrete de avaliação</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Não mostrar este lembrete novamente</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Está a utilizar a versão de avaliação suportadas pelo ad desta aplicação. Confirma que deseja da aplicação agora para remover os anúncios de compra? Se escolher Sim - será redireccionado para os serviços electrónicos.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Versão de avaliação expirou</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Não mostrar este lembrete novamente</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>A versão de avaliação desta aplicação expirou. Confirma que deseja comprar da aplicação agora? Se escolher Sim - será redireccionado para os serviços electrónicos.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Classificar a aplicação</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Não mostrar este lembrete novamente</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Seria adoro conhecer a sua opinião! Se pretender que a aplicação, classifique-lo no mercado e partilhe os seus comentários.</value></data><data name="MBYesText" xml:space="preserve"><value>Sim</value></data><data name="MBNoText" xml:space="preserve"><value>não</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>Cancelar</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>futuros</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Não amigos têm uma data de nascimento do mês seguinte.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>mensagem de correio electrónico/comentários do suporte técnico</value></data><data name="SettingsLabel" xml:space="preserve"><value>definições</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Enviar SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Enviar correio electrónico</value></data><data name="RateLabel" xml:space="preserve"><value>Classificar do me</value></data><data name="PinLabel" xml:space="preserve"><value>PIN</value></data><data name="PastPivotHeader" xml:space="preserve"><value>passado</value></data><data name="PastEmptyText" xml:space="preserve"><value>Não amigos tinham um aniversário no mês passado.</value></data><data name="LoadingLabel" xml:space="preserve"><value>carregar...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Como sád!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Chamar trabalho</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Chamar móvel</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Chamar residência</value></data><data name="AppTitle" xml:space="preserve"><value>ANIVERSÁRIO DE STIRLING</value></data><data name="AppDescription" xml:space="preserve"><value>uma aplicação simple para o lembrar de aniversários dos seus amigos com um mosaico vivo bonito</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>todos os</value></data><data name="AllEmptyText" xml:space="preserve"><value>Não existem nenhum aniversários encontrados nos seus contactos.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>Classificar esta apl.</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>outras aplicações por Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>Acerca de</value></data><data name="AddContactLabel" xml:space="preserve"><value>Adicionar contacto</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Abra a aplicação de pessoas</value></data><data name="WelcomeText" xml:space="preserve"><value>Obrigado por transferir Stirling aniversário!
+Agradecia a sua assistência através do envio de relatório de erros preparada. Isto irá ajudar na resolução mais rapidamente o problema.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Tem {0} vez (es) para a esquerda.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>Tem {0} dia (s) à esquerda.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Lembrete de avaliação</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar este lembrete novamente</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Está a utilizar a versão de avaliação suportadas pelo ad desta aplicação. Confirma que deseja da aplicação agora para remover os anúncios de compra? Se escolher Sim - será redireccionado para os serviços electrónicos.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Versão de avaliação expirou</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar este lembrete novamente</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>A versão de avaliação desta aplicação expirou. Confirma que deseja comprar da aplicação agora? Se escolher Sim - será redireccionado para os serviços electrónicos.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Classificar a aplicação</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Não mostrar este lembrete novamente</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Seria adoro conhecer a sua opinião! Se pretender que a aplicação, classifique-lo no mercado e partilhe os seus comentários.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>não</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>futuros</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Não amigos têm uma data de nascimento do mês seguinte.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>mensagem de correio electrónico/comentários do suporte técnico</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>definições</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Enviar SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Enviar correio electrónico</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>Classificar do me</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>passado</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Não amigos tinham um aniversário no mês passado.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>carregar...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Como sád!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Chamar trabalho</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Chamar móvel</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Chamar residência</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ANIVERSÁRIO DE STIRLING</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>uma aplicação simple para o lembrar de aniversários dos seus amigos com um mosaico vivo bonito</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>todos os</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Não existem nenhum aniversários encontrados nos seus contactos.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>Classificar esta apl.</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>outras aplicações por Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Adicionar contacto</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Abra a aplicação de pessoas</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Obrigado por transferir Stirling aniversário!
 
 Esta aplicação utiliza as informações do concentrador de pessoas no seu Windows Phone. 
 
 Devido a limitações de plataforma, não consigo adicionar ou editar datas de nascimento dentro da aplicação. Para adicionar ou editar datas de nascimento, abra o concentrador de pessoas no telefone, adicionar ou editar um contacto não existe e, em seguida, volte à aplicação de. O campo de aniversário encontra-se na outra categoria quando a edição de contactos. 
 
-Obrigado!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Bem-vindo ao Stirling aniversário!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Vai um agradecimentos especiais para Demirel de Giray para a tradução turca!</value></data></root>
+Obrigado!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Bem-vindo ao Stirling aniversário!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Vai um agradecimentos especiais para Demirel de Giray para a tradução turca!</value>
+  </data>
+</root>

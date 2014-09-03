@@ -117,83 +117,225 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="ResourceLanguage" xml:space="preserve">
     <value>bg-BG</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="PluralAgeText" xml:space="preserve"><value>{0} години</value></data><data name="SingularAgeText" xml:space="preserve"><value>{0} години стар</value></data><data name="TodayText" xml:space="preserve"><value>Днес</value></data><data name="DaysTextSingular" xml:space="preserve"><value>В {0} ден</value></data><data name="DaysTextPlural" xml:space="preserve"><value>{0} дни</value></data><data name="HappyBirthdayShare" xml:space="preserve"><value>Днес е {0} на рожден ден! Честит рожден ден {1}!</value></data><data name="YearsSingular" xml:space="preserve"><value>{0} година</value></data><data name="YearsPlural" xml:space="preserve"><value>{0} години</value></data><data name="TooManyAgentsError" xml:space="preserve"><value>Твърде много фон агенти са разрешени. Моля отидете на настройките на приложението да деактивирате други агенти преди разрешаване на Стърлинг рожден ден агент.</value></data><data name="TechnicalSupportEmailSubject" xml:space="preserve"><value>Стърлинг рожден ден обратна връзка</value></data><data name="HappyBirthdayText" xml:space="preserve"><value>Честит рожден ден!</value></data><data name="EmailBodyText" xml:space="preserve"><value>Честит рожден ден! Надявам се, имате голям ден!</value></data><data name="AgentsNotSupportedError" xml:space="preserve"><value>Това устройство не поддържа фон агенти, така че тази функция ще бъде забранена.</value></data><data name="AgentsDisabledByUserError" xml:space="preserve"><value>Фон агенти за това приложение са забранени от страна на потребителя.</value></data><data name="AgentDescription" xml:space="preserve"><value>Тази задача актуализации на Стърлинг рожден ден живи плочки с информация за предстоящите рожден ден.</value></data><data name="NoThanksButton" xml:space="preserve"><value>Не, благодаря</value></data><data name="GiveFeedbackButton" xml:space="preserve"><value>Дайте обратна връзка</value></data><data name="FeedbackContent" xml:space="preserve"><value>Как мога да подобря това приложение, така че бъдете готови да го оцените 5 звезди на пазара?</value></data><data name="FeedbackTitle" xml:space="preserve"><value>Може да го направи по-добре?</value></data><data name="UpgradeText" xml:space="preserve"><value>Има налична надстройка! Искате ли да инсталирате надстройката сега?</value></data><data name="UpgradeTitle" xml:space="preserve"><value>Налични са актуализации!</value></data><data name="No" xml:space="preserve"><value>Не</value></data><data name="Yes" xml:space="preserve"><value>Да</value></data><data name="ShareMenuText" xml:space="preserve"><value>Дял</value></data><data name="Diagnostics_MessageBox_Title" xml:space="preserve"><value>Грешка в приложението</value></data><data name="Diagnostics_MessageBox_Content" xml:space="preserve"><value>Приложението се натъкна на проблем. Съжалявам за неудобството.
+  <data name="PluralAgeText" xml:space="preserve">
+    <value>{0} години</value>
+  </data>
+  <data name="SingularAgeText" xml:space="preserve">
+    <value>{0} години стар</value>
+  </data>
+  <data name="TodayText" xml:space="preserve">
+    <value>Днес</value>
+  </data>
+  <data name="DaysTextSingular" xml:space="preserve">
+    <value>В {0} ден</value>
+  </data>
+  <data name="DaysTextPlural" xml:space="preserve">
+    <value>{0} дни</value>
+  </data>
+  <data name="HappyBirthdayShare" xml:space="preserve">
+    <value>Днес е {0} на рожден ден! Честит рожден ден {1}!</value>
+  </data>
+  <data name="YearsSingular" xml:space="preserve">
+    <value>{0} година</value>
+  </data>
+  <data name="YearsPlural" xml:space="preserve">
+    <value>{0} години</value>
+  </data>
+  <data name="TooManyAgentsError" xml:space="preserve">
+    <value>Твърде много фон агенти са разрешени. Моля отидете на настройките на приложението да деактивирате други агенти преди разрешаване на Стърлинг рожден ден агент.</value>
+  </data>
+  <data name="TechnicalSupportEmailSubject" xml:space="preserve">
+    <value>Стърлинг рожден ден обратна връзка</value>
+  </data>
+  <data name="HappyBirthdayText" xml:space="preserve">
+    <value>Честит рожден ден!</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>Честит рожден ден! Надявам се, имате голям ден!</value>
+  </data>
+  <data name="AgentsNotSupportedError" xml:space="preserve">
+    <value>Това устройство не поддържа фон агенти, така че тази функция ще бъде забранена.</value>
+  </data>
+  <data name="AgentsDisabledByUserError" xml:space="preserve">
+    <value>Фон агенти за това приложение са забранени от страна на потребителя.</value>
+  </data>
+  <data name="AgentDescription" xml:space="preserve">
+    <value>Тази задача актуализации на Стърлинг рожден ден живи плочки с информация за предстоящите рожден ден.</value>
+  </data>
+  <data name="NoThanksButton" xml:space="preserve">
+    <value>Не, благодаря</value>
+  </data>
+  <data name="GiveFeedbackButton" xml:space="preserve">
+    <value>Дайте обратна връзка</value>
+  </data>
+  <data name="FeedbackContent" xml:space="preserve">
+    <value>Как мога да подобря това приложение, така че бъдете готови да го оцените 5 звезди на пазара?</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Може да го направи по-добре?</value>
+  </data>
+  <data name="UpgradeText" xml:space="preserve">
+    <value>Има налична надстройка! Искате ли да инсталирате надстройката сега?</value>
+  </data>
+  <data name="UpgradeTitle" xml:space="preserve">
+    <value>Налични са актуализации!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="ShareMenuText" xml:space="preserve">
+    <value>Дял</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Title" xml:space="preserve">
+    <value>Грешка в приложението</value>
+  </data>
+  <data name="Diagnostics_MessageBox_Content" xml:space="preserve">
+    <value>Приложението се натъкна на проблем. Съжалявам за неудобството.
 
-Аз ще оценявам вашата помощ чрез изпращане на отчета за готови грешки. Това ще помогне с решаването на проблема по-бързо.</value></data><data name="TrialReminderUsageCountMessage" xml:space="preserve"><value>Имате {0} път(и) наляво.</value></data><data name="TrialReminderPeriodMessage" xml:space="preserve"><value>{0} ден(а) наляво.</value></data><data name="AppTrialReminder_MessageBox_Title" xml:space="preserve"><value>Пробен напомняне</value></data><data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Не показвай това напомняне отново</value></data><data name="AppTrialReminder_MessageBox_Content" xml:space="preserve"><value>Вие използвате реклама поддръжка пробна версия на това приложение. Искате ли да закупите на приложението сега за премахване на рекламите? Ако изберете "да" - Вие ще бъдете пренасочени към пазара.</value></data><data name="AppTrialEnd_MessageBox_Title" xml:space="preserve"><value>Пробна версия е изтекъл</value></data><data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Не показвай това напомняне отново</value></data><data name="AppTrialEnd_MessageBox_Content" xml:space="preserve"><value>Изпитването на това приложение е изтекъл. Искате ли да закупите на приложението сега? Ако изберете "да" - Вие ще бъдете пренасочени към пазара.</value></data><data name="RateReminder_MessageBox_Title" xml:space="preserve"><value>Оцените ап</value></data><data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve"><value>Не показвай това напомняне отново</value></data><data name="RateReminder_MessageBox_Content" xml:space="preserve"><value>Бих искал да чуя от теб! Ако искате ап, моля го оценят на пазара и Споделете вашето мнение.</value></data><data name="MBYesText" xml:space="preserve"><value>Да</value></data><data name="MBNoText" xml:space="preserve"><value>Не</value></data><data name="MBOkText" xml:space="preserve"><value>OK</value></data><data name="MBCancelText" xml:space="preserve"><value>отказ</value></data><data name="UpcomingPivotHeader" xml:space="preserve"><value>Предстоящи</value></data><data name="UpcomingEmptyText" xml:space="preserve"><value>Няма приятели имат рожден ден през следващия месец.</value></data><data name="TechnicalSupportEmailLabel" xml:space="preserve"><value>техническа поддръжка/обратна връзка имейл</value></data><data name="SettingsLabel" xml:space="preserve"><value>настройки</value></data><data name="SendSMSMenuText" xml:space="preserve"><value>Изпрати SMS</value></data><data name="SendEmailMenuText" xml:space="preserve"><value>Изпрати имейл</value></data><data name="RateLabel" xml:space="preserve"><value>оценявате мен</value></data><data name="PinLabel" xml:space="preserve"><value>ПИН</value></data><data name="PastPivotHeader" xml:space="preserve"><value>минало</value></data><data name="PastEmptyText" xml:space="preserve"><value>Няма приятели имаше рожден ден през последния месец.</value></data><data name="LoadingLabel" xml:space="preserve"><value>зареждане...</value></data><data name="EmptyLeadText" xml:space="preserve"><value>Колко тъжно!</value></data><data name="CallWorkMenuText" xml:space="preserve"><value>Повикване работа</value></data><data name="CallMobileMenuText" xml:space="preserve"><value>Повикване мобилен</value></data><data name="CallHomeMenuText" xml:space="preserve"><value>Начало на повикване</value></data><data name="AppTitle" xml:space="preserve"><value>СТЪРЛИНГ РОЖДЕН ДЕН</value></data><data name="AppDescription" xml:space="preserve"><value>един прост ап да ви напомнят за рождени дни на вашите приятели с красив живо плочка</value></data><data name="AppCopyright" xml:space="preserve"><value>Copyright © Shane Church 2014</value></data><data name="AllPivotHeader" xml:space="preserve"><value>всички</value></data><data name="AllEmptyText" xml:space="preserve"><value>Има няма рождени дни, намерени във вашите контакти.</value></data><data name="AboutReviewLabel" xml:space="preserve"><value>оцени тази ап</value></data><data name="AboutOtherAppsLabel" xml:space="preserve"><value>други приложения от Shane Church</value></data><data name="AboutLabel" xml:space="preserve"><value>за</value></data><data name="AddContactLabel" xml:space="preserve"><value>Добави контакт</value></data><data name="OpenPeopleAppLabel" xml:space="preserve"><value>Отворете приложението хора</value></data><data name="WelcomeText" xml:space="preserve"><value>Благодаря за изтегляне на Стърлинг рожден ден!
+Аз ще оценявам вашата помощ чрез изпращане на отчета за готови грешки. Това ще помогне с решаването на проблема по-бързо.</value>
+  </data>
+  <data name="TrialReminderUsageCountMessage" xml:space="preserve">
+    <value>Имате {0} път(и) наляво.</value>
+  </data>
+  <data name="TrialReminderPeriodMessage" xml:space="preserve">
+    <value>{0} ден(а) наляво.</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Title" xml:space="preserve">
+    <value>Пробен напомняне</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Не показвай това напомняне отново</value>
+  </data>
+  <data name="AppTrialReminder_MessageBox_Content" xml:space="preserve">
+    <value>Вие използвате реклама поддръжка пробна версия на това приложение. Искате ли да закупите на приложението сега за премахване на рекламите? Ако изберете "да" - Вие ще бъдете пренасочени към пазара.</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Title" xml:space="preserve">
+    <value>Пробна версия е изтекъл</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Не показвай това напомняне отново</value>
+  </data>
+  <data name="AppTrialEnd_MessageBox_Content" xml:space="preserve">
+    <value>Изпитването на това приложение е изтекъл. Искате ли да закупите на приложението сега? Ако изберете "да" - Вие ще бъдете пренасочени към пазара.</value>
+  </data>
+  <data name="RateReminder_MessageBox_Title" xml:space="preserve">
+    <value>Оцените ап</value>
+  </data>
+  <data name="RateReminder_MessageBox_SkipFurtherRemindersMessage" xml:space="preserve">
+    <value>Не показвай това напомняне отново</value>
+  </data>
+  <data name="RateReminder_MessageBox_Content" xml:space="preserve">
+    <value>Бих искал да чуя от теб! Ако искате ап, моля го оценят на пазара и Споделете вашето мнение.</value>
+  </data>
+  <data name="MBYesText" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="MBNoText" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="MBOkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MBCancelText" xml:space="preserve">
+    <value>отказ</value>
+  </data>
+  <data name="UpcomingPivotHeader" xml:space="preserve">
+    <value>Предстоящи</value>
+  </data>
+  <data name="UpcomingEmptyText" xml:space="preserve">
+    <value>Няма приятели имат рожден ден през следващия месец.</value>
+  </data>
+  <data name="TechnicalSupportEmailLabel" xml:space="preserve">
+    <value>техническа поддръжка/обратна връзка имейл</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="SendSMSMenuText" xml:space="preserve">
+    <value>Изпрати SMS</value>
+  </data>
+  <data name="SendEmailMenuText" xml:space="preserve">
+    <value>Изпрати имейл</value>
+  </data>
+  <data name="RateLabel" xml:space="preserve">
+    <value>оценявате мен</value>
+  </data>
+  <data name="PinLabel" xml:space="preserve">
+    <value>ПИН</value>
+  </data>
+  <data name="PastPivotHeader" xml:space="preserve">
+    <value>минало</value>
+  </data>
+  <data name="PastEmptyText" xml:space="preserve">
+    <value>Няма приятели имаше рожден ден през последния месец.</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>зареждане...</value>
+  </data>
+  <data name="EmptyLeadText" xml:space="preserve">
+    <value>Колко тъжно!</value>
+  </data>
+  <data name="CallWorkMenuText" xml:space="preserve">
+    <value>Повикване работа</value>
+  </data>
+  <data name="CallMobileMenuText" xml:space="preserve">
+    <value>Повикване мобилен</value>
+  </data>
+  <data name="CallHomeMenuText" xml:space="preserve">
+    <value>Начало на повикване</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>СТЪРЛИНГ РОЖДЕН ДЕН</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>един прост ап да ви напомнят за рождени дни на вашите приятели с красив живо плочка</value>
+  </data>
+  <data name="AppCopyright" xml:space="preserve">
+    <value>Copyright © Shane Church 2014</value>
+  </data>
+  <data name="AllPivotHeader" xml:space="preserve">
+    <value>всички</value>
+  </data>
+  <data name="AllEmptyText" xml:space="preserve">
+    <value>Има няма рождени дни, намерени във вашите контакти.</value>
+  </data>
+  <data name="AboutReviewLabel" xml:space="preserve">
+    <value>оцени тази ап</value>
+  </data>
+  <data name="AboutOtherAppsLabel" xml:space="preserve">
+    <value>други приложения от Shane Church</value>
+  </data>
+  <data name="AboutLabel" xml:space="preserve">
+    <value>за</value>
+  </data>
+  <data name="AddContactLabel" xml:space="preserve">
+    <value>Добави контакт</value>
+  </data>
+  <data name="OpenPeopleAppLabel" xml:space="preserve">
+    <value>Отворете приложението хора</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Благодаря за изтегляне на Стърлинг рожден ден!
 
 Този app използва информацията в People hub на вашия Windows Phone. 
 
 Поради ограниченията на платформата аз съм в състояние да добавите или редактирате рождени дни в рамките на ап. За да добавите или редактирате рождени дни, отворете People hub на вашия телефон, Добавяне или редактиране на контакт там и след това се върнете на ап. Полето рожден ден се намира в другата категория, при редактиране на контакти. 
 
-Благодаря!</value></data><data name="WelcomeCaption" xml:space="preserve"><value>Добре дошли в Стърлинг рожден ден!</value></data><data name="TurkishTranslationText" xml:space="preserve"><value>Специално благодаря ти отива да Giray Demirel за превод на турски!</value></data></root>
+Благодаря!</value>
+  </data>
+  <data name="WelcomeCaption" xml:space="preserve">
+    <value>Добре дошли в Стърлинг рожден ден!</value>
+  </data>
+  <data name="TurkishTranslationText" xml:space="preserve">
+    <value>Специално благодаря ти отива да Giray Demirel за превод на турски!</value>
+  </data>
+</root>
