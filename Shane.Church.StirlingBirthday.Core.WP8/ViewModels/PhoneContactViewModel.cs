@@ -1,6 +1,8 @@
 ﻿using GalaSoft.MvvmLight.Command;
+using Ninject;
 using Microsoft.Phone.Tasks;
 using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Core.Services;
 using Shane.Church.StirlingBirthday.Core.ViewModels;
 using Shane.Church.StirlingBirthday.Core.WP.Commands;
 using Shane.Church.StirlingBirthday.Strings;
@@ -11,9 +13,12 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 {
 	public class PhoneContactViewModel : ContactViewModel
 	{
+		private ILoggingService _log;
+
 		public PhoneContactViewModel()
 			: base()
 		{
+			_log = KernelService.Kernel.Get<ILoggingService>();
 			CallHomeCommand = new RelayCommand(CallHome);
 			CallMobileCommand = new RelayCommand(CallMobile);
 			CallWorkCommand = new RelayCommand(CallWork);
@@ -57,7 +62,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = HomePhone;
 			call.DisplayName = DisplayName;
-			FlurryWP8SDK.Api.LogEvent("Call_Home");
+			_log.LogMessage("Call_Home");
 			call.Show();
 		}
 
@@ -66,7 +71,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = MobilePhone;
 			call.DisplayName = DisplayName;
-			FlurryWP8SDK.Api.LogEvent("Call_Mobile");
+			_log.LogMessage("Call_Mobile");
 			call.Show();
 		}
 
@@ -75,7 +80,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			SmsComposeTask text = new SmsComposeTask();
 			text.To = MobilePhone;
 			text.Body = Resources.HappyBirthdayText;
-			FlurryWP8SDK.Api.LogEvent("Send_SMS");
+			_log.LogMessage("Send_SMS");
 			text.Show();
 		}
 
@@ -84,7 +89,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			PhoneCallTask call = new PhoneCallTask();
 			call.PhoneNumber = WorkPhone;
 			call.DisplayName = DisplayName;
-			FlurryWP8SDK.Api.LogEvent("Call_Work");
+			_log.LogMessage("Call_Work");
 			call.Show();
 		}
 
@@ -94,7 +99,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 			email.To = Email;
 			email.Subject = Resources.HappyBirthdayText;
 			email.Body = Resources.EmailBodyText;
-			FlurryWP8SDK.Api.LogEvent("Send_Email");
+			_log.LogMessage("Send_Email");
 			email.Show();
 		}
 
@@ -102,7 +107,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		{
 			ShareStatusTask shareStatusTask = new ShareStatusTask();
 			shareStatusTask.Status = String.Format(Resources.HappyBirthdayShare, this.DisplayName, this.FirstName);
-			FlurryWP8SDK.Api.LogEvent("Status_Share");
+			_log.LogMessage("Status_Share");
 			shareStatusTask.Show();
 		}
 	}

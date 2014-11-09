@@ -302,8 +302,12 @@ namespace Shane.Church.StirlingBirthday.WP
             var versionAttrib = new AssemblyName(Assembly.GetExecutingAssembly().FullName);
             ApplicationUsageHelper.Init(versionAttrib.Version.ToString());
             currentVersion = versionAttrib.Version.ToString();
-            FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
-            FlurryWP8SDK.Api.SetVersion(versionAttrib.Version.ToString());
+#if DEBUG
+            MarkedUp.AnalyticClient.Initialize("ab4a22de-3878-4946-821b-b499cf6b03df");
+#else
+            MarkedUp.AnalyticClient.Initialize("412aaea1-d43e-43be-a26e-f78e85c82168");
+#endif
+            MarkedUp.AnalyticClient.RegisterRootNavigationFrame(this.RootFrame);
         }
 
         // Code to execute when the application is activated (brought to foreground)
@@ -317,8 +321,12 @@ namespace Shane.Church.StirlingBirthday.WP
             }
             var versionAttrib = new AssemblyName(Assembly.GetExecutingAssembly().FullName);
             currentVersion = versionAttrib.Version.ToString();
-            FlurryWP8SDK.Api.StartSession("93H3RHMX3CW4N7XXDVFZ");
-            FlurryWP8SDK.Api.SetVersion(versionAttrib.Version.ToString());
+#if DEBUG
+            MarkedUp.AnalyticClient.Initialize("ab4a22de-3878-4946-821b-b499cf6b03df");
+#else
+            MarkedUp.AnalyticClient.Initialize("412aaea1-d43e-43be-a26e-f78e85c82168");
+#endif
+            MarkedUp.AnalyticClient.RegisterRootNavigationFrame(this.RootFrame);
         }
 
         // Code to execute when the application is deactivated (sent to background)
@@ -326,20 +334,20 @@ namespace Shane.Church.StirlingBirthday.WP
         private void Application_Deactivated(object sender, DeactivatedEventArgs e)
         {
             // Ensure that required application state is persisted here.
-            FlurryWP8SDK.Api.EndSession();
+            
         }
 
         // Code to execute when the application is closing (eg, user hit Back)
         // This code will not execute when the application is deactivated
         private void Application_Closing(object sender, ClosingEventArgs e)
         {
-            FlurryWP8SDK.Api.EndSession();
+            
         }
 
         // Code to execute if a navigation fails
         private void RootFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
-            FlurryWP8SDK.Api.LogError(e.Uri.ToString(), e.Exception);
+            MarkedUp.AnalyticClient.Fatal("Navigation Failed - " + e.Uri.ToString(), e.Exception);
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 // A navigation has failed; break into the debugger
@@ -350,7 +358,7 @@ namespace Shane.Church.StirlingBirthday.WP
         // Code to execute on Unhandled Exceptions
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
-            FlurryWP8SDK.Api.LogError("Unhandled Exception", e.ExceptionObject);
+            MarkedUp.AnalyticClient.Fatal("Unhandled Exception", e.ExceptionObject);
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger

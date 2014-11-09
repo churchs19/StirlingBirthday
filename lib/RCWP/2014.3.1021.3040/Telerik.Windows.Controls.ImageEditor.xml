@@ -579,6 +579,16 @@
             Defines the key for looking-up the "TEXT LIGHTNESS" string.
             </summary>
         </member>
+        <member name="F:Telerik.Windows.Controls.ImageEditorLocalizationManager.BeforeAfterControlBeforeTextKey">
+            <summary>
+            Defines the key for looking-up the "BEFORE" string.
+            </summary>
+        </member>
+        <member name="F:Telerik.Windows.Controls.ImageEditorLocalizationManager.BeforeAfterControlAfterTextKey">
+            <summary>
+            Defines the key for looking-up the "AFTER" string.
+            </summary>
+        </member>
         <member name="P:Telerik.Windows.Controls.ImageEditorLocalizationManager.Instance">
             <summary>
             Gets the only instance of the <see cref="T:Telerik.Windows.Controls.ImageEditorLocalizationManager"/> class.
@@ -729,6 +739,16 @@
             Gets the text for the text lightness feature of the text tool.
             </summary>
         </member>
+        <member name="P:Telerik.Windows.Controls.ImageEditorLocalizationManager.BeforeAfterControlBeforeText">
+            <summary>
+            Gets the text for the before feature of the before after control.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.ImageEditorLocalizationManager.BeforeAfterControlAfterText">
+             <summary>
+            Gets the text for the after feature of the before after control.
+             </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.ImageSavedEventArgs">
             <summary>
             Event arguments for the ImageSaved event of <see cref="T:Telerik.Windows.Controls.RadImageEditor"/>.
@@ -789,6 +809,16 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.Resources.BeforeAfterControlAfterText">
+            <summary>
+              Looks up a localized string similar to AFTER.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.Resources.BeforeAfterControlBeforeText">
+            <summary>
+              Looks up a localized string similar to BEFORE.
             </summary>
         </member>
         <member name="P:Telerik.Windows.Controls.Resources.BrightnessToolText">

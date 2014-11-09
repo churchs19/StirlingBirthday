@@ -1,5 +1,7 @@
 ﻿using GalaSoft.MvvmLight;
+using Ninject;
 using Shane.Church.StirlingBirthday.Core.Data;
+using Shane.Church.StirlingBirthday.Core.Services;
 using System;
 using System.Windows.Input;
 
@@ -8,9 +10,10 @@ namespace Shane.Church.StirlingBirthday.Core.ViewModels
 	public abstract class ContactViewModel : ObservableObject
 	{
 		private BirthdayContact _contact;
+
 		public ContactViewModel()
 		{
-
+			
 		}
 
 		public ContactViewModel(BirthdayContact contact)
