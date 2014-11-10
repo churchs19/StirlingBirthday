@@ -338,4 +338,7 @@ Debido a las limitaciones de la plataforma, puedo agregar o editar los cumpleañ
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Un agradecimiento especial va a Giray Demirel para la traducción al turco!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>política de privacidad</value>
+  </data>
 </root>

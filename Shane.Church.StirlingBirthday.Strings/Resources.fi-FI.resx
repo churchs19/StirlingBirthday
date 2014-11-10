@@ -338,4 +338,7 @@ Kiitos!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Erityinen Kiitos menee Giray Demirel, Turkin käännös!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>tietosuojakäytäntö</value>
+  </data>
 </root>

@@ -302,6 +302,10 @@ Merci !</target>
           <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Un Merci spécial accède à Giray Demirel pour la traduction turque !</target>
         </trans-unit>
+        <trans-unit id="Resx/PrivacyPolicyLabel" translate="yes" xml:space="preserve">
+          <source>privacy policy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">politique de confidentialité</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bienvenue dans Stirling anniversaire !</target>

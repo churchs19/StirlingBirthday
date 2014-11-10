@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>特別感謝您前往土耳其轉譯的 Giray Demirel!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>隱私權原則</value>
+  </data>
 </root>

@@ -338,4 +338,7 @@ Děkuji!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Zvláštní poděkování Giray Demirel žádají o turecký překlad!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>zásady ochrany osobních údajů</value>
+  </data>
 </root>

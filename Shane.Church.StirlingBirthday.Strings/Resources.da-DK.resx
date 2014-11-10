@@ -338,4 +338,7 @@ Tak!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>En særlig Tak går til Giray Demirel til den tyrkiske oversættelse!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>beskyttelse af personlige oplysninger</value>
+  </data>
 </root>

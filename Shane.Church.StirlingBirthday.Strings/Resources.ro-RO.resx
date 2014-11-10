@@ -338,4 +338,7 @@ mulţumesc!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Un mulţumesc se duce la Giray Demirel pentru traducere Turcă!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>Politica de confidenţialitate</value>
+  </data>
 </root>

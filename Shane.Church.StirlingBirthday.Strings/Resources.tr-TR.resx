@@ -338,4 +338,7 @@ Teşekkürler!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Özel teşekkürler Türkçe çevirisi için Giray Demirel gider!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>Gizlilik İlkesi</value>
+  </data>
 </root>

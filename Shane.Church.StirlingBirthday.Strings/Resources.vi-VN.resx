@@ -338,4 +338,7 @@ Cảm ơn!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Một đặc biệt cảm ơn đi vào Giray Demirel cho Turkish translation!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>chính sách bảo mật</value>
+  </data>
 </root>

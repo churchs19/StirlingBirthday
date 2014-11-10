@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Специальные Спасибо переходит к Giray Demirel для турецкого перевода!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+  </data>
 </root>

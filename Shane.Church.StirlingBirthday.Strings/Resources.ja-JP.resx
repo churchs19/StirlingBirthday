@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>ありがとうは、特別なトルコ語翻訳は Giray Demirel!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>プライバシー ポリシー</value>
+  </data>
 </root>

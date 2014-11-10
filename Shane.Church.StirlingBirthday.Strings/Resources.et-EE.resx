@@ -338,4 +338,7 @@ Tänud!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Eriline aitäh kehtib Giray Demirel Türgimaal Türgi!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>Privaatsus</value>
+  </data>
 </root>

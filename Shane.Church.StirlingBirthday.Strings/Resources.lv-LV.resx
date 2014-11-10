@@ -338,4 +338,7 @@ paldies!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Īpašs paldies iet uz Giray Demirel Turcijas tulkošanai!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>privātuma politika</value>
+  </data>
 </root>

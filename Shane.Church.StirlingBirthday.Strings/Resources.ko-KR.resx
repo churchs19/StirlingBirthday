@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>터키어 번역 Giray Demirel 이동 특별 감사 합니다!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>개인 정보 보호 정책</value>
+  </data>
 </root>

@@ -338,4 +338,7 @@ ačiū!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Ypatingas ačiū eina į Giray Demirel Vietnamiečių Vertimas!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>privatumo politika</value>
+  </data>
 </root>

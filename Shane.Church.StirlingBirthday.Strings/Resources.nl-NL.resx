@@ -338,4 +338,7 @@ Hartelijk dank!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Speciale dank gaat naar Giray Demirel voor de Turkse vertaling!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>privacybeleid</value>
+  </data>
 </root>

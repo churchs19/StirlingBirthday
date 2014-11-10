@@ -302,6 +302,10 @@ Debido a las limitaciones de la plataforma, puedo agregar o editar los cumpleañ
           <source>A special thank you goes to Giray Demirel for the Turkish translation!</source>
           <target state="translated">Un agradecimiento especial va a Giray Demirel para la traducción al turco!</target>
         </trans-unit>
+        <trans-unit id="Resx/PrivacyPolicyLabel" translate="yes" xml:space="preserve">
+          <source>privacy policy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">política de privacidad</target>
+        </trans-unit>
         <trans-unit id="Resx/WelcomeCaption" translate="yes" xml:space="preserve">
           <source>Welcome to Stirling Birthday!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bienvenido a Stirling cumpleaños!</target>

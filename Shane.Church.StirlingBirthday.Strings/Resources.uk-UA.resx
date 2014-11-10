@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Окреме спасибі йде до Ґерай Демірель для Турецька Переклад!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>Політика конфіденційності</value>
+  </data>
 </root>

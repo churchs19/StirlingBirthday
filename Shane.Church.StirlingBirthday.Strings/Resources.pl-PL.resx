@@ -338,4 +338,7 @@ Dzięki!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Specjalne podziękowania prowadzi do Demirel Girej turecki tłumaczenia!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>zasady zachowania poufności informacji</value>
+  </data>
 </root>

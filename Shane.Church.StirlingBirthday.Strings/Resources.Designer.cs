@@ -459,6 +459,15 @@ namespace Shane.Church.StirlingBirthday.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to privacy policy.
+        /// </summary>
+        public static string PrivacyPolicyLabel {
+            get {
+                return ResourceManager.GetString("PrivacyPolicyLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to rate me.
         /// </summary>
         public static string RateLabel {

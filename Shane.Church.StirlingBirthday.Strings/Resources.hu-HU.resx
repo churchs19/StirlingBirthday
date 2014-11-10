@@ -338,4 +338,7 @@ Köszönöm!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Egy külön köszönet a török fordítás ugrik a Giray Demirel!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>adatvédelmi nyilatkozat</value>
+  </data>
 </root>

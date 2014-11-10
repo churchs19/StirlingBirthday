@@ -338,4 +338,7 @@ Gràcies!</value>
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Un gràcies especial va a Giray Demirel per la traducció al turc!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>política de privacitat</value>
+  </data>
 </root>

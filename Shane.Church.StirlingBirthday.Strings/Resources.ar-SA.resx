@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>شكر خاص يذهب إلى ديميريل غيراي للترجمة التركية!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>نهج الخصوصية</value>
+  </data>
 </root>

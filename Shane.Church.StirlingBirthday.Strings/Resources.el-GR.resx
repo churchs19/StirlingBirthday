@@ -338,4 +338,7 @@
   <data name="TurkishTranslationText" xml:space="preserve">
     <value>Ένα ειδικό Ευχαριστώ μεταβαίνει Giray Demirel της τουρκικής μετάφρασης!</value>
   </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>πολιτική απορρήτου</value>
+  </data>
 </root>
