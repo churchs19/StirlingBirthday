@@ -80,7 +80,7 @@
     <Language code="el-GR" />
     <Language code="th-TH" />
   </Languages>
-  <App xmlns="" ProductID="{b3f595ea-10ba-4b1c-8833-3b299078010d}" Title="Stirling Birthday" RuntimeType="Silverlight" Version="2.0.9.0" Genre="apps.normal" Author="Shane Church" Description="Birthday reminders on your phone with a live tile showing upcoming birthdays" Publisher="Shane Church" PublisherID="{4526ac90-c781-4afd-8e92-30c4887c2ad4}">
+  <App xmlns="" ProductID="{b3f595ea-10ba-4b1c-8833-3b299078010d}" Title="Stirling Birthday" RuntimeType="Silverlight" Version="2.0.11.0" Genre="apps.normal" Author="Shane Church" Description="Birthday reminders on your phone with a live tile showing upcoming birthdays" Publisher="Shane Church" PublisherID="{4526ac90-c781-4afd-8e92-30c4887c2ad4}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_CONTACTS" />
