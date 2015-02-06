@@ -1,33 +1,23 @@
-﻿<Application 
-    x:Class="Shane.Church.StirlingBirthday.WP.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
-    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-    xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
-    xmlns:wpcore="clr-namespace:Shane.Church.StirlingBirthday.Core.WP.Converters;assembly=Shane.Church.StirlingBirthday.Core.WP"
-    xmlns:strings="clr-namespace:Shane.Church.StirlingBirthday.Strings;assembly=Shane.Church.StirlingBirthday.Strings">
-
-    <!--Application Resources-->
-    <Application.Resources>
+﻿<Application x:Class="Shane.Church.StirlingBirthday.WP.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core" xmlns:wpcore="clr-namespace:Shane.Church.StirlingBirthday.Core.WP.Converters;assembly=Shane.Church.StirlingBirthday.Core.WP" xmlns:strings="clr-namespace:Shane.Church.StirlingBirthday.Strings;assembly=Shane.Church.StirlingBirthday.Strings">
+  <!--Application Resources-->
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ThemeResources.xaml" />
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ThemeResources.xaml"/>
-                <ResourceDictionary>
-                    <strings:LocalizedStrings x:Key="LocalizedStrings" />
-                    <localConverters:BitmapImageConverter xmlns:localConverters="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters" x:Key="BitmapImage" />
-                    <telerik:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
-                    <wpcore:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter"/>
-                </ResourceDictionary>
-            </ResourceDictionary.MergedDictionaries>
+          <strings:LocalizedStrings x:Key="LocalizedStrings" />
+          <localConverters:BitmapImageConverter xmlns:localConverters="clr-namespace:Shane.Church.StirlingBirthday.WP.Converters" x:Key="BitmapImage" />
+          <telerik:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+          <wpcore:ByteToImageSourceValueConverter x:Key="ByteToImageSourceValueConverter" />
         </ResourceDictionary>
-    </Application.Resources>
-
-    <Application.ApplicationLifetimeObjects>
-        <!--Required object that handles lifetime events for the application-->
-        <shell:PhoneApplicationService 
-            Launching="Application_Launching" Closing="Application_Closing" 
-            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
-    </Application.ApplicationLifetimeObjects>
-
+        <ResourceDictionary>
+          <ai:ApplicationInsightsModule x:Key="ApplicationInsightsModule" xmlns:ai="clr-namespace:Microsoft.ApplicationInsights.Telemetry.WindowsStore;assembly=Microsoft.ApplicationInsights.Telemetry.WindowsStore" />
+        </ResourceDictionary>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+  <Application.ApplicationLifetimeObjects>
+    <!--Required object that handles lifetime events for the application-->
+    <shell:PhoneApplicationService Launching="Application_Launching" Closing="Application_Closing" Activated="Application_Activated" Deactivated="Application_Deactivated" />
+  </Application.ApplicationLifetimeObjects>
 </Application>

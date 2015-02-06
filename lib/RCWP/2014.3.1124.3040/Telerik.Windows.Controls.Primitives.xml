@@ -5396,6 +5396,14 @@
             Initializes a new instance of the <see cref="T:Telerik.Windows.Controls.Pagination.PaginationThumbnailListControl"/> class.
             </summary>
         </member>
+        <member name="M:Telerik.Windows.Controls.Pagination.PaginationThumbnailListControl.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when the value of the <see cref="P:System.Windows.Controls.ItemsControl.Items"/>
+            property changes.
+            </summary>
+            <param name="e">A <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/>
+            that contains the event data.</param>
+        </member>
         <member name="M:Telerik.Windows.Controls.Pagination.PaginationThumbnailListControl.OnItemTap(Telerik.Windows.Controls.RadDataBoundListBoxItem,System.Windows.UIElement,System.Windows.UIElement,System.Windows.Point)">
             <summary>
             Handles a Tap gesture occured within a child container.

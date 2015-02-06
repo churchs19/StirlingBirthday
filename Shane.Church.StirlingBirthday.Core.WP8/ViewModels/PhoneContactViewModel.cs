@@ -30,6 +30,7 @@ namespace Shane.Church.StirlingBirthday.Core.WP.ViewModels
 		public PhoneContactViewModel(BirthdayContact contact)
 			: base(contact)
 		{
+			_log = KernelService.Kernel.Get<ILoggingService>();
 			CallHomeCommand = new RelayCommand(CallHome);
 			CallMobileCommand = new RelayCommand(CallMobile);
 			CallWorkCommand = new RelayCommand(CallWork);
