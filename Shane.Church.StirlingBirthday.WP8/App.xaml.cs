@@ -24,11 +24,17 @@ using System.Windows.Media;
 using System.Windows.Navigation;
 using System.Xml;
 using Telerik.Windows.Controls;
+using Microsoft.ApplicationInsights;
 
 namespace Shane.Church.StirlingBirthday.WP
 {
 	public partial class App : Application
 	{
+		/// <summary>
+		/// Allows tracking page views, exceptions and other telemetry through the Microsoft Application Insights service.
+		/// </summary>
+		public TelemetryClient TelemetryClient;
+
 		// Locale to force CurrentCulture to in InitializeLanguage(). 
 		// Use "qps-PLOC" to deploy pseudolocalized strings. 
 		// Use "" to let user Phone Language selection determine locale. 
@@ -75,7 +81,10 @@ namespace Shane.Church.StirlingBirthday.WP
 			// Language display initialization 
 			InitializeLanguage();
 
+			TelemetryClient = new TelemetryClient();
+
 			KernelService.Kernel = new StandardKernel();
+			KernelService.Kernel.Bind<TelemetryClient>().ToConstant<TelemetryClient>(TelemetryClient);
 			KernelService.Kernel.Bind<INavigationService>().To<PhoneNavigationService>().InSingletonScope();
 			KernelService.Kernel.Bind<ISettingsService>().To<PhoneSettingsService>().InSingletonScope();
 			KernelService.Kernel.Bind<IWebNavigationService>().To<PhoneWebNavigationService>().InSingletonScope();
@@ -318,7 +327,6 @@ namespace Shane.Church.StirlingBirthday.WP
 			}
 			var versionAttrib = new AssemblyName(Assembly.GetExecutingAssembly().FullName);
 			currentVersion = versionAttrib.Version.ToString();
-			ClientAnalyticsSession.Default.Start("e171113a-6d0d-4881-aa21-e3603d7b27c9");
 		}
 
 		// Code to execute when the application is deactivated (sent to background)
@@ -339,8 +347,8 @@ namespace Shane.Church.StirlingBirthday.WP
 		// Code to execute if a navigation fails
 		private void RootFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
 		{
-			var properties = new Dictionary<string, object>() { { "exception", e.Exception } }; 
-			ClientAnalyticsChannel.Default.LogEvent("Navigation Failed - " + e.Uri.ToString(), properties);
+			var _log = KernelService.Kernel.Get<ILoggingService>();
+			_log.LogException(e.Exception, "Navigation Failed - " + e.Uri.ToString());
 			if (System.Diagnostics.Debugger.IsAttached)
 			{
 				// A navigation has failed; break into the debugger
@@ -386,8 +394,8 @@ namespace Shane.Church.StirlingBirthday.WP
 				}
 
 			}
-			var properties = new Dictionary<string, object>() { { "exception", e.ExceptionObject } };
-			ClientAnalyticsChannel.Default.LogEvent("Unhandled Exception - " + e.ExceptionObject.Message, properties);
+			var _log = KernelService.Kernel.Get<ILoggingService>();
+			_log.LogException(e.ExceptionObject);
 			if (System.Diagnostics.Debugger.IsAttached)
 			{
 				// An unhandled exception has occurred; break into the debugger

@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 
 
 [assembly: AssemblyCompany("Shane Church")]
-[assembly: AssemblyCopyright("Copyright © Shane Church 2014")]
+[assembly: AssemblyCopyright("Copyright © Shane Church 2015")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -21,7 +21,8 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <SupportedCultures>zh-CN%3bzh-TW%3ben-GB%3ben-US%3bpt-BR%3bpt-PT%3bes-MX%3bes-ES%3bar-SA%3bbg-BG%3bca-ES%3bcs-CZ%3bda-DK%3bnl-NL%3bfr-FR%3bde-DE%3bhe-IL%3bhi-IN%3bhu-HU%3bid-ID%3bit-IT%3bja-JP%3bko-KR%3blv-LV%3blt-LT%3bms-MY%3bnb-NO%3bfa-IR%3bpl-PL%3bro-RO%3bru-RU%3bsk-SK%3bsl-SI%3bsv-SE%3btr-TR%3buk-UA%3bvi-VN%3bet-EE%3bfi-FI%3bel-GR%3bth-TH</SupportedCultures>
-    <NuGetPackageImportStamp>20b01bfe</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>235ab362</NuGetPackageImportStamp>
+    <ApplicationInsightsResourceId>/subscriptions/149bbd86-901c-49ee-be7c-2ad52905c001/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/Shane.Church.StirlingBirthday.WP8</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -246,6 +247,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.0.13.0-build26067\lib\wp8\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.Windows">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsPhone.0.13.0-build26067\lib\wp8\Microsoft.ApplicationInsights.Extensibility.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Threading.Tasks">
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
@@ -301,8 +308,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.0.7.1.0\build\wp80\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.0.7.1.0\build\wp80\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.ApplicationInsights.0.13.0-build26067\build\wp8\Microsoft.ApplicationInsights.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.ApplicationInsights.0.13.0-build26067\build\wp8\Microsoft.ApplicationInsights.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.0.7.1.0\build\wp80\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.targets" Condition="Exists('..\packages\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.0.7.1.0\build\wp80\Microsoft.ApplicationInsights.Telemetry.WindowsPhone.targets')" />
+  <Import Project="..\packages\Microsoft.ApplicationInsights.0.13.0-build26067\build\wp8\Microsoft.ApplicationInsights.targets" Condition="Exists('..\packages\Microsoft.ApplicationInsights.0.13.0-build26067\build\wp8\Microsoft.ApplicationInsights.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

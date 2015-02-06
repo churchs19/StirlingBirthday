@@ -251,8 +251,8 @@ Apreciaría su ayuda mediante el envío del informe de error preparado. Esto le 
           <target state="needs-review-translation" state-qualifier="mt-suggestion">una aplicación sencilla para recordar de los cumpleaños de sus amigos con un hermoso mosaico live</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church de 2014</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church de 2015</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

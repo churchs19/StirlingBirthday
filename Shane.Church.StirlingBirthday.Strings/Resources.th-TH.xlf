@@ -251,8 +251,8 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <target state="needs-review-translation" state-qualifier="mt-suggestion">แอพลิเคชันอย่างง่ายเพื่อเตือนให้คุณทราบของวันเกิดเพื่อนของคุณด้วยไพ่สดสวยงาม</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลิขสิทธิ์ © 2014 ของ Shane Church</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลิขสิทธิ์ © 2015 ของ Shane Church</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

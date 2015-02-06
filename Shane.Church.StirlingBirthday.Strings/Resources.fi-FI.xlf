@@ -251,8 +251,8 @@ Otan teihin yhteyttä apua lähettämällä valmistetut virheraportin. Tämä au
           <target state="needs-review-translation" state-qualifier="mt-suggestion">simple app muistuttamaan sinua kanssa kaunis live tile ystäviesi syntymäpäivät</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church 2014</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church 2015</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

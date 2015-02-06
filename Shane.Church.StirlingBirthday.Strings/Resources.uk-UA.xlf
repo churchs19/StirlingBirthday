@@ -251,8 +251,8 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <target state="needs-review-translation" state-qualifier="mt-suggestion">просте додаток, щоб нагадати вам про ваших друзів народження з красиві кахлі</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © 2014 Shane Church</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © 2015 Shane Church</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

@@ -251,8 +251,8 @@ Tôi sẽ đánh giá cao sự hỗ trợ của bạn bằng cách gửi báo c�
           <target state="needs-review-translation" state-qualifier="mt-suggestion">một ứng dụng đơn giản để nhắc nhở bạn về ngày sinh nhật của bạn bè với một gạch sống đẹp</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bản quyền © Shane Church 2014</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bản quyền © Shane Church 2015</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

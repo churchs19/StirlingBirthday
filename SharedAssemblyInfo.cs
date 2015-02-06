@@ -3,7 +3,7 @@ using System.Resources;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyCompany("Shane Church")]
-[assembly: AssemblyCopyright("Copyright © Shane Church 2014")]
+[assembly: AssemblyCopyright("Copyright © Shane Church 2015")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("2.0.12.*")]
-[assembly: AssemblyFileVersion("2.0.12.0")]
+[assembly: AssemblyVersion("2.0.13.*")]
+[assembly: AssemblyFileVersion("2.0.13.0")]
 
 [assembly: NeutralResourcesLanguageAttribute("en-US")]

@@ -251,8 +251,8 @@ Gradirei l'assistenza inviando la segnalazione errori preparata. Ciò consentir�
           <target state="needs-review-translation" state-qualifier="mt-suggestion">una semplice applicazione per ricordare all'utente dei compleanni dei tuoi amici con una bella tessera live</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church 2014</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright © Shane Church 2015</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>

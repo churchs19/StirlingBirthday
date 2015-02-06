@@ -251,8 +251,8 @@ I would appreciate your assistance by sending the prepared error report. This wi
           <target state="needs-review-translation" state-qualifier="mt-suggestion">یک برنامه ساده به شما یادآوری روز تولد دوستان خود را با کاشی های زنده زیبا</target>
         </trans-unit>
         <trans-unit id="Resx/AppCopyright" translate="yes" xml:space="preserve">
-          <source>Copyright © Shane Church 2014</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">کپی رایت © شین کلیسای 2014</target>
+          <source>Copyright © Shane Church 2015</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">کپی رایت © شین کلیسای 2015</target>
         </trans-unit>
         <trans-unit id="Resx/AllPivotHeader" translate="yes" xml:space="preserve">
           <source>all</source>
