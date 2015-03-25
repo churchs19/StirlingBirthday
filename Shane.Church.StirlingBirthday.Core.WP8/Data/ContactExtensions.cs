@@ -11,7 +11,8 @@ namespace Shane.Church.StirlingBirthday.Core.WP.Data
 		{
 			BirthdayContact c = new BirthdayContact();
 
-			c.Date = DateTime.SpecifyKind(item.Birthdays.FirstOrDefault(), DateTimeKind.Utc);
+			var itemDate = item.Birthdays.FirstOrDefault().Add(TimeZoneInfo.Local.GetUtcOffset(DateTime.Today) - TimeZoneInfo.Local.BaseUtcOffset);
+			c.Date = DateTime.SpecifyKind(itemDate, DateTimeKind.Utc);
 			c.DisplayName = item.DisplayName;
 			c.Email = item.EmailAddresses.FirstOrDefault() == null ? null : item.EmailAddresses.FirstOrDefault().EmailAddress;
 			c.FirstName = item.CompleteName != null && item.CompleteName.FirstName != null ? item.CompleteName.FirstName : "";
